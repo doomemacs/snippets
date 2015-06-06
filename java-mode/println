@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: println
+# key: println
+# --
+System.out.println("`%`$0");

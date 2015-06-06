@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: task :console do ... end
+# key: :console
+# --
+desc 'Open pry session preloaded with this library'
+task :console do
+  require 'pry'
+  require '${1:gem_name}'
+  ARGV.clear
+  Pry.start
+end

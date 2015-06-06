@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: class
+# group: object oriented
+# --
+class ${1:Name}($2):
+    $0

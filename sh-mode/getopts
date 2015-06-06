@@ -1,0 +1,12 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: getopts
+# key: getopts
+# --
+while getopts "${1:s:h:}" o; do
+      case "$o" in
+           ${2:X}) `(!%)`$0
+              ;;
+           *) usage
+              ;;
+      esac
+done

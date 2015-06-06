@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Checkbox list item
+# key: X
+# --
+[ ] `%`$0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: cin
+# --
+`(setq --cpp-ns (if (search "using namespace std;" (buffer-string)) "" "std::"))
+--cpp-ns`cin >> ${1:string};`(progn (makunbound '--cpp-ns) "")`

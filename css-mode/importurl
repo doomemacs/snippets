@@ -1,0 +1,3 @@
+# name: @import url(...)
+# --
+@import url("`(%1)`$0");

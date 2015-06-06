@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: doc
+# key: /*
+# condition: (not (use-region-p))
+# --
+/**
+ * $0
+ */

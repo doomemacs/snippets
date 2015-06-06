@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: cout
+# --
+`(setq --cpp-ns (if (search "using namespace std;" (buffer-string)) "" "std::"))
+--cpp-ns`cout << ${1:string} << `--cpp-ns`endl;`(progn (makunbound '--cpp-ns) "")`

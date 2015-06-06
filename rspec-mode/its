@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: it "does something" do ... end
+# --
+its(:${1:property}) { $0 }

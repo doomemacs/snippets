@@ -1,0 +1,4 @@
+#name: setq
+#key: setq
+# --
+(setq $0)

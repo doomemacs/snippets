@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: RSpec::Matchers.define
+# --
+RSpec::Matchers.define :${have_something} do
+  match do |${1:subject}|
+    $0
+  end
+
+  failure_message do
+    ${2:'expected something to happen, but it did not'}
+  end
+
+  description do
+    ${3:'have something going for it'}
+  end
+end

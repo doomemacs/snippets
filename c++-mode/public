@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: public
+# --
+public:`(progn (indent-according-to-mode) "")`
+    $0

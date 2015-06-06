@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: constructor
+# key: __init__
+# --
+public ${1:`(f-base buffer-file-name)`}($2) {
+       $0
+}

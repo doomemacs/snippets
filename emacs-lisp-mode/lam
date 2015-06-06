@@ -1,0 +1,5 @@
+#contributor: Henrik Lissner (henrik.io)
+#name: lambda shortcut
+#key: lam
+# --
+(λ $0)

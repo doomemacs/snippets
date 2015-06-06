@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: return
+# key: ret
+# condition: (not (sp-point-in-string-or-comment))
+# --
+return `%`$0;

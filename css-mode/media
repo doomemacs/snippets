@@ -1,0 +1,5 @@
+# name: @media
+# --
+@media ${1:screen} {
+    `%`$0
+}

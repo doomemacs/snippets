@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: task :tags ... end
+# key: :tags
+# --
+task :tags do
+    sh "gem ripper_tags --exclude=vendor"
+    sh "ripper-tags -R -f TAGS --exclude=vendor"
+end

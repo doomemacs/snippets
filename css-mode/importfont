@@ -1,0 +1,3 @@
+# name: @import url("http://fonts.googleapis.com/css?family=...")
+# --
+@import url("http://fonts.googleapis.com/css?family=${1:Open+Sans}");

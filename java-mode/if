@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: if
+# key: if
+# condition: (not (sp-point-in-string-or-comment))
+# --
+if (${1:true) {
+   $0
+}

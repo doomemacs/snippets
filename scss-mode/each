@@ -1,0 +1,5 @@
+# name: @each
+# --
+@each \$${1:var} in ${2:list, of, things} {
+    `%`$0
+}

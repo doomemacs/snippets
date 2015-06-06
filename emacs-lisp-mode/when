@@ -1,0 +1,6 @@
+#contributor: Xah Lee (XahLee.org)
+#name: when
+#key: when
+#expand-env: ((lines (s-lines? (!%!))))
+# --
+(when ${1:t} `(when % (concat (when (> lines 1) "\n") (!%!)))`$0)`(--newline-maybe)`

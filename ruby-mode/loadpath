@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Loadpath Setup
+# key: loadpath
+# --
+\$:.unshift File.expand_path('../lib', __FILE__)$0

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: love.keyboard.isDown(key)
+# key: love.
+# condition: love-mode
+# --
+love.keyboard.isDown(${1:key})

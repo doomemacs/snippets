@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: return
+# key: @return
+# condition: (sp-point-in-comment)
+# --
+@return ${1:description}

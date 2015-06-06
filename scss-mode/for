@@ -1,0 +1,5 @@
+# name: @for loop
+# --
+@for \$i from ${1:1} through ${2:10} {
+    `%`$0
+}

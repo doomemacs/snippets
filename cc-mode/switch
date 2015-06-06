@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: switch
+# --
+switch (${1:variable}) {
+    case ${2:value}: $0break;
+}

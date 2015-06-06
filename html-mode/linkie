@@ -1,0 +1,5 @@
+#name: <!--[if IE]><link stylesheet="..." /><![endif]-->
+# --
+<!--[if IE ${1:version}]>
+<link rel="${2:stylesheet}" href="${3:url}" type="${4:text/css}" media="${5:screen}" />
+<![endif]-->

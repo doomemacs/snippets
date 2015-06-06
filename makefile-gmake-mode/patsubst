@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: patsubst
+# --
+$(patsubst ${1:from},${2:to},${3:src})

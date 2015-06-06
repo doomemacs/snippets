@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: fun_declaration
+# key: f
+# --
+${1:void} ${2:name}($3)$0

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: method
+# key: method
+# condition: (not (sp-point-in-string-or-comment))
+# --
+${1:void} ${2:name}($3) {
+    $0
+}

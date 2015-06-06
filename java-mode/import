@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: import
+# --
+import ${1:System.};
+$0

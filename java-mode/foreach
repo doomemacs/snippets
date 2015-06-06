@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: foreach
+# key: fore
+# --
+for (${1:Object} ${2:var} : ${3:iterator}) {
+    $0
+}

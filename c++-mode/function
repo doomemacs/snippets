@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: function
+# --
+${1:void} ${2:Class}::${3:name}($4)${5: const} {
+    $0
+}

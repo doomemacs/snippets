@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: interface
+# key: interface
+# --
+interface ${1:`(f-base buffer-file-name)`} {
+          $0
+}

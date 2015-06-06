@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+#name: Try-catch block
+#key: try
+# --
+try {
+	$0
+} catch (${1:err}) {
+	${2:// Do something}
+}

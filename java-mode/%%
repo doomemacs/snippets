@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: Java file template
+# --
+package `(my-java-project-package)`;
+
+public class `(my-java-class-name)` $1
+{
+    $0
+}

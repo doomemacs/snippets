@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: love.draw
+# key: love.
+# condition: love-mode
+# --
+function love.draw(dt)
+    `%`${0:-- draw code}
+end

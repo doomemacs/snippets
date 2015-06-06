@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: Snippet header
+# key:#
+# condition: (equal (count-lines 1 (point)) 0)
+# --
+# -*- mode: snippet -*-
+# name: $1
+# key: ${2:trigger-key}${3:
+# condition: t}
+# --
+$0

@@ -1,0 +1,6 @@
+#name : #!/usr/bin/env php
+#key : #!
+# --
+#!/usr/bin/env php
+
+$0

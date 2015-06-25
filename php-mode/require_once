@@ -1,0 +1,4 @@
+#name : require_once("...");
+#key : reqo
+# --
+require_once("${1:...}");

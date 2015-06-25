@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: while loop
+# --
+while (${1:condition}) {
+    `%`$0
+}

@@ -1,0 +1,4 @@
+#name : PHP $var = value;
+#key : $=
+# --
+\$${1:var_name} = ${2:value};

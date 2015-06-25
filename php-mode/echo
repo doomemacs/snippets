@@ -1,0 +1,4 @@
+#name : echo ...;
+#key : e
+# --
+echo $0;

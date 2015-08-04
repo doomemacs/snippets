@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
-#name : function
+#name: member function
+#key: f:
 # --
 ${1:name}: function($2) {
   $0

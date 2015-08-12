@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: for loop range
+# --
+for i, ${1:x} in pairs(${2:table}) do
+    $0
+end

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: for loop range
+# --
+for ${1:i}=${2:1},${3:10} do
+    $0
+end

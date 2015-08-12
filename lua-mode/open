@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: io.open
+# --
+io.open(${1:"${2:filename}"}, "${3:r}")

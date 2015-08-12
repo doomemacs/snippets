@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: print
+# --
+print($1)

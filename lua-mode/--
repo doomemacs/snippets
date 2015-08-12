@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: self-subtraction
+# --
+${1:varName} = $1 - ${2:1}

@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: psuedo class declaration
+# --
+${1:ClassName} = {
+    new = function($2)
+        local self = {}
+        setmetatable(self, $1)
+
+        ${0:-- code}
+
+        return self
+    end
+}

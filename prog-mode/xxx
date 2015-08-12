@@ -1,5 +1,4 @@
 # -*- mode: snippet -*-
-# name: xxx
-# key: x
+# name: note
 # --
-`(yas-with-comment "XXX: ")`
+`(yas-with-comment "NOTE: ")`

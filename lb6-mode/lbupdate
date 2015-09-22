@@ -1,0 +1,10 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: lbupdate
+# key: lbupdate
+# condition: (eq major-mode 'nxml-mode)
+# --
+<key>LBUpdate</key>
+<string>https://github.com/hlissner/lb6-${1:actions}/blob/master/${2:Name of Action}.lbaction/Contents/Info.plist</string>
+
+<key>LBDownload</key>
+<string>https://dl.v0.io/lb/$2.lbaction</string>

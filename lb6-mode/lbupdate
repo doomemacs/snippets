@@ -3,8 +3,12 @@
 # key: lbupdate
 # condition: (eq major-mode 'nxml-mode)
 # --
-<key>LBUpdate</key>
-<string>https://github.com/hlissner/lb6-${1:actions}/blob/master/${2:Name of Action}.lbaction/Contents/Info.plist</string>
+<key>LBChangelog</key>
+<string>$1</string>
 
-<key>LBDownload</key>
-<string>https://dl.v0.io/lb/$2.lbaction</string>
+<key>LBUpdateURL</key>
+<string>https://raw.githubusercontent.com/hlissner/lb6-${2:actions}/master/${3:Name of Action}.lbaction/Contents/Info.plist</string>
+
+<key>LBDownloadURL</key>
+<string>https://dl.v0.io/launchbar/$3.lbaction</string>
+

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: test function
+# key: test
+# --
+func Test${1:Name}($2) {
+    `%`$0
+}

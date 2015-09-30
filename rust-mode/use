@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: use ...
+# key: use
+# --
+use ${1:std::io};$0

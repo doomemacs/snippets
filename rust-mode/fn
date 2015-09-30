@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: function
+# key: fn
+# --
+fn ${1:function_name}($2) ${3:-> ${4:int} }{
+   `%`$0
+}

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: block
+# key: b
+# --
+${1:Label} { `(!%!)`$1 }$0

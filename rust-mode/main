@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: main
+# key: main
+# --
+fn main() {
+   `%`$0
+}

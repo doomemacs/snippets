@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: Snippet header
 # key:#
-# condition: (equal (count-lines 1 (point)) 0)
 # --
 # -*- mode: snippet -*-
 # name: $1

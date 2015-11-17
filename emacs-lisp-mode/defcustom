@@ -1,5 +1,4 @@
-#contributor: Xah Lee (XahLee.org)
-#name: defcustom
-#key: defcustom
+# name: defcustom
+# key: defcustom
 # --
-(defcustom $0 VALUE "DOC" &optional ARGS)
+(defcustom $1 ${2:VALUE} "${3:doc}" $4)

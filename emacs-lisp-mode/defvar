@@ -1,4 +1,4 @@
-#name: defvar
-#key: defvar
+# name: defvar
+# key: defvar
 # --
-(defvar $0 &optional ${1:initvalue} "${2:docstring}")
+(defvar $1 ${2:value} "${3:docstring}")

@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
 # name: println!(...)
-# key: println
+# key: p
 # --
 println!("${1:Hello, world!}");$0

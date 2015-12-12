@@ -2,4 +2,4 @@
 #name: lambda shortcut
 #key: lam
 # --
-(λ $0)
+(λ! $0)

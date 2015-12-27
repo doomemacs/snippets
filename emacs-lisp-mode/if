@@ -1,4 +1,3 @@
-#contributor: Xah Lee (XahLee.org)
 #name: if
 # --
-(if ${1:t} `(!%!)`$0)`(--newline-maybe)`
+(if ${1:t} `(!%)`$0)`(%$)`

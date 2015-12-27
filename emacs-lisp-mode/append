@@ -1,5 +1,3 @@
-#contributor: Xah Lee (XahLee.org)
 #name: append
-#key: append
 # --
-(append $0 )
+(append $0)

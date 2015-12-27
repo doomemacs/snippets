@@ -1,6 +1,3 @@
-#contributor: Xah Lee (XahLee.org)
 #name: add-hook
-#key: add-hook
-#key: ah
 # --
-(add-hook HOOK$0 FUNCTION)
+(add-hook '${0:hook} ${1:function})`(%$)`

@@ -1,5 +1,3 @@
-#contributor: Xah Lee (XahLee.org)
 #name: let
-#key: let
 # --
-(let ($1) `(!%)`$))
+(let ($1) `(!%)`)`(%$)`

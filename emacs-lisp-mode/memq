@@ -1,5 +1,3 @@
-#contributor: Xah Lee (XahLee.org)
 #name: memq
-#key: memq
 # --
-(memq ELT$0 LIST)
+(memq ${0:sym} ${1:list})

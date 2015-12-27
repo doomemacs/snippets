@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: &optional ...
+# --
+&optional $0

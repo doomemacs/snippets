@@ -1,5 +1,3 @@
-#contributor: Xah Lee (XahLee.org)
 #name: format
-#key: format
 # --
-(format "$0" &optional OBJECTS)
+(format "$0" $1)

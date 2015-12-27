@@ -1,6 +1,4 @@
-#contributor: Xah Lee (XahLee.org)
 #name: number-to-string
-#key: number-to-string
 #key: nts
 # --
-(number-to-string $0)
+(number-to-string `%`$0)

@@ -1,5 +1,4 @@
 # -*- mode: snippet; require-final-newline: nil -*-
 # name: after
-# key: after
 # --
-(after "${1:package-name}" `(!%)`$0)
+(after! ${1:feature-name} `(!%)`$0)`(%$)`

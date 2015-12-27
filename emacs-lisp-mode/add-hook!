@@ -1,0 +1,3 @@
+#name: add-hook!
+# --
+(add-hook! ${0:hook} ${1:`(% "function")`})`(%$)`

@@ -1,5 +1,3 @@
-#contributor: Xah Lee (XahLee.org)
 #name: assq
-#key: assq
 # --
-(assq KEY$0 LIST)
+(assq ${0:sym} ${1:list})

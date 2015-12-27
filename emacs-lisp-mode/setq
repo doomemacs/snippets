@@ -1,4 +1,3 @@
 #name: setq
-#key: setq
 # --
-(setq $0)
+(setq ${1:`%`} ${0:value})

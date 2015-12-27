@@ -1,5 +1,4 @@
-# -*- mode: snippet -*-
 # name: defun
 # --
-(defun ${1:function-name} ($2)
-  `%`$0)
+(defun ${1:name} ($2)
+  `%`$0)`(%$)`

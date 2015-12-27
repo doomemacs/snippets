@@ -1,0 +1,4 @@
+# name: setq-default
+# key: setqd
+# --
+(setq-default ${1:`%`} ${0:value})

@@ -1,6 +1,3 @@
-#contributor: Xah Lee (XahLee.org)
 #name: and
-#key: and
-#key: a
 # --
-(and $0)
+(and `%`$0)

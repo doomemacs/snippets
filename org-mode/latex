@@ -3,5 +3,5 @@
 # key: latex
 # --
 #+BEGIN_LaTeX
-$0
+`%`$0
 #+END_LaTeX

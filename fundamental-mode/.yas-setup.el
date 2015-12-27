@@ -7,16 +7,20 @@
         (cons (car (car asslist)) (ca-all-asscs (cdr asslist) query))
       (ca-all-asscs (cdr asslist) query)))))
 
+(defun % (&optional default)
+  "Used in snippets. Either display the selected text or DEFAULT."
+  (or % default))
+
 (defun !%! ()
-  "Snippet function. Shorthand defun to surround text with newlines if more
-than one line."
+  "Used in snippets. Shorthand defun to surround text with newlines if more than one
+line."
   (when %
     (if (> (length (s-lines %)) 1)
         (concat "\n" % "\n")
       (s-trim %))))
 
 (defun !% ()
-  "Snippet function. Shorthand defun for snippets: prepends a newline to
+  "Used in snippets. Shorthand defun for snippets: prepends a newline to
   `yas-selected-text' IF it contains more than one line."
   (when %
     (if (> (length (s-lines %)) 1)
@@ -24,5 +28,10 @@ than one line."
       (s-trim %))))
 
 (defun %1 ()
-  "Trim selection; do no further processing."
+  "Used in snippets. Trim selection; do no further processing."
   (s-trim %))
+
+(defun %$ ()
+  "Used in snippets. Insert newline here if at `eolp'."
+  (unless (eolp)
+    (insert "\n")))

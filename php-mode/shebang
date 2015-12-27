@@ -2,5 +2,6 @@
 #key : #!
 # --
 #!/usr/bin/env php
+<?php
 
 $0

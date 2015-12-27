@@ -1,4 +1,3 @@
 #name : require("...");
-#key : req
 # --
 require("${1:...}");

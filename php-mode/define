@@ -1,4 +1,3 @@
 #name : echo ...;
-#key : def
 # --
 define("${1:CONSTANT_NAME}", ${2:value});

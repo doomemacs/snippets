@@ -1,5 +1,5 @@
-#name : PHP function
+#name: PHP function
 # --
-function ${1:function_name}($2) {
+function ${1:name}($2) {
     $0
 }

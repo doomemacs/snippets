@@ -1,4 +1,4 @@
 #name : PHP $var->...
-#key : ->
+#key : --
 # --
 \$${1:obj_name}->${2:var}

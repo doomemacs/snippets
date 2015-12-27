@@ -3,7 +3,7 @@
 # key: ife
 # --
 if ${1:condition}; then
-   `%`${2:# code}
+    `%`${2:# code}
 else
      $0
 fi

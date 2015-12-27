@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: one-line function
+# key: f;
+# --
+${1:name}() { `(!%!)`$0; }

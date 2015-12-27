@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: short function
+# key: f
+# --
+${1:name}() {
+    `%`$0
+}

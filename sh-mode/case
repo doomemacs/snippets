@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: case
+# key: case
+# --
+case ${1:var} in
+    ${2:match}) $0 ;;
+esac

@@ -2,5 +2,5 @@
 # name: bang
 # key: #!
 # --
-#!${1:/bin/bash}
+#!${1:/usr/bin/env `(symbol-name sh-shell)`}
 $0

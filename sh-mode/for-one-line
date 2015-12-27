@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: for loop (one line)
+# key: for;
+# --
+for ${1:var} in ${2:stuff}; do `(!%!)`$0; done

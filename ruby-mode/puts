@@ -1,0 +1,3 @@
+#name : puts ...
+# --
+puts $0

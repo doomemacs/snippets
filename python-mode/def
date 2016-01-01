@@ -1,6 +1,5 @@
 # -*- mode: snippet -*-
 # name: def function
-# key: def
 # group: definitions
 # --
 def ${1:func_name}($2):

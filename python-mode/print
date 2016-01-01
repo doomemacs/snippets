@@ -1,5 +1,4 @@
 # -*- mode: snippet -*-
 # name: print
-# key: p
 # --
 print($0)

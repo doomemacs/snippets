@@ -1,4 +1,0 @@
-# -*- mode: snippet -*-
-# name: local ... = ...
-# --
-local ${1:varName} = ${0:value}

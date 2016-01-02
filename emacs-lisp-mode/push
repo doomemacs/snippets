@@ -2,4 +2,4 @@
 #name: push
 #key: push
 # --
-(push ${0:`(% "newelt")`} ${1:place})
+(push ${0:`(%% "newelt")`} ${1:place})

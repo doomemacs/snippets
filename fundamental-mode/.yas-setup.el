@@ -7,7 +7,7 @@
         (cons (car (car asslist)) (ca-all-asscs (cdr asslist) query))
       (ca-all-asscs (cdr asslist) query)))))
 
-(defun % (&optional default)
+(defun %% (&optional default)
   "Used in snippets. Either display the selected text or DEFAULT."
   (or % default))
 

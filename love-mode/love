@@ -1,6 +1,5 @@
 # -*- mode: snippet -*-
 # name: love.? function
-# key: love
 # condition: love-mode
 # --
 function love.${1:update}($2)

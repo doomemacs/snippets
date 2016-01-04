@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ul.class ...
+# --
+ul.${1:class}
+  `%`$0

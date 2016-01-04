@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: javascript: ...
+# --
+javascript:
+  $0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ol.class ...
+# --
+ol.${1:class}
+  `%`$0

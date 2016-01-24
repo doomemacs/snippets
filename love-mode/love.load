@@ -1,6 +1,5 @@
 # -*- mode: snippet -*-
 # name: love.load
-# key: love.
 # condition: love-mode
 # --
 function love.load()

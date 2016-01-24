@@ -1,4 +1,5 @@
 # -*- mode: snippet -*-
 # name: self-addition
+# key: =+
 # --
 ${1:varName} = $1 + ${2:1}

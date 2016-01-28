@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: HTML5 video player
+# --
+<video width="${1:560}" height="${2:340}" controls>
+  <source src="${3:path/to/myvideo}.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+  <source src="$3.ogv" type='video/ogg; codecs="theora, vorbis"'>
+  ${0:Your browser does not support my HTML5 video player}
+</video>

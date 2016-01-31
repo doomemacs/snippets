@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: ENV <key>=<value> ...
+# --
+ENV ${1:var}=${2:value}

@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: STOPSIGNAL <signal>
+# --
+STOPSIGNAL ${1:9}

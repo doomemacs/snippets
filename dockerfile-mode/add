@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: ADD <src> <dest>
+# --
+ADD ${1:src} ${2:dest}

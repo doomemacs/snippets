@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: ARG <name>[=<default value>]
+# --
+ARG ${1:name}${2:=${3:value}}

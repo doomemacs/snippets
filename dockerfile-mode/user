@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: USER ...
+# --
+USER ${1:daemon}

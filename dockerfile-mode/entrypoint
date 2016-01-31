@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: ENTRYPOINT <command>
+# --
+ENTRYPOINT ${1:command}

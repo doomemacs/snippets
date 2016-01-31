@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: WORKDIR ...
+# --
+WORKDIR ${1:/path/to/workdir}

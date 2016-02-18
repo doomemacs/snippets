@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: Route::<req>(<url>, <route>)->name(<route>)
+# --
+Route::${1:get}('${2:/}', '${3:Controller@Action}')->name('${4:action}');

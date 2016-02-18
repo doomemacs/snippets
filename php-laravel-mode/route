@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Route::<req>(<url>, <route>)
+# --
+Route::${1:get}('${2:/}', function () {
+    `%`$0
+});

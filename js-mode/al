@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
 #name : alert
 # --
-alert($0);
+alert(`(!%!)`$0);

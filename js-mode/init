@@ -2,5 +2,5 @@
 #name : Constructor
 # --
 initialize: function($1) {
-  $0
+    `%`$0
 }

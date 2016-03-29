@@ -1,3 +1,6 @@
+;; Simpler `yas-selected-text' alias for templates
+(defvaralias '% 'yas-selected-text)
+
 (defun ca-all-asscs (asslist query)
   "returns a list of all corresponding values (like rassoc)"
   (cond

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: if ... then ... end
+# --
+if ${1:true} then
+   `%`$0
+end

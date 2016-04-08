@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: glVertex2f
+# key: glVertex2f
+# --
+gl.glVertex2f(${1:0.0f}, ${2:0.0f});

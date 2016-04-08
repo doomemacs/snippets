@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: glDeleteBuffers
+# key: glDeleteBuffers
+# --
+${3:// Parameters are the same for glGenBuffers}
+gl.glDeleteBuffers(${1:4}, ${2:bufferObjects});

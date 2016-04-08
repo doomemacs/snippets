@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: const
+# key: const
+# --
+static final ${1:Object} ${2:VAR_NAM} = $0;

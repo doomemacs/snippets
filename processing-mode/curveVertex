@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: curveVertex
+# key: curvevertex
+# --
+curveVertex(${1:x}, ${2:y});

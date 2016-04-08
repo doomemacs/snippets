@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: degrees
+# key: degrees
+# --
+degrees(${1:rad});

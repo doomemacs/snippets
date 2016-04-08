@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: protected var object
+# key: protected
+# --
+protected ${1:Object} ${2:o}${4: = new ${1}($3)};

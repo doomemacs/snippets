@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: set pixel
+# key: set
+# --
+set(${1:x}, ${2:y}, ${3:color/image});

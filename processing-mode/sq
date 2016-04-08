@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: sq
+# key: sq
+# --
+sq(${1:value});

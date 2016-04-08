@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: lerp
+# key: lerp
+# --
+lerp(${1:value1}, ${2:value2}, ${3:amt});

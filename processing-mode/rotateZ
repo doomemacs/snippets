@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: rotateZ
+# key: rotateZ
+# --
+rotateZ(${1:angle});

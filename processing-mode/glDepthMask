@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: glDepthMask
+# key: glDepthMask
+# --
+// enable or disable writing into the depth buffer
+gl.glDepthMask(${1:flag});

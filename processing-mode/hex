@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: hex
+# key: hex
+# --
+hex(${3:c});

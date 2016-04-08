@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: screen.height
+# key: screen
+# --
+screen.height$0

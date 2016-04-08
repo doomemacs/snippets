@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: int
+# key: int
+# --
+int ${1:f} ${6:= ${3:0}};

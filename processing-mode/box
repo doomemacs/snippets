@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: box
+# key: box
+# --
+box(${4:${1:width}, ${2:height}, ${3:depth}});

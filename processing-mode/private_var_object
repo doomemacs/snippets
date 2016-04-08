@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: private var object
+# key: private
+# --
+private ${1:Object} ${2:o}${4: = new ${1}($3)};

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: red
+# key: red
+# --
+red(${1:color});

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: pushMatrix
+# key: matrix
+# --
+pushMatrix();
+${1:};
+popMatrix();

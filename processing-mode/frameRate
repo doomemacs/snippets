@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: frameRate
+# key: framerate
+# --
+frameRate($0);

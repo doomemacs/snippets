@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: constrain
+# key: constrain
+# --
+constrain(${1:value}, ${2:min}, ${3:max});

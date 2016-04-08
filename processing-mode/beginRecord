@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: beginRecord
+# key: file
+# --
+beginRecord(${1:renderer}, ${2:filename});

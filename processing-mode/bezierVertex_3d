@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: bezierVertex3D
+# key: beziervertex
+# --
+bezierVertex(${1:cx1}, ${2:cy1}, ${3:cz1}, ${4:cx2}, ${5:cy2}, ${6:cz2}, ${7:x}, ${8:y}, ${9:z});

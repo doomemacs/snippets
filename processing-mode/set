@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: set
+# key: set
+# --
+public void set${1:varname}(${2:String} new${3:}) {
+    ${1:fieldName} = new${1:};
+}

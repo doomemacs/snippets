@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: public static var
+# key: public
+# --
+public static ${1:String} ${2:str}${4: = ${3:value}};

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: package
+# key: package
+# --
+/**
+ *  ${1:Description}
+ *
+ *	@author ${2:`(user-full-name)`}
+ *	@since  ${3:`(format-time-string "%d.%m.%Y" (current-time))`}
+ */
+
+package ${4:package};

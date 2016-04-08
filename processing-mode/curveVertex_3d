@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: curveVertex3D
+# key: curvevertex
+# --
+curveVertex(${1:x}, ${2:y}, ${3:z});

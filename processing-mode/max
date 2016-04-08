@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: max
+# key: max
+# --
+max(${1:value1}, ${2:value2}${4:, ${3:value3}});

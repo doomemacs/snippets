@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: public var object
+# key: public
+# --
+public ${1:Object} ${2:o}${4: = new ${1}($3)};

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: stroke
+# key: stroke
+# --
+stroke(${8:${3:value1}, ${4:value2}, ${5:value3}${7:, ${6:alpha}}});

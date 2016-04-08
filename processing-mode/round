@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: round
+# key: round
+# --
+round(${1:value});

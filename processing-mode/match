@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: match
+# key: match
+# --
+match(${3:str}, ${4:regexp});

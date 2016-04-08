@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ceil
+# key: ceil
+# --
+ceil(${1:value});

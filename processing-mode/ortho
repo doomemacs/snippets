@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ortho
+# key: ortho
+# --
+ortho(${7:${1:left}, ${2:right}, ${3:bottom}, ${4:top}, ${5:near}, ${6:far}});

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: try..catch..finally
+# key: try
+# --
+try {
+  $1
+} catch (${2:Exception} e) {
+  $3
+} finally {
+  $4
+}

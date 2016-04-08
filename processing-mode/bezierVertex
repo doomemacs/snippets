@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: bezierVertex
+# key: beziervertex
+# --
+bezierVertex(${1:cx1}, ${2:cy1}, ${3:cx2}, ${4:cy2}, ${5:x}, ${6:y});

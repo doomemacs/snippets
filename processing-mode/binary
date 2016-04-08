@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: binary
+# key: binary
+# --
+binary(${3:value}${5:, ${4:digits}});

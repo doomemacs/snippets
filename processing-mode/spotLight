@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: spotLight
+# key: light
+# --
+spotLight(${1:v1}, ${2:v2}, ${3:v3}, ${4:x}, ${5:y}, ${6:z}, ${7:nx}, ${8:ny}, ${9:nz}, ${10:angle}, ${11:concentration});

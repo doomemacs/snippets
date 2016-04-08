@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: scale SIZE
+# key: scale
+# --
+scale(${1:size});

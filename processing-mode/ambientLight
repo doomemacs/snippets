@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ambientLight
+# key: light
+# --
+ambientLight(${1:v1}, ${2:v2}, ${3:v3}${7:, ${4:x}, ${5:y}, ${6:z}});

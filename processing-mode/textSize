@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: textSize
+# key: text
+# --
+textSize(${1:size});

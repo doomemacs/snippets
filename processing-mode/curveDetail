@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: curveDetail
+# key: curve
+# --
+curveDetail(${1:detail});

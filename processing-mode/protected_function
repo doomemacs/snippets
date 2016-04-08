@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: protected function
+# key: protected
+# --
+protected ${1:void} ${2:name}($3) {
+    $0
+}

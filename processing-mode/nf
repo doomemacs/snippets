@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: nf
+# key: nf
+# --
+nf(${3:value}, ${4:left}${6:, ${5:right}});

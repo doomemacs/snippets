@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: get
+# key: get
+# --
+public ${1:String} get${2:var}() {
+    return ${3:fieldName};
+}

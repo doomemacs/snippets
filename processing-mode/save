@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: saveFrame
+# key: save
+# --
+saveFrame(${2:"${1:filename}"});

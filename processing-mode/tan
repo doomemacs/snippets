@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: tan
+# key: tan
+# --
+tan(${1:rad});

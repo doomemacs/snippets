@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: camera
+# key: camera
+# --
+camera(${10:${1:eyeX}, ${2:eyeY}, ${3:eyeZ}, ${4:centerX}, ${5:centerY}, ${6:centerZ}, ${7:upX}, ${8:upY}, ${9:upZ}});

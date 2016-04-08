@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: background
+# key: background
+# --
+background(${8:${3:value1}, ${4:value2}, ${5:value3}${7:, ${6:alpha}}});

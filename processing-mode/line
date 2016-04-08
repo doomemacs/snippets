@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: line
+# key: line
+# --
+line(${1:x1}, ${2:y1}, ${3:x2}, ${4:y2});

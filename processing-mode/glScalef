@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: glScalef
+# key: glScalef
+# --
+// multiply the current matrix by a general scaling matrix
+gl.glScalef(${1:x}, ${2:y}, ${3:z});

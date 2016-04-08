@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: String
+# key: string
+# --
+String ${1:str} ${6:= "${3:CCCP}"};

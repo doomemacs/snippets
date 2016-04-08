@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: println
+# key: println
+# --
+println("$1");$0

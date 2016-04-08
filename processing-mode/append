@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: foreach
+# key: for
+# --
+append(${1:array}, ${2:element});

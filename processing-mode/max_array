@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: max array
+# key: max
+# --
+max(${1:array}};

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: printCamera
+# key: camera
+# --
+printCamera();

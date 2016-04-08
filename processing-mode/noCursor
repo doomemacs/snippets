@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: noCursor
+# key: cursor
+# --
+noCursor();

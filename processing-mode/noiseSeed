@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: noiseSeed
+# key: noiseSeed
+# --
+noiseSeed(${1:x});

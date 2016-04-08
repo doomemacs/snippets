@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: loadPixels
+# key: loadPixels
+# --
+loadPixels();

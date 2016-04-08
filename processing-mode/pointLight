@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: pointLight
+# key: light
+# --
+pointLight(${1:v1}, ${2:v2}, ${3:v3}, ${4:nx}, ${5:ny}, ${6:nz});

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: size
+# key: size
+# --
+size(${1:512}, ${2:512});

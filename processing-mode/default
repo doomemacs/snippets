@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: default
+# key: default
+# --
+default:
+  $0
+break;

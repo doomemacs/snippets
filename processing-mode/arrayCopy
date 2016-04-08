@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: arrayCopy
+# key: arrayCopy
+# --
+arrayCopy(${1:src}, ${2:dest}, ${4:, ${3:length}});

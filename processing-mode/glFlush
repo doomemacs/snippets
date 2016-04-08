@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: glFlush
+# key: glFlush
+# --
+// Empties buffers. Call this when all previous issues commands completed
+gl.glFlush();

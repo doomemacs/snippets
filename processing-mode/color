@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: color
+# key: color
+# --
+color ${1:c} ${6:= color(${3:value1}, ${4:value2}, ${5:value3})};

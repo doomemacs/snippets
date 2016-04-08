@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: expand
+# key: expand
+# --
+expand(${1:array}${3:, ${2:newSize}});

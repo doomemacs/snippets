@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: screenZ
+# key: coordinates
+# --
+screenZ(${1:x}, ${2:y}, ${3:z});

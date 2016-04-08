@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: doc - class
+# key: doc
+# --
+/**
+ *  ${1:Description}
+ *
+ *	@author ${2:`(user-full-name)`}
+ *	@since  ${3:`(format-time-string "%d.%m.%Y" (current-time))`}
+ */

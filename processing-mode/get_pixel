@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: get pixel
+# key: get
+# --
+get(${6:${1:x}, ${2:y}${5:, ${3:width}, ${4:height}}});

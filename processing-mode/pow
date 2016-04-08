@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: pow
+# key: pow
+# --
+pow(${1:num}, ${2:exponent});

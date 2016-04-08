@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: mouseDragged
+# key: mouse
+# --
+void mouseDragged(){
+  ${1}
+}

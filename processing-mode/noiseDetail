@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: noiseDetail
+# key: noiseDetail
+# --
+noiseDetail(${1:octaves}${4:, ${3:falloff}});

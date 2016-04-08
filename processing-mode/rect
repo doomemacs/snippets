@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: rect
+# key: rect
+# --
+rect(${1:x}, ${2:y}, ${3:width}, ${4:height});

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: mag
+# key: mag
+# --
+mag(${1:a}, ${2:b}${4:, ${3:c}});

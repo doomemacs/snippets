@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: millis
+# key: time
+# --
+millis()$0

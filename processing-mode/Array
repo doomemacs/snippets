@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Array
+# key: array
+# --
+${1:int}[] ${2:numbers} ${6:= new $1[${3:length}]};

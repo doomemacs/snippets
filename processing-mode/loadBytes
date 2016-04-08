@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: loadBytes
+# key: load
+# --
+loadBytes(${2:"${1:filename}"});

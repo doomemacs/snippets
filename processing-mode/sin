@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: sin
+# key: sin
+# --
+sin(${1:rad});

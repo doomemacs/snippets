@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: atan2
+# key: atan2
+# --
+atan2(${1:y},${2:x});

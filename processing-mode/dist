@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: dist
+# key: dist
+# --
+dist(${1:x1}, ${2:y1}, ${4:x2}, ${5:y2});

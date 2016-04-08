@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: glBindBuffer
+# key: glBindBuffer
+# --
+${2:// A buffer ID of zero unbinds a buffer object}
+gl.glBindBuffer(GL.GL_ARRAY_BUFFER, ${1:0});

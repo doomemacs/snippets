@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: arc
+# key: arc
+# --
+arc(${1:x}, ${2:y}, ${3:width}, ${4:height}, ${5:start}, ${6:stop});

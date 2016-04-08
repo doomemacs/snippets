@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: class
+# key: class
+# --
+${1:public }class ${2:${`(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`}} ${3:extends}
+{
+
+  //--------------------------------------
+  //  CONSTRUCTOR
+  //--------------------------------------
+
+  public $2 (${4:arguments}) {
+    ${0:// expression}
+  }
+}

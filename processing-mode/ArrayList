@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ArrayList
+# key: ArrayList
+# --
+ArrayList<${1:String}> ${2:arraylist} = new ArrayList<$1>();

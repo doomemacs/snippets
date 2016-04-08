@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: glCallList
+# key: glCallList
+# --
+// execute a display list
+gl.glCallList(${1:list});

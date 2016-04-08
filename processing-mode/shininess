@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: shininess
+# key: material
+# --
+shininess(${1:shine});

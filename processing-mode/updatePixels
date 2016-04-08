@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: updatePixels
+# key: updatePixels
+# --
+updatePixels();

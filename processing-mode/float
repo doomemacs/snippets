@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: float
+# key: float
+# --
+float ${1:f} ${6:= ${3:0.0f}};

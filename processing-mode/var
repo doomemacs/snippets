@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: var
+# key: var
+# --
+${1:String} ${2:str}${4: = ${3:value};

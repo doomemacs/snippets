@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: textAscent
+# key: text
+# --
+textAscent();

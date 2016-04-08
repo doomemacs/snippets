@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: text data
+# key: text
+# --
+text(${1:data}, ${2:x}, ${3:y}${5:, ${4:z}});

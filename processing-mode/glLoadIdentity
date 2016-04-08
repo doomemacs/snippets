@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: glLoadIdentity
+# key: glLoadIdentity
+# --
+// replaces the top of the active matrix stack with the identity matrix
+gl.glLoadIdentity();

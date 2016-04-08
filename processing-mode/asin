@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: asin
+# key: asin
+# --
+asin(${1:rad});

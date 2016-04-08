@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: textWidth
+# key: text
+# --
+textWidth(${1:data});

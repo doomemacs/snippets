@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: glVertex3f
+# key: glVertex3f
+# --
+gl.glVertex3f(${1:0.0f}, ${2:0.0f}, ${3:0.0f});

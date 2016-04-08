@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: randomSeed
+# key: random
+# --
+randomSeed(${1:value});

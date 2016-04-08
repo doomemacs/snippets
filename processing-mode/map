@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: map
+# key: map
+# --
+map(${1:value}, ${2:low1}, ${4:high1}, ${5:low2}, ${6:high2});

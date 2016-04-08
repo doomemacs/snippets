@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: public static function
+# key: public
+# --
+public static ${1:void} ${2:name}($3) {
+    $0
+}

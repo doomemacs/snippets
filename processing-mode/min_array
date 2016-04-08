@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: min array
+# key: min
+# --
+min(${1:array}};

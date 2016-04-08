@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: glGetError
+# key: glGetError
+# --
+println(gl.glGetError());

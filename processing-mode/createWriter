@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: createWriter
+# key: file
+# --
+createWriter(${1:filename});

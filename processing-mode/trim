@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: trim
+# key: trim
+# --
+trim(${3:str});

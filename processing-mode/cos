@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: cos
+# key: cos
+# --
+cos(${1:rad});

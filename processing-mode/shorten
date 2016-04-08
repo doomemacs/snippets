@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: shorten
+# key: shorten
+# --
+shorten(${1:array});

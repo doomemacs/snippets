@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: mouseReleased
+# key: mouse
+# --
+void mouseReleased(){
+  ${1}
+}

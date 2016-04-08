@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: glTexCoord2f
+# key: glTexCoord2f
+# --
+// set the current texture coordinates - 2 floats
+gl.glTexCoord2f(${1:0.0f}, ${2:0.0f});

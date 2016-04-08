@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: smooth
+# key: smooth
+# --
+smooth();

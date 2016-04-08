@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: glColor3f
+# key: glColor3f
+# --
+gl.glColor3f(${1:red}, ${2:green}, ${3:blue});

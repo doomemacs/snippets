@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: split
+# key: split
+# --
+split(${3:str}, ${4:delimiter});

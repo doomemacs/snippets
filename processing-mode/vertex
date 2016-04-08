@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: vertex
+# key: vertex
+# --
+vertex(${1:x}, ${2:y}${5:, ${3:u}, ${4:v}});

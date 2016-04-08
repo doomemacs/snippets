@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: glClear
+# key: glClear
+# --
+gl.glClear(${1:GL.GL_COLOR_BUFFER_BIT}${3: | ${2:GL.GL_DEPTH_BUFFER_BIT}});

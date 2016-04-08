@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: if short
+# key: ?
+# --
+? ${1:trueExpression} : ${2:falseExpression}$0

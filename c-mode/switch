@@ -1,6 +1,5 @@
 # -*- mode: snippet -*-
 # name: switch
-# key: case
 # --
 switch (${1:ch}) {
        case ${2:const}:

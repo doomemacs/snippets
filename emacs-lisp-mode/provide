@@ -1,0 +1,3 @@
+#name: provide
+# --
+(provide '`(f-base buffer-file-name)`)

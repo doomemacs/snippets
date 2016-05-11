@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: str-index($string, $substring)
+# group: String functions
+# --
+str-index(${1:$string}, ${2:$substring})

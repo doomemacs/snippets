@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: invert($color)
+# group: HSL functions
+# --
+invert(${1:$color})

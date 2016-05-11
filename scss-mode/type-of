@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: type-of($value)
+# group: Introspection functions
+# --
+type-of(${1:$value})

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: unitless($number)
+# group: Introspection functions
+# --
+unitless(${1:$number})

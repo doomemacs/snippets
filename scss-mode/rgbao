@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: rgba($color, $alpha)
+# key: rgba
+# group: Opacity functions
+# --
+rgba(${1:$color}, ${2:$alpha})

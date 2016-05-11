@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: function-exists($name)
+# group: Introspection functions
+# --
+function-exists(${1:$name})

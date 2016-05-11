@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: comparable($number1, $number2)
+# group: Introspection functions
+# --
+comparable(${1:$number1}, ${2:$number2})

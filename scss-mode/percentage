@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: percentage($number)
+# group: Number functions
+# --
+percentage(${1:$number})

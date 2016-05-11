@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: list-separator($list)
+# group: List functions
+# --
+list-separator(${1:$list})

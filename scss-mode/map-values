@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: map-values($map)
+# group: Map functions
+# --
+map-values(${1:$map})

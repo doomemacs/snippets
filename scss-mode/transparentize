@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: transparentize($color, $amount)
+# group: Opacity functions
+# --
+transparentize(${1:$color}, ${2:$amount})

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: opacify($color, $amount)
+# group: Opacity functions
+# --
+opacify(${1:$color}, ${2:$amount})

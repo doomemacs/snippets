@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: str-insert($string, $insert, $index)
+# group: String functions
+# --
+str-insert(${1:$string}, ${2:$insert}, ${3:$index})

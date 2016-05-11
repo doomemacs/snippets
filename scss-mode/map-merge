@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: map-merge($map1, $map2)
+# group: Map functions
+# --
+map-merge(${1:$map1}, ${2:$map2})

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: alpha($color)
+# group: Opacity functions
+# --
+alpha(${1:$color})

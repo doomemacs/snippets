@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: join($list1, $list2, [$separator])
+# group: List functions
+# --
+join(${1:$list1}, ${2:$list2}, ${3:[$sep]})

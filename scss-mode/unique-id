@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: unique-id()
+# group: Misc functions
+# --
+unique-id()

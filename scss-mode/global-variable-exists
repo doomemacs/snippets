@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: global-variable-exists($name)
+# group: Introspection functions
+# --
+global-variable-exists(${1:$name})

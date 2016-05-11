@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: round($number)
+# group: Number functions
+# --
+round(${1:$number})

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: keywords($args)
+# group: Map functions
+# --
+keywords(${1:$args})

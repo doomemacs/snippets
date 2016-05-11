@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ceil($number)
+# group: Number functions
+# --
+ceil(${1:$number})

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: min($n1, $n2, ...)
+# group: Number functions
+# --
+min(${1:$n1}, ${2:$n2})

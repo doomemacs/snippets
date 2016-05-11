@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: opacity($color)
+# group: Opacity functions
+# --
+opacity(${1:$color})

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: to-lower-case($string)
+# group: String functions
+# --
+to-lower-case(${1:$string})

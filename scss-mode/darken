@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: darken($color, $amount)
+# group: HSL functions
+# --
+darken(${1:$color}, ${2:$amount})

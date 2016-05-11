@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: str-length($string)
+# group: String functions
+# --
+str-length(${1:$string})

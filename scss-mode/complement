@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: complement($color)
+# group: HSL functions
+# --
+complement(${1:$color})

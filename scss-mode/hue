@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: hue($color)
+# group: HSL functions
+# --
+hue(${1:$color})

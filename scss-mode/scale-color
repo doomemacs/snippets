@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: scale-color($color, [$r], [$g], [$b], [$sat], [$light], [$alpha])
+# group: Other color functions
+# --
+scale-color(${1:$color}, ${2:[$r]}, ${3:[$g]}, ${4:[$b]}, ${5:[$sat]}, ${6:[$light]}, ${7:[$alpha]})

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: adjust-color($color, [$r], [$g], [$b], [$hue], [$sat], [$light], [$alpha])
+# group: Other color functions
+# --
+adjust-color(${1:$color}, ${2:[$r]}, ${3:[$g]}, ${4:[$b]}, ${5:[$hue]}, ${6:[$sat]}, ${7:[$light]}, ${8:[$alpha]})

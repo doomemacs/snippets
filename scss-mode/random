@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: random([$limit])
+# group: Number functions
+# --
+random(${1:[$limit]})

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: fade-out($color, $amount)
+# group: Opacity functions
+# --
+fade-out(${1:$color}, ${2:$amount})

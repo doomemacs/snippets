@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: grayscale($color)
+# group: HSL functions
+# --
+grayscale(${1:$color})

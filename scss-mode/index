@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: index($list, $value)
+# group: List functions
+# --
+index(${1:$list}, ${2:$value})

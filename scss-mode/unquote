@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: unquote($string)
+# group: String functions
+# --
+unquote(${1:$string})

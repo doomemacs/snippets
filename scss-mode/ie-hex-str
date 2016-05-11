@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ie-hex-str($color)
+# group: Other color functions
+# --
+ie-hex-str(${1:$color})

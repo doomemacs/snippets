@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: set-nth($list, $n, $value)
+# group: List functions
+# --
+set-nth(${1:$list}, ${2:$n}, ${3:$value})

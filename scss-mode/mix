@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: mix($color1, $color2, [$weight])
+# group: RGB functions
+# --
+mix(${1:$color1}, ${2:$color2}${3:, ${4:$weight}})

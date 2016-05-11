@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: map-has-key($map, $key)
+# group: Map functions
+# --
+map-has-key(${1:$map}, ${2:$key})

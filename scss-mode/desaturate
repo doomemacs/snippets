@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: desaturate($color, $amount)
+# group: HSL functions
+# --
+desaturate(${1:$color}, ${2:$amount})

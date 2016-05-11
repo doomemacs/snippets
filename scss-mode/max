@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: max($n1, $n2, ...)
+# group: Number functions
+# --
+max(${1:$n1}, ${2:$n2})

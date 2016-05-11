@@ -1,5 +1,3 @@
-#contributor: Xah Lee (XahLee.org)
 #name: mapc
-#key: mapc
 # --
-(mapc '$0 SEQUENCE)
+(mapc $0 ${1:sequence})

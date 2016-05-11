@@ -1,6 +1,3 @@
-#contributor: Xah Lee (XahLee.org)
 #name: expand-file-name
-#key: expand-file-name
-#key: efn
 # --
-(expand-file-name $0 )
+(expand-file-name `%`$0${1: ${2:default-directory}})

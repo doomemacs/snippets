@@ -1,5 +1,3 @@
-#contributor: Xah Lee (XahLee.org)
 #name: cons
-#key: cons
 # --
-(cons $0)
+(cons $0 $1)

@@ -1,8 +1,6 @@
 # -*- mode: snippet -*-
-# name: main
-# key: main
+# name: func main() { ... }
 # --
 func main() {
-   ${1:fmt.Printf("Hello, 世界\n")}
    $0
 }

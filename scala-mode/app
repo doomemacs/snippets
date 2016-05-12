@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: object ... extends App { ... }
+# --
+object ${1:name} extends App {
+    `%`$0
+}

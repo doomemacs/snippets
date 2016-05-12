@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: List(...)
+# --
+List(${1:args}) $0

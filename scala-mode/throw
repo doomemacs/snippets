@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name : throw new Exception
+# --
+throw new ${1:Exception}($2) $0

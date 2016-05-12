@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: try { ... } catch { case e => ... }
+# --
+try {
+    `%`$0
+} catch {
+    case e: ${1:Throwable} => 
+        ${2:// TODO: handle exception}
+}

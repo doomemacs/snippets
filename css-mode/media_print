@@ -1,5 +1,4 @@
 # name: @media print { ... }
-# key: print
 # --
 @media print {
     `%`$0

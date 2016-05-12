@@ -1,5 +1,4 @@
 # name: @media (orientation: ?)
-# key: orientation
 # condition: (looking-back "@media " (line-beginning-position))
 # --
 (orientation: ${1:landscape})

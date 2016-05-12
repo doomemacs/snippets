@@ -1,6 +1,1 @@
-# -*- mode: snippet -*-
-# name: package
-# key: pkg
-# --
-package ${1:main}
-$0
+package

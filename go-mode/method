@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: func (target) name(args) (results) { ... }
+# --
+func (${1:target}) ${2:name}(${3:args}) (${4:results}) {
+	$0
+}

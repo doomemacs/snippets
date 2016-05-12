@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: if err != nil { ... }
+# --
+if err != nil {
+	`%`$0
+}

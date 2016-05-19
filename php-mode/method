@@ -1,0 +1,5 @@
+#name: PHP class method
+# --
+public function ${1:name}($2) {
+    `%`$0
+}

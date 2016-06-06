@@ -1,4 +1,4 @@
-#name : Reference Link
-#contributor: Peng Deng <dengpeng@gmail.com>
+# -*- require-final-newline: nil -*-
+# name: Reference Link
 # --
-[${1:Link Text}][$2] $0
+[${1:`%`Link Text}][$2]$0

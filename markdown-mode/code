@@ -1,0 +1,6 @@
+# -*- require-final-newline: nil -*-
+# name: Code block
+# --
+\`\`\`${1:lang}
+`%`$0
+\`\`\`

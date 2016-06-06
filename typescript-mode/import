@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: import ...
+# --
+import ${1:`%`} from '$2';

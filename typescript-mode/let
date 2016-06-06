@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: let
+# --
+let ${1:name} = ${0:`%`};

@@ -39,4 +39,4 @@ line."
 (defun %$ ()
   "Used in snippets. Insert newline here if at `eolp'."
   (unless (eolp)
-    (insert "\n")))
+    "\n"))

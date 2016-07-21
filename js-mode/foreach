@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: for (key in list) { ... }
+# --
+for (var ${1:key} in ${2:list}) {
+    `%`$0
+}

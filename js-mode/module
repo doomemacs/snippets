@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: module.exports = {}
+# --
+module.exports = {
+    `%`$0
+};

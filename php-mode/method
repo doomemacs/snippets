@@ -1,5 +1,6 @@
-#name: PHP class method
+# name: class method
+# key: met
 # --
-public function ${1:name}($2) {
+${1:public} function ${2:name}($3) {
     `%`$0
 }

@@ -1,3 +1,0 @@
-#name: $var = value;
-# --
-\$${1:var_name} = ${2:value};

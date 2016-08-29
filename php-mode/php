@@ -1,3 +1,4 @@
-#name : <?php ... ?>
+# name: <?php ... ?>
+# key: php
 # --
 <?php $0 ?>

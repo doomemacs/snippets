@@ -1,4 +1,5 @@
-#name : elseif (...) { ... }
+# name: elseif (...) { ... }
+# key: eli
 # --
 elseif ($1) {
     `%`$0

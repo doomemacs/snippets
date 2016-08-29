@@ -1,5 +1,5 @@
-#name : #!/usr/bin/env php
-#key : #!
+# name: #!/usr/bin/env php
+# key: #!
 # --
 #!/usr/bin/env php
 <?php

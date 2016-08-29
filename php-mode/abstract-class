@@ -1,5 +1,6 @@
-#name : PHP abstract class
+# name: abstract class
+# key: acl
 # --
 abstract class ${1:Name}${2: extends ${3:Parent}} {
-    $0
+    `%`$0
 }

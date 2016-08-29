@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: array(...)
+# key: arr
+# --
+array(`%`$0)

@@ -1,4 +1,5 @@
-#name: PHP function
+# name: function
+# key: fu
 # --
 function ${1:name}($2) {
     `%`$0

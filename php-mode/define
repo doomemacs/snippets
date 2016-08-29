@@ -1,3 +1,4 @@
-#name : echo ...;
+# name: define(..., ...)
+# key: de
 # --
-define("${1:CONSTANT_NAME}", ${2:value});
+define("${1:CONSTANT}", ${2:`%`value});

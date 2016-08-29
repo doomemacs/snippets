@@ -1,3 +1,4 @@
-#name : echo ...;
+# name: echo ...;
+# key: e
 # --
-echo $0;
+echo `%`$0;

@@ -1,1 +1,7 @@
-method
+# -*- mode: snippet -*-
+# name: method
+# key: defm
+# group: object oriented
+# --
+def ${1:method_name}(self${2:, $3}):
+    `%`$0

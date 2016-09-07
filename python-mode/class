@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: class
+# key: cl
 # group: object oriented
 # --
 class ${1:Name}($2):

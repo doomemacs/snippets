@@ -1,5 +1,5 @@
 # -*- mode: snippet; require-final-newline: nil -*-
-# name: (...) => { ... }
+# name: arrow function
 # key: =>
 # --
-${1:($2)} => {`(!%!)`$0}
+${1:x} => `%`$0

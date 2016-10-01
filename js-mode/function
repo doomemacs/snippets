@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
-#name : function
+# name: function
+# key: fu
 # --
 function $1($2) {
   `%`$0

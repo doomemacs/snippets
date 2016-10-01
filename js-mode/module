@@ -1,6 +1,5 @@
 # -*- mode: snippet -*-
 # name: module.exports = {}
+# key: mod
 # --
-module.exports = {
-    `%`$0
-};
+module.exports = {`(!%!)`$0};

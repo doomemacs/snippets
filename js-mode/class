@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-#name : Class
+# name: Class
 # condition: (not (eq major-mode 'typescript-mode))
 # --
 var ${1:name} = new Class({

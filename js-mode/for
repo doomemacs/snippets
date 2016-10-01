@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-#name : for
+# name: for (;;)
+# key: for
 # --
-for(${1:var i = 0}; ${2:$1 < ${3:arr.length}}; ${4:++i}) {
+for($1;$2;$3) {
     `%`$0
 }

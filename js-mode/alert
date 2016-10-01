@@ -1,4 +1,5 @@
 # -*- mode: snippet -*-
-#name : alert
+# name: alert
+# key: al
 # --
 alert(`(!%!)`$0);

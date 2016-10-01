@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
-#name : anonymous function
+# name: anonymous function
+# key: fu=
 # --
 function($1) {
   `%`$0

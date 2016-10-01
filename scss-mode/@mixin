@@ -1,1 +1,6 @@
-mixin
+# name: @mixin
+# key: mix
+# --
+@mixin ${1:mixin-name}($2) {
+    `%`$0
+}

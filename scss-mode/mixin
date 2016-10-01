@@ -1,5 +1,0 @@
-# name: @mixin
-# --
-@mixin ${1:mixin-name}($2) {
-    `%`$0
-}

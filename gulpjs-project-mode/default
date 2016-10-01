@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: Default gulp task
+# --
+gulp.task('default', $0);

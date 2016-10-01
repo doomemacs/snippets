@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: Browsersync task
+# --
+const brsync = require("browser-sync").create();
+
+gulp.task("serve", () => {
+    brsync.init({ server: { baseDir: "./" } });
+
+    // TODO add browserSync
+    gulp.watch("**/*.pug", ["pug"]);
+    gulp.watch("sass/**/*.scss", ["sass"]);
+    gulp.watch("**/*.html").on('change', brsync.reload);
+});

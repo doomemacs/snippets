@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: Typescript compilation task
+# --
+const util       = require("gulp-util"),
+      browserify = require("browserify"),
+      source     = require("vinyl-source-stream"),
+      buffer     = require("vinyl-buffer"),
+      uglify     = require("gulp-uglify");
+
+gulp.task("ts", () => {
+    return browserify({ entries: ${1:dir.source} + "app.ts", debug: true })
+        .plugin(tsify)
+        .bundle().on("error", err => { console.error(err.toString()); })
+        .pipe(source("app.js"))
+        .pipe(buffer())
+        .pipe(util.env.pack ? uglify() : util.noop())
+        .pipe(gulp.dest(${2:dir.build} + "/app/"));
+});

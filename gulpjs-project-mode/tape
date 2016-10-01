@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: Tape test-runner task
+# --
+const tape   = require("gulp-tape"),
+      faucet = require("faucet");
+
+gulp.task("test", () => {
+    return gulp.src("test/**/test_*.js")
+        .pipe(tape({reporter: faucet()}))
+});

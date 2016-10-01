@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: Pug compilation task
+# --
+const pug     = require("gulp-pug"),
+      changed = require("gulp-changed");
+
+gulp.task("pug", () => {
+    let locals = {locals: {release: util.env.release}};
+
+    return gulp.src("views/**/*.pug", {cwd: ${1:dir.source}, base: $1})
+        .pipe(changed(${2:dir.build}, {extension: ".pug"}))
+        .pipe(pug(locals))
+        .pipe(gulp.dest(dir.build));
+});

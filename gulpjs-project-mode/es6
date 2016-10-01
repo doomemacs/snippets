@@ -1,0 +1,23 @@
+# -*- mode: snippet -*-
+# name: ES6+Babel compilation task
+# --
+const util       = require("gulp-util"),
+      uglify     = require("gulp-uglify"),
+      browserify = require("browserify"),
+      source     = require("vinyl-source-stream"),
+      buffer     = require("vinyl-buffer");
+
+gulp.task("js", () => {
+    return browserify({
+            entries: dir.source + "main.js",
+            debug: !util.env.pack,
+            detectGlobals: false,
+            paths: [dir.source]
+        })
+        .transform("babelify", {presets: ["es2015"], ignore: util.env.pack ? null : /.*/})
+        .bundle()
+        .pipe(source("main.js"))
+        .pipe(buffer())
+        .pipe(util.env.pack ? uglify({mangle: {keep_fnames: true}}) : util.noop())
+        .pipe(gulp.dest(dir.build));
+});

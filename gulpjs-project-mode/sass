@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: SASS compilation task
+# --
+const sass    = require("gulp-sass"),
+      bourbon = require("node-bourbon").includePaths;
+
+gulp.task("sass", () => {
+    const dest = ${1:dir.build} + "/css";
+
+    return gulp.src("stylesheets/**.scss", {cwd: ${2:dir.source}})
+        .pipe(changed(dest, {extension: ".scss"}))
+        .pipe(sass({
+                includePaths: bourbon,
+                outputStyle: "compressed",
+                sourcemap: true
+            }).on("error", sass.logError))
+        .pipe(gulp.dest(dest))
+        .pipe(brsync.stream());
+});

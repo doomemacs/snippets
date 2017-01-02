@@ -1,1 +1,6 @@
-function=
+# -*- mode: snippet -*-
+# name: ? = function(...) ... end
+# --
+${1:name} = function($2)
+    ${3:-- code}
+end

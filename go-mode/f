@@ -1,1 +1,6 @@
-func
+# -*- mode: snippet -*-
+# name: func
+# --
+func ${1:fun}($2) {
+	$0
+}

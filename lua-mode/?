@@ -1,1 +1,4 @@
-iif
+# -*- mode: snippet -*-
+# name: inline if ... then ... end
+# --
+if ${1:true} then `%`$0 end

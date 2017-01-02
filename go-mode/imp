@@ -1,1 +1,4 @@
-import
+# -*- mode: snippet -*-
+# name: import
+# --
+import ${1:package}$0

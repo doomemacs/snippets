@@ -1,1 +1,6 @@
-while
+# -*- mode: snippet -*-
+# name : for ... { ... }
+# --
+for $1 {
+	`%`$0
+}

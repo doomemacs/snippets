@@ -1,4 +1,5 @@
 # -*- mode: snippet -*-
 # name: print
+# key: p
 # --
-print($1)
+print(`%`$1)

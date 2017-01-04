@@ -1,5 +1,3 @@
-#contributor: Xah Lee (XahLee.org)
 #name: concat
-#key: concat
 # --
-(concat $0)
+(concat `%`$0)

@@ -1,3 +1,4 @@
-#name: message
+# name: message
+# key: m
 # --
 (message "$0" ${1:`%`})

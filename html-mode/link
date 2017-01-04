@@ -1,3 +1,3 @@
 #name: <link stylesheet="..." />
 # --
-<link rel="${1:stylesheet}" href="${2:url}" type="${3:text/css}" media="${4:screen}" />
+<link rel="${1:stylesheet}" href="${2:url}" />

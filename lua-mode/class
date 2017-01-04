@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: psuedo class declaration
+# key: cl
 # --
 ${1:ClassName} = {}
 $1.new = function($2)

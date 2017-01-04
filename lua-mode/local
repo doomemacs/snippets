@@ -1,4 +1,5 @@
 # -*- mode: snippet -*-
 # name: local ...
+# key: l
 # --
 local $0

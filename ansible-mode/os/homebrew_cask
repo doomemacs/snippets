@@ -1,0 +1,6 @@
+# name : Install/uninstall homebrew casks.
+# key : homebrew_cask
+# condition: ansible
+# --
+- name: ${1:Install/uninstall homebrew casks.}
+  homebrew_cask: name=$2 $0

@@ -1,0 +1,6 @@
+# name : create / delete a database in the Cloud Databases
+# key : rax_cdb_database
+# condition: ansible
+# --
+- name: ${1:create / delete a database in the Cloud Databases}
+  rax_cdb_database: $0

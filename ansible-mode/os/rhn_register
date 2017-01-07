@@ -1,0 +1,6 @@
+# name : Manage Red Hat Network registration using the C(rhnreg_ks) command
+# key : rhn_register
+# condition: ansible
+# --
+- name: ${1:Manage Red Hat Network registration using the C(rhnreg_ks) command}
+  rhn_register: $0

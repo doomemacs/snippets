@@ -1,0 +1,6 @@
+# name : create / delete a Rackspace Cloud Database
+# key : rax_cdb_user
+# condition: ansible
+# --
+- name: ${1:create / delete a Rackspace Cloud Database}
+  rax_cdb_user: $0

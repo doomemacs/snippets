@@ -1,0 +1,6 @@
+# name : Add/Delete images from glance
+# key : glance_image
+# condition: ansible
+# --
+- name: ${1:Add/Delete images from glance}
+  glance_image: login_username=${2:admin} login_password=${3:yes} login_tenant_name=${4:yes} name=${5:None} $0

@@ -1,0 +1,6 @@
+# name : Package manager for MacPorts
+# key : macports
+# condition: ansible
+# --
+- name: ${1:Package manager for MacPorts}
+  macports: name=$2 $0

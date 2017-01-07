@@ -1,0 +1,6 @@
+# name : Send a SMS via nexmo
+# key : nexmo
+# condition: ansible
+# --
+- name: ${1:Send a SMS via nexmo}
+  nexmo: api_key=$2 api_secret=$3 src=$4 dest=$5 msg=$6 $0

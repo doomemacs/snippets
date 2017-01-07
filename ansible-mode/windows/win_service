@@ -1,0 +1,6 @@
+# name : Manages Windows services
+# key : win_service
+# condition: ansible
+# --
+- name: ${1:Manages Windows services}
+  win_service: name=$2 $0

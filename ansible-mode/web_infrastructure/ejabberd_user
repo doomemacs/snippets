@@ -1,0 +1,6 @@
+# name : Manages users for ejabberd servers
+# key : ejabberd_user
+# condition: ansible
+# --
+- name: ${1:Manages users for ejabberd servers}
+  ejabberd_user: username=$2 host=$3 $0

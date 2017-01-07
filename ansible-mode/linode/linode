@@ -1,0 +1,6 @@
+# name : create / delete / stop / restart an instance in Linode Public Cloud
+# key : linode
+# condition: ansible
+# --
+- name: ${1:create / delete / stop / restart an instance in Linode Public Cloud}
+  linode: $0

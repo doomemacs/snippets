@@ -1,0 +1,6 @@
+# name : Manipulate Rackspace Cloud Block Storage Volume Attachments
+# key : rax_cbs_attachments
+# condition: ansible
+# --
+- name: ${1:Manipulate Rackspace Cloud Block Storage Volume Attachments}
+  rax_cbs_attachments: device=$2 volume=$3 server=$4 state=${5:present} $0

@@ -1,0 +1,6 @@
+# name : Attach/Dettach a subnet's interface to a router
+# key : quantum_router_interface
+# condition: ansible
+# --
+- name: ${1:Attach/Dettach a subnet's interface to a router}
+  quantum_router_interface: login_username=${2:admin} login_password=${3:yes} login_tenant_name=${4:yes} router_name=${5:None} subnet_name=${6:None} $0

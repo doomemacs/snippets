@@ -1,0 +1,6 @@
+# name : Associate or disassociate a particular floating IP with an instance
+# key : quantum_floating_ip_associate
+# condition: ansible
+# --
+- name: ${1:Associate or disassociate a particular floating IP with an instance}
+  quantum_floating_ip_associate: login_username=${2:admin} login_password=${3:yes} login_tenant_name=${4:true} instance_name=${5:None} ip_address=${6:None} $0

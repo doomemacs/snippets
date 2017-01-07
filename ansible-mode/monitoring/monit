@@ -1,0 +1,6 @@
+# name : Manage the state of a program monitored via Monit
+# key : monit
+# condition: ansible
+# --
+- name: ${1:Manage the state of a program monitored via Monit}
+  monit: name=$2 state=$3 $0

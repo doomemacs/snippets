@@ -1,0 +1,6 @@
+# name : Adds or removes an SSH authorized key
+# key : authorized_key
+# condition: ansible
+# --
+- name: ${1:Adds or removes an SSH authorized key}
+  authorized_key: user=$2 key=$3 $0

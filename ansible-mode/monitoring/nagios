@@ -1,0 +1,6 @@
+# name : Perform common tasks in Nagios related to downtime and notifications.
+# key : nagios
+# condition: ansible
+# --
+- name: ${1:Perform common tasks in Nagios related to downtime and notifications.}
+  nagios: action=$2 services=$3 command=$4 $0

@@ -1,0 +1,6 @@
+# name : Send a message to Campfire
+# key : campfire
+# condition: ansible
+# --
+- name: ${1:Send a message to Campfire}
+  campfire: subscription=$2 token=$3 room=$4 msg=$5 $0

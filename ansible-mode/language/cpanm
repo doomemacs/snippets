@@ -1,0 +1,6 @@
+# name : Manages Perl library dependencies.
+# key : cpanm
+# condition: ansible
+# --
+- name: ${1:Manages Perl library dependencies.}
+  cpanm: $0

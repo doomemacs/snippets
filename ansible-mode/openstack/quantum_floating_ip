@@ -1,0 +1,6 @@
+# name : Add/Remove floating IP from an instance
+# key : quantum_floating_ip
+# condition: ansible
+# --
+- name: ${1:Add/Remove floating IP from an instance}
+  quantum_floating_ip: login_username=${2:admin} login_password=${3:yes} login_tenant_name=${4:yes} network_name=${5:None} instance_name=${6:None} $0

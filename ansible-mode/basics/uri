@@ -1,0 +1,6 @@
+# name : Interacts with webservices
+# key : uri
+# condition: ansible
+# --
+- name: ${1:Interacts with webservices}
+  uri: url=$2 $0

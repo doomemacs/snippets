@@ -1,0 +1,6 @@
+# name : Send a message to an IRC channel
+# key : irc
+# condition: ansible
+# --
+- name: ${1:Send a message to an IRC channel}
+  irc: msg=$2 channel=$3 $0

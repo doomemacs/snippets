@@ -1,0 +1,6 @@
+# name : Create/delete a droplet/SSH_key in DigitalOcean
+# key : digital_ocean
+# condition: ansible
+# --
+- name: ${1:Create/delete a droplet/SSH_key in DigitalOcean}
+  digital_ocean: $0

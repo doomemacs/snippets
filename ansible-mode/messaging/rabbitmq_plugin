@@ -1,0 +1,6 @@
+# name : Adds or removes plugins to RabbitMQ
+# key : rabbitmq_plugin
+# condition: ansible
+# --
+- name: ${1:Adds or removes plugins to RabbitMQ}
+  rabbitmq_plugin: names=$2 $0

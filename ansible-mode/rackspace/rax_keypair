@@ -1,0 +1,6 @@
+# name : Create a keypair for use with Rackspace Cloud Servers
+# key : rax_keypair
+# condition: ansible
+# --
+- name: ${1:Create a keypair for use with Rackspace Cloud Servers}
+  rax_keypair: name=$2 $0

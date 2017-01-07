@@ -1,0 +1,6 @@
+# name : Manage iscsi targets with open-iscsi
+# key : open_iscsi
+# condition: ansible
+# --
+- name: ${1:Manage iscsi targets with open-iscsi}
+  open_iscsi: $0

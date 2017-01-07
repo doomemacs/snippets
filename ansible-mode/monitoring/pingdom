@@ -1,0 +1,6 @@
+# name : Pause/unpause Pingdom alerts
+# key : pingdom
+# condition: ansible
+# --
+- name: ${1:Pause/unpause Pingdom alerts}
+  pingdom: state=$2 checkid=$3 uid=$4 passwd=$5 key=$6 $0

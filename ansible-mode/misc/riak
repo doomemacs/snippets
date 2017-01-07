@@ -1,0 +1,6 @@
+# name : This module handles some common Riak operations
+# key : riak
+# condition: ansible
+# --
+- name: ${1:This module handles some common Riak operations}
+  riak: $0

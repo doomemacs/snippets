@@ -1,0 +1,6 @@
+# name : Adds or removes users to RabbitMQ
+# key : rabbitmq_user
+# condition: ansible
+# --
+- name: ${1:Adds or removes users to RabbitMQ}
+  rabbitmq_user: user=$2 $0

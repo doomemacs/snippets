@@ -1,0 +1,6 @@
+# name : Collect facts from F5 BIG-IP devices
+# key : bigip_facts
+# condition: ansible
+# --
+- name: ${1:Collect facts from F5 BIG-IP devices}
+  bigip_facts: server=$2 user=$3 password=$4 include=$5 $0

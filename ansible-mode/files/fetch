@@ -1,0 +1,6 @@
+# name : Fetches a file from remote nodes
+# key : fetch
+# condition: ansible
+# --
+- name: ${1:Fetches a file from remote nodes}
+  fetch: src=$2 dest=$3 $0

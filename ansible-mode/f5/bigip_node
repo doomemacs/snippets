@@ -1,0 +1,6 @@
+# name : Manages F5 BIG-IP LTM nodes
+# key : bigip_node
+# condition: ansible
+# --
+- name: ${1:Manages F5 BIG-IP LTM nodes}
+  bigip_node: server=$2 user=$3 password=$4 state=${5:present} host=$6 $0

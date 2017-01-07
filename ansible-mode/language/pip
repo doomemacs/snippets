@@ -1,0 +1,6 @@
+# name : Manages Python library dependencies.
+# key : pip
+# condition: ansible
+# --
+- name: ${1:Manages Python library dependencies.}
+  pip: $0

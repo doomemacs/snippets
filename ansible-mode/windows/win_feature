@@ -1,0 +1,6 @@
+# name : Installs and uninstalls Windows Features
+# key : win_feature
+# condition: ansible
+# --
+- name: ${1:Installs and uninstalls Windows Features}
+  win_feature: name=$2 $0

@@ -1,0 +1,6 @@
+# name : add a host (and alternatively a group) to the ansible-playbook in-memory inventory
+# key : add_host
+# condition: ansible
+# --
+- name: ${1:add a host (and alternatively a group) to the ansible-playbook in-memory inventory}
+  add_host: name=$2 $0

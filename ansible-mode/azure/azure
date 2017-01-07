@@ -1,0 +1,6 @@
+# name : create or terminate a virtual machine in azure
+# key : azure
+# condition: ansible
+# --
+- name: ${1:create or terminate a virtual machine in azure}
+  azure: name=$2 location=$3 storage_account=$4 image=$5 $0

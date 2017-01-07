@@ -1,0 +1,6 @@
+# name : Package manager for OpenWrt
+# key : opkg
+# condition: ansible
+# --
+- name: ${1:Package manager for OpenWrt}
+  opkg: name=$2 $0

@@ -1,0 +1,6 @@
+# name : Manage cron.d and crontab entries.
+# key : cron
+# condition: ansible
+# --
+- name: ${1:Manage cron.d and crontab entries.}
+  cron: name=$2 $0

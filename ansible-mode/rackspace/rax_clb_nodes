@@ -1,0 +1,6 @@
+# name : add, modify and remove nodes from a Rackspace Cloud Load Balancer
+# key : rax_clb_nodes
+# condition: ansible
+# --
+- name: ${1:add, modify and remove nodes from a Rackspace Cloud Load Balancer}
+  rax_clb_nodes: load_balancer_id=$2 $0

@@ -1,0 +1,6 @@
+# name : Configure LVM logical volumes
+# key : lvol
+# condition: ansible
+# --
+- name: ${1:Configure LVM logical volumes}
+  lvol: vg=$2 lv=$3 $0

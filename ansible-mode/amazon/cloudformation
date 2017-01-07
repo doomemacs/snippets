@@ -1,0 +1,6 @@
+# name : create a AWS CloudFormation stack
+# key : cloudformation
+# condition: ansible
+# --
+- name: ${1:create a AWS CloudFormation stack}
+  cloudformation: stack_name=$2 state=$3 template=$4 $0

@@ -1,0 +1,6 @@
+# name : Change policy and state of SELinux
+# key : selinux
+# condition: ansible
+# --
+- name: ${1:Change policy and state of SELinux}
+  selinux: state=$2 $0

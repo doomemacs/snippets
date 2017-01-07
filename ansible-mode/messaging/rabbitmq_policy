@@ -1,0 +1,6 @@
+# name : Manage the state of policies in RabbitMQ.
+# key : rabbitmq_policy
+# condition: ansible
+# --
+- name: ${1:Manage the state of policies in RabbitMQ.}
+  rabbitmq_policy: name=$2 pattern=$3 tags=$4 $0

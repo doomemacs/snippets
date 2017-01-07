@@ -1,0 +1,6 @@
+# name : Notify Rollbar about app deployments
+# key : rollbar_deployment
+# condition: ansible
+# --
+- name: ${1:Notify Rollbar about app deployments}
+  rollbar_deployment: token=$2 environment=$3 revision=$4 $0

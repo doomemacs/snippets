@@ -1,0 +1,6 @@
+# name : create/destroy GCE networks and firewall rules
+# key : gce_net
+# condition: ansible
+# --
+- name: ${1:create/destroy GCE networks and firewall rules}
+  gce_net: $0

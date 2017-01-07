@@ -1,0 +1,6 @@
+# name : Create Zabbix maintenance windows
+# key : zabbix_maintenance
+# condition: ansible
+# --
+- name: ${1:Create Zabbix maintenance windows}
+  zabbix_maintenance: server_url=$2 login_user=$3 login_password=$4 name=$5 desc=${6:Created by Ansible} $0

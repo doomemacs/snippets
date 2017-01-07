@@ -1,0 +1,6 @@
+# name : Manipulate Rackspace Cloud Files Containers
+# key : rax_files
+# condition: ansible
+# --
+- name: ${1:Manipulate Rackspace Cloud Files Containers}
+  rax_files: container=$2 $0

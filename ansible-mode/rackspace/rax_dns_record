@@ -1,0 +1,6 @@
+# name : Manage DNS records on Rackspace Cloud DNS
+# key : rax_dns_record
+# condition: ansible
+# --
+- name: ${1:Manage DNS records on Rackspace Cloud DNS}
+  rax_dns_record: data=$2 name=$3 type=$4 $0

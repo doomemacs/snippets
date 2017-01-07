@@ -1,0 +1,6 @@
+# name : creates a snapshot from an existing volume
+# key : ec2_snapshot
+# condition: ansible
+# --
+- name: ${1:creates a snapshot from an existing volume}
+  ec2_snapshot: $0

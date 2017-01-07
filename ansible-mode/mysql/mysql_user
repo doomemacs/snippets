@@ -1,0 +1,6 @@
+# name : Adds or removes a user from a MySQL database.
+# key : mysql_user
+# condition: ansible
+# --
+- name: ${1:Adds or removes a user from a MySQL database.}
+  mysql_user: name=$2 $0

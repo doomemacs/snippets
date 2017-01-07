@@ -1,0 +1,6 @@
+# name : enables/disables a module of the Apache2 webserver
+# key : apache2_module
+# condition: ansible
+# --
+- name: ${1:enables/disables a module of the Apache2 webserver}
+  apache2_module: name=$2 $0

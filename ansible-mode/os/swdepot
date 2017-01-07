@@ -1,0 +1,6 @@
+# name : Manage packages with swdepot package manager (HP-UX)
+# key : swdepot
+# condition: ansible
+# --
+- name: ${1:Manage packages with swdepot package manager (HP-UX)}
+  swdepot: name=$2 state=$3 $0

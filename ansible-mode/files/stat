@@ -1,0 +1,6 @@
+# name : retrieve file or file system status
+# key : stat
+# condition: ansible
+# --
+- name: ${1:retrieve file or file system status}
+  stat: path=$2 $0

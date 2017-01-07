@@ -1,0 +1,6 @@
+# name : set/retrieve extended attributes
+# key : xattr
+# condition: ansible
+# --
+- name: ${1:set/retrieve extended attributes}
+  xattr: name=${2:None} $0

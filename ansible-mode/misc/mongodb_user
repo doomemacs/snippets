@@ -1,0 +1,6 @@
+# name : Adds or removes a user from a MongoDB database.
+# key : mongodb_user
+# condition: ansible
+# --
+- name: ${1:Adds or removes a user from a MongoDB database.}
+  mongodb_user: database=$2 user=$3 $0

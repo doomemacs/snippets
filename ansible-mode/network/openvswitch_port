@@ -1,0 +1,6 @@
+# name : Manage Open vSwitch ports
+# key : openvswitch_port
+# condition: ansible
+# --
+- name: ${1:Manage Open vSwitch ports}
+  openvswitch_port: bridge=$2 port=$3 $0

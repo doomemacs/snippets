@@ -1,0 +1,6 @@
+# name : Print statements during execution
+# key : debug
+# condition: ansible
+# --
+- name: ${1:Print statements during execution}
+  debug: $0

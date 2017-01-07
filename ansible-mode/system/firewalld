@@ -1,0 +1,6 @@
+# name : Manage arbitrary ports/services with firewalld
+# key : firewalld
+# condition: ansible
+# --
+- name: ${1:Manage arbitrary ports/services with firewalld}
+  firewalld: permanent=${2:true} state=${3:enabled} $0

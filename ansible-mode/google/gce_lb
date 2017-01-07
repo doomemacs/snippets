@@ -1,0 +1,6 @@
+# name : create/destroy GCE load-balancer resources
+# key : gce_lb
+# condition: ansible
+# --
+- name: ${1:create/destroy GCE load-balancer resources}
+  gce_lb: $0

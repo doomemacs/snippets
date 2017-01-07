@@ -1,0 +1,6 @@
+# name : Retrieve AWS AMI for a given operating system.
+# key : ec2_ami_search
+# condition: ansible
+# --
+- name: ${1:Retrieve AWS AMI for a given operating system.}
+  ec2_ami_search: distro=$2 release=$3 $0

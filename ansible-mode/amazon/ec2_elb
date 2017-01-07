@@ -1,0 +1,6 @@
+# name : De-registers or registers instances from EC2 ELBs
+# key : ec2_elb
+# condition: ansible
+# --
+- name: ${1:De-registers or registers instances from EC2 ELBs}
+  ec2_elb: state=$2 instance_id=$3 $0

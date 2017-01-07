@@ -1,0 +1,6 @@
+# name : create / delete an instance in Rackspace Public Cloud
+# key : rax
+# condition: ansible
+# --
+- name: ${1:create / delete an instance in Rackspace Public Cloud}
+  rax: $0

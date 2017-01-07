@@ -1,0 +1,6 @@
+# name : Create/delete an SSH key in DigitalOcean
+# key : digital_ocean_sshkey
+# condition: ansible
+# --
+- name: ${1:Create/delete an SSH key in DigitalOcean}
+  digital_ocean_sshkey: $0

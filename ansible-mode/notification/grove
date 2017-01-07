@@ -1,0 +1,6 @@
+# name : Sends a notification to a grove.io channel
+# key : grove
+# condition: ansible
+# --
+- name: ${1:Sends a notification to a grove.io channel}
+  grove: channel_token=$2 message=$3 $0

@@ -1,0 +1,6 @@
+# name : manage RDS parameter groups
+# key : rds_param_group
+# condition: ansible
+# --
+- name: ${1:manage RDS parameter groups}
+  rds_param_group: state=${2:present} name=$3 region=$4 $0

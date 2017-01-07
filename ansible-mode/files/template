@@ -1,0 +1,6 @@
+# name : Templates a file out to a remote server.
+# key : template
+# condition: ansible
+# --
+- name: ${1:Templates a file out to a remote server.}
+  template: src=$2 dest=$3 $0

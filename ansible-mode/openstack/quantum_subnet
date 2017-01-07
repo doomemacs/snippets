@@ -1,0 +1,6 @@
+# name : Add/remove subnet from a network
+# key : quantum_subnet
+# condition: ansible
+# --
+- name: ${1:Add/remove subnet from a network}
+  quantum_subnet: login_username=${2:admin} login_password=${3:true} login_tenant_name=${4:true} network_name=${5:None} name=${6:None} cidr=${7:None} $0

@@ -1,0 +1,6 @@
+# name : deploy applications to JBoss
+# key : jboss
+# condition: ansible
+# --
+- name: ${1:deploy applications to JBoss}
+  jboss: deployment=$2 $0

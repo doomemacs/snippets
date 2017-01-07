@@ -1,0 +1,6 @@
+# name : oVirt/RHEV platform management
+# key : ovirt
+# condition: ansible
+# --
+- name: ${1:oVirt/RHEV platform management}
+  ovirt: user=$2 url=$3 instance_name=$4 password=$5 $0

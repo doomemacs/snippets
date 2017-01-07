@@ -1,0 +1,6 @@
+# name : Configure LVM volume groups
+# key : lvg
+# condition: ansible
+# --
+- name: ${1:Configure LVM volume groups}
+  lvg: vg=$2 $0

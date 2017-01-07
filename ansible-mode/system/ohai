@@ -1,0 +1,6 @@
+# name : Returns inventory data from I(Ohai)
+# key : ohai
+# condition: ansible
+# --
+- name: ${1:Returns inventory data from I(Ohai)}
+  ohai: $0

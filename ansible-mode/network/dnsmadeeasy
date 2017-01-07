@@ -1,0 +1,6 @@
+# name : Interface with dnsmadeeasy.com (a DNS hosting service).
+# key : dnsmadeeasy
+# condition: ansible
+# --
+- name: ${1:Interface with dnsmadeeasy.com (a DNS hosting service).}
+  dnsmadeeasy: account_key=$2 account_secret=$3 domain=$4 state=$5 $0

@@ -1,0 +1,6 @@
+# name : Tap a Homebrew repository.
+# key : homebrew_tap
+# condition: ansible
+# --
+- name: ${1:Tap a Homebrew repository.}
+  homebrew_tap: tap=$2 $0

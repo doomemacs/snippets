@@ -1,0 +1,6 @@
+# name : Various redis commands, slave and flush
+# key : redis
+# condition: ansible
+# --
+- name: ${1:Various redis commands, slave and flush}
+  redis: command=$2 $0

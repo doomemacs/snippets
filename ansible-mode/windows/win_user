@@ -1,0 +1,6 @@
+# name : Manages local Windows user accounts
+# key : win_user
+# condition: ansible
+# --
+- name: ${1:Manages local Windows user accounts}
+  win_user: name=$2 password=$3 $0

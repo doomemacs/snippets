@@ -1,0 +1,6 @@
+# name : Add or remove an apt key
+# key : apt_key
+# condition: ansible
+# --
+- name: ${1:Add or remove an apt key}
+  apt_key: $0

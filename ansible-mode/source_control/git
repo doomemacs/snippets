@@ -1,0 +1,6 @@
+# name : Deploy software (or files) from git checkouts
+# key : git
+# condition: ansible
+# --
+- name: ${1:Deploy software (or files) from git checkouts}
+  git: repo=$2 dest=$3 $0

@@ -1,0 +1,6 @@
+# name : Urpmi manager
+# key : urpmi
+# condition: ansible
+# --
+- name: ${1:Urpmi manager}
+  urpmi: pkg=$2 $0

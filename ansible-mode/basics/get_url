@@ -1,0 +1,6 @@
+# name : Downloads files from HTTP, HTTPS, or FTP to node
+# key : get_url
+# condition: ansible
+# --
+- name: ${1:Downloads files from HTTP, HTTPS, or FTP to node}
+  get_url: url=$2 dest=$3 $0

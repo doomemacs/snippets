@@ -1,0 +1,6 @@
+# name : Tweak settings in INI files
+# key : ini_file
+# condition: ansible
+# --
+- name: ${1:Tweak settings in INI files}
+  ini_file: dest=$2 section=$3 $0

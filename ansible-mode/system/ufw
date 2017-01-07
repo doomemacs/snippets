@@ -1,0 +1,6 @@
+# name : Manage firewall with UFW
+# key : ufw
+# condition: ansible
+# --
+- name: ${1:Manage firewall with UFW}
+  ufw: $0

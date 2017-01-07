@@ -1,0 +1,6 @@
+# name : Add and remove Zypper repositories
+# key : zypper_repository
+# condition: ansible
+# --
+- name: ${1:Add and remove Zypper repositories}
+  zypper_repository: $0

@@ -1,0 +1,6 @@
+# name : Create Ansible groups based on facts
+# key : group_by
+# condition: ansible
+# --
+- name: ${1:Create Ansible groups based on facts}
+  group_by: key=$2 $0

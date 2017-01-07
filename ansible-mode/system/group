@@ -1,0 +1,6 @@
+# name : Add or remove groups
+# key : group
+# condition: ansible
+# --
+- name: ${1:Add or remove groups}
+  group: name=$2 $0

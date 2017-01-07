@@ -1,0 +1,6 @@
+# name : Send a message to a flowdock
+# key : flowdock
+# condition: ansible
+# --
+- name: ${1:Send a message to a flowdock}
+  flowdock: token=$2 type=$3 msg=$4 $0

@@ -1,0 +1,6 @@
+# name : Executes a command on a remote node
+# key : command
+# condition: ansible
+# --
+- name: ${1:Executes a command on a remote node}
+  command: free_form=$2 $0

@@ -1,0 +1,6 @@
+# name : Add or remove PostgreSQL databases from a remote host.
+# key : postgresql_db
+# condition: ansible
+# --
+- name: ${1:Add or remove PostgreSQL databases from a remote host.}
+  postgresql_db: name=$2 $0

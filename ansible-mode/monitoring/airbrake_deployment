@@ -1,0 +1,6 @@
+# name : Notify airbrake about app deployments
+# key : airbrake_deployment
+# condition: ansible
+# --
+- name: ${1:Notify airbrake about app deployments}
+  airbrake_deployment: token=$2 environment=$3 $0

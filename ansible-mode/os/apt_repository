@@ -1,0 +1,6 @@
+# name : Add and remove APT repositories
+# key : apt_repository
+# condition: ansible
+# --
+- name: ${1:Add and remove APT repositories}
+  apt_repository: repo=${2:none} $0

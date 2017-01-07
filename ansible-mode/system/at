@@ -1,0 +1,6 @@
+# name : Schedule the execution of a command or script file via the at command.
+# key : at
+# condition: ansible
+# --
+- name: ${1:Schedule the execution of a command or script file via the at command.}
+  at: count=$2 units=$3 $0

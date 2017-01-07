@@ -1,0 +1,6 @@
+# name : Send an email
+# key : mail
+# condition: ansible
+# --
+- name: ${1:Send an email}
+  mail: subject=$2 $0

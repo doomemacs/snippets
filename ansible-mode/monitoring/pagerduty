@@ -1,0 +1,6 @@
+# name : Create PagerDuty maintenance windows
+# key : pagerduty
+# condition: ansible
+# --
+- name: ${1:Create PagerDuty maintenance windows}
+  pagerduty: state=$2 name=$3 user=$4 passwd=$5 token=$6 requester_id=$7 $0

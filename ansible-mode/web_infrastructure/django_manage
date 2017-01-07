@@ -1,0 +1,6 @@
+# name : Manages a Django application.
+# key : django_manage
+# condition: ansible
+# --
+- name: ${1:Manages a Django application.}
+  django_manage: command=$2 app_path=$3 $0

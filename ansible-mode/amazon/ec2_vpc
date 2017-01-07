@@ -1,0 +1,6 @@
+# name : configure AWS virtual private clouds
+# key : ec2_vpc
+# condition: ansible
+# --
+- name: ${1:configure AWS virtual private clouds}
+  ec2_vpc: cidr_block=$2 resource_tags=$3 state=${4:present} $0

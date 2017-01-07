@@ -1,0 +1,6 @@
+# name : Executes a low-down and dirty SSH command
+# key : raw
+# condition: ansible
+# --
+- name: ${1:Executes a low-down and dirty SSH command}
+  raw: free_form=$2 $0

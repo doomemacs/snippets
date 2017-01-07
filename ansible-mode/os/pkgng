@@ -1,0 +1,6 @@
+# name : Package manager for FreeBSD >= 9.0
+# key : pkgng
+# condition: ansible
+# --
+- name: ${1:Package manager for FreeBSD >= 9.0}
+  pkgng: name=$2 $0

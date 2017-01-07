@@ -1,0 +1,6 @@
+# name : Set host facts from a task
+# key : set_fact
+# condition: ansible
+# --
+- name: ${1:Set host facts from a task}
+  set_fact: key_value=$2 $0

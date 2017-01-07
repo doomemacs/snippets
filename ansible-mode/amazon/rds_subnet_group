@@ -1,0 +1,6 @@
+# name : manage RDS database subnet groups
+# key : rds_subnet_group
+# condition: ansible
+# --
+- name: ${1:manage RDS database subnet groups}
+  rds_subnet_group: state=${2:present} name=$3 region=$4 $0

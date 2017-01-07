@@ -1,0 +1,6 @@
+# name : Create/delete a DNS record in DigitalOcean
+# key : digital_ocean_domain
+# condition: ansible
+# --
+- name: ${1:Create/delete a DNS record in DigitalOcean}
+  digital_ocean_domain: $0

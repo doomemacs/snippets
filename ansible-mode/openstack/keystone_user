@@ -1,0 +1,6 @@
+# name : Manage OpenStack Identity (keystone) users, tenants and roles
+# key : keystone_user
+# condition: ansible
+# --
+- name: ${1:Manage OpenStack Identity (keystone) users, tenants and roles}
+  keystone_user: $0

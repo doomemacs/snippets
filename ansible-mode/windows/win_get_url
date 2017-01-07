@@ -1,0 +1,6 @@
+# name : Fetches a file from a given URL
+# key : win_get_url
+# condition: ansible
+# --
+- name: ${1:Fetches a file from a given URL}
+  win_get_url: url=$2 $0

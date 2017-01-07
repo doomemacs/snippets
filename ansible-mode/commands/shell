@@ -1,0 +1,6 @@
+# name : Execute commands in nodes.
+# key : shell
+# condition: ansible
+# --
+- name: ${1:Execute commands in nodes.}
+  shell: free_form=$2 $0

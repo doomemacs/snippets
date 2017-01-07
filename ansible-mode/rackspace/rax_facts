@@ -1,0 +1,6 @@
+# name : Gather facts for Rackspace Cloud Servers
+# key : rax_facts
+# condition: ansible
+# --
+- name: ${1:Gather facts for Rackspace Cloud Servers}
+  rax_facts: $0

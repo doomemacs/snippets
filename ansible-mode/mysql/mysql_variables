@@ -1,0 +1,6 @@
+# name : Manage MySQL global variables
+# key : mysql_variables
+# condition: ansible
+# --
+- name: ${1:Manage MySQL global variables}
+  mysql_variables: variable=$2 $0

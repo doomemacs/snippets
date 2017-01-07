@@ -1,0 +1,6 @@
+# name : Manage A10 Networks AX/SoftAX/Thunder/vThunder devices
+# key : a10_virtual_server
+# condition: ansible
+# --
+- name: ${1:Manage A10 Networks AX/SoftAX/Thunder/vThunder devices}
+  a10_virtual_server: host=$2 username=$3 password=$4 virtual_server=$5 $0

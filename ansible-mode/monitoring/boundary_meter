@@ -1,0 +1,6 @@
+# name : Manage boundary meters
+# key : boundary_meter
+# condition: ansible
+# --
+- name: ${1:Manage boundary meters}
+  boundary_meter: name=$2 apiid=$3 apikey=$4 $0

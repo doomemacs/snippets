@@ -1,0 +1,6 @@
+# name : create and modify issues in a JIRA instance
+# key : jira
+# condition: ansible
+# --
+- name: ${1:create and modify issues in a JIRA instance}
+  jira: uri=$2 operation=$3 username=$4 password=$5 $0

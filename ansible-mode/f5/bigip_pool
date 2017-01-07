@@ -1,0 +1,6 @@
+# name : Manages F5 BIG-IP LTM pools
+# key : bigip_pool
+# condition: ansible
+# --
+- name: ${1:Manages F5 BIG-IP LTM pools}
+  bigip_pool: server=$2 user=$3 password=$4 name=$5 $0

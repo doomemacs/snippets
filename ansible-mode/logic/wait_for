@@ -1,0 +1,6 @@
+# name : Waits for a condition before continuing.
+# key : wait_for
+# condition: ansible
+# --
+- name: ${1:Waits for a condition before continuing.}
+  wait_for: $0

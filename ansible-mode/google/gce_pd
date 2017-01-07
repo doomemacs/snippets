@@ -1,0 +1,6 @@
+# name : utilize GCE persistent disk resources
+# key : gce_pd
+# condition: ansible
+# --
+- name: ${1:utilize GCE persistent disk resources}
+  gce_pd: name=$2 $0

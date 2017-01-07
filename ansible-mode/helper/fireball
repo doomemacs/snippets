@@ -1,0 +1,6 @@
+# name : Enable fireball mode on remote node
+# key : fireball
+# condition: ansible
+# --
+- name: ${1:Enable fireball mode on remote node}
+  fireball: $0

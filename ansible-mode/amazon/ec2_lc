@@ -1,0 +1,6 @@
+# name : Create or delete AWS Autoscaling Launch Configurations
+# key : ec2_lc
+# condition: ansible
+# --
+- name: ${1:Create or delete AWS Autoscaling Launch Configurations}
+  ec2_lc: state=$2 name=$3 instance_type=$4 $0

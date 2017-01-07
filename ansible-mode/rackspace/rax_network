@@ -1,0 +1,6 @@
+# name : create / delete an isolated network in Rackspace Public Cloud
+# key : rax_network
+# condition: ansible
+# --
+- name: ${1:create / delete an isolated network in Rackspace Public Cloud}
+  rax_network: $0

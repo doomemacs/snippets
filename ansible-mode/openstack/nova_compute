@@ -1,0 +1,6 @@
+# name : Create/Delete VMs from OpenStack
+# key : nova_compute
+# condition: ansible
+# --
+- name: ${1:Create/Delete VMs from OpenStack}
+  nova_compute: login_username=${2:admin} login_password=${3:yes} login_tenant_name=${4:yes} name=${5:None} image_id=${6:None} image_name=${7:None} $0

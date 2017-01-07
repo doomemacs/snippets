@@ -1,0 +1,6 @@
+# name : Creates or destroys Amazon ELB.
+# key : ec2_elb_lb
+# condition: ansible
+# --
+- name: ${1:Creates or destroys Amazon ELB.}
+  ec2_elb_lb: state=$2 name=$3 $0

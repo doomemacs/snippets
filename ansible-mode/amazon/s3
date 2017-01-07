@@ -1,0 +1,6 @@
+# name : S3 module putting a file into S3.
+# key : s3
+# condition: ansible
+# --
+- name: ${1:S3 module putting a file into S3.}
+  s3: bucket=$2 mode=$3 $0

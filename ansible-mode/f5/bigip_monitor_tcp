@@ -1,0 +1,6 @@
+# name : Manages F5 BIG-IP LTM tcp monitors
+# key : bigip_monitor_tcp
+# condition: ansible
+# --
+- name: ${1:Manages F5 BIG-IP LTM tcp monitors}
+  bigip_monitor_tcp: server=$2 user=$3 password=$4 name=$5 send=${6:none} receive=${7:none} $0

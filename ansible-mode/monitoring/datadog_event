@@ -1,0 +1,6 @@
+# name : Posts events to DataDog  service
+# key : datadog_event
+# condition: ansible
+# --
+- name: ${1:Posts events to DataDog  service}
+  datadog_event: api_key=$2 title=$3 text=$4 $0

@@ -1,0 +1,6 @@
+# name : Manages Citrix NetScaler entities
+# key : netscaler
+# condition: ansible
+# --
+- name: ${1:Manages Citrix NetScaler entities}
+  netscaler: nsc_host=$2 user=$3 password=$4 name=${5:hostname} $0

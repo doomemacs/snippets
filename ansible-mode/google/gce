@@ -1,0 +1,6 @@
+# name : create or terminate GCE instances
+# key : gce
+# condition: ansible
+# --
+- name: ${1:create or terminate GCE instances}
+  gce: zone=${2:us-central1-a} $0

@@ -1,0 +1,6 @@
+# name : create and remove tag(s) to ec2 resources.
+# key : ec2_tag
+# condition: ansible
+# --
+- name: ${1:create and remove tag(s) to ec2 resources.}
+  ec2_tag: resource=$2 $0

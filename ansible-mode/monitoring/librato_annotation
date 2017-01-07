@@ -1,0 +1,6 @@
+# name : create an annotation in librato
+# key : librato_annotation
+# condition: ansible
+# --
+- name: ${1:create an annotation in librato}
+  librato_annotation: user=$2 api_key=$3 title=$4 links=$5 $0

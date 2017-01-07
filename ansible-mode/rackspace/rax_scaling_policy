@@ -1,0 +1,6 @@
+# name : Manipulate Rackspace Cloud Autoscale Scaling Policy
+# key : rax_scaling_policy
+# condition: ansible
+# --
+- name: ${1:Manipulate Rackspace Cloud Autoscale Scaling Policy}
+  rax_scaling_policy: name=$2 policy_type=$3 scaling_group=$4 $0

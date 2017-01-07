@@ -1,0 +1,6 @@
+# name : Create or delete AWS scaling policies for Autoscaling groups
+# key : ec2_scaling_policy
+# condition: ansible
+# --
+- name: ${1:Create or delete AWS scaling policies for Autoscaling groups}
+  ec2_scaling_policy: state=$2 name=$3 asg_name=$4 $0

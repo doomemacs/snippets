@@ -1,0 +1,6 @@
+# name : Adds or removes parameters to RabbitMQ
+# key : rabbitmq_parameter
+# condition: ansible
+# --
+- name: ${1:Adds or removes parameters to RabbitMQ}
+  rabbitmq_parameter: component=$2 name=$3 $0

@@ -1,0 +1,6 @@
+# name : Send Slack notifications
+# key : slack
+# condition: ansible
+# --
+- name: ${1:Send Slack notifications}
+  slack: domain=$2 token=$3 msg=$4 $0

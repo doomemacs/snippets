@@ -1,0 +1,6 @@
+# name : Load Rackspace Cloud Identity
+# key : rax_identity
+# condition: ansible
+# --
+- name: ${1:Load Rackspace Cloud Identity}
+  rax_identity: $0

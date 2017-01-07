@@ -1,0 +1,6 @@
+# name : Replace all instances of a particular string in a file using a back-referenced regular expression.
+# key : replace
+# condition: ansible
+# --
+- name: ${1:Replace all instances of a particular string in a file using a back-referenced regular expression.}
+  replace: dest=$2 regexp=$3 $0

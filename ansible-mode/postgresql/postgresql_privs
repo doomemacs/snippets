@@ -1,0 +1,6 @@
+# name : Grant or revoke privileges on PostgreSQL database objects.
+# key : postgresql_privs
+# condition: ansible
+# --
+- name: ${1:Grant or revoke privileges on PostgreSQL database objects.}
+  postgresql_privs: database=$2 roles=$3 $0

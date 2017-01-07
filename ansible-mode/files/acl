@@ -1,0 +1,6 @@
+# name : Sets and retrieves file ACL information.
+# key : acl
+# condition: ansible
+# --
+- name: ${1:Sets and retrieves file ACL information.}
+  acl: name=$2 $0

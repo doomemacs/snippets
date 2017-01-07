@@ -1,0 +1,6 @@
+# name : Adds or removes a users (roles) from a PostgreSQL database.
+# key : postgresql_user
+# condition: ansible
+# --
+- name: ${1:Adds or removes a users (roles) from a PostgreSQL database.}
+  postgresql_user: name=$2 $0

@@ -1,0 +1,6 @@
+# name : set/unset a gateway interface for the router with the specified external network
+# key : quantum_router_gateway
+# condition: ansible
+# --
+- name: ${1:set/unset a gateway interface for the router with the specified external network}
+  quantum_router_gateway: login_username=${2:admin} login_password=${3:yes} login_tenant_name=${4:yes} router_name=${5:None} network_name=${6:None} $0

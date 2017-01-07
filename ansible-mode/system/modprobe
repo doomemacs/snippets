@@ -1,0 +1,6 @@
+# name : Add or remove kernel modules
+# key : modprobe
+# condition: ansible
+# --
+- name: ${1:Add or remove kernel modules}
+  modprobe: name=$2 $0

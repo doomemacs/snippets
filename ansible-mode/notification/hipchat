@@ -1,0 +1,6 @@
+# name : Send a message to hipchat
+# key : hipchat
+# condition: ansible
+# --
+- name: ${1:Send a message to hipchat}
+  hipchat: token=$2 room=$3 msg=$4 $0

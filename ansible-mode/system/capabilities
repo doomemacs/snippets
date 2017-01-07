@@ -1,0 +1,6 @@
+# name : Manage Linux capabilities
+# key : capabilities
+# condition: ansible
+# --
+- name: ${1:Manage Linux capabilities}
+  capabilities: path=$2 capability=$3 $0

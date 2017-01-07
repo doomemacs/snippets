@@ -1,0 +1,6 @@
+# name : This module manages objects/buckets in Google Cloud Storage.
+# key : gc_storage
+# condition: ansible
+# --
+- name: ${1:This module manages objects/buckets in Google Cloud Storage.}
+  gc_storage: bucket=$2 mode=$3 gcs_secret_key=$4 gcs_access_key=$5 $0

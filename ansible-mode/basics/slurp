@@ -1,0 +1,6 @@
+# name : Slurps a file from remote nodes
+# key : slurp
+# condition: ansible
+# --
+- name: ${1:Slurps a file from remote nodes}
+  slurp: src=$2 $0

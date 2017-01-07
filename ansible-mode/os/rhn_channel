@@ -1,0 +1,6 @@
+# name : Adds or removes Red Hat software channels
+# key : rhn_channel
+# condition: ansible
+# --
+- name: ${1:Adds or removes Red Hat software channels}
+  rhn_channel: name=$2 sysname=$3 url=$4 user=$5 password=$6 $0

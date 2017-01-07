@@ -1,0 +1,6 @@
+# name : Manages Mercurial (hg) repositories.
+# key : hg
+# condition: ansible
+# --
+- name: ${1:Manages Mercurial (hg) repositories.}
+  hg: repo=$2 dest=$3 $0

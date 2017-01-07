@@ -1,0 +1,6 @@
+# name : Manipulate Rackspace Cloud Autoscale Groups
+# key : rax_scaling_group
+# condition: ansible
+# --
+- name: ${1:Manipulate Rackspace Cloud Autoscale Groups}
+  rax_scaling_group: flavor=$2 image=$3 max_entities=$4 min_entities=$5 name=$6 server_name=$7 $0

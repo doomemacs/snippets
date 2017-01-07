@@ -1,0 +1,6 @@
+# name : manage docker containers
+# key : docker
+# condition: ansible
+# --
+- name: ${1:manage docker containers}
+  docker: image=$2 $0

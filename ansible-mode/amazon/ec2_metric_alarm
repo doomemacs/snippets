@@ -1,0 +1,6 @@
+# name : Create/update or delete AWS Cloudwatch 'metric alarms'
+# key : ec2_metric_alarm
+# condition: ansible
+# --
+- name: ${1:Create/update or delete AWS Cloudwatch 'metric alarms'}
+  ec2_metric_alarm: state=$2 name=$3 $0

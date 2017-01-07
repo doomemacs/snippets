@@ -1,0 +1,6 @@
+# name : Load variables from files, dynamically within a task.
+# key : include_vars
+# condition: ansible
+# --
+- name: ${1:Load variables from files, dynamically within a task.}
+  include_vars: free-form=$2 $0

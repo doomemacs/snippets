@@ -1,0 +1,6 @@
+# name : create, delete, or modify an Amazon rds instance
+# key : rds
+# condition: ansible
+# --
+- name: ${1:create, delete, or modify an Amazon rds instance}
+  rds: command=$2 instance_name=$3 region=$4 $0

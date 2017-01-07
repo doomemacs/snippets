@@ -1,0 +1,6 @@
+# name : Manages virtual machines supported by libvirt
+# key : virt
+# condition: ansible
+# --
+- name: ${1:Manages virtual machines supported by libvirt}
+  virt: name=$2 $0

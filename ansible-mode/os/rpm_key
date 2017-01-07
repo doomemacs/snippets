@@ -1,0 +1,6 @@
+# name : Adds or removes a gpg key from the rpm db
+# key : rpm_key
+# condition: ansible
+# --
+- name: ${1:Adds or removes a gpg key from the rpm db}
+  rpm_key: key=$2 $0

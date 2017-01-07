@@ -1,0 +1,6 @@
+# name : create / delete a queue in Rackspace Public Cloud
+# key : rax_queue
+# condition: ansible
+# --
+- name: ${1:create / delete a queue in Rackspace Public Cloud}
+  rax_queue: $0

@@ -1,0 +1,6 @@
+# name : Manage Red Hat Network registration and subscriptions using the C(subscription-manager) command
+# key : redhat_subscription
+# condition: ansible
+# --
+- name: ${1:Manage Red Hat Network registration and subscriptions using the C(subscription-manager) command}
+  redhat_subscription: $0

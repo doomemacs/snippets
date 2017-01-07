@@ -1,0 +1,6 @@
+# name : Notify newrelic about app deployments
+# key : newrelic_deployment
+# condition: ansible
+# --
+- name: ${1:Notify newrelic about app deployments}
+  newrelic_deployment: token=$2 $0

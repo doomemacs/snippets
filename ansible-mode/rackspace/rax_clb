@@ -1,0 +1,6 @@
+# name : create / delete a load balancer in Rackspace Public Cloud
+# key : rax_clb
+# condition: ansible
+# --
+- name: ${1:create / delete a load balancer in Rackspace Public Cloud}
+  rax_clb: $0

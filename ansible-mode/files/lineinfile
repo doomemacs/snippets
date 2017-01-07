@@ -1,0 +1,6 @@
+# name : Ensure a particular line is in a file, or replace an existing line using a back-referenced regular expression.
+# key : lineinfile
+# condition: ansible
+# --
+- name: ${1:Ensure a particular line is in a file, or replace an existing line using a back-referenced regular expression.}
+  lineinfile: dest=$2 $0

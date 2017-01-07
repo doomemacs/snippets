@@ -1,0 +1,6 @@
+# name : add or delete entries in Amazons Route53 DNS service
+# key : route53
+# condition: ansible
+# --
+- name: ${1:add or delete entries in Amazons Route53 DNS service}
+  route53: command=$2 zone=$3 record=$4 type=$5 $0

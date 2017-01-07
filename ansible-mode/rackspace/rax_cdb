@@ -1,0 +1,6 @@
+# name : create/delete or resize a Rackspace Cloud Databases instance
+# key : rax_cdb
+# condition: ansible
+# --
+- name: ${1:create/delete or resize a Rackspace Cloud Databases instance}
+  rax_cdb: $0

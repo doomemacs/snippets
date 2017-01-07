@@ -1,0 +1,6 @@
+# name : returns information about a Windows file
+# key : win_stat
+# condition: ansible
+# --
+- name: ${1:returns information about a Windows file}
+  win_stat: path=$2 $0

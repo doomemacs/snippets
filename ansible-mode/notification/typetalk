@@ -1,0 +1,6 @@
+# name : Send a message to typetalk
+# key : typetalk
+# condition: ansible
+# --
+- name: ${1:Send a message to typetalk}
+  typetalk: client_id=$2 client_secret=$3 topic=$4 msg=$5 $0

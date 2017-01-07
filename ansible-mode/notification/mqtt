@@ -1,0 +1,6 @@
+# name : Publish a message on an MQTT topic for the IoT
+# key : mqtt
+# condition: ansible
+# --
+- name: ${1:Publish a message on an MQTT topic for the IoT}
+  mqtt: topic=$2 payload=$3 $0

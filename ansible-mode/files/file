@@ -1,0 +1,6 @@
+# name : Sets attributes of files
+# key : file
+# condition: ansible
+# --
+- name: ${1:Sets attributes of files}
+  file: path=${2:[]} $0

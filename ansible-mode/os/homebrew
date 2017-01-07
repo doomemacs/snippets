@@ -1,0 +1,6 @@
+# name : Package manager for Homebrew
+# key : homebrew
+# condition: ansible
+# --
+- name: ${1:Package manager for Homebrew}
+  homebrew: name=$2 $0

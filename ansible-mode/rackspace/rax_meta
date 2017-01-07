@@ -1,0 +1,6 @@
+# name : Manipulate metadata for Rackspace Cloud Servers
+# key : rax_meta
+# condition: ansible
+# --
+- name: ${1:Manipulate metadata for Rackspace Cloud Servers}
+  rax_meta: $0

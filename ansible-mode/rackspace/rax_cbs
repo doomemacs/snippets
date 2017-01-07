@@ -1,0 +1,6 @@
+# name : Manipulate Rackspace Cloud Block Storage Volumes
+# key : rax_cbs
+# condition: ansible
+# --
+- name: ${1:Manipulate Rackspace Cloud Block Storage Volumes}
+  rax_cbs: name=$2 size=${3:100} state=${4:present} volume_type=${5:SATA} $0

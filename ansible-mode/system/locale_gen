@@ -1,0 +1,6 @@
+# name : Creates or removes locales.
+# key : locale_gen
+# condition: ansible
+# --
+- name: ${1:Creates or removes locales.}
+  locale_gen: name=$2 $0

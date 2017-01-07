@@ -1,0 +1,6 @@
+# name : Manage cache clusters in Amazon Elasticache.
+# key : elasticache
+# condition: ansible
+# --
+- name: ${1:Manage cache clusters in Amazon Elasticache.}
+  elasticache: state=$2 name=$3 $0

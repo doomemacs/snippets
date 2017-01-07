@@ -1,0 +1,6 @@
+# name : Deploys a subversion repository.
+# key : subversion
+# condition: ansible
+# --
+- name: ${1:Deploys a subversion repository.}
+  subversion: repo=$2 dest=$3 $0

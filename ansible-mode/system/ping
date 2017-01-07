@@ -1,0 +1,6 @@
+# name : Try to connect to host and return C(pong) on success.
+# key : ping
+# condition: ansible
+# --
+- name: ${1:Try to connect to host and return C(pong) on success.}
+  ping: $0

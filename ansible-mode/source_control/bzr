@@ -1,0 +1,6 @@
+# name : Deploy software (or files) from bzr branches
+# key : bzr
+# condition: ansible
+# --
+- name: ${1:Deploy software (or files) from bzr branches}
+  bzr: name=$2 dest=$3 $0

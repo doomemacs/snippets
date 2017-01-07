@@ -1,0 +1,6 @@
+# name : Manage the state of a program or group of programs running via supervisord
+# key : supervisorctl
+# condition: ansible
+# --
+- name: ${1:Manage the state of a program or group of programs running via supervisord}
+  supervisorctl: name=$2 state=$3 $0

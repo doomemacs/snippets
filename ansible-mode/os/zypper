@@ -1,0 +1,6 @@
+# name : Manage packages on SUSE and openSUSE
+# key : zypper
+# condition: ansible
+# --
+- name: ${1:Manage packages on SUSE and openSUSE}
+  zypper: name=$2 $0

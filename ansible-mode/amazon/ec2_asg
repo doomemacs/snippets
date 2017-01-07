@@ -1,0 +1,6 @@
+# name : Create or delete AWS Autoscaling Groups
+# key : ec2_asg
+# condition: ansible
+# --
+- name: ${1:Create or delete AWS Autoscaling Groups}
+  ec2_asg: state=$2 name=$3 $0

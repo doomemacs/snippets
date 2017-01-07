@@ -1,0 +1,6 @@
+# name : Add or remove MySQL databases from a remote host.
+# key : mysql_db
+# condition: ansible
+# --
+- name: ${1:Add or remove MySQL databases from a remote host.}
+  mysql_db: name=$2 $0

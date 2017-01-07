@@ -1,0 +1,6 @@
+# name : Uses rsync to make synchronizing file paths in your playbooks quick and easy.
+# key : synchronize
+# condition: ansible
+# --
+- name: ${1:Uses rsync to make synchronizing file paths in your playbooks quick and easy.}
+  synchronize: src=$2 dest=$3 $0

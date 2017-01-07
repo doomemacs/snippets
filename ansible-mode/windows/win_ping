@@ -1,0 +1,6 @@
+# name : A windows version of the classic ping module.
+# key : win_ping
+# condition: ansible
+# --
+- name: ${1:A windows version of the classic ping module.}
+  win_ping: $0

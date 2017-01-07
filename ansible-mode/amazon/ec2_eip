@@ -1,0 +1,6 @@
+# name : associate an EC2 elastic IP with an instance.
+# key : ec2_eip
+# condition: ansible
+# --
+- name: ${1:associate an EC2 elastic IP with an instance.}
+  ec2_eip: $0

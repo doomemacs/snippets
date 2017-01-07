@@ -1,0 +1,6 @@
+# name : Manage Solaris SVR4 packages
+# key : svr4pkg
+# condition: ansible
+# --
+- name: ${1:Manage Solaris SVR4 packages}
+  svr4pkg: name=$2 state=$3 $0

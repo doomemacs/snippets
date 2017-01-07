@@ -1,0 +1,6 @@
+# name : create, terminate, start or stop an instance in ec2, return instanceid
+# key : ec2
+# condition: ansible
+# --
+- name: ${1:create, terminate, start or stop an instance in ec2, return instanceid}
+  ec2: instance_type=$2 image=$3 $0

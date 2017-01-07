@@ -1,0 +1,6 @@
+# name : Toggles SELinux booleans.
+# key : seboolean
+# condition: ansible
+# --
+- name: ${1:Toggles SELinux booleans.}
+  seboolean: name=$2 state=$3 $0

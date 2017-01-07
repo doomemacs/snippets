@@ -1,0 +1,6 @@
+# name : Send Amazon Simple Notification Service (SNS) messages
+# key : sns
+# condition: ansible
+# --
+- name: ${1:Send Amazon Simple Notification Service (SNS) messages}
+  sns: msg=$2 topic=$3 $0

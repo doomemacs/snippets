@@ -1,0 +1,6 @@
+# name : Copies files to remote locations.
+# key : copy
+# condition: ansible
+# --
+- name: ${1:Copies files to remote locations.}
+  copy: dest=$2 $0

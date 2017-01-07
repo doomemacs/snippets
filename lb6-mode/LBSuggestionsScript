@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: LBSuggestionsScript
+# --
+<key>LBSuggestionsScript</key>
+<dict>
+    <key>LBScriptName</key>
+    <string>${1:suggestions}.js</string>
+
+    <key>LBBackgroundKillEnabled</key>
+    <true />
+</dict>

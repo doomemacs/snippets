@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: $filterProvider
+# condition: (memq major-mode '(js-mode js2-mode))
+# --
+$filterProvider

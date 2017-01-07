@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: $rootScopeProvider
+# condition: (memq major-mode '(js-mode js2-mode))
+# --
+$rootScopeProvider

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: $rootElement
+# condition: (memq major-mode '(js-mode js2-mode))
+# --
+$rootElement

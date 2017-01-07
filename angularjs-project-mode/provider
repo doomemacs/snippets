@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: provider
+# condition: (memq major-mode '(js-mode js2-mode))
+# --
+provider

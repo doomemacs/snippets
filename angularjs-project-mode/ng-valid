@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ng-valid
+# condition: (memq major-mode '(web-mode html-mode jade-mode jaded-mode))
+# --
+ng-valid

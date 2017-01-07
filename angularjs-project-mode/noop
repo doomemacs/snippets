@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: noop
+# condition: (memq major-mode '(js-mode js2-mode))
+# --
+noop

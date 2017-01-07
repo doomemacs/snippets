@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: fromJson
+# condition: (memq major-mode '(js-mode js2-mode))
+# --
+fromJson

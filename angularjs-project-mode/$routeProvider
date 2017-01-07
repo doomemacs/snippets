@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: $routeProvider
+# condition: (memq major-mode '(js-mode js2-mode))
+# --
+$routeProvider

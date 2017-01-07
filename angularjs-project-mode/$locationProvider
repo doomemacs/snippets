@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: $locationProvider
+# condition: (memq major-mode '(js-mode js2-mode))
+# --
+$locationProvider

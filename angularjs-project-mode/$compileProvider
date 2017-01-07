@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: $compileProvider
+# condition: (memq major-mode '(js-mode js2-mode))
+# --
+$compileProvider

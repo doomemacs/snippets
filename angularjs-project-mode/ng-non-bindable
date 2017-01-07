@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ng-non-bindable
+# condition: (memq major-mode '(web-mode html-mode jade-mode jaded-mode))
+# --
+ng-non-bindable

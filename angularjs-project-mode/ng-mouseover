@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ng-mouseover
+# condition: (memq major-mode '(web-mode html-mode jade-mode jaded-mode))
+# --
+ng-mouseover

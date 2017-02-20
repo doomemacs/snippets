@@ -1,3 +1,5 @@
+;; -*- no-byte-compile: t; -*-
+
 (setq yas-wrap-around-region nil)
 
 ;; Simpler `yas-selected-text' alias for templates

@@ -1,3 +1,4 @@
-#name: autoload tag
+# -*- mode: snippet -*-
+# name: autoload tag
 # --
 ;;;###autoload$0

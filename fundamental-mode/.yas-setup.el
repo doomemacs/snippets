@@ -42,3 +42,7 @@ line."
   "Used in snippets. Insert newline here if at `eolp'."
   (unless (eolp)
     "\n"))
+
+(defun %alias (name &optional mode)
+  "Expand a snippet with the trigger NAME, in MODE."
+  (yas-expand-snippet (yas-lookup-snippet name mode)))

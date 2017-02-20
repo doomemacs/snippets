@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: interactive
+# uuid: int
+# --
+(interactive)$0

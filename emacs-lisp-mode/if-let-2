@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: if-let
+# uuid: if-let-2
+# key: if-let
+# condition: (> (%lines %) 1)
+# --
+(if-let (${1:var-list}) $0 `(!%)`)`(%$)`

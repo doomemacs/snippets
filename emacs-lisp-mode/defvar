@@ -1,4 +1,5 @@
+# -*- mode: snippet -*-
 # name: defvar
-# key: defvar
 # --
-(defvar $1 ${2:value} "${3:docstring}")
+(defvar ${1:var} ${2:`(or % "value")`}
+  $>"${3:TODO}")

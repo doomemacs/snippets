@@ -1,5 +1,5 @@
-#contributor: Xah Lee (XahLee.org)
-#name: while
-#key: while
+# -*- mode: snippet -*-
+# name: while
+# key: while
 # --
-(while $0)
+(while ${1:condition} ${0:`(!%)`})`(%$)`

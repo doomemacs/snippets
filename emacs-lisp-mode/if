@@ -1,3 +1,4 @@
-#name: if
+# -*- mode: snippet -*-
+# name: if
 # --
 (if ${1:t} `(!%)`$0)`(%$)`

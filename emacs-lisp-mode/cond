@@ -1,8 +1,4 @@
-#contributor: Xah Lee (XahLee.org)
-#name: cond
-#key: cond
+# -*- mode: snippet -*-
+# name: cond
 # --
-(cond
-(CONDITION$0 BODY)
-(CONDITION BODY)
-)
+(cond (${1:condition} ${2:`(!%)`})$0)`(%$)`

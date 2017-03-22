@@ -1,3 +1,4 @@
-#name: append
+# -*- mode: snippet -*-
+# name: append
 # --
 (append `%`$0)

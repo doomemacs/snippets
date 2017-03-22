@@ -1,3 +1,4 @@
-#name: cons
+# -*- mode: snippet -*-
+# name: cons
 # --
-(cons $0 $1)
+(cons ${1:`%`} $0)

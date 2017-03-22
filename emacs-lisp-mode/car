@@ -1,5 +1,4 @@
-#contributor: Xah Lee (XahLee.org)
-#name: car
-#key: car
+# -*- mode: snippet -*-
+# name: car
 # --
-(car $0)
+(car ${0:`%`})

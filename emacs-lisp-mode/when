@@ -1,3 +1,4 @@
-#name: when
+# -*- mode: snippet -*-
+# name: when
 # --
 (when ${1:t} `(!%)`$0)`(%$)`

@@ -1,6 +1,5 @@
-#contributor: Xah Lee (XahLee.org)
-#name: define-key
-#key: define-key
-#key: dk
+# -*- mode: snippet -*-
+# name: define-key
+# key: dk
 # --
-(define-key KEYMAPNAME$0 (kbd "M-b") 'FUNCNAME)
+(define-key ${1:keymap} ${2:key} ${0:fn})

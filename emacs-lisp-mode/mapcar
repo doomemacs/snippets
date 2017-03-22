@@ -1,5 +1,4 @@
-#contributor: Xah Lee (XahLee.org)
-#name: mapcar
-#key: mapcar
+# -*- mode: snippet -*-
+# name: mapcar
 # --
-(mapcar $0 )
+(mapcar ${1:fn} ${0:list})

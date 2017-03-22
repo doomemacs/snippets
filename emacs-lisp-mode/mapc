@@ -1,3 +1,4 @@
-#name: mapc
+# -*- mode: snippet -*-
+# name: mapc
 # --
-(mapc $0 ${1:sequence})
+(mapc ${1:fn} ${0:list})

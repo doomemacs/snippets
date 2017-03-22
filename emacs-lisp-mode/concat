@@ -1,3 +1,4 @@
-#name: concat
+# -*- mode: snippet -*-
+# name: concat
 # --
 (concat `%`$0)

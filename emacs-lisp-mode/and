@@ -1,3 +1,4 @@
-#name: and
+# -*- mode: snippet -*-
+# name: and
 # --
 (and `%`$0)

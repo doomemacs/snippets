@@ -1,3 +1,4 @@
-#name: assq
+# -*- mode: snippet -*-
+# name: assq
 # --
 (assq ${0:sym} ${1:list})

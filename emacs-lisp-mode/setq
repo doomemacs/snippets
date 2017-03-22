@@ -1,3 +1,4 @@
-#name: setq
+# -*- mode: snippet -*-
+# name: setq
 # --
 (setq ${1:var} ${0:`%`})

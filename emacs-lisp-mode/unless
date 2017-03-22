@@ -1,5 +1,4 @@
-#contributor: Xah Lee (XahLee.org)
-#name: unless
-#key: unless
+# -*- mode: snippet -*-
+# name: unless
 # --
-(unless $0)
+(unless ${1:condition} ${0:`(!%)`})`(%$)`

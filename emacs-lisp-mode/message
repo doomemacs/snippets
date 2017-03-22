@@ -1,4 +1,5 @@
+# -*- mode: snippet -*-
 # name: message
 # key: m
 # --
-(message "$0" ${1:`%`})
+(message "${1:`%`}" $0)

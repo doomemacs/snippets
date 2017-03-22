@@ -1,5 +1,4 @@
-#contributor: Xah Lee (XahLee.org)
-#name: aref
-#key: aref
+# -*- mode: snippet -*-
+# name: aref
 # --
-(aref ARRAY$0 INDEX)
+(aref ${1:array} ${0:index})

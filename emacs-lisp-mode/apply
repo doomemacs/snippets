@@ -1,5 +1,5 @@
-#contributor: Xah Lee (XahLee.org)
-#name: apply
-#key: apply
+# -*- mode: snippet -*-
+# name: apply
+# key: apply
 # --
-(apply $0 )
+(apply $0)

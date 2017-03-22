@@ -60,4 +60,5 @@ line."
 
 (defun %alias (name &optional mode)
   "Expand a snippet with the trigger NAME, in MODE."
-  (yas-expand-snippet (yas-lookup-snippet name mode)))
+  (when-let (snippet (yas-lookup-snippet name mode))
+    (yas-expand-snippet snippet)))

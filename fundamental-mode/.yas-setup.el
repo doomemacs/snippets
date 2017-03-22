@@ -22,26 +22,33 @@
   "Used in snippets. Shorthand defun to surround text with newlines if more than one
 line."
   (when %
-    (if (> (length (s-lines %)) 1)
+    (if (> (%lines %) 1)
         (concat "\n" % "\n")
-      (s-trim %))))
+      (string-trim %))))
 
 (defun !% ()
   "Used in snippets. Shorthand defun for snippets: prepends a newline to
   `yas-selected-text' IF it contains more than one line."
   (when %
-    (if (> (length (s-lines %)) 1)
+    (if (> (%lines %) 1)
         (concat "\n" %)
-      (s-trim %))))
+      (string-trim %))))
 
 (defun %1 ()
   "Used in snippets. Trim selection; do no further processing."
-  (s-trim %))
+  (string-trim %))
 
 (defun %$ ()
   "Used in snippets. Insert newline here if at `eolp'."
   (unless (eolp)
     "\n"))
+
+(defun %lines (str)
+  "Return how many lines are in STR"
+  (if (and (stringp str)
+           (not (string-empty-p str)))
+      (length (split-string str "\\(\r\n\\|[\n\r]\\)"))
+    0))
 
 (defun %alias (name &optional mode)
   "Expand a snippet with the trigger NAME, in MODE."

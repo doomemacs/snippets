@@ -3,8 +3,8 @@
 
 My personal [yasnippet](https://github.com/capitaomorte/yasnippet) snippets for Emacs.
 
-> Warning: heavily customized and implementation specific. May not work outside of my
-> own [emacs.d].
+You'll find custom functions used within, like `!%!` and `%alias`. You'll find
+these in `fundamental-mode/.yas-setup.el`.
 
 
 [emacs.d]: https://github.com/hlissner/.emacs.d

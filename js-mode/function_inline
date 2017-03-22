@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: anonymous function
+# key: function
+# uuid: function_inline
+# condition: (or (not (%bolp)) (region-active-p))
+# --
+function ($1) { `(!%!)`$0 }`(if (eolp) ";")`

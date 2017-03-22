@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: anonymous/named function
+# key: fu
+# type: command
+# --
+(%alias (if (%bolp) "named function" "anonymous function"))

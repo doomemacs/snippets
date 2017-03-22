@@ -50,6 +50,14 @@ line."
       (length (split-string str "\\(\r\n\\|[\n\r]\\)"))
     0))
 
+(defun %bolp ()
+  "Return t if at beginning of indentation (i.e. only preceded by whitespace)."
+  (save-excursion
+    (when (region-active-p)
+      (goto-char (region-beginning)))
+    (skip-chars-backward " \t")
+    (bolp)))
+
 (defun %alias (name &optional mode)
   "Expand a snippet with the trigger NAME, in MODE."
   (yas-expand-snippet (yas-lookup-snippet name mode)))

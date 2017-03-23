@@ -2,6 +2,6 @@
 # name: arr.forEach(function(item) {...})
 # key: forefu
 # --
-`(unless (eq (char-before) ?.) ".")`forEach(function(${2:item}) {
+`(unless (eq (char-before) ?.) ".")`forEach(function(${1:item}) {
     `(!%!)`$0
 })`(if (eolp) ";")`

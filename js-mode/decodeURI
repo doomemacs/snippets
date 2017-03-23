@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: decodeURI
+# key: du
+# --
+decodeURI(${1:`%`})`(if (eolp) ";")`

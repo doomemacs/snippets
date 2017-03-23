@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: encodeURI
+# key: eu
+# --
+encodeURI(${1:`%`})`(if (eolp) ";")`

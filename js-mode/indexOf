@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: arr.indexOf(elt, fromIndex)
+# key: iof
+# --
+`(unless (eq (char-before) ?.) ".")`indexOf(${1:`(or (%1) "elt")`}${2: ${3:fromIndex}})`(if (eolp) ";")`

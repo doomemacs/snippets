@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: getElementById
+# key: id
+# --
+`(unless (eq (char-before) ?.) ".")`getElementById(${1:id})`(if (eolp) ";")`

@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: module.exports = {}
+# name: module.exports = ...
 # key: exp
 # --
 module.exports = `%`$0`(if (eolp) ";")`

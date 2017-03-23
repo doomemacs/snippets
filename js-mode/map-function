@@ -2,4 +2,6 @@
 # name: arr.map(function((item, i, arr)) {...})
 # key: mapfu
 # --
-`(unless (eq (char-before) ?.) ".")`map(function(${2:item}, ${3:i}, ${4:arr}) { `(if (> (%lines %) 1) (concat "{ " (!%!) " }") %)`$0 })`(if (eolp) ";")`
+`(unless (eq (char-before) ?.) ".")`map(function(${2:item}, ${3:i}, ${4:arr}) {
+    `(!%!)`$0
+})`(if (eolp) ";")`

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ReactDOM.render(component, node)
+# key: rren
+# --
+ReactDOM.render(<${1:ComponentName} />, document.${2:body});

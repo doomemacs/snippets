@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: arr.filter(...)
+# key: fil
+# --
+$1.filter($0)`(if (eolp) ";")`

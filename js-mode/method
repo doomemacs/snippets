@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: obj.method(...)
+# key: m
+# --
+$1.${2:func}($3)`(if (eolp) ";")`

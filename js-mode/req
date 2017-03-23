@@ -1,4 +1,6 @@
 # -*- mode: snippet -*-
 # name: require("...")
+# uuid: req
+# type: command
 # --
-require("`%`$1")
+(%alias "require")

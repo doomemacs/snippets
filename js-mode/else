@@ -1,6 +1,4 @@
 # -*- mode: snippet -*-
-#name : else
+# name: else
 # --
-else {
-  `%`$0
-}
+else { `(!%!)`$0 }

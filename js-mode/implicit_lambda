@@ -1,5 +1,0 @@
-# -*- mode: snippet; require-final-newline: nil -*-
-# name: (...) => ...
-# key: ->
-# --
-${1:($2)} => `(!%)`$0

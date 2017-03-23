@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-#name: Try-catch block
+# name: try-catch block
 # --
 try {
 	`%`$0

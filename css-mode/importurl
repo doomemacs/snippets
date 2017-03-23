@@ -1,3 +1,5 @@
+# -*- mode: snippet -*-
 # name: @import url(...)
+# key: impurl
 # --
 @import url("`(%1)`$0");

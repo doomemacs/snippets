@@ -1,4 +1,6 @@
+# -*- mode: snippet -*-
 # name: @media
+# key: med
 # --
 @media ${1:screen} {
     `%`$0

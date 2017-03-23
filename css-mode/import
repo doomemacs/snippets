@@ -1,3 +1,5 @@
+# -*- mode: snippet -*-
 # name: @import
+# key: imp
 # --
 @import "`(%1)`$0";

@@ -1,3 +1,5 @@
-# name: @import url("http://fonts.googleapis.com/css?family=...")
+# -*- mode: snippet -*-
+# name: @import url("//fonts.googleapis...")
+# key: impfont
 # --
 @import url("http://fonts.googleapis.com/css?family=${1:Open+Sans}");

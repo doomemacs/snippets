@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: arr.map(...)
+# key: map
+# --
+`(unless (eq (char-before) ?.) ".")`map($0)`(if (eolp) ";")`

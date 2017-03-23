@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: arr.forEach(...)
+# key: fore
+# --
+`(unless (eq (char-before) ?.) ".")`forEach(`%`$0)`(if (eolp) ";")`

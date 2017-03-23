@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: arr.forEach(function(item) {...})
+# key: forefu
+# --
+`(unless (eq (char-before) ?.) ".")`forEach(function(${2:item}) { `(if (> (%lines %) 1) (concat "{ " (!%!) " }") %)`$0 })`(if (eolp) ";")`

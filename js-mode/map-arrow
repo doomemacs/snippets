@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: arr.map((item, i, arr) => {...})
+# key: map=>
+# --
+`(unless (eq (char-before) ?.) ".")`map((${1:item}, ${2:i}, ${3:arr}) => `(if (> (%lines %) 1) (concat "{ " (!%!) " }") %)`$0)`(if (eolp) ";")`

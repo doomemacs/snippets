@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: arr.filter(item => {...})
+# key: fil=>
+# --
+`(unless (eq (char-before) ?.) ".")`filter(${1:item} => `(if (> (%lines %) 1) (concat "{ " (!%!) " }") %)`$0)`(if (eolp) ";")`

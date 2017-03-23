@@ -2,4 +2,4 @@
 # name: arr.filter(...)
 # key: fil
 # --
-$1.filter($0)`(if (eolp) ";")`
+`(unless (eq (char-before) ?.) ".")`filter($0)`(if (eolp) ";")`

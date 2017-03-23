@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: arr.filter(function(item) {...})
+# key: filfu
+# --
+`(unless (eq (char-before) ?.) ".")`filter(function(${1:item}) {
+    `(!%!)`$0
+})`(if (eolp) ";")`

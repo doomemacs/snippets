@@ -3,4 +3,4 @@
 # key: fu
 # type: command
 # --
-(%alias (if (%bolp) "named function" "anonymous function"))
+(%alias (if (%bolp) "function_block" "function_inline"))

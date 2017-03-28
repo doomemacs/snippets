@@ -4,6 +4,6 @@
 # --
 var ${1:ComponentName} = React.createClass({
     render: function() {
-        `%`$0   
+        $>`%`$0
     }
 });

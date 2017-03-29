@@ -36,7 +36,7 @@ line."
 
 (defun %1 ()
   "Used in snippets. Trim selection; do no further processing."
-  (string-trim %))
+  (if % (string-trim %)))
 
 (defun %$ ()
   "Used in snippets. Insert newline here if at `eolp'."

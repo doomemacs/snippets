@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: ul > li
+# key: ul
+# --
+<ul>
+    <li>`(!%!)`$0</li>
+</ul>

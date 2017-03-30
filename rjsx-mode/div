@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: <div></div>
+# key: div
+# --
+<div>${0:`%`}</div>

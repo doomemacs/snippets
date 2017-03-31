@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: addEventListener
+# key: ael
+# --
+`(unless (eq (char-before) ?.) ".")`addEventListener('${1:DOMContentLoaded}', () => {
+  `%`$0
+})`(if (eolp) ";")`

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: constructor() { ... }
+# --
+constructor($1) {
+    `%`$0
+}

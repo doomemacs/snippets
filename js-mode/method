@@ -1,5 +1,7 @@
 # -*- mode: snippet -*-
-# name: obj.method(...)
+# name: method() { ... }
 # key: m
 # --
-$1.${2:func}($3)`(if (eolp) ";")`
+${1:method}($2) {
+    `%`$0
+}

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: class
+# uuid: cl
+# type: command
 # --
-class ${1:Name} {
-    $0
-}
+(%alias "class")

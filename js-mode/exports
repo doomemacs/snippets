@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: module.exports = ...
+# uuid: exports
 # key: exp
 # --
 module.exports = `%`$0`(if (eolp) ";")`

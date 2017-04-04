@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: import ... from ...;
+# uuid: imp
+# type: command
+# --
+(%alias "import")

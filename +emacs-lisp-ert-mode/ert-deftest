@@ -1,4 +1,5 @@
 # -*- mode: snippet -*-
 # name: ert-deftest
+# key: deftest
 # --
-(ert-deftest `(let ((name (f-base buffer-file-name))) (substring name 0 (- (length name) (length "test"))))`$1-test () `(!%!)`$0)
+(ert-deftest $1 ()`(!%)`$0)

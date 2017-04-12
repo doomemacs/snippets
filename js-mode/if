@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: if
 # --
-if (${1:condition}) {
+if (${1:true}) {
     `%`$0
 }

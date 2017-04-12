@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
 # name: cond
 # --
-(cond (${1:condition} ${2:`(!%)`})$0)`(%$)`
+(cond (${1:t} ${2:`(!%)`})$0)

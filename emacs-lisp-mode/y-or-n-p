@@ -1,6 +1,5 @@
-#contributor: Xah Lee (XahLee.org)
-#name: y-or-n-p
-#key: y-or-n-p
-#key: yonp
+# -*- mode: snippet -*-
+# name: y-or-n-p
+# key: yn
 # --
-(yes-or-no-p "PROMPT$0 ")
+(`(symbol-function 'yes-or-no-p)` "$1")

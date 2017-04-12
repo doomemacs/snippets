@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
 # name: if
 # --
-(if ${1:t} `(!%)`$0)`(%$)`
+(if ${1:t}`(if % (concat " " (!%)))`$0)

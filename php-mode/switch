@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: switch (...) {...}
+# --
+switch (${on}) {
+    $0
+}

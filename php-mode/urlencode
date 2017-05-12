@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: urlencode(...)
+# key: urle
+# --
+urlencode(${1:`%`})$0

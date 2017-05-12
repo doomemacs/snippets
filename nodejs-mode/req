@@ -1,4 +1,0 @@
-# -*- mode: snippet -*-
-#name: require
-# --
-var ${1:package} = require("$1");

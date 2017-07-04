@@ -1,3 +1,4 @@
-#name: autoload
+# -*- mode: snippet -*-
+# name: autoload
 # --
-(autoload '${1:FUNCNAME} "${2:FILENAME}"${3: &optional "`%`${4:DOCSTRING}" ${5:INTERACTIVE} ${6:TYPE}})
+(autoload '${1:fn} "${2:file}"${3:"`%`${4:doc}" ${5:t} ${6:type}})

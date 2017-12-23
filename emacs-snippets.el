@@ -16,14 +16,13 @@
 ;;; Code:
 
 (defvar emacs-snippets-dir
-  (expand-file-name
-   "snippets"
-   (file-name-directory
-    (cond (load-in-progress load-file-name)
-          ((and (boundp 'byte-compile-current-file)
-                byte-compile-current-file)
-           byte-compile-current-file)
-          (t (buffer-file-name)))))
+  (eval-when-compile
+    (file-name-directory
+     (cond (load-in-progress load-file-name)
+           ((and (boundp 'byte-compile-current-file)
+                 byte-compile-current-file)
+            byte-compile-current-file)
+           (t (buffer-file-name)))))
   "TODO")
 
 ;;;###autoload

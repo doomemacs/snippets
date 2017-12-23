@@ -1,5 +1,11 @@
 ;; -*- no-byte-compile: t; -*-
 
+(eval-and-compile
+  (when (version< emacs-version "26")
+    (with-no-warnings
+      (defalias 'if-let* #'if-let)
+      (defalias 'when-let* #'when-let))))
+
 (setq yas-wrap-around-region nil)
 
 ;; Simpler `yas-selected-text' alias for templates
@@ -60,10 +66,10 @@ line."
 
 (defun %alias (name &optional mode)
   "Expand a snippet with the trigger NAME, in MODE."
-  (if-let (snippet (let ((yas-choose-tables-first nil)   ; avoid prompts
+  (if-let* ((snippet (let ((yas-choose-tables-first nil)   ; avoid prompts
                            (yas-choose-keys-first nil))
                        (cl-find name (yas--all-templates
                                       (yas--get-snippet-tables mode))
-                                :key #'yas--template-uuid :test #'string=)))
+                                :key #'yas--template-uuid :test #'string=))))
       (yas-expand-snippet (yas--template-content snippet))
     (error "Couldn't find snippet" &optional ARGS)))

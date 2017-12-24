@@ -22,11 +22,11 @@
 
 (defun %% (&optional default)
   "Used in snippets. Either display the selected text or DEFAULT."
-  (or % default))
+  (or % default ""))
 
 (defun !%! ()
-  "Used in snippets. Shorthand defun to surround text with newlines if more than one
-line."
+  "Used in snippets. Shorthand defun to surround text with newlines if more than
+one line."
   (when %
     (if (> (%lines %) 1)
         (concat "\n" % "\n")
@@ -34,7 +34,7 @@ line."
 
 (defun !% ()
   "Used in snippets. Shorthand defun for snippets: prepends a newline to
-  `yas-selected-text' IF it contains more than one line."
+`yas-selected-text' IF it contains more than one line."
   (when %
     (if (> (%lines %) 1)
         (concat "\n" %)
@@ -50,7 +50,7 @@ line."
     "\n"))
 
 (defun %lines (str)
-  "Return how many lines are in STR"
+  "Return how many lines are in STR."
   (if (and (stringp str)
            (not (string-empty-p str)))
       (length (split-string str "\\(\r\n\\|[\n\r]\\)"))
@@ -65,7 +65,7 @@ line."
     (bolp)))
 
 (defun %alias (name &optional mode)
-  "Expand a snippet with the trigger NAME, in MODE."
+  "Expand a snippet with the trigger NAME, from MODE."
   (if-let* ((snippet (let ((yas-choose-tables-first nil)   ; avoid prompts
                            (yas-choose-keys-first nil))
                        (cl-find name (yas--all-templates

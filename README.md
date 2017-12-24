@@ -1,22 +1,51 @@
-# Emacs Yasnippet Library
 [![MIT](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
 
-My personal [yasnippet](https://github.com/capitaomorte/yasnippet) snippets for
-my [Emacs configuration](https://github.com/hlissner/.emacs.d).
+# Emacs Yasnippet Library
 
-I make use of a lot of custom functionality, like `!%!` and `%alias`, which
-you'll find in `fundamental-mode/.yas-setup.el`.
+My personal [yasnippet](https://github.com/capitaomorte/yasnippet) snippets for
+my [emacs.d].
+
+## Notes to snippet authors
+
++ `%` is aliased to `yas-selected-text` for convenience.
++ My [emacs config][emacs.d] has project-specific minor modes. A `+` prefix
+  denotes these minor modes, e.g. `+php-laravel-mode`.
++ This library uses a lot of custom helper functions, like `(!%!)` and `(%1)`.
+  These are defined in `fundamental-mode/.yas-setup.el`. See their docstrings
+  to see what they do.
++ The `(%alias TRIGGER &optional MODE)` function is available for setting up
+  multiple triggers for one snippet. e.g.
+
+  ```emacs-lisp
+  ;; js-mode/class
+  # name: class
+  # --
+  class ${1:Name} {
+      $0
+  }
+
+  ;; js-mode/cl
+  # name: class
+  # uuid: cl
+  # type: command
+  # --
+  (%alias "class")
+  ```
+  
+  Note: if your alias snippets share the same `name`, they *must* have a unique
+  `uuid`.
 
 ## Install
 
-Clone this repo somewhere, then add that directory to `yas-snippet-dirs`.
+Clone this repo somewhere, then add its directory to `load-path`, and...
 
-```emacs-lisp
-(setq yas-snippet-dirs
-      (append (list 'emacs-snippets-dir)
-              ;; These are meant to replace the built-in snippets.
-              (delq 'yas-installed-snippets-dir yas-snippet-dirs)))
+``` emacs-lisp
+(require 'emacs-snippets)
+;; OR
+(use-package emacs-snippets :after yasnippet)
 ```
+
+`emacs-snippets` sets itself up when `yasnippet` first loads.
 
 If you're using [Doom Emacs][emacs.d], place this in any module's packages.el:
 

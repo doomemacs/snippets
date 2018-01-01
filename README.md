@@ -31,7 +31,7 @@ my [emacs.d].
   # --
   (%alias "class")
   ```
-  
+
   Note: if your alias snippets share the same `name`, they *must* have a unique
   `uuid`.
 
@@ -54,6 +54,15 @@ If you're using [Doom Emacs][emacs.d], place this in any module's packages.el:
   :recipe (:fetcher github
            :repo "hlissner/emacs-snippets"
            :files ("*")))
+```
+
+Note: if you use yas-minor-mode (instead of yas-global-mode), you must manually
+call `yas-reload-all`. Doom does this in `feature/snippets` for you:
+
+```emacs-lisp
+;; Ensure `yas-reload-all' is called as late as possible. Other modules could
+;; have additional configuration for yasnippet. For example, file-templates.
+(add-transient-hook! 'yas-minor-mode-hook (yas-reload-all))
 ```
 
 [emacs.d]: https://github.com/hlissner/doom-emacs

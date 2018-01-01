@@ -31,8 +31,7 @@
   (setq yas-snippet-dirs
         (append (list 'emacs-snippets-dir)
                 ;; These are meant to replace the built-in snippets.
-                (delq 'yas-installed-snippets-dir yas-snippet-dirs)))
-  (yas-load-directory emacs-snippets-dir))
+                (delq 'yas-installed-snippets-dir yas-snippet-dirs))))
 
 ;;;###autoload
 (eval-after-load 'yasnippet

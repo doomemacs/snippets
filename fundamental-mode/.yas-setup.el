@@ -11,15 +11,6 @@
 ;; Simpler `yas-selected-text' alias for templates
 (defvaralias '% 'yas-selected-text)
 
-(defun ca-all-asscs (asslist query)
-  "returns a list of all corresponding values (like rassoc)"
-  (cond
-   ((null asslist) nil)
-   (t
-    (if (equal (cdr (car asslist)) query)
-        (cons (car (car asslist)) (ca-all-asscs (cdr asslist) query))
-      (ca-all-asscs (cdr asslist) query)))))
-
 (defun %% (&optional default)
   "Used in snippets. Either display the selected text or DEFAULT."
   (or % default ""))

@@ -1,4 +1,5 @@
 # -*- mode: snippet -*-
 # name: ... = ...
+# key: =
 # --
 ${1:varName} = ${0:value}

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: ? = function(...) ... end
+# key: f=
 # --
 ${1:name} = function($2)
     ${3:-- code}

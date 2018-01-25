@@ -1,4 +1,5 @@
 # -*- mode: snippet -*-
 # name: inline if ... then ... end
+# key: ?
 # --
 if ${1:true} then `%`$0 end

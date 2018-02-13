@@ -55,13 +55,13 @@ one line."
     (skip-chars-backward " \t")
     (bolp)))
 
-(defun %alias (name &optional mode)
-  "Expand a snippet with the trigger NAME, from MODE."
+(defun %alias (uuid &optional mode)
+  "Expand a snippet with UUID in MODE."
   (if-let* ((snippet (let ((yas-choose-tables-first nil) ; avoid prompts
                            (yas-choose-keys-first nil))
                        (cl-loop for tpl in (yas--all-templates
                                             (yas--get-snippet-tables mode))
-                                if (string= name (yas--template-uuid tpl))
+                                if (string= uuid (yas--template-uuid tpl))
                                 return tpl))))
       (yas-expand-snippet snippet)
     (error "Couldn't find snippet" &optional ARGS)))

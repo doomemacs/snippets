@@ -59,10 +59,9 @@ one line."
   "Expand a snippet with the trigger NAME, from MODE."
   (if-let* ((snippet (let ((yas-choose-tables-first nil) ; avoid prompts
                            (yas-choose-keys-first nil))
-                       (cl-loop with template = (yas--all-templates
-                                                 (yas--get-snippet-tables mode))
-                                for tpl in templates
-                                if (string= name (yas--template-uid tpl))
+                       (cl-loop for tpl in (yas--all-templates
+                                            (yas--get-snippet-tables mode))
+                                if (string= name (yas--template-uuid tpl))
                                 return tpl))))
       (yas-expand-snippet snippet)
     (error "Couldn't find snippet" &optional ARGS)))

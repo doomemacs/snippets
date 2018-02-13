@@ -57,10 +57,12 @@ one line."
 
 (defun %alias (name &optional mode)
   "Expand a snippet with the trigger NAME, from MODE."
-  (if-let* ((snippet (let ((yas-choose-tables-first nil)   ; avoid prompts
+  (if-let* ((snippet (let ((yas-choose-tables-first nil) ; avoid prompts
                            (yas-choose-keys-first nil))
-                       (cl-find name (yas--all-templates
-                                      (yas--get-snippet-tables mode))
-                                :key #'yas--template-uuid :test #'string=))))
-      (yas-expand-snippet (yas--template-content snippet))
+                       (cl-loop with template = (yas--all-templates
+                                                 (yas--get-snippet-tables mode))
+                                for tpl in templates
+                                if (string= name (yas--template-uid tpl))
+                                return tpl))))
+      (yas-expand-snippet snippet)
     (error "Couldn't find snippet" &optional ARGS)))

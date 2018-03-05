@@ -4,7 +4,7 @@
 ;;
 ;; Author: Henrik Lissner <henrik@lissner.net>
 ;; Keywords: snippets
-;; Version: 1.0.1
+;; Version: 1.0.2
 ;; Package-Requires: ((yasnippet "0.12.0"))
 ;; Keywords: convenience, snippets
 ;;

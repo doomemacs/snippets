@@ -2,4 +2,4 @@
 # name: assignment
 # key: =
 # --
-${1:x} = ${2:value};$0
+${1:x} = ${2:value}`(if (eolp) ";" "")`$0

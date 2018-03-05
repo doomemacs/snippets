@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: public function
+# key: pfn
+# --
+pub fn ${1:function_name}($2) ${3:-> ${4:int} }{
+   `%`$0
+}

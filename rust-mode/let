@@ -2,4 +2,4 @@
 # name: let
 # key: let
 # --
-let ${1:var} = $0;
+let ${1:var} = $0`(if (eolp) ";" "")`

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: anonymous function
+# key: fn
+# condition: (not (%bolp))
+# --
+|${1:x}|${2: -> i32} `(if (> (%lines %) 1) "{ " "")``(!%!)`$0`(if (> (%lines %) 1) " }" "")`

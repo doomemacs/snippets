@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: pub mod
+# key: pmod
+# --
+pub mod ${1:name} {
+    `%`$0
+}

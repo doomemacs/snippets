@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: type Name = ...;
+# key: type
+# --
+type ${1:TypeName} = ${2:i32};

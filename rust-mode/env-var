@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: env::var(...)
+# key: envv
+# --
+env::var("$1")

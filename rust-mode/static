@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: static VAR = ...
+# key: static
+# --
+static ${1:VARNAME}${2: ${3:i32}} = ${4:value};

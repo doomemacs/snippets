@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Some(...)
+# key: so
+# --
+Some(${1:`%`})

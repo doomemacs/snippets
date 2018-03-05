@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: .to_string()
+# key: tostr
+# --
+.to_string()

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: impl
+# --
+impl ${1:name}${2: for ${3:Type}} {
+   `%`$0
+}

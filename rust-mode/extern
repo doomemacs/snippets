@@ -1,5 +1,8 @@
 # -*- mode: snippet -*-
-# name: extern
-# key: extern
+# name: extern "C" { ... }
+# key: extc
+# condition: (%bolp)
 # --
-extern crate ${1:rand};$0
+extern "C" {
+    `%`$0
+}

@@ -2,4 +2,4 @@
 # name: let mut
 # key: letm
 # --
-let mut ${1:var} = $0;
+let mut ${1:var} = $0`(if (eolp) ";" "")`

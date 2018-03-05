@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: unsafe { ... }
+# key: un
+# --
+unsafe { `(!%!)`$0 }

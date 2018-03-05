@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: .push(...)
+# key: .p
+# --
+.push(${1:`%`})

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: debug_assert!(...)
+# key: dass
+# --
+debug_assert!(`%`$0);

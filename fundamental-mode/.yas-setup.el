@@ -47,6 +47,15 @@ one line."
       (length (split-string str "\\(\r\n\\|[\n\r]\\)"))
     0))
 
+(defmacro %without-trigger (&rest body)
+  "Preform BODY after moving over the trigger keyword. Without this, tests like
+(bolp) would meaninglessly fail because the cursor is always in front of the
+word that triggered this snippet."
+  `(progn
+     (unless (eq (char-before) ? )
+       (backward-word))
+     ,@body))
+
 (defun %bolp ()
   "Return t if at beginning of indentation (i.e. only preceded by whitespace)."
   (save-excursion

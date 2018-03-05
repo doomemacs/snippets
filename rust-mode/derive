@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: #[derive(...)]
-# key: derive
+# key: der
 # condition: (%bolp)
 # --
 #[derive($1)]

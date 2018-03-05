@@ -1,9 +1,8 @@
 # -*- mode: snippet -*-
 # name: struct
-# uuid: struct
-# key: struct
+# uuid: struct_alias
+# key: st
+# type: command
 # condition: (%bolp)
 # --
-struct ${1:Name} {
-    `%`$0
-}
+(%alias "struct")

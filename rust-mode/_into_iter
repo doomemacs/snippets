@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: .into_iter()
+# key: ii
+# condition: (%without-trigger (eq (char-before) ?.))
+# --
+into_iter()

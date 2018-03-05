@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: format!(..., ...)
+# key: f
+# --
+format!("$1", ${2:`%`})

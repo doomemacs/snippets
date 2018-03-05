@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
 # name: String::from(...)
-# key: strf
+# key: sf
 # --
-String::from(${1:"$2"})
+String::from("$0")

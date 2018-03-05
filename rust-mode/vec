@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: vec![...]
+# key: v
+# --
+vec![${1:`%`}]

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: trait ... { ... }
+# uuid: trait
 # key: trait
 # --
 trait ${1:Name} {

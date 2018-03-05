@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: .filter_map(...)
+# key: fm
+# condition: (%without-trigger (eq (char-before) ?.))
+# --
+filter_map(${1:`%`})

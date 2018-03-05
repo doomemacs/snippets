@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: match
+# uuid: match_alias
+# key: ma
+# type: command
+# --
+(%alias "match")

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: test function
 # key: test
+# condition: (%bolp)
 # --
 #[test]
 fn ${1:test_${2:name}}() {

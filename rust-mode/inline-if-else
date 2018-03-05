@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: inline if-else
+# key: ife
+# --
+if ${1:x} {${2:`%`}}${3: else {$4}}$0

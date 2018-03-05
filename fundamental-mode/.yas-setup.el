@@ -50,8 +50,10 @@ one line."
 (defun %bolp ()
   "Return t if at beginning of indentation (i.e. only preceded by whitespace)."
   (save-excursion
-    (when (region-active-p)
-      (goto-char (region-beginning)))
+    (if (region-active-p)
+        (goto-char (region-beginning))
+      (unless (eq (char-before) ? )
+        (backward-word)))
     (skip-chars-backward " \t")
     (bolp)))
 

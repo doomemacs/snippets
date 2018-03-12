@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name: ol ...
-# --
-ol
-  `%`$0

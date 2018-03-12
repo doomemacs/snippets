@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
-# name: ul ...
+# name: li ...
+# key: li.
 # --
-ul
+li
   `%`$0

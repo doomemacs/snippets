@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
-# name: ul.class ...
+# name: ol ...
+# key: ol.
 # --
-ul.${1:class}
+ol
   `%`$0

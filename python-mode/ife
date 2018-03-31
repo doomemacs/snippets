@@ -4,6 +4,6 @@
 # group: control structure
 # --
 if $1:
-   `%`$2
+    ${2:`(or % "pass")`}
 else:
-   $0
+    $0

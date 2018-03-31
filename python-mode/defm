@@ -4,4 +4,4 @@
 # group: object oriented
 # --
 def ${1:method_name}(self${2:, $3}):
-    `%`$0
+    ${4:`(or % "pass")`}

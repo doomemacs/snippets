@@ -3,4 +3,4 @@
 # group: control structure
 # --
 for ${1:var} in ${2:collection}:
-    `%`$0
+    ${3:`(or % "pass")`}

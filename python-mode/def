@@ -4,4 +4,4 @@
 # group: definitions
 # --
 def ${1:func_name}($2):
-    `%`${0:pass}
+    ${3:`(or % "pass")`}

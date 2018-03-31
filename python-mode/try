@@ -3,6 +3,6 @@
 # key: try
 # --
 try:
-    `%`$1
+    ${1:`(or % "pass")`}
 except ${2:Exception}:
     $0

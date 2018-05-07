@@ -28,10 +28,11 @@
 ;;;###autoload
 (defun emacs-snippets-initialize ()
   "TODO"
-  (setq yas-snippet-dirs
-        (append (list 'emacs-snippets-dir)
-                ;; These are meant to replace the built-in snippets.
-                (delq 'yas-installed-snippets-dir yas-snippet-dirs))))
+  (unless (memq 'emacs-snippets-dir yas-snippet-dirs)
+    (setq yas-snippet-dirs
+          (append (list 'emacs-snippets-dir)
+                  ;; These are meant to replace the built-in snippets.
+                  (delete yas--default-user-snippets-dir yas-snippet-dirs)))))
 
 ;;;###autoload
 (eval-after-load 'yasnippet

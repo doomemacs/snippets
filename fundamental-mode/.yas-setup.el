@@ -58,13 +58,14 @@ word that triggered this snippet."
 
 (defun %bolp ()
   "Return t if at beginning of indentation (i.e. only preceded by whitespace)."
-  (save-excursion
-    (if (region-active-p)
-        (goto-char (region-beginning))
-      (unless (eq (char-before) ? )
-        (backward-word)))
-    (skip-chars-backward " \t")
-    (bolp)))
+  (or (bolp)
+      (save-excursion
+        (if (region-active-p)
+            (goto-char (region-beginning))
+          (unless (eq (char-before) ? )
+            (backward-word)))
+        (skip-chars-backward " \t")
+        (bolp))))
 
 (defun %alias (uuid &optional mode)
   "Expand a snippet with UUID in MODE."

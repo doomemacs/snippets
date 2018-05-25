@@ -27,7 +27,8 @@
 
 ;;;###autoload
 (defun emacs-snippets-initialize ()
-  "TODO"
+  "Add `emacs-snippets-dir' to `yas-snippet-dirs', replacing the default
+yasnippet directory."
   (unless (memq 'emacs-snippets-dir yas-snippet-dirs)
     (setq yas-snippet-dirs
           (append (list 'emacs-snippets-dir)

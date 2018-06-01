@@ -16,11 +16,7 @@
 ;;; Code:
 
 (defvar emacs-snippets-dir
-  (eval-when-compile
-    (file-name-directory
-     (or load-file-name
-         (bound-and-true-p byte-compile-current-file)
-         buffer-file-name)))
+  (file-name-directory (or load-file-name buffer-file-name))
   "TODO")
 
 ;;;###autoload

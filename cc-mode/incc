@@ -1,3 +1,5 @@
-#name : #include <...>
+# -*- mode: snippet -*-
+# name: #include <...>
+# condition: (%bolp)
 # --
 #include <$0>

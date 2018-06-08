@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: ifdef
 # key: ifdef
+# condition: (%bolp)
 # --
 #ifdef ${1:MACRO}
 

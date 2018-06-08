@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: spy-calls-any ...
+# key: sca
+# --
+(spy-calls-any ${1:'foo})

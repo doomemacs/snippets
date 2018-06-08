@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: spy-calls-count ...
+# key: scc
+# --
+(spy-calls-count ${1:'foo})

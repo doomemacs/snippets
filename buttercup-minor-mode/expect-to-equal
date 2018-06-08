@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: :to-equal
+# key: e
+# condition: (%without-trigger (eq (char-before) ?:))
+# --
+to-equal $1

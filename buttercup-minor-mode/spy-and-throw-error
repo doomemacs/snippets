@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: :and-throw-error ...
+# key: ate
+# condition: (%without-trigger (eq (char-before) ?:))
+# --
+and-throw-error ${1:'error}

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: before-each ...
+# key: bfe
+# --
+(before-each ${1:`(!%)`})

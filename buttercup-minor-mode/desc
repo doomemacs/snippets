@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: describe ... ...
+# uuid: desc
+# type: command
+# --
+(%alias "describe")

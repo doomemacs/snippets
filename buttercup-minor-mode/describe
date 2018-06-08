@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: describe ... ...
+# uuid: describe
+# --
+(describe "${1:group}"${2:`(!%)`}$0)

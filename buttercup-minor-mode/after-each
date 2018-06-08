@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: after-each ...
+# key: afe
+# --
+(after-each ${1:`(!%)`})

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: :to-be ...
+# key: b
+# condition: (%without-trigger (eq (char-before) ?:))
+# --
+to-be ${1:nil}

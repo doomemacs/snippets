@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: :to-contain ...
+# key: c
+# condition: (%without-trigger (eq (char-before) ?:))
+# --
+to-contain $1

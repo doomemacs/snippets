@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: :and-call-fake ...
+# key: acf
+# condition: (%without-trigger (eq (char-before) ?:))
+# --
+and-call-fake ${1:#'fn}

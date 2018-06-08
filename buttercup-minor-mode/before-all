@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: before-all ...
+# key: bfa
+# --
+(before-all ${1:`(!%)`})

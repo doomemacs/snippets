@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: :to-have-same-items-as ...
+# key: s
+# condition: (%without-trigger (eq (char-before) ?:))
+# --
+to-have-same-items-as $1

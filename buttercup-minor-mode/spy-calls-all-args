@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: spy-calls-all-args ...
+# key: scaa
+# --
+(spy-calls-all-args ${1:'foo})

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: expect
+# uuid: expect
+# --
+(expect ${1:`(%% "value")`}$0)

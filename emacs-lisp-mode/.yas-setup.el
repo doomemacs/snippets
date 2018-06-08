@@ -7,7 +7,6 @@
     (evil-define-operator)
     ;; doom macros
     (def-menu!)
-    (def-setting! . "doom--set%s")
     ;; other plugins
     (defhydra . "%s/body"))
   "An alist that maps special forms to function name format strings.")

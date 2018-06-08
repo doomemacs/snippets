@@ -4,4 +4,4 @@
 # key: if-let
 # condition: (> (%lines %) 1)
 # --
-(if-let (${1:var-list}) $0 `(!%)`)`(%$)`
+(if-let (($1)) $0 `(!%)`)`(%$)`

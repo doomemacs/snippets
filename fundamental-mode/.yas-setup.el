@@ -1,6 +1,8 @@
 ;; -*- no-byte-compile: t; -*-
 
 (eval-and-compile
+  (require 'cl-lib)
+  (require 'yasnippet)
   (when (version< emacs-version "26")
     (with-no-warnings
       (defalias 'if-let* #'if-let)

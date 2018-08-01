@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: defclass
+# key: defc
+# --
+(defclass ${1:name} (${2:inherits})
+  (${4:slots})
+  (:documentation "${3:...}"))

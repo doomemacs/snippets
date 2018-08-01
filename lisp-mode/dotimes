@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: dotimes
+# --
+(dotimes (${1:var} ${2:count}) ${3:`(!%)`})

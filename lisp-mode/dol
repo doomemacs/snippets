@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: dolist
+# type: command
+# uuid: dol
+# --
+(%alias "dolist")

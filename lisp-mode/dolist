@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: dolist
+# --
+(dolist (${1:var} ${2:list}) ${3:`(!%)`})

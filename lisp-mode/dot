@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: dotimes
+# type: command
+# uuid: dot
+# --
+(%alias "dotimes")

@@ -4,4 +4,4 @@
 # --
 (condition-case ex
     $>${0:`%`}
-  ('error $0))
+  (error $0))

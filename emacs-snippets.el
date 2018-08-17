@@ -3,12 +3,11 @@
 ;; Copyright (C) 2017-18 Henrik Lissner
 ;;
 ;; Author: Henrik Lissner <henrik@lissner.net>
-;; Keywords: snippets
 ;; Created: December 5, 2014
 ;; Modified: June 7, 2018
 ;; Version: 1.0.3
-;; Package-Requires: ((emacs "25.3") (cl-lib "0.5") (yasnippet "0.12.0"))
 ;; Keywords: convenience, snippets
+;; Package-Requires: ((emacs "24.4") (cl-lib "0.5") (yasnippet "0.12.0"))
 ;;
 ;; This file is not part of GNU Emacs.
 ;;

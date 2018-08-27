@@ -1,7 +1,8 @@
 # -*- mode: snippet -*-
 # name: main
+# condition: (%bolp)
 # --
 int main(${1:int argc, char *argv[]}) {
-    $0
+    `%`$0
     return 0;
 }

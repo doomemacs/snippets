@@ -27,9 +27,11 @@
                   (cadr form)))
               (file-relative-name
                (file-name-sans-extension buffer-file-name)
-               (if (file-in-directory-p buffer-file-name doom-modules-dir)
-                   doom-modules-dir
-                 (doom-project-root)))
+               (cond ((file-in-directory-p buffer-file-name doom-modules-dir)
+                      (file-truename doom-modules-dir))
+                     ((file-in-directory-p buffer-file-name doom-private-dir)
+                      (file-truename doom-private-dir))
+                     ((doom-project-root))))
               (if (cl-some (lambda (x) (eq (if (listp x) (car x) x) 'interactive)) form)
                   "t"
                 "nil")))))

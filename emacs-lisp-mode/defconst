@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: defconst
+# --
+(defconst ${1:var} ${2:`(or % "value")`}
+  $>"${3:TODO}")

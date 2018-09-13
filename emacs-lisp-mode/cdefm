@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: cl-defmacro
+# uuid: cdefm
+# type: command
+# --
+(%alias "cl-defmacro")

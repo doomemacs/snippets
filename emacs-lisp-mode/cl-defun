@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: cl-defun
+# uuid: cl-defun
+# --
+(cl-defun ${1:name} ($2) `(!%)`$0)`(%$)`

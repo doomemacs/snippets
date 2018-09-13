@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: defmacro
+# uuid: defm
+# type: command
+# --
+(%alias "defmacro")

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: cl-defun
+# uuid: cdef
+# type: command
+# --
+(%alias "cl-defun")

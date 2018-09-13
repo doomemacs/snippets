@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: defun
+# uuid: def
+# type: command
+# --
+(%alias "defun")

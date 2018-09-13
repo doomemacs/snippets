@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: cl-defmacro
+# uuid: cl-defmacro
+# --
+(cl-defmacro ${1:name} ($2) `(!%)`$0)`(%$)`

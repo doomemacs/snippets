@@ -4,6 +4,7 @@
 
 (defvar emacs-snippets-autoload-function-alist
   '((evil-define-command)
+    (evil-define-motion)
     (evil-define-operator)
     ;; doom macros
     (def-menu!)

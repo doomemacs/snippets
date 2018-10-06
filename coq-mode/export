@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: Export
+# --
+Export $1.

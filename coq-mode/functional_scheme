@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Functional Scheme
+# key: fs
+# --
+Functional Scheme ${1:name} := Induction for ${2:fun}.

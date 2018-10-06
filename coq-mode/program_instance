@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Program Instance
+# key: pinstance
+# --
+Program Instance [ $1 ] => $2 where 
+$3 := $4;
+$5 := $6.

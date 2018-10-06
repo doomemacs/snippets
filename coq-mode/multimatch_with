@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: multimatch with
+# key: m
+# --
+multimatch $1 with
+| $2 => $3
+end

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: CoFixpoint
+# key: cfix
+# --
+CoFixpoint $1 ($2:$3) : $4 :=
+$5.

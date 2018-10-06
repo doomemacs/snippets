@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: Derive Inversion
+# --
+Derive Inversion ${1:id} with $1 Sort $2.

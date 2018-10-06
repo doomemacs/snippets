@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ring
+# key: ring
+# --
+ring $1

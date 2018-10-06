@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: wlog
+# key: wlog
+# --
+wlog : / $1

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: rewrite
+# key: r
+# --
+rewrite $1

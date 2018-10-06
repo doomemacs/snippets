@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: try
+# --
+try $1

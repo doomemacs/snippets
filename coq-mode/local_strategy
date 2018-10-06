@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: Local Strategy
+# --
+Local Strategy $1 [$2].

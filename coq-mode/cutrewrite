@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: cutrewrite
+# key: cutr
+# --
+cutrewrite -> $1 = $2

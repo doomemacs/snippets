@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Scheme
+# key: sc
+# --
+Scheme ${1:name} := $1.

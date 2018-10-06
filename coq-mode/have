@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: have
+# key: hv
+# --
+have $1 : $2

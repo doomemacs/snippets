@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: pose
+# key: po
+# --
+pose $1 := $2

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: lazy
+# key: lazy
+# --
+lazy beta delta [$1] iota zeta

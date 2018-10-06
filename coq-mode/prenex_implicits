@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Prenex Implicits
+# key: pi
+# --
+Prenex Implicits $1

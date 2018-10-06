@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Section
+# key: sec
+# --
+Section $1.

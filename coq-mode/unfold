@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: unfold
+# key: u
+# --
+unfold $1

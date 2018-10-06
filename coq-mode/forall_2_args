@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: forall (2 args)
+# key: fo2
+# --
+forall ($1:$2) ($3:$4), $5

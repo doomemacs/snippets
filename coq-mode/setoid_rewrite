@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: setoid rewrite
+# key: strew
+# --
+setoid rewrite $1

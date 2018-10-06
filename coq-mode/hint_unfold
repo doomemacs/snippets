@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Hint Unfold
+# key: hu
+# --
+Hint Unfold $1 : $2.

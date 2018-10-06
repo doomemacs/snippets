@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: without loss
+# key: wilog
+# --
+without loss $1

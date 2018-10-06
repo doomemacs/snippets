@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: Add Setoid
+# --
+Add Setoid $1.

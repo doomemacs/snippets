@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Hint Constructors
+# key: hc
+# --
+Hint Constructors $1 : $2.

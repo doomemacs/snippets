@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Fact
+# key: fct
+# --
+Fact $1 : $2.

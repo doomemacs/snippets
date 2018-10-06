@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: Comments
+# --
+Comments $1.

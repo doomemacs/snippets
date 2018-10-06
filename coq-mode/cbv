@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: cbv
+# key: cbv
+# --
+cbv beta delta [$1] iota zeta

@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: Typeclasses Opaque
+# --
+Typeclasses Opaque $1.

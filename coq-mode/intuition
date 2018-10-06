@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: intuition
+# key: intu
+# --
+intuition $1

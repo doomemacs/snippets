@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: Tactic Notation
+# --
+Tactic Notation $1 := $2.

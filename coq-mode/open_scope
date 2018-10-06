@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Open Scope
+# key: opsc
+# --
+Open Scope $1

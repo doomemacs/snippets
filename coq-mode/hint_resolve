@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Hint Resolve
+# key: hr
+# --
+Hint Resolve $1 : ${1:db}.

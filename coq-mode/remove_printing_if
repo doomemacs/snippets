@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: Remove Printing If
+# --
+Remove Printing If $1.

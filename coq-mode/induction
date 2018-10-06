@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: induction
+# key: ind
+# --
+induction $1

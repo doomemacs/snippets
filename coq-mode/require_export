@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: Require Export
+# --
+Require Export $1.

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Fixpoint
+# key: fix
+# --
+Fixpoint $1 ($2:$3) {struct ${1:arg}} : $4 :=
+$5.

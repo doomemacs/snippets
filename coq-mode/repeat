@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: repeat
+# --
+repeat $1

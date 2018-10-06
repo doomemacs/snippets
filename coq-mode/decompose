@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: decompose
+# key: dec
+# --
+decompose [$1] $2

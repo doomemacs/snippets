@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: SearchPattern
+# --
+SearchPattern ($1)

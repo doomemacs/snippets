@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: decompose sum
+# key: decs
+# --
+decompose sum $1

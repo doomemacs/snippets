@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Bind Scope
+# key: bndsc
+# --
+Bind Scope ${1:scope} with ${2:type}

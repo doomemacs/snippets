@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Program Definition
+# key: pdef
+# --
+Program Definition $1:$2 := $3.

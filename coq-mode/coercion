@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Coercion
+# key: coerc
+# --
+Coercion ${1:id} : ${2:typ1} >-> ${3:typ2}.

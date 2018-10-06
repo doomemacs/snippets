@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: info
+# --
+info $1

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Hint Extern
+# key: he
+# --
+Hint Extern ${1:cost} ${2:pat} => ${3:tac} : ${4:db}.

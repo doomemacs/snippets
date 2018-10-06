@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: subst
+# key: su
+# --
+subst $1

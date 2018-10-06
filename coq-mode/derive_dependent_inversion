@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: Derive Dependent Inversion
+# --
+Derive Dependent Inversion ${1:id} with $1 Sort $2.

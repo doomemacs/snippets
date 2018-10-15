@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Function
+# key: func
+# --
+Function $1 ($2:$3) {struct ${1:arg}} : $4 :=
+$5.

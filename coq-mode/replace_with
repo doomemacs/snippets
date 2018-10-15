@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: replace with
+# key: rep
+# --
+replace $1 with $2

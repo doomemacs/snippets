@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: lazymatch with
+# key: m
+# --
+lazymatch $1 with
+| $2 => $3
+end

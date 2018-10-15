@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: unlock
+# key: unlock
+# --
+unlock $1

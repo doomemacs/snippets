@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: suff
+# key: suff
+# --
+suff $1 : $2

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: Proposition
+# key: pr
+# --
+Proposition $1 : $2.
+Proof.
+$3
+Qed.

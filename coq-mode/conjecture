@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Conjecture
+# key: conj
+# --
+Conjecture $1: $2.

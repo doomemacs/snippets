@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: revert dependent
+# key: r
+# --
+revert dependent

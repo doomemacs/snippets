@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Local Notation
+# key: lnots
+# --
+Local Notation $1 := $2.

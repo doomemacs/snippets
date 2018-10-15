@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: eapply
+# key: eap
+# --
+eapply $1

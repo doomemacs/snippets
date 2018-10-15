@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: Open Local Scope
+# --
+Open Local Scope $1

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Add Morphism
+# key: addmor
+# --
+Add Morphism ${1:f} : ${2:id}

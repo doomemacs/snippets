@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: double induction
+# key: dind
+# --
+double induction $1 $2

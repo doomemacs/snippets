@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: generalize dependent
+# key: gd
+# --
+generalize dependent $1

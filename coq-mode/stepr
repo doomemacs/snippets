@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: stepr
+# key: str
+# --
+stepr $1

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: enough
+# key: eng
+# --
+enough ($1: $2).
+{ $3
+}

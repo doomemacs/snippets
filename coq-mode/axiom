@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Axiom
+# key: ax
+# --
+Axiom $1 : $2

@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: Obligation Tactic
+# --
+Obligation Tactic := $1.

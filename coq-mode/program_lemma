@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: Program Lemma
+# key: pl
+# --
+Program Lemma $1 : $2.
+Proof.
+$3
+Qed.

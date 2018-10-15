@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: Local Arguments
+# --
+Local Arguments ${1:id} : ${2:rule}

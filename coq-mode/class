@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Class
+# key: class
+# --
+Class [ $1 ] := 
+$2 : $3;
+$4 : $5.

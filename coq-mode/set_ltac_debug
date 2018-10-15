@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: Set Ltac Debug
+# --
+Set Ltac Debug

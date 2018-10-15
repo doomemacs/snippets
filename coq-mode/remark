@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Remark
+# key: rk
+# --
+Remark $1 : $2.
+$3
+Qed.

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Notation (simple)
+# key: nots
+# --
+Notation $1 := $2.

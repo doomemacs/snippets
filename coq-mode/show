@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: Show
+# --
+Show $1.

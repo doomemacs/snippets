@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: move after
+# key: mov
+# --
+move $1 after $2

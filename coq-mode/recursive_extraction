@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Recursive Extraction
+# key: recextr
+# --
+Recursive Extraction ${1:id}.

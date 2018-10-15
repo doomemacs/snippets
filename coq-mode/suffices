@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: suffices
+# key: suffices
+# --
+suffices $1 : $2

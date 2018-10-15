@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: elim
+# key: e
+# --
+elim $1

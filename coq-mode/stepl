@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: stepl
+# key: stl
+# --
+stepl $1

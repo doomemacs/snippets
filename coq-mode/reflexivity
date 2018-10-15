@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: reflexivity
+# key: refl
+# --
+reflexivity $1

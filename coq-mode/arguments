@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Arguments
+# key: args
+# --
+Arguments ${1:id} : ${2:rule}

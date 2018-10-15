@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Structure
+# key: str
+# --
+Structure $1 : $2 := {
+$3 : $4;
+$5 : $6 }

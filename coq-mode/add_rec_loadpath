@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: Add Rec LoadPath
+# --
+Add Rec LoadPath $1.

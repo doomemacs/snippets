@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: fun (1 args)
+# key: f
+# --
+fun $1:$2 => $3

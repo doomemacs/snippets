@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: autorewrite with
+# key: ar
+# --
+autorewrite with ${1:db,db...}

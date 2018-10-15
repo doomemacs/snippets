@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: by
+# key: by
+# --
+by $1

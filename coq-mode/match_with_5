@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: match with 5
+# key: m5
+# --
+match $1 with
+| $2 => $3
+| $4 => $5
+| $6 => $7
+| $8 => $9
+| $10 => $11
+end

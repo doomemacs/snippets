@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Recursive Extraction Module
+# key: recextrm
+# --
+Recursive Extraction Module ${1:id}.

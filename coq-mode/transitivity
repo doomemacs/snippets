@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: transitivity
+# key: trans
+# --
+transitivity $1

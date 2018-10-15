@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Next Obligation
+# key: nobl
+# --
+Next Obligation.
+$1
+Qed.

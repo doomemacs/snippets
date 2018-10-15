@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Hint Rewrite ->
+# key: hrw
+# --
+Hint Rewrite -> ${1:t1,t2...} using ${2:tac} : ${3:db}.

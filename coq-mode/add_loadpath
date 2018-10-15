@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: Add LoadPath
+# --
+Add LoadPath $1.

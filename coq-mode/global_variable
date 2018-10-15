@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Global Variable
+# key: gv
+# --
+Global Variable $1: $2.

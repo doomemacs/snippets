@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: Implicit Arguments
+# --
+Implicit Arguments $1 [$2].

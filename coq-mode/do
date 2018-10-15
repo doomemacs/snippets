@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: do
+# --
+do ${1:num} ${2:tac}

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Variable
+# key: v
+# --
+Variable $1: $2.

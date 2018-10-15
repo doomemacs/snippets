@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: false_hyp
+# --
+false_hyp ${1:H} ${2:G}

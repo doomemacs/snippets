@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: Focus
+# --
+Focus $1.

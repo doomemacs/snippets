@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: #+BEGIN_COMMENT block
+# key: <c
+# --
+#+BEGIN_COMMENT
+`%`$0
+#+END_COMMENT

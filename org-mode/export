@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: export
+# key: export
+# --
+#+BEGIN_EXPORT ${1:type}
+`%`$0
+#+END_EXPORT

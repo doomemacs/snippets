@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: #+BEGIN_SRC ... block
+# key: <s
+# type: command
+# --
+(%alias "src")

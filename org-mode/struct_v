@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: #+BEGIN_VERSE block
+# key: <v
+# type: command
+# --
+(%alias "verse")

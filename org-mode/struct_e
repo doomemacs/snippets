@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: #+BEGIN_EXAMPLE block
+# key: <e
+# --
+#+BEGIN_EXAMPLE
+`%`$0
+#+END_EXAMPLE

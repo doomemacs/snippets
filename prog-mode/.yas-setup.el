@@ -1,18 +1,37 @@
 ;; -*- no-byte-compile: t; -*-
 
-(defun yas-with-comment (str)
-  (format "%s%s%s" comment-start str comment-end))
+(require 'yasnippet)
 
-(defun yas-with-padded-comment (str)
-  (let* ((com-start (if (eq major-mode 'emacs-lisp-mode) ";; " comment-start))
-         (com-end (if (eq comment-end "") com-start comment-end)))
-    (format "%s%s%s%s" com-start str
-            (make-string (- fill-column (+ (length com-start) (length com-end) (length str))) ? )
-            com-end)))
+;; whitespace removing functions from Magnar Sveen ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(defun yas-s-trim-left (s)
+  "Remove whitespace at the beginning of S."
+  (if (string-match "\\`[ \t\n\r]+" s)
+      (replace-match "" t t s)
+    s))
 
-(defun yas-make-line ()
-  (let ((mid-char (string-to-char (if (equal comment-padding " ")  comment-start comment-padding))))
-    (format "%s%s%s" comment-start
-            (make-string (- fill-column (+ 1 (length comment-start) (length comment-end))) mid-char)
-            (or comment-end mid-char)
-            )))
+(defun yas-s-trim-right (s)
+  "Remove whitespace at the end of S."
+  (if (string-match "[ \t\n\r]+\\'" s)
+      (replace-match "" t t s)
+    s))
+
+(defun yas-s-trim (s)
+  "Remove whitespace at the beginning and end of S."
+  (yas-s-trim-left (yas-s-trim-right s)))
+
+(defun yas-string-reverse (str)
+  "Reverse a string STR manually to be compatible with emacs versions < 25."
+  (apply #'string
+         (reverse
+          (string-to-list str))))
+
+(defun yas-trimmed-comment-start ()
+  "This function returns `comment-start' trimmed by whitespaces."
+  (yas-s-trim comment-start))
+
+(defun yas-trimmed-comment-end ()
+  "This function returns `comment-end' trimmed by whitespaces if `comment-end' is not empty.
+Otherwise the reversed output of function `yas-trimmed-comment-start' is returned."
+  (if (eq (length comment-end) 0)
+      (yas-string-reverse (yas-trimmed-comment-start))
+    (yas-s-trim comment-end)))

@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: comment box
-# key: ===
-# --
-`(yas-make-line)`
-`(if (eq major-mode 'emacs-lisp-mode) ";; " comment-start)`$0
-`(yas-make-line)`

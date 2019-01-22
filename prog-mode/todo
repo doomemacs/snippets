@@ -1,4 +1,0 @@
-# -*- mode: snippet -*-
-# name: todo
-# --
-`(yas-with-comment "TODO: ")`

@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name: comment line
-# key: ---
-# --
-`(yas-make-line)`

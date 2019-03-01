@@ -1,5 +1,5 @@
-#name: Header 1 (#)
+# -*- require-final-newline: nil -*-
+# name: Header 1 (#)
+# key: h1
 # --
-# ${1:Header 1}
-
-$0
+# ${1:Header 1}`(unless markdown-asymmetric-header " #")`

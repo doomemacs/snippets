@@ -2,17 +2,17 @@
 
 # Emacs Yasnippet Library
 
-My personal [yasnippet](https://github.com/capitaomorte/yasnippet) snippets for
-my [emacs.d].
+The [yasnippet](https://github.com/capitaomorte/yasnippet) snippets bundled with
+[Doom Emacs].
 
 ## Notes to snippet authors
 
 + `%` is aliased to `yas-selected-text` for convenience.
-+ My [emacs config][emacs.d] has project-specific minor modes. A `+` prefix
-  denotes these minor modes, e.g. `+php-laravel-mode`.
-+ This library uses a lot of custom helper functions, like `(!%!)` and `(%1)`.
-  These are defined in `fundamental-mode/.yas-setup.el`. See their docstrings
-  to see what they do.
++ [Doom Emacs][emacs.d] has project-specific minor modes. A `+` prefix denotes
+  these minor modes, e.g. `+php-laravel-mode`.
++ This library uses custom helper functions, like `(!%!)` and `(%1)`. These are
+  defined in `fundamental-mode/.yas-setup.el`. See their docstrings to see what
+  they do.
 + The `(%alias TRIGGER &optional MODE)` function is available for setting up
   multiple triggers for one snippet. e.g.
 
@@ -32,22 +32,31 @@ my [emacs.d].
   (%alias "class")
   ```
 
-  Note: if your alias snippets share the same `name`, they *must* have a unique
-  `uuid`.
+Note: alias snippets with the same `name` must have a unique `uuid`.
 
 ## Install
 
-Clone this repo somewhere, then add its directory to `load-path`, and...
+Clone this repo and:
 
 ``` emacs-lisp
+(add-to-list 'load-path "path/to/emacs-snippets")
 (require 'emacs-snippets)
+
 ;; OR
-(use-package emacs-snippets :after yasnippet)
+
+(use-package emacs-snippets
+  :load-path "path/to/emacs-snippets"
+  :after yasnippet)
 ```
 
 `emacs-snippets` sets itself up when `yasnippet` first loads.
 
-If you're using [Doom Emacs][emacs.d], place this in any module's packages.el:
+### Doom Emacs
+
+No need to install this on Doom, it is included in the `:feature snippets`
+module. That said, if you were to install it manually, for whatever reason,
+place this in a module's (or your private) packages.el
+(`~/.doom.d/packages.el`):
 
 ```emacs-lisp
 (package! emacs-snippets
@@ -56,13 +65,5 @@ If you're using [Doom Emacs][emacs.d], place this in any module's packages.el:
            :files ("*")))
 ```
 
-Note: if you use yas-minor-mode (instead of yas-global-mode), you must manually
-call `yas-reload-all`. Doom does this in `feature/snippets` for you:
-
-```emacs-lisp
-;; Ensure `yas-reload-all' is called as late as possible. Other modules could
-;; have additional configuration for yasnippet. For example, file-templates.
-(add-transient-hook! 'yas-minor-mode-hook (yas-reload-all))
-```
 
 [emacs.d]: https://github.com/hlissner/doom-emacs

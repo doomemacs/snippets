@@ -1,0 +1,40 @@
+;;; Compiled snippets and support files for `php-mode'
+;;; Snippet definitions:
+;;;
+(yas-define-snippets 'php-mode
+                     '(("while" "while (${1:condition}) {\n    `%`$0\n}\n" "while loop" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/while" nil nil)
+                       ("dump" "var_dump(`%`$1);" "var_dump(...)" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/var_dump" nil nil)
+                       ("urle" "urlencode(${1:`%`})$0" "urlencode(...)" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/urlencode" nil nil)
+                       ("urld" "urldecode(${1:`%`})$0" "urldecode(...)" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/urldecode" nil nil)
+                       ("thi" "\\$this->$0" "$this->..." nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/this" nil nil)
+                       ("switch" "switch (${on}) {\n    $0\n}" "switch (...) {...}" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/switch" nil nil)
+                       ("p=" "<?=`%`$0 ?>" "<?= ... ?>" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/shorttag-print" nil nil)
+                       ("#!" "#!/usr/bin/env php\n<?php\n\n$0" "#!/usr/bin/env php" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/shebang" nil nil)
+                       ("sel" "self::$0" "self::..." nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/self" nil nil)
+                       ("reqo" "require_once(\"${1:...}\");" "require_once(\"...\");" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/require_once" nil nil)
+                       ("req" "require(\"${1:...}\");" "require(\"...\");" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/require" nil nil)
+                       ("/**" "/**\n * ${0:`(if % (s-replace \"\\n\" \"\\n * \" %))`}\n */" "/** ... */" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/phpdoc" nil nil)
+                       ("php" "<?php $0 ?>" "<?php ... ?>" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/php" nil nil)
+                       ("par" "parent::$0" "parent::..." nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/parent" nil nil)
+                       ("->" "\\$${1:obj_name}->${2:var}" "$o->..." nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/object-accessor" nil nil)
+                       ("met" "${1:public} function ${2:name}($3) {\n    `%`$0\n}" "class method" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/method" nil nil)
+                       ("inco" "include_once(\"${1:...}\");" "include_once(\"...\");" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/include_once" nil nil)
+                       ("inc" "include(\"${1:...}\");" "include(\"...\");" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/include" nil nil)
+                       ("if" "if ($1) {\n    `%`$0\n}" "if (...) { ... }" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/if" nil nil)
+                       ("fu" "function ${1:name}($2) {\n    `%`$0\n}" "function" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/function" nil nil)
+                       ("fori" "for (\\$i = ${1:0}; \\$i < ${2:10}; ++\\$i) {\n    `%`$0\n}\n" "for loop w/ $i" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/fori" nil nil)
+                       ("fore" "foreach (${1:collection} as ${2:var}) {\n    `%`$0\n}" "foreach (...) {...}" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/foreach" nil nil)
+                       ("for" "for ($1;$2;$3) {\n    `%`$0\n}" "for loop" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/for" nil nil)
+                       ("eli" "elseif ($1) {\n    `%`$0\n}" "elseif (...) { ... }" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/elseif" nil nil)
+                       ("el" "else {\n    `%`$0\n}" "else { ... }" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/else" nil nil)
+                       ("e" "echo `%`$0;" "echo ...;" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/echo" nil nil)
+                       ("de" "define(\"${1:CONSTANT}\", ${2:`%`value});" "define(..., ...)" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/define" nil nil)
+                       ("co" "continue;" "continue;" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/continue" nil nil)
+                       ("cl" "class ${1:Name}${2: extends ${3:Parent}} {\n    `%`$0\n}" "PHP class" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/class" nil nil)
+                       ("br" "break;" "break;" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/break" nil nil)
+                       ("=" "\\$${1:var_name} = `%`$0;" "$var = value;" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/assignment" nil nil)
+                       ("arr" "array(`%`$0)" "array(...)" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/array" nil nil)
+                       ("acl" "abstract class ${1:Name}${2: extends ${3:Parent}} {\n    `%`$0\n}\n" "abstract class" nil nil nil "/home/hlissner/.config/doom/snippets/php-mode/abstract-class" nil nil)))
+
+
+;;; Do not edit! File generated at Wed Mar 13 18:35:12 2019

@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: src
+# name: #+BEGIN_SRC
 # key: src
 # --
 #+BEGIN_SRC ${1:language}

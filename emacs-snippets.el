@@ -40,7 +40,7 @@ yasnippet directory."
 
 ;;;###autoload
 (eval-after-load 'yasnippet
-  `(emacs-snippets-initialize))
+  (lambda () (emacs-snippets-initialize)))
 
 (provide 'emacs-snippets)
 ;;; emacs-snippets.el ends here

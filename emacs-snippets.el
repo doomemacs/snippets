@@ -18,13 +18,15 @@
 ;;
 ;;; Code:
 
-(eval-when-compile
-  (require 'cl-lib)
-  (require 'yasnippet))
+(eval-and-compile
+  (defvar emacs-snippets-dir
+    (file-name-directory (or load-file-name buffer-file-name))
+    "TODO"))
 
-(defvar emacs-snippets-dir
-  (file-name-directory (or load-file-name buffer-file-name))
-  "TODO")
+(eval-and-compile
+  (require 'yasnippet))
+(eval-when-compile
+  (yas-compile-directory emacs-snippets-dir))
 
 ;;;###autoload
 (defun emacs-snippets-initialize ()

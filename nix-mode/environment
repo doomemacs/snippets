@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: environment
+# key: env
+# --
+environment = {
+  ${0:`%`}
+};

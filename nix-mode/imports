@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: imports = [ ... ];
+# key: imp
+# condition: (%bolp)
+# --
+imports = [
+  ${0:`%`}
+];

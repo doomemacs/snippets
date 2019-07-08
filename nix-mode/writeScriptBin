@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: pkgs.writeScriptBin ...
+# key: wsb
+# --
+pkgs.writeScriptBin "${1:name}" ''
+  #!${pkgs.stdenv.shell}
+  ${0:`%`}
+''

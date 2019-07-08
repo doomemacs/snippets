@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: environment.sessionVariables
+# key: esv
+# --
+`(%nix-mode-if-parent "environment")`sessionVariables = {
+  ${0:`%`}
+};

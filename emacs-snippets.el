@@ -23,9 +23,8 @@
     (file-name-directory (or load-file-name buffer-file-name))
     "TODO"))
 
-(eval-and-compile
-  (require 'yasnippet))
 (eval-when-compile
+  (require 'yasnippet)
   (yas-compile-directory emacs-snippets-dir))
 
 ;;;###autoload

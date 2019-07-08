@@ -20,7 +20,8 @@
 
 (eval-and-compile
   (defvar emacs-snippets-dir
-    (file-name-directory (or load-file-name buffer-file-name))
+    (file-name-directory (or load-file-name
+                             byte-compile-current-file))
     "TODO"))
 
 (eval-when-compile

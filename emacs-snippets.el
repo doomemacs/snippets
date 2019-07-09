@@ -29,6 +29,15 @@
   (yas-compile-directory emacs-snippets-dir))
 
 ;;;###autoload
+(defun emacs-snippets-remove-compiled-snippets ()
+  "Delete all .yas-compiled-snippets.el files."
+  (interactive)
+  (let ((default-directory emacs-snippets-dir))
+    (dolist (file (file-expand-wildcards "*/.yas-compiled-snippets.el"))
+      (delete-file file)
+      (message "Deleting %s" file))))
+
+;;;###autoload
 (defun emacs-snippets-initialize ()
   "Add `emacs-snippets-dir' to `yas-snippet-dirs', replacing the default
 yasnippet directory."

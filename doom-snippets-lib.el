@@ -9,8 +9,10 @@
 (when doom-snippets-enable-short-helpers
   (defalias '!%! 'doom-snippets-newline-selected-newline)
   (defalias '!% 'doom-snippets-newline-selected)
-  (defalias '%1 'doom-snippets-newline-selected)
-  (defalias '%$ 'doom-snippets-newline-selected))
+  (defalias '%$ 'doom-snippets-newline-or-eol)
+  (defalias '%without-trigger 'doom-snippets-without-trigger)
+  (defalias '%format 'doom-snippets-format)
+  (defalias '%expand 'doom-snippets-expand))
 
 
 (defmacro doom-snippets-without-trigger (&rest body)

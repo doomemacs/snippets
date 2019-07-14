@@ -109,6 +109,18 @@ always in front of the word that triggered this snippet.
 to_string()
 ```
 
+### `doom-snippets-enable-short-helpers`
+
+If this variable is non-nil, this package will define the following shortcut
+function aliases for your convenience:
+
++ `!%!` = `(doom-snippet-format "%!%s%!")`
++ `!%` = `(doom-snippet-format "%!%s")`
++ `%$` = `(doom-snippet-format "%>")`
++ `(%expand ...)` = `(doom-snippet-expand ...)`
++ `(%format ...)` = `(doom-snippet-format ...)`
++ `(%without-trigger ...)` = `(doom-snippets-without-trigger ...)`
+
 
 [yasnippet]: https://github.com/capitaomorte/yasnippet
 [Doom Emacs]: https://github.com/hlissner/doom-emacs

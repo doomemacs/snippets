@@ -27,11 +27,17 @@
       (cond (load-in-progress load-file-name)
             ((and (boundp 'byte-compile-current-file) byte-compile-current-file)
              byte-compile-current-file)
-            (buffer-file-name)))))
+            (buffer-file-name))))))
 
-  (defvar doom-snippets-enable-short-helpers nil
-    "If non-nil, create `!%!', `!%', `%$' and `%1' aliases. These may be
-convenient for your private snippets."))
+(defvar doom-snippets-enable-short-helpers nil
+  "If non-nil, defines convenience aliases for doom-snippets' api.
+
++ `!%!' = (doom-snippet-format \"%!%s%!\")
++ `!%' = (doom-snippet-format \"%!%s\")
++ `%$' = (doom-snippet-format \"%>\")
++ `%expand' = `doom-snippet-expand'
++ `%format' = `doom-snippet-format'
++ `%without-trigger' = `doom-snippets-without-trigger'")
 
 (eval-when-compile
   (require 'yasnippet)

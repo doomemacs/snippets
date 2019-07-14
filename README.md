@@ -1,15 +1,10 @@
-[![MIT](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
-
 # Doom Emacs' Snippet Library
 
-This repository contains the official [yasnippet] snippets library for [Doom
-Emacs].
+This repository contains the [yasnippet] snippets library for [Doom Emacs].
 
-It exposes a small API to assist you in writing your own snippets (such as
-`doom-snippets-expand` for easily creating snippet aliases), and provides
-snippets for the project/framework-specific minor modes that [Doom Emacs]
-defines (e.g. `+php-laravel-mode`).
-
+It also exposes a small API to assist in writing your own snippets, including
+`doom-snippets-expand` for easily writing snippet aliases, and snippets for the
+project/framework-specific minor modes available to [Doom Emacs] users.
 
 ## Install
 

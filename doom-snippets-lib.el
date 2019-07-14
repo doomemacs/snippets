@@ -22,26 +22,29 @@ always in front of the word that triggered this snippet."
        (backward-word))
      ,@body))
 
-
-(defun doom-snippets-newline-selected-newline ()
-  "Used in snippets. Shorthand defun to surround text with newlines if more than
-one line."
-  (doom-snippets-format "%!%s%!" nil t))
-
-(defun doom-snippets-newline-selected ()
-  "Used in snippets. Shorthand defun for snippets: prepends a newline to
-`yas-selected-text' IF it contains more than one line."
-  (doom-snippets-format "%!%s" nil t))
-
 (defun doom-snippets-text (&optional default trim)
-  "TODO"
+  "Return `yas-selected-text' (or `default').
+
+If TRIM is non-nil, trim leading and trailing whitespace from
+`yas-selected-text'/`default'."
   (let ((text (or yas-selected-text default "")))
     (if trim
         (string-trim text)
       text)))
 
 (defun doom-snippets-format (format &optional default trim)
-  "TODO"
+  "Returns a formatted string.
+
+Like `format', but with a custom spec:
+
+  %s  The contents of your current selection (`yas-selected-text`)
+  %!  A newline, if your current selection spans more than a single line
+  %>  A newline, unless the point is at EOL
+
+If `yas-selected-text` is empty, `DEFAULT` is used.
+
+If `TRIM` is non-nil, whitespace on the ends of `yas-selected-text` is
+trimmed."
   (let* ((text (or yas-selected-text default ""))
          (text (if trim (string-trim text) text)))
     (format-spec format
@@ -50,8 +53,18 @@ one line."
                    (?> . ,(if (eolp) "" "\n"))
                    ))))
 
+(defun doom-snippets-newline-selected-newline ()
+  "Return `yas-selected-text' surrounded with newlines if it consists of more
+than one line."
+  (doom-snippets-format "%!%s%!" nil t))
+
+(defun doom-snippets-newline-selected ()
+  "Return `yas-selected-text' prefixed with a newline if it consists of more
+than one line."
+  (doom-snippets-format "%!%s" nil t))
+
 (defun doom-snippets-newline-or-eol ()
-  "Used in snippets. Insert newline here if at `eolp'."
+  "Return newline, unless at `eolp'."
   (doom-snippets-format "%>"))
 
 (defun doom-snippets-count-lines (str)

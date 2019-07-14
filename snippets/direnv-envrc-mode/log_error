@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: log_error MESSAGE ...
+# key: le
+# --
+log_error ${1:"message"}

@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# name: bang
-# --
-#!${1:/bin/bash}
-
-$0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: direnv_layout_dir
+# key: dld
+# --
+direnv_layout_dir

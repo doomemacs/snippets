@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: #[cfg(option = "value")]
+# --
+#[cfg(${1:option} = "${2:value}")]

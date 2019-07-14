@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: advise function
+# key: adv
+# --
+(defun ${3:adviser-name} (orig-fn &rest args)
+  ${4:`%`}
+  (apply orig-fn args))
+(advice-add #'${1:function-name} ${2::around} #'${3:adviser-name})

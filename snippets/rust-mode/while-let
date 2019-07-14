@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: while let ... = ... { ... }
+# name: while let PATTERN = EXPR { ... }
 # key: whilel
 # --
 while let ${1:pattern} = ${2:expression} {

@@ -2,4 +2,4 @@
 # name: describe ... ...
 # uuid: describe
 # --
-(describe "${1:group}"${2:`(!%)`}$0)
+(describe "${1:group}"${2:`(doom-snippets-format "%!%s")`}$0)

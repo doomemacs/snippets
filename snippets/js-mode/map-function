@@ -3,5 +3,5 @@
 # key: mapfu
 # --
 `(unless (eq (char-before) ?.) ".")`map(function(${1:item}, ${2:i}, ${3:arr}) {
-    `(!%!)`$0
+    `(doom-snippets-format "%!%s%!")`$0
 })`(if (eolp) ";")`

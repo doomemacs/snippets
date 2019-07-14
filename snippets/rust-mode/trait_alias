@@ -4,4 +4,4 @@
 # key: tr
 # type: command
 # --
-(%alias "trait")
+(doom-snippet-expand :uuid "trait")

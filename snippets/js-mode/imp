@@ -3,4 +3,4 @@
 # uuid: imp
 # type: command
 # --
-(%alias "import")
+(doom-snippet-expand :uuid "import")

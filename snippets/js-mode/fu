@@ -3,4 +3,4 @@
 # key: fu
 # type: command
 # --
-(%alias (if (%bolp) "function_block" "function_inline"))
+(doom-snippet-expand :uuid (if (doom-snippets-bolp) "function_block" "function_inline"))

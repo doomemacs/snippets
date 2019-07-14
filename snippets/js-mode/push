@@ -2,4 +2,4 @@
 # name: arr.push(elt)
 # key: pu
 # --
-`(unless (eq (char-before) ?.) ".")`push(`(%1)`$0)`(if (eolp) ";")`
+`(unless (eq (char-before) ?.) ".")`push(`(doom-snippets-text nil t)`$0)`(if (eolp) ";")`

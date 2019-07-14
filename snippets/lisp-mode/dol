@@ -3,4 +3,4 @@
 # type: command
 # uuid: dol
 # --
-(%alias "dolist")
+(doom-snippet-expand :uuid "dolist")

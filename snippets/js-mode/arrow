@@ -2,4 +2,4 @@
 # name: arrow function
 # key: =>
 # --
-$1 => `(if (> (%lines %) 1) (concat "{ " (!%!) " }") %)`$0
+$1 => `(if (> (doom-snippets-count-lines %) 1) (concat "{ " (doom-snippets-format "%!%s%!") " }") %)`$0

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: use std::fs::File
 # key: ufile
-# condition: (%bolp)
+# condition: (doom-snippets-bolp)
 # --
 use std::fs::File;

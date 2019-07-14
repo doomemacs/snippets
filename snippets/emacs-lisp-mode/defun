@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
 # name: defun
 # --
-(defun ${1:name} ($2)`(and % (concat " " (!%)))`$0)`(%$)`
+(defun ${1:name} ($2)`(and % (concat " " (doom-snippets-format "%!%s")))`$0)`(doom-snippets-newline-or-eol)`

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: doom autodef tag
 # key: ad
-# condition: (%bolp)
+# condition: (doom-snippets-bolp)
 # --
 ;;;###autodef

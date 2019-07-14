@@ -3,4 +3,4 @@
 # uuid: cdefm
 # type: command
 # --
-(%alias "cl-defmacro")
+(doom-snippet-expand :uuid "cl-defmacro")

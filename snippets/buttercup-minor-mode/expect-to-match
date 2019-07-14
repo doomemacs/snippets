@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: :to-match ...
 # key: m
-# condition: (%without-trigger (eq (char-before) ?:))
+# condition: (doom-snippets-without-trigger (eq (char-before) ?:))
 # --
 to-match $1

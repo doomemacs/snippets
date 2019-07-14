@@ -4,4 +4,4 @@
 # uuid: ah
 # type: command
 # --
-(%alias "add-hook")
+(doom-snippet-expand :uuid "add-hook")

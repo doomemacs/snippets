@@ -2,6 +2,6 @@
 # name: if-let
 # uuid: if-let-2
 # key: if-let
-# condition: (> (%lines %) 1)
+# condition: (> (doom-snippets-count-lines %) 1)
 # --
-(if-let (($1)) $0 `(!%)`)`(%$)`
+(if-let (($1)) $0 `(doom-snippets-format "%!%s")`)`(doom-snippets-newline-or-eol)`

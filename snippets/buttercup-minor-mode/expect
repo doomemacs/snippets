@@ -2,4 +2,4 @@
 # name: expect
 # uuid: expect
 # --
-(expect ${1:`(%% "value")`}$0)
+(expect ${1:`(doom-snippets-format "value")`}$0)

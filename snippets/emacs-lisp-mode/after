@@ -1,4 +1,4 @@
 # -*- mode: snippet; require-final-newline: nil -*-
 # name: after
 # --
-(after! ${1:feature-name} `(!%)`$0)`(%$)`
+(after! ${1:feature-name} `(doom-snippets-format "%!%s")`$0)`(doom-snippets-newline-or-eol)`

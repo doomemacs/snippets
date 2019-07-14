@@ -2,4 +2,4 @@
 # name: cl-defun
 # uuid: cl-defun
 # --
-(cl-defun ${1:name} ($2) `(!%)`$0)`(%$)`
+(cl-defun ${1:name} ($2) `(doom-snippets-format "%!%s")`$0)`(doom-snippets-newline-or-eol)`

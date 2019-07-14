@@ -2,4 +2,4 @@
 # name: block
 # key: b
 # --
-${1:Label} { `(!%!)`$1 }$0
+${1:Label} { `(doom-snippets-format "%!%s%!")`$1 }$0

@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
 # name: unless
 # --
-(unless ${1:condition} ${0:`(!%)`})`(%$)`
+(unless ${1:condition} ${0:`(doom-snippets-format "%!%s")`})`(doom-snippets-newline-or-eol)`

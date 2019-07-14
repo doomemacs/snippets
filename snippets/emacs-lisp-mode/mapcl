@@ -1,4 +1,4 @@
 #name: mapc lambda
 # --
-(mapc (lambda (${2:x}) `(!%)`$0)
+(mapc (lambda (${2:x}) `(doom-snippets-format "%!%s")`$0)
       ${1:sequence})

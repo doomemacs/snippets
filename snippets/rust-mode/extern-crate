@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: extern crate ...
 # key: ec
-# condition: (%bolp)
+# condition: (doom-snippets-bolp)
 # --
 extern crate ${1:name};

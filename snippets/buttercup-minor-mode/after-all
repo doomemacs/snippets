@@ -2,4 +2,4 @@
 # name: after-all ...
 # key: afa
 # --
-(after-all ${1:`(!%)`})
+(after-all ${1:`(doom-snippets-format "%!%s")`})

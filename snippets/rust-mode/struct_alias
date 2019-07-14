@@ -3,6 +3,6 @@
 # uuid: struct_alias
 # key: st
 # type: command
-# condition: (%bolp)
+# condition: (doom-snippets-bolp)
 # --
-(%alias "struct")
+(doom-snippet-expand :uuid "struct")

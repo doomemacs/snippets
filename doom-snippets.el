@@ -27,7 +27,11 @@
       (cond (load-in-progress load-file-name)
             ((and (boundp 'byte-compile-current-file) byte-compile-current-file)
              byte-compile-current-file)
-            (buffer-file-name))))))
+            (buffer-file-name)))))
+
+  (defvar doom-snippets-enable-short-helpers nil
+    "If non-nil, create `!%!', `!%', `%$' and `%1' aliases. These may be
+convenient for your private snippets."))
 
 (eval-when-compile
   (require 'yasnippet)
@@ -46,6 +50,7 @@
 (defun doom-snippets-initialize ()
   "Add `doom-snippets-dir' to `yas-snippet-dirs', replacing the default
 yasnippet directory."
+  (setq yas-wrap-around-region nil)
   (add-to-list 'yas-snippet-dirs 'doom-snippets-dir))
 
 ;;;###autoload

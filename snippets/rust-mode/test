@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: test function
 # key: test
-# condition: (%bolp)
+# condition: (doom-snippets-bolp)
 # --
 #[test]
 fn ${1:test_${2:name}}() {

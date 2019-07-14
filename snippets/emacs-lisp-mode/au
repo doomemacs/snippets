@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
 # name: autoload tag
-# condition: (%without-trigger (bolp))
+# condition: (doom-snippets-without-trigger (bolp))
 # --
 ;;;###autoload`(%emacs-lisp-evil-autoload)`$0

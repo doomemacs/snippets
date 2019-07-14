@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: #[derive(...)]
 # key: der
-# condition: (%bolp)
+# condition: (doom-snippets-bolp)
 # --
 #[derive($1)]

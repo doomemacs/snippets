@@ -2,7 +2,7 @@
 # name: struct
 # uuid: struct
 # key: struct
-# condition: (%bolp)
+# condition: (doom-snippets-bolp)
 # --
 struct ${1:Name} {
     `%`$0

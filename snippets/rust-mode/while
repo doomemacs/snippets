@@ -2,4 +2,4 @@
 # name: while ... { ... }
 # key: while
 # --
-while ${1:true} { `(!%!)`$0 }
+while ${1:true} { `(doom-snippets-format "%!%s%!")`$0 }

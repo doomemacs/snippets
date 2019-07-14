@@ -2,8 +2,8 @@
 # name: named function
 # key: function
 # uuid: function_block
-# condition: (or (%bolp) (region-active-p))
+# condition: (or (doom-snippets-bolp) (region-active-p))
 # --
 function ${1:name}($2) {
-    `(!%!)`$0
+    `(doom-snippets-format "%!%s%!")`$0
 }

@@ -2,4 +2,4 @@
 # name: after-each ...
 # key: afe
 # --
-(after-each ${1:`(!%)`})
+(after-each ${1:`(doom-snippets-format "%!%s")`})

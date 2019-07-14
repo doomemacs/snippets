@@ -3,4 +3,4 @@
 # uuid: ex
 # type: command
 # --
-(%alias "expect")
+(doom-snippet-expand :uuid "expect")

@@ -4,4 +4,4 @@
 # key: ma
 # type: command
 # --
-(%alias "match")
+(doom-snippet-expand :uuid "match")

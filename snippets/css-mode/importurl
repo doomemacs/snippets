@@ -2,4 +2,4 @@
 # name: @import url(...)
 # key: impurl
 # --
-@import url("`(%1)`$0");
+@import url("`(doom-snippets-text nil t)`$0");

@@ -2,6 +2,6 @@
 # name: anonymous function
 # key: function
 # uuid: function_inline
-# condition: (or (not (%bolp)) (region-active-p))
+# condition: (or (not (doom-snippets-bolp)) (region-active-p))
 # --
-function ($1) { `(!%!)`$0 }`(if (eolp) ";")`
+function ($1) { `(doom-snippets-format "%!%s%!")`$0 }`(if (eolp) ";")`

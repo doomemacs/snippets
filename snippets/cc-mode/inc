@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
 # name: #include "..."
-# condition: (%bolp)
+# condition: (doom-snippets-bolp)
 # --
 #include "$0"

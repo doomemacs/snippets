@@ -3,4 +3,4 @@
 # uuid: def
 # type: command
 # --
-(%alias "defun")
+(doom-snippet-expand :uuid "defun")

@@ -2,4 +2,4 @@
 # name: @import
 # key: imp
 # --
-@import "`(%1)`$0";
+@import "`(doom-snippets-text nil t)`$0";

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: :to-have-been-called-time ...
 # key: bct
-# condition: (%without-trigger (eq (char-before) ?:))
+# condition: (doom-snippets-without-trigger (eq (char-before) ?:))
 # --
 to-have-been-called-times ${1:1}

@@ -4,7 +4,7 @@
 # --
 while getopts "${1:s:h:}" o; do
       case "$o" in
-           ${2:X}) `(!%)`$0
+           ${2:X}) `(doom-snippets-format "%!%s")`$0
               ;;
            *) usage
               ;;

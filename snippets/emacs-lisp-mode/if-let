@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
 # name: if-let
-# condition: (<= (%lines %) 1)
+# condition: (<= (doom-snippets-count-lines %) 1)
 # --
-(if-let* (($1)) `%`$0)`(%$)`
+(if-let* (($1)) `%`$0)`(doom-snippets-newline-or-eol)`

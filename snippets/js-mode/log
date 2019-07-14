@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
 # name: console.log("...");
 # --
-console.log(`(%1)`$0)`(if (eolp) ";")`
+console.log(`(doom-snippets-text nil t)`$0)`(if (eolp) ";")`

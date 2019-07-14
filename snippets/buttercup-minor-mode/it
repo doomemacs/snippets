@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
 # name: it ...
 # --
-(it "${1:...}" ${2:`(doom-snippets-format "%!%s")`}$0)
+(it "${1:...}" ${2:`(doom-snippets-format "%n%s")`}$0)

@@ -2,4 +2,4 @@
 # name: unless ... (...)
 # key: unless
 # --
-(unless (${1:condition}) ${2:`(doom-snippets-format "%!%s")`})
+(unless (${1:condition}) ${2:`(doom-snippets-format "%n%s")`})

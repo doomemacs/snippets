@@ -2,4 +2,4 @@
 # name: cl-defmacro
 # uuid: cl-defmacro
 # --
-(cl-defmacro ${1:name} ($2) `(doom-snippets-format "%!%s")`$0)`(doom-snippets-newline-or-eol)`
+(cl-defmacro ${1:name} ($2) `(doom-snippets-format "%n%s")`$0)`(doom-snippets-newline-or-eol)`

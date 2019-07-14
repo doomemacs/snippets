@@ -3,5 +3,5 @@
 # key: ul
 # --
 <ul>
-    <li>`(doom-snippets-format "%!%s%!")`$0</li>
+    <li>`(doom-snippets-format "%n%s%n")`$0</li>
 </ul>

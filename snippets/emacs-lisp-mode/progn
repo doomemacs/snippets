@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
 # name: progn
 # --
-(progn `(doom-snippets-format "%!%s")`$0)`(doom-snippets-newline-or-eol)`
+(progn `(doom-snippets-format "%n%s")`$0)`(doom-snippets-newline-or-eol)`

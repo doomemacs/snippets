@@ -65,7 +65,7 @@ An example of its use:
 # name: while ... { ... }
 # key: while
 # --
-while ${1:true} { `(doom-snippets-format "%!%s%!")`$0 }
+while ${1:true} { `(doom-snippets-format "%n%s%n")`$0 }
 ```
 
 If the selection consists of a single line, this will expand to:
@@ -109,8 +109,8 @@ to_string()
 If this variable is non-nil, this package will define the following shortcut
 function aliases for your convenience:
 
-+ `!%!` = `(doom-snippet-format "%!%s%!")`
-+ `!%` = `(doom-snippet-format "%!%s")`
++ `!%!` = `(doom-snippet-format "%n%s%n")`
++ `!%` = `(doom-snippet-format "%n%s")`
 + `%$` = `(doom-snippet-format "%>")`
 + `(%expand ...)` = `(doom-snippet-expand ...)`
 + `(%format ...)` = `(doom-snippet-format ...)`

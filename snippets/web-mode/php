@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
 # name: <?php ... ?>
 # --
-<?php `(doom-snippets-format "%!%s%!")`$0 ?>
+<?php `(doom-snippets-format "%n%s%n")`$0 ?>

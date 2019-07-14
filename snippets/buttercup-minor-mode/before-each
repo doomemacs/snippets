@@ -2,4 +2,4 @@
 # name: before-each ...
 # key: bfe
 # --
-(before-each ${1:`(doom-snippets-format "%!%s")`})
+(before-each ${1:`(doom-snippets-format "%n%s")`})

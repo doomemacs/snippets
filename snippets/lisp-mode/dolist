@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
 # name: dolist
 # --
-(dolist (${1:var} ${2:list}) ${3:`(doom-snippets-format "%!%s")`})
+(dolist (${1:var} ${2:list}) ${3:`(doom-snippets-format "%n%s")`})

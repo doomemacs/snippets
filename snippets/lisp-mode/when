@@ -2,4 +2,4 @@
 # name: when ... (...)
 # key: when
 # --
-(when (${1:condition}) ${2:`(doom-snippets-format "%!%s")`})
+(when (${1:condition}) ${2:`(doom-snippets-format "%n%s")`})

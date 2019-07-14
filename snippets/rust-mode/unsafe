@@ -2,4 +2,4 @@
 # name: unsafe { ... }
 # key: un
 # --
-unsafe { `(doom-snippets-format "%!%s%!")`$0 }
+unsafe { `(doom-snippets-format "%n%s%n")`$0 }

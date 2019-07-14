@@ -2,4 +2,4 @@
 # name: while
 # key: while
 # --
-(while ${1:condition} ${0:`(doom-snippets-format "%!%s")`})`(doom-snippets-newline-or-eol)`
+(while ${1:condition} ${0:`(doom-snippets-format "%n%s")`})`(doom-snippets-newline-or-eol)`

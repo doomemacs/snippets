@@ -1,4 +1,4 @@
 #name: lambda
 #key: lambda
 # --
-(lambda ($1) (interactive) `(doom-snippets-format "%!%s")`$0)
+(lambda ($1) (interactive) `(doom-snippets-format "%n%s")`$0)

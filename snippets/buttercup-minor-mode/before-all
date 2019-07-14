@@ -2,4 +2,4 @@
 # name: before-all ...
 # key: bfa
 # --
-(before-all ${1:`(doom-snippets-format "%!%s")`})
+(before-all ${1:`(doom-snippets-format "%n%s")`})

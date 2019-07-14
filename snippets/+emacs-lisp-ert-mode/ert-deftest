@@ -2,4 +2,4 @@
 # name: ert-deftest
 # key: deftest
 # --
-(ert-deftest $1 ()`(doom-snippets-format "%!%s")`$0)
+(ert-deftest $1 ()`(doom-snippets-format "%n%s")`$0)

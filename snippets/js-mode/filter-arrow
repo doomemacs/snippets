@@ -2,4 +2,4 @@
 # name: arr.filter(item => {...})
 # key: fil=>
 # --
-`(unless (eq (char-before) ?.) ".")`filter(${1:item} => `(if (> (doom-snippets-count-lines %) 1) (concat "{ " (doom-snippets-format "%!%s%!") " }") %)`$0)`(if (eolp) ";")`
+`(unless (eq (char-before) ?.) ".")`filter(${1:item} => `(if (> (doom-snippets-count-lines %) 1) (concat "{ " (doom-snippets-format "%n%s%n") " }") %)`$0)`(if (eolp) ";")`

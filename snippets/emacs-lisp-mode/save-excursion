@@ -3,4 +3,4 @@
 #key: save-excursion
 #key: se
 # --
-(save-excursion `(doom-snippets-format "%!%s")`$0)
+(save-excursion `(doom-snippets-format "%n%s")`$0)

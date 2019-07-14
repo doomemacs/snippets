@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
 # name: when
 # --
-(when ${1:t} `(doom-snippets-format "%!%s")`$0)`(doom-snippets-newline-or-eol)`
+(when ${1:t} `(doom-snippets-format "%n%s")`$0)`(doom-snippets-newline-or-eol)`

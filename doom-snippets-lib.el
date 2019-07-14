@@ -40,8 +40,8 @@ If TRIM is non-nil, trim leading and trailing whitespace from
 Like `format', but with a custom spec:
 
   %s  The contents of your current selection (`yas-selected-text`)
-  %!  A newline, if your current selection spans more than a single line
-  %>  A newline, unless the point is at EOL
+  %n  A newline, if your current selection spans more than a single line
+  %e  A newline, unless the point is at EOL
 
 If `yas-selected-text` is empty, `DEFAULT` is used.
 
@@ -51,23 +51,23 @@ trimmed."
          (text (if trim (string-trim text) text)))
     (format-spec format
                  `((?s . ,text)
-                   (?! . ,(if (> (doom-snippets-count-lines text) 1) "\n" ""))
-                   (?> . ,(if (eolp) "" "\n"))
+                   (?n . ,(if (> (doom-snippets-count-lines text) 1) "\n" ""))
+                   (?e . ,(if (eolp) "" "\n"))
                    ))))
 
 (defun doom-snippets-newline-selected-newline ()
   "Return `yas-selected-text' surrounded with newlines if it consists of more
 than one line."
-  (doom-snippets-format "%!%s%!" nil t))
+  (doom-snippets-format "%n%s%n" nil t))
 
 (defun doom-snippets-newline-selected ()
   "Return `yas-selected-text' prefixed with a newline if it consists of more
 than one line."
-  (doom-snippets-format "%!%s" nil t))
+  (doom-snippets-format "%n%s" nil t))
 
 (defun doom-snippets-newline-or-eol ()
   "Return newline, unless at `eolp'."
-  (doom-snippets-format "%>"))
+  (doom-snippets-format "%e"))
 
 (defun doom-snippets-count-lines (str)
   "Return how many lines are in STR."

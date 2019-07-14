@@ -2,4 +2,4 @@
 # name: with-current-buffer
 # key: wcb
 # --
-(with-current-buffer ${1:buffer} ${0:`(doom-snippets-format "%!%s")`})`(doom-snippets-newline-or-eol)`
+(with-current-buffer ${1:buffer} ${0:`(doom-snippets-format "%n%s")`})`(doom-snippets-newline-or-eol)`

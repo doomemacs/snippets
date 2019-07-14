@@ -36,9 +36,9 @@
 (defvar doom-snippets-enable-short-helpers nil
   "If non-nil, defines convenience aliases for doom-snippets' api.
 
-+ `!%!' = (doom-snippet-format \"%!%s%!\")
-+ `!%' = (doom-snippet-format \"%!%s\")
-+ `%$' = (doom-snippet-format \"%>\")
++ `!%!' = (doom-snippet-format \"%n%s%n\")
++ `!%' = (doom-snippet-format \"%n%s\")
++ `%$' = (doom-snippet-format \"%e\")
 + `%expand' = `doom-snippet-expand'
 + `%format' = `doom-snippet-format'
 + `%without-trigger' = `doom-snippets-without-trigger'")

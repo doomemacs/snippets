@@ -84,7 +84,7 @@ Unlike `bolp', this ignores the trigger word for the current snippet."
       (save-excursion
         (if (region-active-p)
             (goto-char (region-beginning))
-          (unless (eq (char-before) ? )
+          (unless (memq (char-before) (list ?\  ?\n))
             (backward-word)))
         (skip-chars-backward " \t")
         (bolp))))

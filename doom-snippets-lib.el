@@ -18,7 +18,7 @@
 Without this, tests like `bolp' would meaninglessly fail because the cursor is
 always in front of the word that triggered this snippet."
   `(progn
-     (unless (eq (char-before) ? )
+     (unless (memq (char-before) (list ?\  ?\n))
        (backward-word))
      ,@body))
 

@@ -1,69 +1,114 @@
 [![MIT](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
 
-# Emacs Yasnippet Library
+# Doom Emacs' Snippet Library
 
-The [yasnippet](https://github.com/capitaomorte/yasnippet) snippets bundled with
-[Doom Emacs].
+This repository contains the official [yasnippet] snippets library for [Doom
+Emacs].
 
-## Notes to snippet authors
+It exposes a small API to assist you in writing your own snippets (such as
+`doom-snippets-expand` for easily creating snippet aliases), and provides
+snippets for the project/framework-specific minor modes that [Doom Emacs]
+defines (e.g. `+php-laravel-mode`).
 
-+ `%` is aliased to `yas-selected-text` for convenience.
-+ [Doom Emacs][emacs.d] has project-specific minor modes. A `+` prefix denotes
-  these minor modes, e.g. `+php-laravel-mode`.
-+ This library uses custom helper functions, like `(!%!)` and `(%1)`. These are
-  defined in `fundamental-mode/.yas-setup.el`. See their docstrings to see what
-  they do.
-+ The `(%alias TRIGGER &optional MODE)` function is available for setting up
-  multiple triggers for one snippet. e.g.
-
-  ```emacs-lisp
-  ;; js-mode/class
-  # name: class
-  # --
-  class ${1:Name} {
-      $0
-  }
-
-  ;; js-mode/cl
-  # name: class
-  # uuid: cl
-  # type: command
-  # --
-  (%alias "class")
-  ```
-
-Note: alias snippets with the same `name` must have a unique `uuid`.
 
 ## Install
 
-Clone this repo and:
++ [Doom Emacs] users need only enable the `:editor snippets` module.
++ This package isn't available on MELPA yet.
++ Otherwise, clone this repo somewhere local and use:
 
-``` emacs-lisp
-(add-to-list 'load-path "path/to/emacs-snippets")
-(require 'emacs-snippets)
+  ``` emacs-lisp
+  (use-package doom-snippets
+    :load-path "path/to/emacs-snippets"
+    :after yasnippet)
+  ```
 
-;; OR
 
-(use-package emacs-snippets
-  :load-path "path/to/emacs-snippets"
-  :after yasnippet)
-```
+## Snippets API
+This library exposes a small API to assist you in writing your own snippets.
+This is not an exhaustive list, but are the most useful.
 
-`emacs-snippets` sets itself up when `yasnippet` first loads.
+### `doom-snippets-expand PROPERTY VALUE &optional MODE`
 
-### Doom Emacs
-
-No need to install this on Doom, it is included in the `:feature snippets`
-module. That said, if you were to install it manually, for whatever reason,
-place this in a module's (or your private) packages.el
-(`~/.doom.d/packages.el`):
+This is primarily used for create snippet aliases. A snippet alias if a snippet
+that will expand another snippet when used. e.g.
 
 ```emacs-lisp
-(package! emacs-snippets
-  :recipe (:fetcher github
-           :repo "hlissner/emacs-snippets"
-           :files ("*")))
+;;; in js-mode/class
+# name: class
+# --
+class ${1:Name} {
+    $0
+}
+
+;;; in js-mode/cl
+# name: class
+# key: cl
+# type: command
+# --
+(doom-snippets-expand :name "class")
+```
+
+### `doom-snippets-format FORMAT &optional DEFAULT TRIM`
+
+Returns `FORMAT`, which is a format string with a custom spec:
+
+| spec | description                                                        |
+|------|--------------------------------------------------------------------|
+| %s   | The contents of your current selection (`yas-selected-text`)       |
+| %!   | A newline, if your current selection spans more than a single line |
+| %>   | A newline, unless the point is at EOL                              |
+
++ If `yas-selected-text` is empty, `DEFAULT` is used.
++ If `TRIM` is non-nil, whitespace on the ends of `yas-selected-text` is
+  trimmed.
+  
+An example of its use:
+
+```text
+# -*- mode: snippet -*-
+# name: while ... { ... }
+# key: while
+# --
+while ${1:true} { `(doom-snippets-format "%!%s%!")`$0 }
+```
+
+If the selection consists of a single line, this will expand to:
+
+``` javascript
+while true { console.log("Hello world")| }
+```
+
+If it consists of multiple lines, it will expand to:
+
+``` javascript
+while true { 
+  console.log("Hello")
+  console.log("world")| 
+}
+```
+
+`PROPERTY` can be `:uuid`, `:name`, `:key` or `:file`, and `MODE` restricts the
+snippet search to a certain snippet table (by major mode). It isn't wise to use
+`MODE` to reference snippets for oher major modes, because it will only see
+snippets that yasnippet have already loaded (and it lazy loads each table).
+
+### `doom-snippets-without-trigger &rest BODY`
+
+Preforms `BODY` after moving the point to the start of the trigger keyword.
+
+Without this, tests like `bolp` would meaninglessly fail because the cursor is
+always in front of the word that triggered this snippet.
+
+``` text
+# -*- mode: snippet -*-
+# name: .to_string()
+# key: ts
+# condition: (doom-snippets-without-trigger (eq (char-before) ?.))
+# --
+to_string()
 ```
 
 
-[emacs.d]: https://github.com/hlissner/doom-emacs
+[yasnippet]: https://github.com/capitaomorte/yasnippet
+[Doom Emacs]: https://github.com/hlissner/doom-emacs

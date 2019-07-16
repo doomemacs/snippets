@@ -24,10 +24,8 @@
     (expand-file-name
      "snippets"
      (file-name-directory
-      (cond (load-in-progress load-file-name)
-            ((bound-and-true-p byte-compile-current-file)
-             byte-compile-current-file)
-            (buffer-file-name)))))
+      (or load-file-name
+          (bound-and-true-p byte-compile-current-file)))))
 
   (when (bound-and-true-p byte-compile-current-file)
     (require 'yasnippet)

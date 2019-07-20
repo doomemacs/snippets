@@ -3,4 +3,4 @@
 # uuid: desc
 # type: command
 # --
-(doom-snippet-expand :uuid "describe")
+(doom-snippets-expand :uuid "describe")

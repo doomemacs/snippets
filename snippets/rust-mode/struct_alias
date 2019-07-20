@@ -5,4 +5,4 @@
 # type: command
 # condition: (doom-snippets-bolp)
 # --
-(doom-snippet-expand :uuid "struct")
+(doom-snippets-expand :uuid "struct")

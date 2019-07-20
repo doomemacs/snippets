@@ -3,4 +3,4 @@
 # uuid: cl
 # type: command
 # --
-(doom-snippet-expand :uuid "class")
+(doom-snippets-expand :uuid "class")

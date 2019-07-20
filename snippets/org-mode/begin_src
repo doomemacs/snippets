@@ -3,4 +3,4 @@
 # key: <s
 # type: command
 # --
-(doom-snippet-expand :uuid "src")
+(doom-snippets-expand :uuid "src")

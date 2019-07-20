@@ -3,4 +3,4 @@
 # uuid: req
 # type: command
 # --
-(doom-snippet-expand :uuid "require")
+(doom-snippets-expand :uuid "require")

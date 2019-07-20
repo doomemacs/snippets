@@ -109,11 +109,11 @@ to_string()
 If this variable is non-nil, this package will define the following shortcut
 function aliases for your convenience:
 
-+ `!%!` = `(doom-snippet-format "%n%s%n")`
-+ `!%` = `(doom-snippet-format "%n%s")`
-+ `%$` = `(doom-snippet-format "%>")`
-+ `(%expand ...)` = `(doom-snippet-expand ...)`
-+ `(%format ...)` = `(doom-snippet-format ...)`
++ `!%!` = `(doom-snippets-format "%n%s%n")`
++ `!%` = `(doom-snippets-format "%n%s")`
++ `%$` = `(doom-snippets-format "%>")`
++ `(%expand ...)` = `(doom-snippets-expand ...)`
++ `(%format ...)` = `(doom-snippets-format ...)`
 + `(%without-trigger ...)` = `(doom-snippets-without-trigger ...)`
 
 

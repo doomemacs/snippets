@@ -3,4 +3,4 @@
 # uuid: opt
 # type: command
 # --
-(doom-snippet-expand :uuid "optional")
+(doom-snippets-expand :uuid "optional")

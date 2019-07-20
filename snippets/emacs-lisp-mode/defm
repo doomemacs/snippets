@@ -3,4 +3,4 @@
 # uuid: defm
 # type: command
 # --
-(doom-snippet-expand :uuid "defmacro")
+(doom-snippets-expand :uuid "defmacro")

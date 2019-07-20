@@ -3,4 +3,4 @@
 # uuid: cdef
 # type: command
 # --
-(doom-snippet-expand :uuid "cl-defun")
+(doom-snippets-expand :uuid "cl-defun")

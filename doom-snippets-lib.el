@@ -98,7 +98,7 @@ uuid/name/key/(absolute) filepath of the template you want to expand."
                        (yas-choose-keys-first nil))
                    (cl-loop for tpl in (yas--all-templates
                                         (yas--get-snippet-tables mode))
-                            if (string= uuid
+                            if (string= value
                                         (pcase property
                                           (:uuid (yas--template-uuid tpl))
                                           (:name (yas--template-name tpl))
@@ -107,7 +107,7 @@ uuid/name/key/(absolute) filepath of the template you want to expand."
                             return tpl))))
     (if snippet
         (yas-expand-snippet snippet)
-      (error "Couldn't find snippet" &optional ARGS))))
+      (error "Couldn't find %S snippet" value))))
 
 (provide 'doom-snippets-lib)
 ;;; doom-snippets-lib.el ends here

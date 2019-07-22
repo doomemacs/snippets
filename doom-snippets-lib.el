@@ -1,7 +1,8 @@
 ;;; doom-snippets-lib.el -*- lexical-binding: t; -*-
 
+(eval-when-compile
+  (require 'cl-lib))
 (eval-and-compile
-  (require 'cl-lib)
   (require 'yasnippet))
 
 ;; Simpler `yas-selected-text' alias for templates

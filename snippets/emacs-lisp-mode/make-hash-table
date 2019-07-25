@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: hash
+# key: mht
+# --
+(make-hash-table${1: :test '${2:equal}})

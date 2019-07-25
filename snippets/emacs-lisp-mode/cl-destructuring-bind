@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: cl-destructuring-bind
+# key: cdb
+# --
+(cl-destructuring-bind (${1:args})
+    ${2:expr}
+  `%`$0)

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: min
 # key: min
+# uuid: min
 # --
 min(${1:value1}, ${2:value2}${4:, ${3:value3}});

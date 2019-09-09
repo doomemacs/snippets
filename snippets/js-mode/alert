@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: alert
 # key: al
+# uuid: al
 # --
 alert(${0:`%`});

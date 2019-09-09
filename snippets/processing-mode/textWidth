@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: textWidth
 # key: text
+# uuid: text
 # --
 textWidth(${1:data});

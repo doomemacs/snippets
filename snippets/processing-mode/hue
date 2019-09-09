@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: hue
 # key: hue
+# uuid: hue
 # --
 hue(${1:color});

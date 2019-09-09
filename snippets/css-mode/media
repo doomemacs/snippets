@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: @media
 # key: med
+# uuid: med
 # --
 @media ${1:screen} {
     `%`$0

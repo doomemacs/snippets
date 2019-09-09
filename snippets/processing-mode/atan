@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: atan
 # key: atan
+# uuid: atan
 # --
 atan(${1:rad});

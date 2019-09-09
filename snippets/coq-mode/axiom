@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Axiom
 # key: ax
+# uuid: ax
 # --
 Axiom $1 : $2

@@ -1,5 +1,6 @@
 # name: use-package
 # key: up
+# uuid: up
 # --
 (use-package ${1:package}
   :${2:config}

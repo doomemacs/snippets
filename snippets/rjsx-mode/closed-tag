@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: HTML/JSX self-closed tag
 # key: </
+# uuid: </
 # --
 <${1:div} `%`$0/>

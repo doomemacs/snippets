@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: tryif
 # key: tryif
+# uuid: tryif
 # --
 tryif $1 then $2 else $3

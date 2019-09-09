@@ -1,5 +1,6 @@
 # name: for ... in ... : ...
 # key: for
+# uuid: for
 # group: control structure
 # --
 for ${1:var} in ${2:collection}:

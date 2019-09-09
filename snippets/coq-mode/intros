@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: intros
 # key: is
+# uuid: is
 # --
 intros $1

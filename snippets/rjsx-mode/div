@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: <div></div>
 # key: div
+# uuid: div
 # --
 <div>${0:`%`}</div>

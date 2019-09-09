@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: self
 # key: .
+# uuid: .
 # group: object oriented
 # --
 self.$0

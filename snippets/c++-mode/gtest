@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: gtest
 # key: gtest
+# uuid: gtest
 # group: testing
 # --
 #include <gtest/gtest.h>

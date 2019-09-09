@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: code
 # key: code
+# uuid: code
 # --
 .. code:: ${1:python}

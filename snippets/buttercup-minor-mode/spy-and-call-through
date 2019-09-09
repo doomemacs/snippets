@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: :and-call-through ...
 # key: act
+# uuid: act
 # condition: (doom-snippets-without-trigger (eq (char-before) ?:))
 # --
 and-call-through

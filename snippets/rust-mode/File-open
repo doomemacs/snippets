@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: File::open(...)
 # key: fo
+# uuid: fo
 # --
 File::open(${1:`%`})`(if (eolp) ";" "")`

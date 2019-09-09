@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: __repr__
 # key: repr
+# uuid: repr
 # group: dunder methods
 # --
 def __repr__(self):

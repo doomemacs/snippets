@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: bench
 # key: bench
+# uuid: bench
 # --
 require "benchmark"
 

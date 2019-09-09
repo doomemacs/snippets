@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: assertFalse
 # key: af
+# uuid: af
 # group: testing
 # --
 self.assertFalse($0)

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: require(...)
 # key: req
+# uuid: req
 # --
 require("${1:filename}")

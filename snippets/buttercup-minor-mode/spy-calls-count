@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: spy-calls-count ...
 # key: scc
+# uuid: scc
 # --
 (spy-calls-count ${1:'foo})

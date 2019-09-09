@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: section
 # key: sec
+# uuid: sec
 # --
 Section "${1:Program}"
         $0

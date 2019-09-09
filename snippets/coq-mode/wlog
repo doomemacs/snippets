@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: wlog
 # key: wlog
+# uuid: wlog
 # --
 wlog : / $1

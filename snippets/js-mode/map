@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: arr.map(...)
 # key: map
+# uuid: map
 # --
 `(unless (eq (char-before) ?.) ".")`map($0)`(if (eolp) ";")`

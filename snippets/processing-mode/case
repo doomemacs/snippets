@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: case
 # key: case
+# uuid: case
 # --
 case ${1:expression}:
   $0

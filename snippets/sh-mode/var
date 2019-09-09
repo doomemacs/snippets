@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: VAR=value
 # key: =
+# uuid: =
 # --
 ${1:VAR}=${0:VALUE}

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: javadoc
 # key: doc
+# uuid: doc
 # --
 /**
  * $0

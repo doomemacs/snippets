@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Proposition
 # key: pr
+# uuid: pr
 # --
 Proposition $1 : $2.
 Proof.

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: void
 # key: v
+# uuid: v
 # --
 void $0

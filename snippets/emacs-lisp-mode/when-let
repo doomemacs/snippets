@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: when-let
 # key: wl
+# uuid: wl
 # --
 (when-let* (${1:var-list}) `(doom-snippets-format "%n%s")`$0)`(doom-snippets-newline-or-eol)`

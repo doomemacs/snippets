@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: private
 # key: pri
+# uuid: pri
 # --
 private $0

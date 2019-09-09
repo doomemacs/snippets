@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: ambient
 # key: material
+# uuid: material
 # --
 ambient(${8:${3:value1}, ${4:value2}, ${5:value3}});

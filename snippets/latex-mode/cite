@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: cite
 # key: c
+# uuid: c
 # --
 \cite{$1} $0

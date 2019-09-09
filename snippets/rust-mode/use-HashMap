@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: use std::collections::HashMap
 # key: uhashmap
+# uuid: uhashmap
 # condition: (doom-snippets-bolp)
 # --
 use std::collections::HashMap;

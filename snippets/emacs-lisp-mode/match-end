@@ -1,6 +1,7 @@
 #contributor: Xah Lee (XahLee.org)
 #name: match-end
 #key: match-end
+# uuid: match-end
 #key: me
 # --
 (match-end N$0)

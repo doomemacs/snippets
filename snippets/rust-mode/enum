@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: enum
 # key: enum
+# uuid: enum
 # --
 enum ${1:EnumName} {
     `%`$0

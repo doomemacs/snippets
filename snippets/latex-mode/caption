@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: caption
 # key: ca
+# uuid: ca
 # --
 \caption{$0}

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: automodule
 # key: auto
+# uuid: auto
 # --
 .. automodule:: ${1:module_name}

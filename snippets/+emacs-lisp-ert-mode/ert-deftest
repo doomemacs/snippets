@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: ert-deftest
 # key: deftest
+# uuid: deftest
 # --
 (ert-deftest $1 ()`(doom-snippets-format "%n%s")`$0)

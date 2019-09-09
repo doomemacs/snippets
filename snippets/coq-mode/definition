@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Definition
 # key: def
+# uuid: def
 # --
 Definition $1:$2 := $3.

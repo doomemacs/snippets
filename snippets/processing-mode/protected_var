@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: protected var
 # key: protected
+# uuid: protected
 # --
 protected ${1:String} ${2:str}${4: = ${3:value}};

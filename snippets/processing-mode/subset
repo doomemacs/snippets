@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: subset
 # key: subset
+# uuid: subset
 # --
 subset(${1:array}, ${2:offset});

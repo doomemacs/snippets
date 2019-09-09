@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: alertblock
 # key: al
+# uuid: al
 # --
 \begin{alertblock}{$2}
         $0

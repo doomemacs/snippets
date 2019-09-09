@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: image
 # key: image
+# uuid: image
 # --
 image(${1:img}, ${2:x}, ${3:y}${6:, ${4:width}, ${5:height}});

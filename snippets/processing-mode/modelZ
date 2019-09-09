@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: modelZ
 # key: coordinates
+# uuid: coordinates
 # --
 modelZ(${1:x}, ${2:y}, ${3:z});

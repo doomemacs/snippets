@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: println var
 # key: println
+# uuid: println
 # --
 println("${1:var}: "+${1:var});$0

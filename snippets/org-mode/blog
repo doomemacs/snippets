@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: blog
 # key: blog
+# uuid: blog
 # --
 #+STARTUP: showall indent
 #+STARTUP: hidestars

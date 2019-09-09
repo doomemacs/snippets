@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: :and-return-value ...
 # key: arv
+# uuid: arv
 # condition: (doom-snippets-without-trigger (eq (char-before) ?:))
 # --
 and-return-value ${1:value}

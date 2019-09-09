@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: saveFrame
 # key: save
+# uuid: save
 # --
 saveFrame(${2:"${1:filename}"});

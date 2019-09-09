@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: main
 # key: main
+# uuid: main
 # --
 def main():
     $0

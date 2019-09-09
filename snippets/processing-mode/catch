@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: catch
 # key: catch
+# uuid: catch
 # --
 catch (${1:Exception} e) {
   $0

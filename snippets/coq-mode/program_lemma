@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Program Lemma
 # key: pl
+# uuid: pl
 # --
 Program Lemma $1 : $2.
 Proof.

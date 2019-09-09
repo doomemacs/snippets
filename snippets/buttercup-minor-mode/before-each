@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: before-each ...
 # key: bfe
+# uuid: bfe
 # --
 (before-each ${1:`(doom-snippets-format "%n%s")`})

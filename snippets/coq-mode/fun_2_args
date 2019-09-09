@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: fun (2 args)
 # key: f2
+# uuid: f2
 # --
 fun ($1:$2) ($3:$4) => $5

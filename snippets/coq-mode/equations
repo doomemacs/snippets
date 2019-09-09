@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Equations
 # key: eqs
+# uuid: eqs
 # --
 Equations $1:$2 := $3.

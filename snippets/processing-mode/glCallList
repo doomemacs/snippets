@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: glCallList
 # key: glCallList
+# uuid: glCallList
 # --
 // execute a display list
 gl.glCallList(${1:list});

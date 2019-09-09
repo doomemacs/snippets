@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: logging
 # key: log
+# uuid: log
 # --
 logger = logging.getLogger("${1:name}")
 logger.setLevel(logging.${2:level})

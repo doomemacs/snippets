@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: np
 # key: np
+# uuid: np
 # group: general
 # --
 import numpy as np

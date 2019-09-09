@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: __unicode__
 # key: un
+# uuid: un
 # group: dunder methods
 # --
 def __unicode__(self):

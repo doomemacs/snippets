@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: transitivity
 # key: trans
+# uuid: trans
 # --
 transitivity $1

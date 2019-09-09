@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: message
 # key: msg
+# uuid: msg
 # --
 MessageBox MB_OK "${1:hello}"

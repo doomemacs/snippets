@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: arr.indexOf(elt, fromIndex)
 # key: iof
+# uuid: iof
 # --
 `(unless (eq (char-before) ?.) ".")`indexOf(${1:`(or (doom-snippets-text nil t) "elt")`}${2: ${3:fromIndex}})`(if (eolp) ";")`

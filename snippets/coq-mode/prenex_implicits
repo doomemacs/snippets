@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Prenex Implicits
 # key: pi
+# uuid: pi
 # --
 Prenex Implicits $1

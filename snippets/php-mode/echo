@@ -1,4 +1,5 @@
 # name: echo ...;
 # key: e
+# uuid: e
 # --
 echo `%`$0;

@@ -1,4 +1,5 @@
 # name: self::...
 # key: sel
+# uuid: sel
 # --
 self::$0

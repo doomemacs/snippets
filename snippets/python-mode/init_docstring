@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: init_docstring
 # key: initd
+# uuid: initd
 # group: definitions
 # --
 def __init__(self$1):

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: public
 # key: p
+# uuid: p
 # --
 public $0

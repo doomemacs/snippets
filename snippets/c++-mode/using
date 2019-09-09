@@ -1,4 +1,5 @@
 #name : using namespace ... 
 # key: using
+# uuid: using
 # --
 using namespace ${std};

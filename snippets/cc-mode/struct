@@ -1,5 +1,6 @@
 #name : struct ... { ... }
 # key: struct
+# uuid: struct
 # --
 struct ${1:name} {
     $0

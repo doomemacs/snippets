@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: test
 # key: test
+# uuid: test
 # --
 @Test
 public void test_${1:Case}() {

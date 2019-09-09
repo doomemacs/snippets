@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: meta
 # key: :
+# uuid: :
 # --
 :${1:var}: $0

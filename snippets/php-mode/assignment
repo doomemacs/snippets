@@ -1,4 +1,5 @@
 # name: $var = value;
 # key: =
+# uuid: =
 # --
 \$${1:var_name} = `%`$0;

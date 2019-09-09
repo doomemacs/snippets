@@ -1,5 +1,6 @@
 # -*- require-final-newline: nil -*-
 # name: Header 3
 # key: h3
+# uuid: h3
 # --
 ### ${1:Header 3}`(unless markdown-asymmetric-header " ###")`

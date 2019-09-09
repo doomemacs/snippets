@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: keyCode
 # key: key
+# uuid: key
 # --
 keyCode$0

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: assertEqual
 # key: ae
+# uuid: ae
 # group: testing
 # --
 self.assertEqual($1, $2)

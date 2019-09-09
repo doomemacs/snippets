@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: arr.forEach(function(item) {...})
 # key: forefu
+# uuid: forefu
 # --
 `(unless (eq (char-before) ?.) ".")`forEach(function(${1:item}) {
     `(doom-snippets-format "%n%s%n")`$0

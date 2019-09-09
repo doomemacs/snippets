@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: HTML/JSX tag
 # key: <
+# uuid: <
 # --
 <${1:div}>${0:`(doom-snippets-format "%n%s%n")`}</$1>

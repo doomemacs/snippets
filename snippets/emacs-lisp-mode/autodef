@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: doom autodef tag
 # key: ad
+# uuid: ad
 # condition: (doom-snippets-bolp)
 # --
 ;;;###autodef

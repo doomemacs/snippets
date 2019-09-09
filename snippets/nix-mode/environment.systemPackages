@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: environment.systemPackages
 # key: esp
+# uuid: esp
 # --
 `(%nix-mode-if-parent "environment")`systemPackages = with pkgs; [
   ${0:`%`}

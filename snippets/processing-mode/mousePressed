@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: mousePressed
 # key: mouse
+# uuid: mouse
 # --
 void mousePressed(){
   ${1}

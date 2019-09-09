@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: main
 # key: main
+# uuid: main
 # --
 main = do $0

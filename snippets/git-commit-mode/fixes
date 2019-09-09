@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: fixes
 # key: fix
+# uuid: fix
 # --
 fixes #${1:100}

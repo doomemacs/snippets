@@ -1,6 +1,7 @@
 #contributor: Xah Lee (XahLee.org)
 #name: read lines of a file
 # key: x-file
+# uuid: x-file
 # --
 (defun read-lines (filePath)
   "Return a list of lines in FILEPATH."

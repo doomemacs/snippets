@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Hint Resolve
 # key: hr
+# uuid: hr
 # --
 Hint Resolve $1 : ${1:db}.

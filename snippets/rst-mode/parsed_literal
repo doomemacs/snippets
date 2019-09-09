@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: parsed_literal
 # key: src
+# uuid: src
 # --
 .. parsed-literal::
    $0

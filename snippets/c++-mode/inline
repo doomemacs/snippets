@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: inline
 # key: il
+# uuid: il
 # --
 inline $0

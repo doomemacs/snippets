@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: apply
 # key: apply
+# uuid: apply
 # --
 (apply $0)

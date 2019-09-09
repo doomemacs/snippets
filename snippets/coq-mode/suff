@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: suff
 # key: suff
+# uuid: suff
 # --
 suff $1 : $2

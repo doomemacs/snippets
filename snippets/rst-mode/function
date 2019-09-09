@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: function
 # key: fun
+# uuid: fun
 # --
 :function:\`$0\`

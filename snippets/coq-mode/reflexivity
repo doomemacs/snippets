@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: reflexivity
 # key: refl
+# uuid: refl
 # --
 reflexivity $1

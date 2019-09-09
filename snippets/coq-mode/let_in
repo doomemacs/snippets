@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: let in
 # key: li
+# uuid: li
 # --
 let $1 := $2 in $3

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: file_class
 # key: file
+# uuid: file
 # --
 public class ${1:`(file-name-base
                     (or (buffer-file-name)

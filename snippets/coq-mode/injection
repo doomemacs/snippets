@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: injection
 # key: inj
+# uuid: inj
 # --
 injection $1

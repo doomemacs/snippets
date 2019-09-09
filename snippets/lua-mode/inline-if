@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: inline if ... then ... end
 # key: ?
+# uuid: ?
 # --
 if ${1:true} then `%`$0 end

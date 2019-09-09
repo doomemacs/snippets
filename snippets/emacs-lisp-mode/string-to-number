@@ -1,4 +1,5 @@
 #name: string-to-number
 #key: stn
+# uuid: stn
 # --
 (string-to-number "`%`$0")

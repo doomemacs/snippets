@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: loop { ... }
 # key: loop
+# uuid: loop
 # --
 loop { `(doom-snippets-format "%n%s%n")`$0 }

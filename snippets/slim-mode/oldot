@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: ol ...
 # key: ol.
+# uuid: ol.
 # --
 ol
   `%`$0

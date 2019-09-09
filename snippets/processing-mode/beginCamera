@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: beginCamera
 # key: camera
+# uuid: camera
 # --
 beginCamera();

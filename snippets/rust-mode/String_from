@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: String::from(...)
 # key: sf
+# uuid: sf
 # --
 String::from("$0")

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Program Instance
 # key: pinstance
+# uuid: pinstance
 # --
 Program Instance [ $1 ] => $2 where 
 $3 := $4;

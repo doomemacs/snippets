@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: #+BEGIN_EXPORT html block
 # key: <h
+# uuid: <h
 # --
 #+BEGIN_EXPORT html
 `%`$0

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: item
 # key: -
+# uuid: -
 # --
 \item $0

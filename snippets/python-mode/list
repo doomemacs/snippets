@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: list
 # key: li
+# uuid: li
 # group: definitions
 # --
 [${1:x} for $1 in ${2:list}]

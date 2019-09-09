@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: glColor4f
 # key: glColor4f
+# uuid: glColor4f
 # --
 gl.glColor4f(${1:red}, ${2:green}, ${3:blue}, ${4:alpha});

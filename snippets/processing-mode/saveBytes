@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: saveBytes
 # key: file
+# uuid: file
 # --
 saveBytes(${1:filename}, ${2:bytes});

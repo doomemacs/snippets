@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: EV
 # key: ev
+# uuid: ev
 # --
 EV << "${1:string}"$0;

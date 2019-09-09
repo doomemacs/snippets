@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: print
 # key: p
+# uuid: p
 # --
 print($0)

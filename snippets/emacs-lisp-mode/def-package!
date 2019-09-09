@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: def-package! ...
 # key: dp
+# uuid: dp
 # --
 (def-package! ${1:package}
   :${2:config}

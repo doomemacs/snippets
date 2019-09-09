@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: setdef
 # key: setdef
+# uuid: setdef
 # --
 ${1:var}.setdefault(${2:key}, []).append(${3:value})

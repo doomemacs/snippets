@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: type Name = ...;
 # key: type
+# uuid: type
 # --
 type ${1:TypeName} = ${2:i32};

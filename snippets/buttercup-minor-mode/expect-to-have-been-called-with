@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: :to-have-been-called-with ...
 # key: bcw
+# uuid: bcw
 # condition: (doom-snippets-without-trigger (eq (char-before) ?:))
 # --
 to-have-been-called-with ${1:args...}

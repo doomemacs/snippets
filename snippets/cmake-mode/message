@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: message
 # key: msg
+# uuid: msg
 # --
 message(${1:STATUS }"$0")

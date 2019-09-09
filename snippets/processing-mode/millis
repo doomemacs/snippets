@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: millis
 # key: time
+# uuid: time
 # --
 millis()$0

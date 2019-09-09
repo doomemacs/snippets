@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: exp
 # key: exp
+# uuid: exp
 # --
 exp(${1:value});

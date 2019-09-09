@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: size OPENGL
 # key: size
+# uuid: size
 # --
 size(${1:200}, ${2:200}${3:, OPENGL});

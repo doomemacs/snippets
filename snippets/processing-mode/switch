@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: switch
 # key: switch
+# uuid: switch
 # --
 switch ($1){
   $0

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: char
 # key: char
+# uuid: char
 # --
 char ${1:m} ${6:= "${3:char}"};

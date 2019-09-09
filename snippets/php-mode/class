@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: PHP class
 # key: cl
+# uuid: cl
 # --
 class ${1:Name}${2: extends ${3:Parent}} {
     `%`$0

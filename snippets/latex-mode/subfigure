@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: subfigure
 # key: subfig
+# uuid: subfig
 # --
 \begin{figure}[ht]
   \centering

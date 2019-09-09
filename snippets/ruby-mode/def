@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: def ... end
 # key: def
+# uuid: def
 # --
 def ${1:method}${2:(${3:args})}
     $0

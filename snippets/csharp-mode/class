@@ -1,6 +1,7 @@
 #contributor : Alejandro Espinoza Esparza <aespinoza@structum.com.mx>
 #name : class ... { ... }
 # key: class
+# uuid: class
 # --
 ${5:public} class ${1:Name}
 {

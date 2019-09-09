@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: randomSeed
 # key: random
+# uuid: random
 # --
 randomSeed(${1:value});

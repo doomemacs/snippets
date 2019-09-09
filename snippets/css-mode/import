@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: @import
 # key: imp
+# uuid: imp
 # --
 @import "`(doom-snippets-text nil t)`$0";

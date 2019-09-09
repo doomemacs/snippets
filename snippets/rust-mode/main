@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: main
 # key: main
+# uuid: main
 # --
 fn main() {
    `%`$0

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: assignment
 # key: =
+# uuid: =
 # --
 ${1:x} = ${2:value}`(if (eolp) ";" "")`$0

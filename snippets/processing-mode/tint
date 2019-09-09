@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: tint
 # key: tint
+# uuid: tint
 # --
 tint(${8:${3:value1}, ${4:value2}, ${5:value3}${7:, ${6:alpha}}});

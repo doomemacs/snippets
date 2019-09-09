@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: :to-have-same-items-as ...
 # key: s
+# uuid: s
 # condition: (doom-snippets-without-trigger (eq (char-before) ?:))
 # --
 to-have-same-items-as $1

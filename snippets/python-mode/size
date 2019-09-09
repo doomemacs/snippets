@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: size
 # key: size
+# uuid: size
 # --
 sys.getsizeof($0)

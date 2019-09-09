@@ -1,5 +1,6 @@
 #contributor: Xah Lee (XahLee.org)
 #name: substring
 #key: substring
+# uuid: substring
 # --
 (substring STRING$0 FROM &optional TO)

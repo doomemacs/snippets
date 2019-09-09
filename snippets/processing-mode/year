@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: year
 # key: time
+# uuid: time
 # --
 year()$0

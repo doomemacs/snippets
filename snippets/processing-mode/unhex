@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: unhex
 # key: unhex
+# uuid: unhex
 # --
 unhex(${3:c});

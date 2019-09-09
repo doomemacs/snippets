@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: package github
 # key: pkgg
+# uuid: pkgg
 # --
 { stdenv, fetchFromGitHub$1 }:
 

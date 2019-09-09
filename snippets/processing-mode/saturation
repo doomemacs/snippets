@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: saturation
 # key: saturation
+# uuid: saturation
 # --
 saturation(${1:color});

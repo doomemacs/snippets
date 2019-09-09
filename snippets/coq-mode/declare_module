@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Declare Module : :=
 # key: dm
+# uuid: dm
 # --
 Declare Module $1 : $2 := $3.

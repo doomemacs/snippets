@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: asin
 # key: asin
+# uuid: asin
 # --
 asin(${1:rad});

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: cbv
 # key: cbv
+# uuid: cbv
 # --
 cbv beta delta [$1] iota zeta

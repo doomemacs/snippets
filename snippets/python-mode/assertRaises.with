@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: assertRaises
 # key: ar
+# uuid: ar
 # --
 with self.assertRaises(${1:Exception}):
      $0

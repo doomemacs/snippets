@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: after-each ...
 # key: afe
+# uuid: afe
 # --
 (after-each ${1:`(doom-snippets-format "%n%s")`})

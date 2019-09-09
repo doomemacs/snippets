@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: lambda
 # key: lam
+# uuid: lam
 # --
 lambda ${1:x}: $0

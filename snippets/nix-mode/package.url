@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: package url
 # key: pkgu
+# uuid: pkgu
 # --
 { stdenv, fetchurl$1 }:
 

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: inline if-else
 # key: ife
+# uuid: ife
 # --
 if ${1:x} {${2:`%`}}${3: else {$4}}$0

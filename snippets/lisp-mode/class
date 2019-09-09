@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: defclass
 # key: defc
+# uuid: defc
 # --
 (defclass ${1:name} (${2:inherits})
   (${4:slots})

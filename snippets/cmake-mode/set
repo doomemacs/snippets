@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: set
 # key: set
+# uuid: set
 # --
 set(${1:var} ${2:value})

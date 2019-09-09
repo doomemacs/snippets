@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Chapter
 # key: chp
+# uuid: chp
 # --
 Chapter $1 : $2.

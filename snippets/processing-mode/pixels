@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: pixels
 # key: pixels
+# uuid: pixels
 # --
 pixels[${1:index}]$0

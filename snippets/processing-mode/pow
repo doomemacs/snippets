@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: pow
 # key: pow
+# uuid: pow
 # --
 pow(${1:num}, ${2:exponent});

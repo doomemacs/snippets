@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: glPushMatrix
 # key: glPushMatrix
+# uuid: glPushMatrix
 # --
 // spush and pop the current matrix stack
 gl.glPushMatrix();

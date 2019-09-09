@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Variant
 # key: varv
+# uuid: varv
 # --
 Variant $1 : $2 := $3 : $4.

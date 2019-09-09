@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: subf
 # key: sf
+# uuid: sf
 # --
 \subfigure[${1:caption}]{
   \label{fig:${2:label}} 

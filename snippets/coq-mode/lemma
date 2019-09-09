@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Lemma
 # key: l
+# uuid: l
 # --
 Lemma $1 : $2.
 Proof.

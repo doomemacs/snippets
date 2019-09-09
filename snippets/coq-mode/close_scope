@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Close Scope
 # key: clsc
+# uuid: clsc
 # --
 Close Scope $1

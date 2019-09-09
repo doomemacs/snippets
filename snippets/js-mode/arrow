@@ -1,5 +1,6 @@
 # -*- mode: snippet; require-final-newline: nil -*-
 # name: arrow function
 # key: =>
+# uuid: =>
 # --
 $1 => `(if (> (doom-snippets-count-lines %) 1) (concat "{ " (doom-snippets-format "%n%s%n") " }") %)`$0

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: class
 # key: class
+# uuid: class
 # --
 ${1:public }class ${2:`(f-base buffer-file-name)`} {
            $0

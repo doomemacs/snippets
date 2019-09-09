@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: printProjection
 # key: camera
+# uuid: camera
 # --
 printProjection();

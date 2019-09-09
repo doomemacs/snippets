@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: var
 # key: elvar
+# uuid: elvar
 # --
 `comment-start`-*- ${1:var}: ${2:value} -*-`comment-end`

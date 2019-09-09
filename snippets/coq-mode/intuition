@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: intuition
 # key: intu
+# uuid: intu
 # --
 intuition $1

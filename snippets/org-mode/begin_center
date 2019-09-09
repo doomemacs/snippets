@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: #+BEGIN_CENTER block
 # key: <C
+# uuid: <C
 # --
 #+BEGIN_CENTER
 `%`$0

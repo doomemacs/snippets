@@ -1,4 +1,5 @@
 #name: lambda
 #key: lambda
+# uuid: lambda
 # --
 (lambda ($1) (interactive) `(doom-snippets-format "%n%s")`$0)

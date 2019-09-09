@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: env::args()
 # key: argv
+# uuid: argv
 # --
 env::args()

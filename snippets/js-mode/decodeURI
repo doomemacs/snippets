@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: decodeURI
 # key: du
+# uuid: du
 # --
 decodeURI(${1:`%`})`(if (eolp) ";")`

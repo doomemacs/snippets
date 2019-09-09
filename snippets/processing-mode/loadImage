@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: loadImage
 # key: loadImage
+# uuid: loadImage
 # --
 loadImage(${1:filename});

@@ -1,6 +1,7 @@
 # -*- mode: snippet; require-final-newline: nil -*-
 # name: do-end
 # key: do
+# uuid: do
 # binding: direct-keybinding
 # --
 do

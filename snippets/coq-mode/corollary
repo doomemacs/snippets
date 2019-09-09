@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Corollary
 # key: cor
+# uuid: cor
 # --
 Corollary $1 : $2.
 Proof.

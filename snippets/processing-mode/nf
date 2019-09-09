@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: nf
 # key: nf
+# uuid: nf
 # --
 nf(${3:value}, ${4:left}${6:, ${5:right}});

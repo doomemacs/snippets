@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: begin
 # key: begin
+# uuid: begin
 # --
 \begin{${1:environment}}
 $0

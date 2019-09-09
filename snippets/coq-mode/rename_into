@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: rename into
 # key: ren
+# uuid: ren
 # --
 rename $1 into $2

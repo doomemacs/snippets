@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: packed
 # key: packed
+# uuid: packed
 # --
 __attribute__((__packed__))$0

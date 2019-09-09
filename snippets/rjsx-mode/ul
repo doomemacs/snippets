@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: ul > li
 # key: ul
+# uuid: ul
 # --
 <ul>
     <li>`(doom-snippets-format "%n%s%n")`$0</li>

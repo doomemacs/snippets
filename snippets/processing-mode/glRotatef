@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: glRotatef
 # key: glRotatef
+# uuid: glRotatef
 # --
 // rotate, x-axis, y-axis, z-axiz
 gl.glRotatef(${1:angle}, ${2:x}, ${3:y}, ${4:z});

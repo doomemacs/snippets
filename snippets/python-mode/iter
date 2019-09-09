@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: __iter__
 # key: iter
+# uuid: iter
 # group: dunder methods
 # --
 def __iter__(self):

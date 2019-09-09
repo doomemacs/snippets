@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: frameRate
 # key: framerate
+# uuid: framerate
 # --
 frameRate($0);

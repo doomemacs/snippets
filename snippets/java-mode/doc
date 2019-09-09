@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: doc
 # key: /*
+# uuid: /*
 # condition: (not (use-region-p))
 # --
 /**

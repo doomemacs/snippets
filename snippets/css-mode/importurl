@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: @import url(...)
 # key: impurl
+# uuid: impurl
 # --
 @import url("`(doom-snippets-text nil t)`$0");

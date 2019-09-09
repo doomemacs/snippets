@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Recursive Extraction Library
 # key: recextrl
+# uuid: recextrl
 # --
 Recursive Extraction Library ${1:id}.

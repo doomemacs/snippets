@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: @import url("//fonts.googleapis...")
 # key: impfont
+# uuid: impfont
 # --
 @import url("http://fonts.googleapis.com/css?family=${1:Open+Sans}");

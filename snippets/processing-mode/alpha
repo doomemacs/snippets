@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: alpha
 # key: alpha
+# uuid: alpha
 # --
 alpha(${1:color});

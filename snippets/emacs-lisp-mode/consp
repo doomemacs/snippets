@@ -1,5 +1,6 @@
 #contributor: Xah Lee (XahLee.org)
 #name: consp
 #key: consp
+# uuid: consp
 # --
 (consp $0 )

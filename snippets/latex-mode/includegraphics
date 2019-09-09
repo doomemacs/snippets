@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: includegraphics
 # key: ig
+# uuid: ig
 # --
 \includegraphics${1:[$2]}{$0}

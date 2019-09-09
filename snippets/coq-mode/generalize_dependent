@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: generalize dependent
 # key: gd
+# uuid: gd
 # --
 generalize dependent $1

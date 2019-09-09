@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: entry
 # key: entry
+# uuid: entry
 # --
 ${1:entry}: ${2:value}
 $0

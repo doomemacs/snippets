@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: degrees
 # key: degrees
+# uuid: degrees
 # --
 degrees(${1:rad});

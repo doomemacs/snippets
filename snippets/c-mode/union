@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: union
 # key: union
+# uuid: union
 # --
 typedef union {
         $0

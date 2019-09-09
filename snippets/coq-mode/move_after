@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: move after
 # key: mov
+# uuid: mov
 # --
 move $1 after $2

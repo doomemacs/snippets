@@ -1,6 +1,7 @@
 # -*- mode: snippet; require-final-newline: nil -*-
 # name: lbupdate
 # key: lbupdate
+# uuid: lbupdate
 # condition: (eq major-mode 'nxml-mode)
 # --
 <key>LBChangelog</key>

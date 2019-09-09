@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: :to-throw
 # key: t
+# uuid: t
 # condition: (doom-snippets-without-trigger (eq (char-before) ?:))
 # --
 to-throw

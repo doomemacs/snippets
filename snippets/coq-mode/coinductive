@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: CoInductive
 # key: coindv
+# uuid: coindv
 # --
 CoInductive $1 : $2 :=
 |$3 : $4.

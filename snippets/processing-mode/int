@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: int
 # key: int
+# uuid: int
 # --
 int ${1:f} ${6:= ${3:0}};

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Hypotheses
 # key: hyp
+# uuid: hyp
 # --
 Hypotheses $1: $2

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Remark
 # key: rk
+# uuid: rk
 # --
 Remark $1 : $2.
 $3

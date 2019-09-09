@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: splitTokens
 # key: split
+# uuid: split
 # --
 splitTokens(${3:str}${5:, ${4:tokens}});

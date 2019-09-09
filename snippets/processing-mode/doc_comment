@@ -3,5 +3,5 @@
 # key: doc
 # --
 /**
- *	${1:@private}$0
+ *  ${1:@private}$0
  */

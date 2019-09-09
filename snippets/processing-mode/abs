@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: abs
 # key: abs
+# uuid: abs
 # --
 abs(${1:value});

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: block
 # key: b
+# uuid: b
 # --
 ${1:Label} { `(doom-snippets-format "%n%s%n")`$1 }$0

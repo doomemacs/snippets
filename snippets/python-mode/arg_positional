@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: arg_positional
 # key: arg
+# uuid: arg
 # group: argparser
 # --
 parser.add_argument('${1:varname}', $0)

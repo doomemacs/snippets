@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: warning
 # key: warn
+# uuid: warn
 # --
 .. warning:
    $0

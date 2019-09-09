@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: buffer-file-name
 # key: bfn
+# uuid: bfn
 # --
 buffer-file-name

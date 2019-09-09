@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: have
 # key: hv
+# uuid: hv
 # --
 have $1 : $2

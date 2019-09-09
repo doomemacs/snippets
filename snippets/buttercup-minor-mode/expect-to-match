@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: :to-match ...
 # key: m
+# uuid: m
 # condition: (doom-snippets-without-trigger (eq (char-before) ?:))
 # --
 to-match $1

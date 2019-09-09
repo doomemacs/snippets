@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: noiseSeed
 # key: noiseSeed
+# uuid: noiseSeed
 # --
 noiseSeed(${1:x});

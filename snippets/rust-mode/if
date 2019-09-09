@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: if ... { ... }
 # key: if
+# uuid: if
 # --
 if ${1:x} {
    `%`$0

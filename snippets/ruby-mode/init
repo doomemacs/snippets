@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: init
 # key: init
+# uuid: init
 # --
 def initialize(${1:args})
     $0

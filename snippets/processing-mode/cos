@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: cos
 # key: cos
+# uuid: cos
 # --
 cos(${1:rad});

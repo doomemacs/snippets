@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: shorten
 # key: shorten
+# uuid: shorten
 # --
 shorten(${1:array});

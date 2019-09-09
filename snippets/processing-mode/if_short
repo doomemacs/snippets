@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: if short
 # key: ?
+# uuid: ?
 # --
 ? ${1:trueExpression} : ${2:falseExpression}$0

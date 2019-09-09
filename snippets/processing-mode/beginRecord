@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: beginRecord
 # key: file
+# uuid: file
 # --
 beginRecord(${1:renderer}, ${2:filename});

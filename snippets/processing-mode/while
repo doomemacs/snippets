@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: while
 # key: while
+# uuid: while
 # --
 while ($1){
   $0

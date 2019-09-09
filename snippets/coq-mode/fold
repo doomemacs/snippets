@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: fold
 # key: fold
+# uuid: fold
 # --
 fold $1

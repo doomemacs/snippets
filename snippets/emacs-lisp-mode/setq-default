@@ -1,4 +1,5 @@
 # name: setq-default
 # key: setqd
+# uuid: setqd
 # --
 (setq-default ${1:`%`} ${0:value})

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: println!(...)
 # key: p
+# uuid: p
 # --
 println!("$1", ${2:`%`});$0

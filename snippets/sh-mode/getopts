@@ -1,6 +1,7 @@
 # -*- mode: snippet; require-final-newline: nil -*-
 # name: getopts
 # key: getopts
+# uuid: getopts
 # --
 while getopts "${1:s:h:}" o; do
       case "$o" in

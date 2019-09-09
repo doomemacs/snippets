@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: var
 # key: $
+# uuid: $
 # --
 $(${1:VAR})$0

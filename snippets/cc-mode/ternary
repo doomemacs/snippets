@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: ternary
 # key: ?
+# uuid: ?
 # --
 (${1:cond}) ? ${2:then} : ${3:else};

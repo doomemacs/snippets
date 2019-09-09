@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: size
 # key: size
+# uuid: size
 # --
 size(${1:512}, ${2:512});

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: arr.map((item, i, arr) => {...})
 # key: map=>
+# uuid: map=>
 # --
 `(unless (eq (char-before) ?.) ".")`map((${1:item}, ${2:i}, ${3:arr}) => `(if (> (doom-snippets-count-lines %) 1) (concat "{ " (doom-snippets-format "%n%s%n") " }") %)`$0)`(if (eolp) ";")`

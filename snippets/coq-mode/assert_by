@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: assert by
 # key: assb
+# uuid: assb
 # --
 assert ( $1 : $2 ) by $3

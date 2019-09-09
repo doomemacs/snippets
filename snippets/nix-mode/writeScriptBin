@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: pkgs.writeScriptBin ...
 # key: wsb
+# uuid: wsb
 # --
 pkgs.writeScriptBin "${1:name}" ''
   #!${pkgs.stdenv.shell}

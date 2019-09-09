@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: friend
 # key: fr
+# uuid: fr
 # --
 friend $0;

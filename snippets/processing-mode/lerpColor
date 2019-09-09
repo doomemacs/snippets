@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: lerpColor
 # key: lerpColor
+# uuid: lerpColor
 # --
 lerpColor(${1:c1}, ${2:c2}, ${3:amt});

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: arr.filter(...)
 # key: fil
+# uuid: fil
 # --
 `(unless (eq (char-before) ?.) ".")`filter($0)`(if (eolp) ";")`

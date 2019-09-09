@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: function_docstring
 # key: fd
+# uuid: fd
 # group: definitions
 # --
 def ${1:name}($2):

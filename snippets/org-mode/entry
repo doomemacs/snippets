@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: entry
 # key: entry
+# uuid: entry
 # --
 #+begin_html
 ---

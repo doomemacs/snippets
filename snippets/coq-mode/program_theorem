@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Program Theorem
 # key: pth
+# uuid: pth
 # --
 Program Theorem $1 : $2.
 Proof.

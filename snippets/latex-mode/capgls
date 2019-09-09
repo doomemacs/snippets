@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Gls
 # key: G
+# uuid: G
 # --
 \Gls{${1:label}}

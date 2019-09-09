@@ -1,6 +1,7 @@
 #contributor : Alejandro Espinoza Esparza <aespinoza@structum.com.mx>
 #name : property ... ... { ... }
 # key: prop
+# uuid: prop
 # --
 /// <summary>
 /// $5

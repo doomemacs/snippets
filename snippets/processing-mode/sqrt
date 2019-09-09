@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: sqrt
 # key: sqrt
+# uuid: sqrt
 # --
 sqrt(${1:value});

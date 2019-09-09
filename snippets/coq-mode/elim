@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: elim
 # key: e
+# uuid: e
 # --
 elim $1

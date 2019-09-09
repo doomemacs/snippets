@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: inversion
 # key: inv
+# uuid: inv
 # --
 inversion $1

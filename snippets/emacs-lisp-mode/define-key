@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: define-key
 # key: dk
+# uuid: dk
 # --
 (define-key ${1:keymap} ${2:key} ${0:fn})

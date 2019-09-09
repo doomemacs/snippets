@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: intuniform
 # key: intuni
+# uuid: intuni
 # --
 intuniform(${1:0}, ${2:1})

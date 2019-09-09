@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: logger_name
 # key: ln
+# uuid: ln
 # --
 logger = logging.getLogger(__name__)

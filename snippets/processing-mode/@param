@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: @param
 # key: @
+# uuid: @
 # --
 @param  ${1:parameter}  ${2:description}

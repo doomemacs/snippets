@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: PHONY
 # key: phony
+# uuid: phony
 # --
 .PHONY: $0

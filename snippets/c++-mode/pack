@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: pack
 # key: pack
+# uuid: pack
 # --
 void cNetCommBuffer::pack(${1:type}) {
 

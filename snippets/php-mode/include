@@ -1,4 +1,5 @@
 # name: include("...");
 # key: inc
+# uuid: inc
 # --
 include("${1:...}");

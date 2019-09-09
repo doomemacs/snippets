@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: term
 # key: term
+# uuid: term
 # --
 :term:\`$0\`

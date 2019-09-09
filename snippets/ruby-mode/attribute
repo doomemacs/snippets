@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: attribute
 # key: @
+# uuid: @
 # --
 @${1:attr} = $0

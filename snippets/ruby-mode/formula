@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: formula
 # key: form
+# uuid: form
 # --
 require 'formula'
 

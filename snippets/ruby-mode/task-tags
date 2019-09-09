@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: task :tags ... end
 # key: :tags
+# uuid: :tags
 # --
 task :tags do
     sh "gem ripper_tags --exclude=vendor"

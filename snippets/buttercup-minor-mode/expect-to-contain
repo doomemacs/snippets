@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: :to-contain ...
 # key: c
+# uuid: c
 # condition: (doom-snippets-without-trigger (eq (char-before) ?:))
 # --
 to-contain $1

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: fixture
 # key: fixt
+# uuid: fixt
 # --
 BOOST_FIXTURE_TEST_SUITE( ${1:name}, ${2:Fixture} )
 

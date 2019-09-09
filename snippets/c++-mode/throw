@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: throw
 # key: throw
+# uuid: throw
 # --
 throw ${1:MyError}($0);

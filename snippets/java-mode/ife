@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: ife
 # key: ife
+# uuid: ife
 # --
 if (${1:true}) {
     `%`$2

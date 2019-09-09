@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: inheritance
 # key: inh
+# uuid: inh
 # --
 .. inheritance-diagram:: $0

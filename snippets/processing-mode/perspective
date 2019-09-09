@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: perspective
 # key: perspective
+# uuid: perspective
 # --
 perspective(${5:${1:fov}, ${2:aspect}, ${3:zNear}, ${4:zFar}});

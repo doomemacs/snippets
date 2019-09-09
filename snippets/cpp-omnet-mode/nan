@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: nan
 # key: nan
+# uuid: nan
 # --
 isnan(${1:x})

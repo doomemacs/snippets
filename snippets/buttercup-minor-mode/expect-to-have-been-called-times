@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: :to-have-been-called-time ...
 # key: bct
+# uuid: bct
 # condition: (doom-snippets-without-trigger (eq (char-before) ?:))
 # --
 to-have-been-called-times ${1:1}

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: textFont
 # key: text
+# uuid: text
 # --
 textFont(${1:font}${7:, ${6:size}});

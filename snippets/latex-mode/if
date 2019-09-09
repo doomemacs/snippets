@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: if
 # key: if
+# uuid: if
 # --
 \IF {$${1:cond}$}
     $0

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: enough
 # key: eng
+# uuid: eng
 # --
 enough ($1: $2).
 { $3

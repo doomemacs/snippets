@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: TWO PI
 # key: pi
+# uuid: pi
 # --
 TWO_PI$0

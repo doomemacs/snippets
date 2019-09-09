@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: panic!(...)
 # key: pa
+# uuid: pa
 # --
 panic!("$1", ${2:`%`});$0

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: foreach (...) {...}
 # key: fore
+# uuid: fore
 # --
 foreach (${1:collection} as ${2:var}) {
     `%`$0

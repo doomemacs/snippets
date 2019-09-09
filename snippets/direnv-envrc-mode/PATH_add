@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: PATH_add
 # key: pa
+# uuid: pa
 # --
 PATH_add ${1:path}

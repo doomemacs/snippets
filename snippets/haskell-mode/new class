@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: new class
 # key: class
+# uuid: class
 # --
 class ${1:Class Name} where
       $0

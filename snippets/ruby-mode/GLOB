@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: GLOB
 # key: $
+# uuid: $
 # --
 $${1:GLOBAL} = $0

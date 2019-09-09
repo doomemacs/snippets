@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: begin ... rescue
 # key: begin
+# uuid: begin
 # --
 begin
     `%`$0

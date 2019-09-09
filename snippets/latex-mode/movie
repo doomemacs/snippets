@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: movie
 # key: movie
+# uuid: movie
 # --
 \begin{center}
 \includemovie[

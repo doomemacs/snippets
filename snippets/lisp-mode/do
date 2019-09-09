@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: do
 # key: do
+# uuid: do
 # --
 (do ((${1:var1} ${2:init-form} ${3:step-form})
      (${4:var2} ${5:init-form} ${6:step-form}))  

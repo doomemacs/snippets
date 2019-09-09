@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: to_
 # key: to_
+# uuid: to_
 # --
 def to_s
     "${1:string}"

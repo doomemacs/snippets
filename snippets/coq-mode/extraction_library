@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Extraction Library
 # key: extrl
+# uuid: extrl
 # --
 Extraction Library ${1:id}.

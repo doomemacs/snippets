@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: :and-throw-error ...
 # key: ate
+# uuid: ate
 # condition: (doom-snippets-without-trigger (eq (char-before) ?:))
 # --
 and-throw-error ${1:'error}

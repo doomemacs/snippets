@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: triangle
 # key: triangle
+# uuid: triangle
 # --
 triangle(${1:x1}, ${2:y1}, ${3:x2}, ${4:y2}, ${5:x3}, ${6:y3});

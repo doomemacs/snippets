@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: setup OpenGL
 # key: setup
+# uuid: setup
 # --
 import processing.opengl.*;
 import javax.media.opengl.*;

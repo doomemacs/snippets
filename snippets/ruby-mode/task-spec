@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Rspec::Core::RakeTask.new(:spec) ...
 # key: :spec
+# uuid: :spec
 # --
 require 'rspec/core/rake_task'
 RSpec::Core::RakeTask.new(:spec) { |t| t.verbose = false  }

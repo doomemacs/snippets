@@ -2,5 +2,6 @@
 # key : $m
 # contributor : joaotavora
 # key: mirror
+# uuid: mirror
 # --
 \${${2:n}:${4:\$(${5:reflection-fn})}\}$0

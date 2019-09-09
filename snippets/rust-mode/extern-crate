@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: extern crate ...
 # key: ec
+# uuid: ec
 # condition: (doom-snippets-bolp)
 # --
 extern crate ${1:name};

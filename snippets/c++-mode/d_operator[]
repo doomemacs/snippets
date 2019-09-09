@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: d_operator[]
 # key: [
+# uuid: [
 # --
 ${1:Type}& operator[](${2:int index});

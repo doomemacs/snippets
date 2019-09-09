@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: noise
 # key: noise
+# uuid: noise
 # --
 noise(${1:x}${5:, ${2:y}${4:, ${3:z}}});

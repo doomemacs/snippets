@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: tryelse
 # key: try
+# uuid: try
 # --
 try:
     $1

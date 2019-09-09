@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Extraction
 # key: extr
+# uuid: extr
 # --
 Extraction ${1:id}.

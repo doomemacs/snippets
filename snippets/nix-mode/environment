@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: environment
 # key: env
+# uuid: env
 # --
 environment = {
   ${0:`%`}

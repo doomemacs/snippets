@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: min array
 # key: min
+# uuid: min
 # --
 min(${1:array}};

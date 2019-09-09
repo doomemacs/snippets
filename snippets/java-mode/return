@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: return
 # key: ret
+# uuid: ret
 # condition: (not (sp-point-in-string-or-comment))
 # --
 return `%`$0;

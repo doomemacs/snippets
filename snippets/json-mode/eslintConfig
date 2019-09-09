@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: eslintConfig
 # key: eslint
+# uuid: eslint
 # condition: (equal (file-name-nondirectory buffer-file-name) "package.json")
 # --
 "eslintConfig": {

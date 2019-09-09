@@ -1,6 +1,7 @@
 #contributor: Xah Lee (XahLee.org)
 #name: kill-buffer
 #key: kill-buffer
+# uuid: kill-buffer
 #key: kb
 # --
 (kill-buffer $0)

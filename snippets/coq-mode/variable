@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Variable
 # key: v
+# uuid: v
 # --
 Variable $1: $2.

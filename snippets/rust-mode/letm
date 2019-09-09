@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: let mut
 # key: letm
+# uuid: letm
 # --
 let mut ${1:var} = $0`(if (eolp) ";" "")`

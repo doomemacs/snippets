@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: unless ... (...)
 # key: unless
+# uuid: unless
 # --
 (unless (${1:condition}) ${2:`(doom-snippets-format "%n%s")`})

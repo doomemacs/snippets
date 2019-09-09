@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: protected
 # key: pr
+# uuid: pr
 # --
 protected $0

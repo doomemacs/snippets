@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: private static var
 # key: private
+# uuid: private
 # --
 private static ${1:String} ${2:str}${4: = ${3:value}};

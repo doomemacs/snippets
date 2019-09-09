@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Obligation
 # key: obl
+# uuid: obl
 # --
 Obligation $1.
 $2

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: .filter_map(...)
 # key: fm
+# uuid: fm
 # condition: (doom-snippets-without-trigger (eq (char-before) ?.))
 # --
 filter_map(${1:`%`})

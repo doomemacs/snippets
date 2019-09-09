@@ -2,5 +2,5 @@
 # name: func Test...() { ... }
 # --
 func Test${1:Name}(${2:t *testing.T}) {
-	`%`$0
+    `%`$0
 }

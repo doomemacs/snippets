@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: home-manager.users.$USER
 # key: hmu
+# uuid: hmu
 # --
 home-manager.users.`user-login-name`

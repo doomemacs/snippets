@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Module Type
 # key: mti
+# uuid: mti
 # --
 Module Type $1.
 $2

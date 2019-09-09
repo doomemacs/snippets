@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: case_eq
 # key: ceq
+# uuid: ceq
 # --
 case_eq 

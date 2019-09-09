@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: assert
 # key: ass
+# uuid: ass
 # --
 #include <assert.h>
 $0

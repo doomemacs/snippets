@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: literatal include
 # key: inc
+# uuid: inc
 # --
 .. literalinclude:: ${1:path}

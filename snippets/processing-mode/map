@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: map
 # key: map
+# uuid: map
 # --
 map(${1:value}, ${2:low1}, ${4:high1}, ${5:low2}, ${6:high2});

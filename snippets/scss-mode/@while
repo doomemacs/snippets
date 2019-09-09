@@ -1,5 +1,6 @@
 # name: @while
 # key: while
+# uuid: while
 # --
 @while ${1:condition} {
     `%`$0

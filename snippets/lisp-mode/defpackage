@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: defpackage
 # key: defp
+# uuid: defp
 # --
 (defpackage #:${1:name}
    (:nicknames #:${2:nick})

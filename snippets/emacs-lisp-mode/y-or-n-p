@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: y-or-n-p
 # key: yn
+# uuid: yn
 # --
 (`(symbol-function 'yes-or-no-p)` "$1")

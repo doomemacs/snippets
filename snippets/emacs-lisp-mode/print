@@ -1,5 +1,6 @@
 #contributor: Xah Lee (XahLee.org)
 #name: print
 #key: print
+# uuid: print
 # --
 (print $0)

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: else if ... { ... }
 # key: elif
+# uuid: elif
 # --
 else if ${1:true} {
    `%`$0

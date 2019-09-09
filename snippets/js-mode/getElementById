@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: getElementById
 # key: gebi
+# uuid: gebi
 # --
 `(unless (eq (char-before) ?.) ".")`getElementById(${1:id})`(if (eolp) ";")`

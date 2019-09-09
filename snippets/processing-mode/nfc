@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: nfc
 # key: nfc
+# uuid: nfc
 # --
 nfc(${3:value}${5:, ${4:right}});

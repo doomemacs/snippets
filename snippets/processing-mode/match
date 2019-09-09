@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: match
 # key: match
+# uuid: match
 # --
 match(${3:str}, ${4:regexp});

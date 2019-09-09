@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: cerr
 # key: err
+# uuid: err
 # --
 cerr << $0;

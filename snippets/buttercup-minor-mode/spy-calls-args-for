@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: spy-calls-args-for ...
 # key: scaf
+# uuid: scaf
 # --
 (spy-calls-args-for ${1:'foo} ${2:args...})

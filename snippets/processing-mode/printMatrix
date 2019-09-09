@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: printMatrix
 # key: matrix
+# uuid: matrix
 # --
 printMatrix();

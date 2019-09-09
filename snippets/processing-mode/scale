@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: scale
 # key: scale
+# uuid: scale
 # --
 scale(${1:x}, ${2:y}${4:, ${3:z}});

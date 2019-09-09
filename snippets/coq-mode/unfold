@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: unfold
 # key: u
+# uuid: u
 # --
 unfold $1

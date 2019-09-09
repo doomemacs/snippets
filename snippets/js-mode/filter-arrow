@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: arr.filter(item => {...})
 # key: fil=>
+# uuid: fil=>
 # --
 `(unless (eq (char-before) ?.) ".")`filter(${1:item} => `(if (> (doom-snippets-count-lines %) 1) (concat "{ " (doom-snippets-format "%n%s%n") " }") %)`$0)`(if (eolp) ";")`

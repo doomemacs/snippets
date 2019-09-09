@@ -1,5 +1,6 @@
 # name: elseif (...) { ... }
 # key: eli
+# uuid: eli
 # --
 elseif ($1) {
     `%`$0

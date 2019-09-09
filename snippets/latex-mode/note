@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: note
 # key: no
+# uuid: no
 # --
 \note{$0}

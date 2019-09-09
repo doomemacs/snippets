@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: x => y
 # key: =>
+# uuid: =>
 # --
 ${1:_} => ${0:...}

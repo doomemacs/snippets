@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: decodeURIComponent
 # key: duc
+# uuid: duc
 # --
 decodeURIComponent(${1:`%`})`(if (eolp) ";")`

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: noinst_HEADERS
 # key: noinst
+# uuid: noinst
 # --
 noinst_HEADERS = $0

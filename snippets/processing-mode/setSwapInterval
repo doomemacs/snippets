@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: setSwapInterval
 # key: glSwapInterval
+# uuid: glSwapInterval
 # --
 // specify the minimum swap interval for buffer swaps.
 gl.setSwapInterval(${1:interval});

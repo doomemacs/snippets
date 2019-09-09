@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: setoid replace with
 # key: strep
+# uuid: strep
 # --
 setoid replace $1 with $2

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: environment.variables
 # key: eva
+# uuid: eva
 # --
 `(%nix-mode-if-parent "environment")`variables = {
   ${0:`%`}

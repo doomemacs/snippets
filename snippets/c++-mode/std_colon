@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: std::
 # key: st
+# uuid: st
 # --
 std::$0

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: revert dependent
 # key: r
+# uuid: r
 # --
 revert dependent

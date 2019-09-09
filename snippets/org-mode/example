@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: example
 # key: ex
+# uuid: ex
 # --
 #+begin_example
 `%`$0

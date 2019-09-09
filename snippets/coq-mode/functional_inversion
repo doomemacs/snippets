@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: functional inversion
 # key: finv
+# uuid: finv
 # --
 functional inversion ${1:H}

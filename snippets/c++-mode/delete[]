@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: delete[]
 # key: dla
+# uuid: dla
 # --
 delete[] ${1:arr};

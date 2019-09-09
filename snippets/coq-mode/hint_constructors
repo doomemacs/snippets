@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Hint Constructors
 # key: hc
+# uuid: hc
 # --
 Hint Constructors $1 : $2.

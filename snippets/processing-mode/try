@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: try
 # key: try
+# uuid: try
 # --
 try {
   $1

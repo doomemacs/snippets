@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: data
 # key: da
+# uuid: da
 # --
 data ${1:Type} = $2

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Global Variables
 # key: gvs
+# uuid: gvs
 # --
 Global Variables $1 , $2: $3.

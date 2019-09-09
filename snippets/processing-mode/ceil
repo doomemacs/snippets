@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: ceil
 # key: ceil
+# uuid: ceil
 # --
 ceil(${1:value});

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: doc
 # key: d
+# uuid: d
 # --
 """$0
 """

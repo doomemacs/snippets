@@ -1,4 +1,5 @@
 # name: <?php ... ?>
 # key: php
+# uuid: php
 # --
 <?php $0 ?>

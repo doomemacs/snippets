@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: .to_string()
 # key: ts
+# uuid: ts
 # condition: (doom-snippets-without-trigger (eq (char-before) ?.))
 # --
 to_string()

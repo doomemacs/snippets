@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: task ... end
 # key: task
+# uuid: task
 # --
 task :${1:task} do
     $0

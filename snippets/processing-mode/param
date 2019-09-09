@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: param
 # key: param
+# uuid: param
 # --
 param(${1:s});

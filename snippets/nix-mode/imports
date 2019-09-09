@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: imports = [ ... ];
 # key: imp
+# uuid: imp
 # condition: (doom-snippets-bolp)
 # --
 imports = [

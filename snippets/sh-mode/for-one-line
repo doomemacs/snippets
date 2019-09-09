@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: for loop (one line)
 # key: for;
+# uuid: for;
 # --
 for ${1:var} in ${2:stuff}; do `(doom-snippets-format "%n%s%n")`$0; done

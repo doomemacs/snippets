@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: decompose record
 # key: decr
+# uuid: decr
 # --
 decompose record $1

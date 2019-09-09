@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: while ... { ... }
 # key: while
+# uuid: while
 # --
 while ${1:true} { `(doom-snippets-format "%n%s%n")`$0 }

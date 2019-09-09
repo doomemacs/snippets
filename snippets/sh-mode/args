@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: args
 # key: args
+# uuid: args
 # --
 [ $# -lt ${1:2} ]

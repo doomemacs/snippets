@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: image
 # key: img
+# uuid: img
 # --
 .. image:: ${1:path}
    :height: ${2:100}

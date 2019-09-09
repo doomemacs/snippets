@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: boolean
 # key: boolean
+# uuid: boolean
 # --
 boolean ${1:b} ${6:= ${3:true}};

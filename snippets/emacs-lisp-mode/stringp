@@ -1,5 +1,6 @@
 #contributor: Xah Lee (XahLee.org)
 #name: stringp
 #key: stringp
+# uuid: stringp
 # --
 (stringp $0)

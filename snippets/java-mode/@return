@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: return
 # key: @return
+# uuid: @return
 # condition: (sp-point-in-comment)
 # --
 @return ${1:description}

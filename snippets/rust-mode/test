@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: test function
 # key: test
+# uuid: test
 # condition: (doom-snippets-bolp)
 # --
 #[test]

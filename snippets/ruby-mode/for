@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: for
 # key: for
+# uuid: for
 # --
 for ${1:el} in ${2:collection}
     $0

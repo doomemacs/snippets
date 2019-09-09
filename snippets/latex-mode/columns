@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: columns
 # key: cols
+# uuid: cols
 # --
 \begin{columns}
   \begin{column}{.${1:5}\textwidth}

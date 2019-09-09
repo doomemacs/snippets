@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: match with
 # key: m
+# uuid: m
 # --
 match $1 with
 | $2 => $3

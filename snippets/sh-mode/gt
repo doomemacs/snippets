@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Greater than
 # key: >
+# uuid: >
 # --
 "$1" -gt "$2"

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: variable declaration
 # key: var
+# uuid: var
 # condition: (not (sp-point-in-string-or-comment))
 # --
 ${1:int} ${2:variable}

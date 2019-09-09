@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: references
 # key: ref
+# uuid: ref
 # --
 references #${1:100}

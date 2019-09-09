@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: test_file
 # key: tf
+# uuid: tf
 # group : testing
 # --
 import unittest

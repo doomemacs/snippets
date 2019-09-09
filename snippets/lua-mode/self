@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: psuedo method declaration
 # key: self:
+# uuid: self:
 # --
 function self:${1:methodName}($2)
     $0

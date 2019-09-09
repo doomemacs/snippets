@@ -1,4 +1,5 @@
 # name: require_once("...");
 # key: reqo
+# uuid: reqo
 # --
 require_once("${1:...}");

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: with-current-buffer
 # key: wcb
+# uuid: wcb
 # --
 (with-current-buffer ${1:buffer} ${0:`(doom-snippets-format "%n%s")`})`(doom-snippets-newline-or-eol)`

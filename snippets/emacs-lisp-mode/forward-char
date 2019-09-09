@@ -1,6 +1,7 @@
 #contributor: Xah Lee (XahLee.org)
 #name: forward-char
 #key: forward-char
+# uuid: forward-char
 #key: fc
 # --
 (forward-char $0)

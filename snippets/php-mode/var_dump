@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: var_dump(...)
 # key: dump
+# uuid: dump
 # --
 var_dump(`%`$1);

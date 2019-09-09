@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: import
 # key: imp
+# uuid: imp
 # group: general
 # --
 import ${1:lib}${2: as ${3:alias}}

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: static
 # key: defs
+# uuid: defs
 # --
 @staticmethod
 def ${1:method_name}($1):

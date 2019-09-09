@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: constructor
 # key: cons
+# uuid: cons
 # --
 constructor

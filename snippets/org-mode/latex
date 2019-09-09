@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: latex
 # key: latex
+# uuid: latex
 # --
 #+BEGIN_LaTeX
 `%`$0

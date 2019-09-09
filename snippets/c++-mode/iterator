@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: iterator
 # key: iter
+# uuid: iter
 # --
 ${1:std::}${2:vector<int>}::iterator ${3:iter};

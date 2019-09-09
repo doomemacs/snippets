@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: classmethod
 # key: defc
+# uuid: defc
 # group: object oriented
 # --
 @classmethod

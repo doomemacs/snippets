@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: printf
 # key: p
+# uuid: p
 # --
 printf("${1:format}"${2:, $3});

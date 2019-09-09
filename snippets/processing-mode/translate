@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: translate
 # key: translate
+# uuid: translate
 # --
 translate(${1:x}, ${2:y}${4:, ${3:z}});

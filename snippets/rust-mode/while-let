@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: while let PATTERN = EXPR { ... }
 # key: whilel
+# uuid: whilel
 # --
 while let ${1:pattern} = ${2:expression} {
       $0

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: keyReleased
 # key: keyReleased
+# uuid: keyReleased
 # --
 void keyReleased(){
   ${1}

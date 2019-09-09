@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: eprintln!(...)
 # key: ep
+# uuid: ep
 # --
 eprintln!("$1", ${2:`%`});$0

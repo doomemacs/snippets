@@ -1,6 +1,7 @@
 #contributor: Xah Lee (XahLee.org)
 #name: backward-char
 #key: backward-char
+# uuid: backward-char
 #key: bc
 # --
 (backward-char $0)

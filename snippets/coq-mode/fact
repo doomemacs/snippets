@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Fact
 # key: fct
+# uuid: fct
 # --
 Fact $1 : $2.

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: map
 # key: map
+# uuid: map
 # --
 std::map<${1:type1}$0> ${2:var};

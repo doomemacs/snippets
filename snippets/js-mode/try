@@ -2,7 +2,7 @@
 # name: try-catch block
 # --
 try {
-	`%`$0
+    `%`$0
 } catch (${1:err}) {
-	${2:// Do something}
+    ${2:// Do something}
 }

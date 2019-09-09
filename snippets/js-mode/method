@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: method() { ... }
 # key: m
+# uuid: m
 # --
 ${1:method}($2) {
     `%`$0

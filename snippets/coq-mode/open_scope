@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Open Scope
 # key: opsc
+# uuid: opsc
 # --
 Open Scope $1

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: const_[]
 # key: c[
+# uuid: c[
 # --
 const ${1:Type}& operator[](${2:int index}) const
 {

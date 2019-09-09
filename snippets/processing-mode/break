@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: break
 # key: break
+# uuid: break
 # --
 break ${1:label};

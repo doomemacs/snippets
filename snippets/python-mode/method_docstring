@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: method_docstring
 # key: defd
+# uuid: defd
 # group: object oriented
 # --
 def ${1:name}(self$2):

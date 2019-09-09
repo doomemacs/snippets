@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: parse_args
 # key: pargs
+# uuid: pargs
 # group: argparser
 # --
 def parse_arguments():

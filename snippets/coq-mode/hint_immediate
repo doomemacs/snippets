@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Hint Immediate
 # key: hi
+# uuid: hi
 # --
 Hint Immediate $1 : ${1:db}.

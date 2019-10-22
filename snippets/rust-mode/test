@@ -5,6 +5,6 @@
 # condition: (doom-snippets-bolp)
 # --
 #[test]
-fn ${1:test_${2:name}}() {
+fn ${1:test_name}() {
    `%`$0
 }

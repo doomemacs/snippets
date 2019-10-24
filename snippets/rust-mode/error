@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: impl Error for Type { fn source(...) }
+# key: error
+# uuid: error
+# --
+impl std::error::Error for ${1:Type} {
+    fn source(&self) -> Option<&(dyn std::error::Error + 'static)> {
+        $0
+        None
+    }
+}

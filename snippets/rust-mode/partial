@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: impl PartialEq for Type
+# key: partial
+# uuid: partial
+# --
+impl PartialEq for ${1:Type} {
+    fn eq(&self, other: &Self) -> bool {
+        $0
+    }
+}

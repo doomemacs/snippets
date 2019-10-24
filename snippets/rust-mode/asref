@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: impl AsRef<Type> for Type
+# key: asref
+# uuid: asref
+# --
+impl std::convert::AsRef<${1:Type}> for ${2:Type} {
+    fn as_ref(&self) -> &$2 {
+        $0
+    }
+}

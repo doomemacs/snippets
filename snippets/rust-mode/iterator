@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: impl Iterator for Type
+# key: iterator
+# uuid: iterator
+# --
+impl Iterator for ${1:Type} {
+    type Item = ${2:Type};
+    fn next(&mut self) -> Option<Self::Item> {
+        $0
+    }
+}

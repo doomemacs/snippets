@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: Display and Error Traits
+# key: disperror
+# uuid: disperror
+# --
+impl Display for $1 {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        write!(f, "{}", $0)
+    }
+}
+
+impl std::error::Error for ${1:Type} {
+    fn source(&self) -> Option<&(dyn std::error::Error + 'static)> {
+        None
+    }
+}

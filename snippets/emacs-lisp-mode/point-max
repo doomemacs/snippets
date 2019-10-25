@@ -1,6 +1,5 @@
-#contributor: Xah Lee (XahLee.org)
-#name: point-max
-#key: point-max
+# name: point-max
 # uuid: point-max
+# key: pmax
 # --
 (point-max)

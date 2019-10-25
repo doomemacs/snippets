@@ -6,6 +6,7 @@
   '((evil-define-command)
     (evil-define-motion)
     (evil-define-operator)
+    (evil-define-text-object)
     ;; doom macros
     (def-menu!)
     ;; other plugins

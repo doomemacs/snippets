@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: transform
+# key: upr
+# --
+std::transform(std::begin(${1:container}), std::end($1), std::begin($1), [](char c) {
+  `(or (concat % "\n") "")`return std::toupper(c);
+});

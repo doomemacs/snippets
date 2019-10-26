@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: namespace
+# key: nss
+# --
+namespace ${1:name} {
+  `%`$0
+}

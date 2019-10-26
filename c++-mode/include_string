@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: #include <string>
+# key: istr
+# uuid: istr
+# --
+#include <string>

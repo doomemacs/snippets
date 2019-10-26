@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: #include <lib>
+# key: inc
+# --
+#include <`%`${1:lib}>

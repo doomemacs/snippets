@@ -20,13 +20,11 @@
 ;;; Code:
 
 (defvar doom-snippets-dir
-  (expand-file-name
-   "snippets"
-   (file-name-directory
-    (cond (load-in-progress load-file-name)
-          ((bound-and-true-p byte-compile-current-file)
-           byte-compile-current-file)
-          (buffer-file-name))))
+  (file-name-directory
+   (cond (load-in-progress load-file-name)
+         ((bound-and-true-p byte-compile-current-file)
+          byte-compile-current-file)
+         (buffer-file-name)))
   "The base directory of the doom-snippets library.")
 
 (defvar doom-snippets-enable-short-helpers nil

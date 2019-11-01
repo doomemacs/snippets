@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-#name : reject { |...| ... }
-#group : collections
+# name: reject { |...| ... }
+# group: collections
 # --
 reject { |${1:element}| $0 }

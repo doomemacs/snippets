@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-#contributor: Xah Lee (XahLee.org)
-#name: forward-line
-#key: forward-line
+# contributor: Xah Lee (XahLee.org)
+# name: forward-line
+# key: forward-line
 # uuid: forward-line
-#key: fl
+# key: fl
 # --
 (forward-line $0 )

@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-#contributor: Xah Lee (XahLee.org)
-#name: vector
-#key: vector
+# contributor: Xah Lee (XahLee.org)
+# name: vector
+# key: vector
 # uuid: vector
-#key: v
+# key: v
 # --
 (vector $0)

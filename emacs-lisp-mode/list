@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
-#name: list
+# name: list
 # --
 (list `%`$0)

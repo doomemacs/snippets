@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-#contributor : Alejandro Espinoza Esparza <aespinoza@structum.com.mx>
-#name : property ... ... { ... }
+# contributor: Alejandro Espinoza Esparza <aespinoza@structum.com.mx>
+# name: property ... ... { ... }
 # key: prop
 # uuid: prop
 # --

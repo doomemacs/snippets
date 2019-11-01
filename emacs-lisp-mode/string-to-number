@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-#name: string-to-number
-#key: stn
+# name: string-to-number
+# key: stn
 # uuid: stn
 # --
 (string-to-number "`%`$0")

@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-#contributor: Xah Lee (XahLee.org)
-#name: delete-char
-#key: delete-char
+# contributor: Xah Lee (XahLee.org)
+# name: delete-char
+# key: delete-char
 # uuid: delete-char
-#key: dc
+# key: dc
 # --
 (delete-char $0)

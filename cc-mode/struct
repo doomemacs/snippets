@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-#name : struct ... { ... }
+# name: struct ... { ... }
 # key: struct
 # uuid: struct
 # --

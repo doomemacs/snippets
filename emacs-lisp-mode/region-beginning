@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-#contributor: Xah Lee (XahLee.org)
-#name: region-beginning
-#key: region-beginning
+# contributor: Xah Lee (XahLee.org)
+# name: region-beginning
+# key: region-beginning
 # uuid: region-beginning
-#key: rb
+# key: rb
 # --
 (region-beginning)

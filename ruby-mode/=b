@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-#name : =begin rdoc ... =end
-#group : general
+# name: =begin rdoc ... =end
+# group: general
 # --
 =begin rdoc
   $0

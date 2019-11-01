@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-#contributor: Xah Lee (XahLee.org)
-#name: widget-get
-#key: widget-get
+# contributor: Xah Lee (XahLee.org)
+# name: widget-get
+# key: widget-get
 # uuid: widget-get
-#key: wg
+# key: wg
 # --
 (widget-get $0 )

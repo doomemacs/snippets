@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-#name : until ... end
-#group: control structure
+# name: until ... end
+# group: control structure
 # --
 until ${condition}
   $0

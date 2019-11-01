@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-#contributor: Xah Lee (XahLee.org)
-#name: funcall
-#key: funcall
+# contributor: Xah Lee (XahLee.org)
+# name: funcall
+# key: funcall
 # uuid: funcall
 # --
 (funcall $0)

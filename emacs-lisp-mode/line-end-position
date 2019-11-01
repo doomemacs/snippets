@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-#contributor: Xah Lee (XahLee.org)
-#name: line-end-position
-#key: line-end-position
+# contributor: Xah Lee (XahLee.org)
+# name: line-end-position
+# key: line-end-position
 # uuid: line-end-position
-#key: lep
+# key: lep
 # --
 (line-end-position)

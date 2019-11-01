@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-#name: traversing a directory
-#contributor: Xah Lee (XahLee.org)
+# name: traversing a directory
+# contributor: Xah Lee (XahLee.org)
 # key: x-traverse_dir
 # uuid: x-traverse_dir
 # --

@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-#name : #ifndef XXX; #define XXX; #endif
+# name: #ifndef XXX; #define XXX; #endif
 # key: once
 # uuid: once
 # --

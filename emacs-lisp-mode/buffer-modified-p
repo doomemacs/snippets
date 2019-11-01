@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-#contributor: Xah Lee (XahLee.org)
-#name: buffer-modified-p
-#key: buffer-modified-p
+# contributor: Xah Lee (XahLee.org)
+# name: buffer-modified-p
+# key: buffer-modified-p
 # uuid: buffer-modified-p
-#key: bmp
+# key: bmp
 # --
 (buffer-modified-p $0)

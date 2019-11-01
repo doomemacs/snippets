@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-#name : v.begin(), v.end()
+# name: v.begin(), v.end()
 # key: beginend
 # uuid: beginend
 # --

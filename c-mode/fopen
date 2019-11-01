@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
-#name : FILE *fp = fopen(..., ...);
+# name: FILE *fp = fopen(..., ...);
 # --
 FILE *${f} = fopen(${"file"}, "${r}");

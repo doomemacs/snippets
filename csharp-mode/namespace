@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-#contributor : Alejandro Espinoza Esparza <aespinoza@structum.com.mx>
-#name : namespace .. { ... }
+# contributor: Alejandro Espinoza Esparza <aespinoza@structum.com.mx>
+# name: namespace .. { ... }
 # key: namespace
 # uuid: namespace
 # --

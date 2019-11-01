@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-#name : while ... end
-#group : control structure
+# name: while ... end
+# group: control structure
 # --
 while ${condition}
   $0

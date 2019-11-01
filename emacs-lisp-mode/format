@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
-#name: format
+# name: format
 # --
 (format "$0" $1)

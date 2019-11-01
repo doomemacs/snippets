@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-#contributor: Xah Lee (XahLee.org)
-#name: region-end
-#key: region-end
+# contributor: Xah Lee (XahLee.org)
+# name: region-end
+# key: region-end
 # uuid: region-end
-#key: re
+# key: re
 # --
 (region-end)

@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-#contributor: Xah Lee (XahLee.org)
-#name: save-buffer
-#key: save-buffer
+# contributor: Xah Lee (XahLee.org)
+# name: save-buffer
+# key: save-buffer
 # uuid: save-buffer
-#key: sb
+# key: sb
 # --
 (save-buffer $0)

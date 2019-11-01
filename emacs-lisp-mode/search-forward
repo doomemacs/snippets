@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-#contributor: Xah Lee (XahLee.org)
-#name: search-forward
-#key: search-forward
+# contributor: Xah Lee (XahLee.org)
+# name: search-forward
+# key: search-forward
 # uuid: search-forward
-#key: sf
+# key: sf
 # --
 (search-forward "$0" &optional BOUND NOERROR COUNT)

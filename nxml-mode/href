@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-#contributor : Anders Bach Nielsen <abachn@abachn.net>
-#name : <a href="...">...</a>
-#key: a# uuid: a
+# contributor: Anders Bach Nielsen <abachn@abachn.net>
+# name: <a href="...">...</a>
+# key: a# uuid: a
 
 # --
 <a href="$1">$2</a>

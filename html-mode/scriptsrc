@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
-#name: <script type="text/javascript" src="..."></script> 
+# name: <script type="text/javascript" src="..."></script> 
 # --
 <script type="text/javascript" src="$1"></script>

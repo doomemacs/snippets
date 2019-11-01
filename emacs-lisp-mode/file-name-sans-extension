@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-#contributor: Xah Lee (XahLee.org)
-#name: file-name-sans-extension
-#key: file-name-sans-extension
+# contributor: Xah Lee (XahLee.org)
+# name: file-name-sans-extension
+# key: file-name-sans-extension
 # uuid: file-name-sans-extension
-#key: fnse
+# key: fnse
 # --
 (file-name-sans-extension $0)

@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-#name : detect { |...| ... }
-#group : collections
+# name: detect { |...| ... }
+# group: collections
 # --
 detect { |${e}| $0 }

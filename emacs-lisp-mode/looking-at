@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
-#name: looking-at
+# name: looking-at
 # --
 (looking-at $0)

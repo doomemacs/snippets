@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-#contributor: Xah Lee (XahLee.org)
-#name: skip-chars-backward
-#key: skip-chars-backward
+# contributor: Xah Lee (XahLee.org)
+# name: skip-chars-backward
+# key: skip-chars-backward
 # uuid: skip-chars-backward
-#key: scb
+# key: scb
 # --
 (skip-chars-backward "$0" &optional LIM)

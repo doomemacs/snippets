@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-#contributor: Xah Lee (XahLee.org)
-#name: repeat
-#key: repeat
+# contributor: Xah Lee (XahLee.org)
+# name: repeat
+# key: repeat
 # uuid: repeat
 # --
 (repeat $0 )

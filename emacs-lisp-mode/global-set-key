@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-#contributor: Xah Lee (XahLee.org)
-#name: global-set-key
-#key: global-set-key
+# contributor: Xah Lee (XahLee.org)
+# name: global-set-key
+# key: global-set-key
 # uuid: global-set-key
-#key: gsk
+# key: gsk
 # --
 (global-set-key (kbd "C-$0") 'COMMAND)

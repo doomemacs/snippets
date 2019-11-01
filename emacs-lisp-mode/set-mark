@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-#contributor: Xah Lee (XahLee.org)
-#name: set-mark
-#key: set-mark
+# contributor: Xah Lee (XahLee.org)
+# name: set-mark
+# key: set-mark
 # uuid: set-mark
-#key: sm
+# key: sm
 # --
 (set-mark $0)

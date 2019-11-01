@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-#contributor : Alejandro Espinoza Esparza <aespinoza@structum.com.mx>
-#name : create table ...
+# contributor: Alejandro Espinoza Esparza <aespinoza@structum.com.mx>
+# name: create table ...
 # --
 CREATE TABLE [${1:dbo}].[${2:TableName}] 
 (

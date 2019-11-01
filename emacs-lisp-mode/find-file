@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-#contributor: Xah Lee (XahLee.org)
-#name: find-file
-#key: find-file
+# contributor: Xah Lee (XahLee.org)
+# name: find-file
+# key: find-file
 # uuid: find-file
-#key: ff
+# key: ff
 # --
 (find-file $0 )

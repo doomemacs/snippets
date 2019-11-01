@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-#contributor: Xah Lee (XahLee.org)
-#name: delete-file
-#key: delete-file
+# contributor: Xah Lee (XahLee.org)
+# name: delete-file
+# key: delete-file
 # uuid: delete-file
-#key: df
+# key: df
 # --
 (delete-file $0)

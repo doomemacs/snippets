@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Manipulate Rackspace Cloud Block Storage Volumes
 # key : rax_cbs
 # condition: ansible

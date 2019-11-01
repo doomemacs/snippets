@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Sets and retrieves file ACL information.
 # key : acl
 # condition: ansible

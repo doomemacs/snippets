@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : manage RDS parameter groups
 # key : rds_param_group
 # condition: ansible

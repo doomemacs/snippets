@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Associate or disassociate a particular floating IP with an instance
 # key : quantum_floating_ip_associate
 # condition: ansible

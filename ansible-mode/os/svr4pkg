@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Manage Solaris SVR4 packages
 # key : svr4pkg
 # condition: ansible

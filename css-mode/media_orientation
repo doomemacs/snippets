@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name: @media (orientation: ?)
 # condition: (looking-back "@media " (line-beginning-position))
 # --

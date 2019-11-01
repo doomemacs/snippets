@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Create Zabbix maintenance windows
 # key : zabbix_maintenance
 # condition: ansible

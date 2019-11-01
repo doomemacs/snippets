@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Posts events to DataDog  service
 # key : datadog_event
 # condition: ansible

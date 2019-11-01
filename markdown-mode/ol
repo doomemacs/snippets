@@ -1,4 +1,4 @@
-# -*- require-final-newline: nil -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Ordered List
 # --
 ${1:1}. ${2:Text}

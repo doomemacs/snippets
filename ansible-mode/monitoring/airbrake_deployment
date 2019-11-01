@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Notify airbrake about app deployments
 # key : airbrake_deployment
 # condition: ansible

@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Add/Delete key pair from nova
 # key : nova_keypair
 # condition: ansible

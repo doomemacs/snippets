@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Create/update or delete AWS Cloudwatch 'metric alarms'
 # key : ec2_metric_alarm
 # condition: ansible

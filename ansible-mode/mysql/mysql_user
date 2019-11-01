@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Adds or removes a user from a MySQL database.
 # key : mysql_user
 # condition: ansible

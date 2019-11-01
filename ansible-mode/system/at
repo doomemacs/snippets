@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Schedule the execution of a command or script file via the at command.
 # key : at
 # condition: ansible

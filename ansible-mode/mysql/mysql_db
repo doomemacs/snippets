@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Add or remove MySQL databases from a remote host.
 # key : mysql_db
 # condition: ansible

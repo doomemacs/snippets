@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Module for tracking logs via logentries.com
 # key : logentries
 # condition: ansible

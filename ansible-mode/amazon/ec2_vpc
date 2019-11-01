@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : configure AWS virtual private clouds
 # key : ec2_vpc
 # condition: ansible

@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Manage entries in sysctl.conf.
 # key : sysctl
 # condition: ansible

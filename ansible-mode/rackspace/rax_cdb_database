@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : create / delete a database in the Cloud Databases
 # key : rax_cdb_database
 # condition: ansible

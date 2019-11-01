@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Runs the discovery program I(facter) on the remote system
 # key : facter
 # condition: ansible

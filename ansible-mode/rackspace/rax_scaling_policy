@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Manipulate Rackspace Cloud Autoscale Scaling Policy
 # key : rax_scaling_policy
 # condition: ansible

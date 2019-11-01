@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Create a keypair for use with Rackspace Cloud Servers
 # key : rax_keypair
 # condition: ansible

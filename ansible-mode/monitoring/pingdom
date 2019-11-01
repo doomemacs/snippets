@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Pause/unpause Pingdom alerts
 # key : pingdom
 # condition: ansible

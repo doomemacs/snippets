@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : This module handles some common Riak operations
 # key : riak
 # condition: ansible

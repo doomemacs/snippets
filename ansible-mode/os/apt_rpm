@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : apt_rpm package manager
 # key : apt_rpm
 # condition: ansible

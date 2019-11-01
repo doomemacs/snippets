@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Fail with custom message
 # key : assert
 # condition: ansible

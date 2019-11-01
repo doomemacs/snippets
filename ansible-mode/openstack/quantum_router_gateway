@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : set/unset a gateway interface for the router with the specified external network
 # key : quantum_router_gateway
 # condition: ansible

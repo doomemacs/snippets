@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Copies an archive to a remote location and unpack it
 # key : unarchive
 # condition: ansible

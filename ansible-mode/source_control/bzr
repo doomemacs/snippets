@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Deploy software (or files) from bzr branches
 # key : bzr
 # condition: ansible

@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Installs and uninstalls Windows Features
 # key : win_feature
 # condition: ansible

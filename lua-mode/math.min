@@ -1,1 +1,2 @@
+# -*- mode: snippet -*-
 math.min(${0:x, y, ...})

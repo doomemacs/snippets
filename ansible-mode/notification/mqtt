@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Publish a message on an MQTT topic for the IoT
 # key : mqtt
 # condition: ansible

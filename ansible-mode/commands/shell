@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Execute commands in nodes.
 # key : shell
 # condition: ansible

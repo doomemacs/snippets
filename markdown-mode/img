@@ -1,4 +1,4 @@
-# -*- require-final-newline: nil -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Image
 # --
 ![${1:Alt Text}](${2:`%`URL})$0

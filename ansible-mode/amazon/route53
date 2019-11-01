@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : add or delete entries in Amazons Route53 DNS service
 # key : route53
 # condition: ansible

@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Runs a local script on a remote node after transferring it
 # key : script
 # condition: ansible

@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Adds or removes a user from a MongoDB database.
 # key : mongodb_user
 # condition: ansible

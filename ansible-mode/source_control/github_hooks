@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Manages github service hooks.
 # key : github_hooks
 # condition: ansible

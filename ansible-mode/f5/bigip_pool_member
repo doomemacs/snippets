@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Manages F5 BIG-IP LTM pool members
 # key : bigip_pool_member
 # condition: ansible

@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Manage packages with swdepot package manager (HP-UX)
 # key : swdepot
 # condition: ansible

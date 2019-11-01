@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : enables/disables a module of the Apache2 webserver
 # key : apache2_module
 # condition: ansible

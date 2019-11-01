@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : create/delete or resize a Rackspace Cloud Databases instance
 # key : rax_cdb
 # condition: ansible

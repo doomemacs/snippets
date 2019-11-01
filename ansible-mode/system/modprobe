@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Add or remove kernel modules
 # key : modprobe
 # condition: ansible

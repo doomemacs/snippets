@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Fetches a file from remote nodes
 # key : fetch
 # condition: ansible

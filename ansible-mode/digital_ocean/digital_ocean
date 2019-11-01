@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Create/delete a droplet/SSH_key in DigitalOcean
 # key : digital_ocean
 # condition: ansible

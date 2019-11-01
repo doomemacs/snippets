@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : manage docker images
 # key : docker_image
 # condition: ansible

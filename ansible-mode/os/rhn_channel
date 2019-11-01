@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Adds or removes Red Hat software channels
 # key : rhn_channel
 # condition: ansible

@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 #name: <style type="text/css" media="...">...</style>
 # --
 <style type="text/css" media="${1:screen}">

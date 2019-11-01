@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Create Ansible groups based on facts
 # key : group_by
 # condition: ansible

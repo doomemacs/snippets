@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Manage the state of a program monitored via Monit
 # key : monit
 # condition: ansible

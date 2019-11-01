@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Set host facts from a task
 # key : set_fact
 # condition: ansible

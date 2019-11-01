@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Manage Red Hat Network registration using the C(rhnreg_ks) command
 # key : rhn_register
 # condition: ansible

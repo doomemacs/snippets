@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Various redis commands, slave and flush
 # key : redis
 # condition: ansible

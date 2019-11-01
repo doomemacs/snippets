@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : create/destroy GCE networks and firewall rules
 # key : gce_net
 # condition: ansible

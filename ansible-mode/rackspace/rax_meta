@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Manipulate metadata for Rackspace Cloud Servers
 # key : rax_meta
 # condition: ansible

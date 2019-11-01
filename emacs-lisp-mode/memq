@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 #name: memq
 # --
 (memq ${0:sym} ${1:`%`list})

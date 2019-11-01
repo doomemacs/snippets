@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Manages Perl library dependencies.
 # key : cpanm
 # condition: ansible

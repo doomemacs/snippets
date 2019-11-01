@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : create or destroy an image in ec2, return imageid
 # key : ec2_ami
 # condition: ansible

@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Adds or removes a gpg key from the rpm db
 # key : rpm_key
 # condition: ansible

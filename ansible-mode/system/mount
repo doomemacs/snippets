@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Control active and configured mount points
 # key : mount
 # condition: ansible

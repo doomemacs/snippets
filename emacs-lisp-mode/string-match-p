@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 #name: string-match-p
 # --
 (string-match-p "${0:regexp}" ${1:string}${2: ${3:START}})

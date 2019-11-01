@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Load variables from files, dynamically within a task.
 # key : include_vars
 # condition: ansible

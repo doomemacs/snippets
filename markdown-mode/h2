@@ -1,4 +1,4 @@
-# -*- require-final-newline: nil -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Header 2 (##)
 # key: h2
 # uuid: h2

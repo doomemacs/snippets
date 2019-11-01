@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : deploy applications to JBoss
 # key : jboss
 # condition: ansible

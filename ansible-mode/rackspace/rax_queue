@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : create / delete a queue in Rackspace Public Cloud
 # key : rax_queue
 # condition: ansible

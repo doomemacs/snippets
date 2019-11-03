@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : get details reported by lldp
 # key : lldp
 # condition: ansible

@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : This module manages objects/buckets in Google Cloud Storage.
 # key : gc_storage
 # condition: ansible

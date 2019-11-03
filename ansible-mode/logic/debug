@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Print statements during execution
 # key : debug
 # condition: ansible

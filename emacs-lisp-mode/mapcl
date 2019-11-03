@@ -1,4 +1,5 @@
-#name: mapc lambda
+# -*- mode: snippet -*-
+# name: mapc lambda
 # --
 (mapc (lambda (${2:x}) `(doom-snippets-format "%n%s")`$0)
       ${1:sequence})

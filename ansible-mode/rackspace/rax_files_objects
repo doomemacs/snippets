@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Upload, download, and delete objects in Rackspace Cloud Files
 # key : rax_files_objects
 # condition: ansible

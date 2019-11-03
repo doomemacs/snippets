@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : maintain an ec2 VPC security group.
 # key : ec2_group
 # condition: ansible

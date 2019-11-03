@@ -1,7 +1,8 @@
-#contributor: Xah Lee (XahLee.org)
-#name: re-search-forward
-#key: re-search-forward
+# -*- mode: snippet -*-
+# contributor: Xah Lee (XahLee.org)
+# name: re-search-forward
+# key: re-search-forward
 # uuid: re-search-forward
-#key: rsf
+# key: rsf
 # --
 (re-search-forward REGEXP$0 &optional BOUND NOERROR COUNT)

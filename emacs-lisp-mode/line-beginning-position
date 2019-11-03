@@ -1,7 +1,8 @@
-#contributor: Xah Lee (XahLee.org)
-#name: line-beginning-position
-#key: line-beginning-position
+# -*- mode: snippet -*-
+# contributor: Xah Lee (XahLee.org)
+# name: line-beginning-position
+# key: line-beginning-position
 # uuid: line-beginning-position
-#key: lbp
+# key: lbp
 # --
 (line-beginning-position)

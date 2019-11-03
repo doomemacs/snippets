@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Send a SMS via nexmo
 # key : nexmo
 # condition: ansible

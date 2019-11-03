@@ -1,3 +1,4 @@
-#name: number-to-string
+# -*- mode: snippet -*-
+# name: number-to-string
 # --
 (number-to-string `(doom-snippets-format "%n%s")`$0)

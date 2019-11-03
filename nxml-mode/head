@@ -1,5 +1,6 @@
-#contributor : Anders Bach Nielsen <abachn@abachn.net>
-#name : <head>...</head>
+# -*- mode: snippet -*-
+# contributor: Anders Bach Nielsen <abachn@abachn.net>
+# name: <head>...</head>
 # --
 <head>
   $0

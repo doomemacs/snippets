@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Notify newrelic about app deployments
 # key : newrelic_deployment
 # condition: ansible

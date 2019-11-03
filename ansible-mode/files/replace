@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Replace all instances of a particular string in a file using a back-referenced regular expression.
 # key : replace
 # condition: ansible

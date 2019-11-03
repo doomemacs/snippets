@@ -1,4 +1,4 @@
-# -*- require-final-newline: nil -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Referenced Image
 # --
 ![${1:Alt Text}][$2]$0

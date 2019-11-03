@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Collect facts from F5 BIG-IP devices
 # key : bigip_facts
 # condition: ansible

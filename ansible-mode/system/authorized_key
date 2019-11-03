@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Adds or removes an SSH authorized key
 # key : authorized_key
 # condition: ansible

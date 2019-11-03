@@ -1,3 +1,4 @@
-#name: <a href="mailto:...@...">...</a>
+# -*- mode: snippet -*-
+# name: <a href="mailto:...@...">...</a>
 # --
 <a href="mailto:${1:john@doe.com}">`(doom-snippets-format "%n%s%n")`$0</a>

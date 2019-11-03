@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Create or delete AWS Autoscaling Groups
 # key : ec2_asg
 # condition: ansible

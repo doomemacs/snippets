@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Manage cron.d and crontab entries.
 # key : cron
 # condition: ansible

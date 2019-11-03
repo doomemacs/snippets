@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Downloads files from HTTP, HTTPS, or FTP to node
 # key : get_url
 # condition: ansible

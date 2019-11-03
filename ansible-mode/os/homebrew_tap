@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Tap a Homebrew repository.
 # key : homebrew_tap
 # condition: ansible

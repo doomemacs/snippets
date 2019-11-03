@@ -1,3 +1,4 @@
-#name: fboundp
+# -*- mode: snippet -*-
+# name: fboundp
 # --
 (fboundp '$0)

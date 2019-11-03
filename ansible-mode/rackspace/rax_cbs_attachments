@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Manipulate Rackspace Cloud Block Storage Volume Attachments
 # key : rax_cbs_attachments
 # condition: ansible

@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Manage domains on Rackspace Cloud DNS
 # key : rax_dns
 # condition: ansible

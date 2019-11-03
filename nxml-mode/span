@@ -1,4 +1,5 @@
-#contributor : Anders Bach Nielsen <abachn@abachn.net>
-#name : <span>...</span>
+# -*- mode: snippet -*-
+# contributor: Anders Bach Nielsen <abachn@abachn.net>
+# name: <span>...</span>
 # --
 <span>$1</span>

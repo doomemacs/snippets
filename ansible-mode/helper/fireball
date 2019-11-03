@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Enable fireball mode on remote node
 # key : fireball
 # condition: ansible

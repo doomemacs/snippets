@@ -1,3 +1,4 @@
-#name: not
+# -*- mode: snippet -*-
+# name: not
 # --
 (not $0)

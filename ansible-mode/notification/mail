@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Send an email
 # key : mail
 # condition: ansible

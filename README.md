@@ -25,18 +25,22 @@ This is not an exhaustive list, but are the most useful.
 
 ### `doom-snippets-expand PROPERTY VALUE &optional MODE`
 
-This is primarily used for create snippet aliases. A snippet alias if a snippet
+This is primarily used for creating snippet aliases. A snippet alias is a snippet
 that will expand another snippet when used. e.g.
 
-```emacs-lisp
-;;; in js-mode/class
+**In `js-mode/class`:**
+
+```yasnippet
 # name: class
 # --
 class ${1:Name} {
     $0
 }
+```
 
-;;; in js-mode/cl
+**In `js-mode/cl`:**
+
+```yasnippet
 # name: class
 # key: cl
 # type: command
@@ -60,7 +64,7 @@ Returns `FORMAT`, which is a format string with a custom spec:
   
 An example of its use:
 
-```text
+```yasnippet
 # -*- mode: snippet -*-
 # name: while ... { ... }
 # key: while
@@ -85,17 +89,17 @@ while true {
 
 `PROPERTY` can be `:uuid`, `:name`, `:key` or `:file`, and `MODE` restricts the
 snippet search to a certain snippet table (by major mode). It isn't wise to use
-`MODE` to reference snippets for oher major modes, because it will only see
+`MODE` to reference snippets for other major modes, because it will only see
 snippets that yasnippet have already loaded (and it lazy loads each table).
 
 ### `doom-snippets-without-trigger &rest BODY`
 
-Preforms `BODY` after moving the point to the start of the trigger keyword.
+Performs `BODY` after moving the point to the start of the trigger keyword.
 
 Without this, tests like `bolp` would meaninglessly fail because the cursor is
 always in front of the word that triggered this snippet.
 
-``` text
+``` yasnippet
 # -*- mode: snippet -*-
 # name: .to_string()
 # key: ts

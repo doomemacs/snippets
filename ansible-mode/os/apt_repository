@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Add and remove APT repositories
 # key : apt_repository
 # condition: ansible

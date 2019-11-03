@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Returns inventory data from I(Ohai)
 # key : ohai
 # condition: ansible

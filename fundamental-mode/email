@@ -1,4 +1,5 @@
-#name : (user's email)
+# -*- mode: snippet -*-
+# name: (user's email)
 # key: email
 # uuid: email
 # --

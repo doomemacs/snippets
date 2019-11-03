@@ -1,5 +1,6 @@
-#name : traversing a directory
-#contributor : Xah Lee
+# -*- mode: snippet -*-
+# name: traversing a directory
+# contributor: Xah Lee
 # --
 ;; apply a function to all files in a dir
 (require 'find-lisp)

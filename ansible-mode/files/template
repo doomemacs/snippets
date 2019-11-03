@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Templates a file out to a remote server.
 # key : template
 # condition: ansible

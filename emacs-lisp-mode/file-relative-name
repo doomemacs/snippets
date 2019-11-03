@@ -1,7 +1,8 @@
-#contributor: Xah Lee (XahLee.org)
-#name: file-relative-name
-#key: file-relative-name
+# -*- mode: snippet -*-
+# contributor: Xah Lee (XahLee.org)
+# name: file-relative-name
+# key: file-relative-name
 # uuid: file-relative-name
-#key: frn
+# key: frn
 # --
 (file-relative-name $0 )

@@ -1,3 +1,4 @@
-#name: function
+# -*- mode: snippet -*-
+# name: function
 # --
 (function $0)

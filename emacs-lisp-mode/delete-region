@@ -1,7 +1,8 @@
-#contributor: Xah Lee (XahLee.org)
-#name: delete-region
-#key: delete-region
+# -*- mode: snippet -*-
+# contributor: Xah Lee (XahLee.org)
+# name: delete-region
+# key: delete-region
 # uuid: delete-region
-#key: dr
+# key: dr
 # --
 (delete-region $0 )

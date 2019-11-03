@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Manage MySQL global variables
 # key : mysql_variables
 # condition: ansible

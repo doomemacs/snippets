@@ -1,7 +1,8 @@
-#contributor: Xah Lee (XahLee.org)
-#name: insert
-#key: insert
+# -*- mode: snippet -*-
+# contributor: Xah Lee (XahLee.org)
+# name: insert
+# key: insert
 # uuid: insert
-#key: i
+# key: i
 # --
 (insert $0)

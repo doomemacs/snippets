@@ -1,6 +1,7 @@
-#contributor: Xah Lee (XahLee.org)
-#name: defalias
-#key: defalias
+# -*- mode: snippet -*-
+# contributor: Xah Lee (XahLee.org)
+# name: defalias
+# key: defalias
 # uuid: defalias
 # --
 (defalias 'SYMBOL$0 'DEFINITION &optional DOCSTRING)

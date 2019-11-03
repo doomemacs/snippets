@@ -1,7 +1,8 @@
-#contributor: Xah Lee (XahLee.org)
-#name: end-of-line
-#key: end-of-line
+# -*- mode: snippet -*-
+# contributor: Xah Lee (XahLee.org)
+# name: end-of-line
+# key: end-of-line
 # uuid: end-of-line
-#key: eol
+# key: eol
 # --
 (end-of-line)

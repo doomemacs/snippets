@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Configure LVM volume groups
 # key : lvg
 # condition: ansible

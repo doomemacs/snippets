@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Manages F5 BIG-IP LTM http monitors
 # key : bigip_monitor_http
 # condition: ansible

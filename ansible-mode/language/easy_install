@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Installs Python libraries
 # key : easy_install
 # condition: ansible

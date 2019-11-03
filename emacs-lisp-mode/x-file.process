@@ -1,5 +1,6 @@
-#contributor: Xah Lee (XahLee.org)
-#name: a function that process a file
+# -*- mode: snippet -*-
+# contributor: Xah Lee (XahLee.org)
+# name: a function that process a file
 # key: x-file
 # uuid: x-file
 # --

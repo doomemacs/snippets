@@ -1,4 +1,4 @@
-# -*- require-final-newline: nil -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Link
 # --
 [${1:`(or % "text")`}](${2:http://$3})$0

@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Manages Mercurial (hg) repositories.
 # key : hg
 # condition: ansible

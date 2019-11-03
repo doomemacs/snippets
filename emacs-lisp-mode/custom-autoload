@@ -1,7 +1,8 @@
-#contributor: Xah Lee (XahLee.org)
-#name: custom-autoload
-#key: custom-autoload
+# -*- mode: snippet -*-
+# contributor: Xah Lee (XahLee.org)
+# name: custom-autoload
+# key: custom-autoload
 # uuid: custom-autoload
-#key: ca
+# key: ca
 # --
 (custom-autoload$0 SYMBOL LOAD &optional NOSET)

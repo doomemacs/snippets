@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : create a AWS CloudFormation stack
 # key : cloudformation
 # condition: ansible

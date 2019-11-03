@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Create or delete AWS scaling policies for Autoscaling groups
 # key : ec2_scaling_policy
 # condition: ansible

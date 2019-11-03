@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : creates a snapshot from an existing volume
 # key : ec2_snapshot
 # condition: ansible

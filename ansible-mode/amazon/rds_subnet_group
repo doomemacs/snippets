@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : manage RDS database subnet groups
 # key : rds_subnet_group
 # condition: ansible

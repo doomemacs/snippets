@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Manages F5 BIG-IP LTM nodes
 # key : bigip_node
 # condition: ansible

@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : create/destroy GCE load-balancer resources
 # key : gce_lb
 # condition: ansible

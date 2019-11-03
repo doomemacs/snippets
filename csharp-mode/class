@@ -1,5 +1,6 @@
-#contributor : Alejandro Espinoza Esparza <aespinoza@structum.com.mx>
-#name : class ... { ... }
+# -*- mode: snippet -*-
+# contributor: Alejandro Espinoza Esparza <aespinoza@structum.com.mx>
+# name: class ... { ... }
 # key: class
 # uuid: class
 # --

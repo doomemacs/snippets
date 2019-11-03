@@ -1,6 +1,7 @@
-#contributor: Xah Lee (XahLee.org)
-#name: error
-#key: error
+# -*- mode: snippet -*-
+# contributor: Xah Lee (XahLee.org)
+# name: error
+# key: error
 # uuid: error
 # --
 (error "$0" &optional ARGS)

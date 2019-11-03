@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Create/delete an SSH key in DigitalOcean
 # key : digital_ocean_sshkey
 # condition: ansible

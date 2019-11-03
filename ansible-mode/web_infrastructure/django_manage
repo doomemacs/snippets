@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Manages a Django application.
 # key : django_manage
 # condition: ansible

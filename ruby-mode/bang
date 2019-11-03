@@ -1,5 +1,6 @@
-#name : /usr/bin/ruby
-#group : general
-#key : #!
+# -*- mode: snippet -*-
+# name: /usr/bin/ruby
+# group: general
+# key: #!
 # --
 #!${1:/usr/bin/env ruby}

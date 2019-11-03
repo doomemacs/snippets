@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : create and modify issues in a JIRA instance
 # key : jira
 # condition: ansible

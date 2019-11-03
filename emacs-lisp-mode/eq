@@ -1,6 +1,7 @@
-#contributor: Xah Lee (XahLee.org)
-#name: eq
-#key: eq
+# -*- mode: snippet -*-
+# contributor: Xah Lee (XahLee.org)
+# name: eq
+# key: eq
 # uuid: eq
 # --
 (eq $0)

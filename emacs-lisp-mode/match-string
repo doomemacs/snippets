@@ -1,7 +1,8 @@
-#contributor: Xah Lee (XahLee.org)
-#name: match-string
-#key: match-string
+# -*- mode: snippet -*-
+# contributor: Xah Lee (XahLee.org)
+# name: match-string
+# key: match-string
 # uuid: match-string
-#key: ms
+# key: ms
 # --
 (match-string $0 )

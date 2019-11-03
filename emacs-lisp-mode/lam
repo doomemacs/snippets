@@ -1,6 +1,7 @@
-#contributor: Henrik Lissner (henrik.io)
-#name: lambda shortcut
-#key: lam
+# -*- mode: snippet -*-
+# contributor: Henrik Lissner (henrik.io)
+# name: lambda shortcut
+# key: lam
 # uuid: lam
 # --
 (λ! $0)

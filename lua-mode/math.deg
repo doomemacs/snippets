@@ -1,1 +1,2 @@
+# -*- mode: snippet -*-
 math.deg($0)

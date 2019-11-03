@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Manages alternative programs for common commands
 # key : alternatives
 # condition: ansible

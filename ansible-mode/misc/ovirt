@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : oVirt/RHEV platform management
 # key : ovirt
 # condition: ansible

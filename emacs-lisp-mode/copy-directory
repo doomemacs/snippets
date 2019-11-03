@@ -1,7 +1,8 @@
-#contributor: Xah Lee (XahLee.org)
-#name: copy-directory
-#key: copy-directory
+# -*- mode: snippet -*-
+# contributor: Xah Lee (XahLee.org)
+# name: copy-directory
+# key: copy-directory
 # uuid: copy-directory
-#key: cd
+# key: cd
 # --
 (copy-directory $0 NEWNAME &optional KEEP-TIME PARENTS)

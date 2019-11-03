@@ -1,3 +1,4 @@
-#name: length
+# -*- mode: snippet -*-
+# name: length
 # --
 (length `%`$0)

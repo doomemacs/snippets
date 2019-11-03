@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Gathers facts about remote hosts
 # key : setup
 # condition: ansible

@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Manage A10 Networks AX/SoftAX/Thunder/vThunder devices
 # key : a10_server
 # condition: ansible

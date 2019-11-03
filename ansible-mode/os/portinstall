@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Installing packages from FreeBSD's ports system
 # key : portinstall
 # condition: ansible

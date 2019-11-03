@@ -1,7 +1,8 @@
-#contributor: Xah Lee (XahLee.org)
-#name: replace-regexp
-#key: replace-regexp
+# -*- mode: snippet -*-
+# contributor: Xah Lee (XahLee.org)
+# name: replace-regexp
+# key: replace-regexp
 # uuid: replace-regexp
-#key: rr
+# key: rr
 # --
 (replace-regexp REGEXP$0 TO-STRING &optional DELIMITED START END)

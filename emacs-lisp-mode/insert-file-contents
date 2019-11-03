@@ -1,7 +1,8 @@
-#contributor: Xah Lee (XahLee.org)
-#name: insert-file-contents
-#key: insert-file-contents
+# -*- mode: snippet -*-
+# contributor: Xah Lee (XahLee.org)
+# name: insert-file-contents
+# key: insert-file-contents
 # uuid: insert-file-contents
-#key: ifc
+# key: ifc
 # --
 (insert-file-contents $0 &optional VISIT BEG END REPLACE)

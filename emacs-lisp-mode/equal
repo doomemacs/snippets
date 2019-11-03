@@ -1,6 +1,7 @@
-#contributor: Xah Lee (XahLee.org)
-#name: equal
-#key: equal
+# -*- mode: snippet -*-
+# contributor: Xah Lee (XahLee.org)
+# name: equal
+# key: equal
 # uuid: equal
 # --
 (equal $0)

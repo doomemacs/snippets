@@ -1,3 +1,4 @@
-#name: dolist
+# -*- mode: snippet -*-
+# name: dolist
 # --
 (dolist (${1:i} ${2:list}) `(doom-snippets-format "%n%s")`$0)`(doom-snippets-newline-or-eol)`

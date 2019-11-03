@@ -1,7 +1,8 @@
-#contributor: Xah Lee (XahLee.org)
-#name: directory-files
-#key: directory-files
+# -*- mode: snippet -*-
+# contributor: Xah Lee (XahLee.org)
+# name: directory-files
+# key: directory-files
 # uuid: directory-files
-#key: df
+# key: df
 # --
 (directory-files $0 &optional FULL MATCH NOSORT)

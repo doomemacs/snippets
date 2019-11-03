@@ -1,7 +1,8 @@
-#contributor: Xah Lee (XahLee.org)
-#name: save-excursion
-#key: save-excursion
+# -*- mode: snippet -*-
+# contributor: Xah Lee (XahLee.org)
+# name: save-excursion
+# key: save-excursion
 # uuid: save-excursion
-#key: se
+# key: se
 # --
 (save-excursion `(doom-snippets-format "%n%s")`$0)

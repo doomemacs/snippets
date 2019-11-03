@@ -1,7 +1,8 @@
-#contributor: Xah Lee (XahLee.org)
-#name: match-beginning
-#key: match-beginning
+# -*- mode: snippet -*-
+# contributor: Xah Lee (XahLee.org)
+# name: match-beginning
+# key: match-beginning
 # uuid: match-beginning
-#key: mb
+# key: mb
 # --
 (match-beginning N$0)

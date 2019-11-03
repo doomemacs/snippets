@@ -1,5 +1,6 @@
-#contributor: Xah Lee (XahLee.org)
-#name: grab word under cursor
+# -*- mode: snippet -*-
+# contributor: Xah Lee (XahLee.org)
+# name: grab word under cursor
 # key: x-grabthing
 # uuid: x-grabthing
 # --

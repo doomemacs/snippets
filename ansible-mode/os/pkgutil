@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Manage CSW-Packages on Solaris
 # key : pkgutil
 # condition: ansible

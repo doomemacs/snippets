@@ -1,7 +1,8 @@
-#contributor: Xah Lee (XahLee.org)
-#name: backward-char
-#key: backward-char
+# -*- mode: snippet -*-
+# contributor: Xah Lee (XahLee.org)
+# name: backward-char
+# key: backward-char
 # uuid: backward-char
-#key: bc
+# key: bc
 # --
 (backward-char $0)

@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Manage firewall with UFW
 # key : ufw
 # condition: ansible

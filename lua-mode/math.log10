@@ -1,1 +1,2 @@
+# -*- mode: snippet -*-
 math.log10($0)

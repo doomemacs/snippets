@@ -1,6 +1,7 @@
-#contributor: Xah Lee (XahLee.org)
-#name: put
-#key: put
+# -*- mode: snippet -*-
+# contributor: Xah Lee (XahLee.org)
+# name: put
+# key: put
 # uuid: put
 # --
 (put $0 PROPNAME VALUE)

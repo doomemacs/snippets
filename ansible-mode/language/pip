@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # name : Manages Python library dependencies.
 # key : pip
 # condition: ansible

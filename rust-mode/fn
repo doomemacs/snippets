@@ -4,6 +4,6 @@
 # uuid: fn
 # condition: (doom-snippets-bolp)
 # --
-fn ${1:function_name}($2) ${3:-> ${4:int} }{
+fn ${1:function_name}($2) ${3:-> ${4:i32} }{
    `%`$0
 }

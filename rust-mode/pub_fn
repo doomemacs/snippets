@@ -3,6 +3,6 @@
 # key: pfn
 # uuid: pfn
 # --
-pub fn ${1:function_name}($2) ${3:-> ${4:int} }{
+pub fn ${1:function_name}($2) ${3:-> ${4:i32} }{
    `%`$0
 }

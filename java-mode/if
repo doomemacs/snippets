@@ -4,6 +4,6 @@
 # uuid: if
 # condition: (not (sp-point-in-string-or-comment))
 # --
-if (${1:true) {
+if (${1:true}) {
    $0
 }

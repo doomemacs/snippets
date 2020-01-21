@@ -5,7 +5,8 @@
 # --
 # -*- mode: snippet -*-
 # name: $1
-# key: ${2:trigger-key}${3:
+# contributor: ${2:`(user-full-name)`}
+# key: ${3:trigger-key}${4:
 # condition: t}
 # --
 $0

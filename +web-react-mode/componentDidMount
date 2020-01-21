@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: componentDidMount
+# contributor: Seong Yong-ju <sei40kr@gmail.com>
+# key: componentDidMount
+# --
+componentDidMount() {
+  $0
+}

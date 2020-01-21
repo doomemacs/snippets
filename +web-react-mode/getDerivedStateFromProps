@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: getDerivedStateFromProps
+# contributor: Seong Yong-ju <sei40kr@gmail.com>
+# key: getDerivedStateFromProps
+# --
+static getDerivedStateFromProps(nextProps, prevState) {
+  $0
+  return null;
+}

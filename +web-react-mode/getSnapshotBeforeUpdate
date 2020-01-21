@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: getSnapshotBeforeUpdate
+# contributor: Seong Yong-ju <sei40kr@gmail.com>
+# key: getSnapshotBeforeUpdate
+# --
+static getSnapshotBeforeUpdate(prevProps, prevState) {
+  $0
+  return null;
+}

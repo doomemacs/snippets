@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: componentWillUnmount
+# contributor: Seong Yong-ju <sei40kr@gmail.com>
+# key: componentWillUnmount
+# --
+componentWillUnmount() {
+  $0
+}

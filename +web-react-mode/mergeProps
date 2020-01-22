@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: mergeProps
+# contributor: Seong Yong-ju
+# key: mergeProps
+# --
+const mergeProps = (stateProps, dispatchProps, ownProps) => ({
+  ...stateProps,
+  ...dispatchProps,
+  ...ownProps,
+  $0
+});

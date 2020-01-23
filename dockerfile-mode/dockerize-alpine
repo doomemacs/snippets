@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
-# name: Seong Yong-ju
+# contributor: Seong Yong-ju
+# name: dockerize for Alpine Images
 # key: dockerize-alpine
 # expand-env: ((yas-indent-line 'fixed))
 # --

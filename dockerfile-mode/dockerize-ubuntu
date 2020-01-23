@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
-# name: Seong Yong-ju
+# contributor: Seong Yong-ju
+# name: dockerize for Ubuntu Images
 # key: dockerize-ubuntu
 # expand-env: ((yas-indent-line 'fixed))
 # --

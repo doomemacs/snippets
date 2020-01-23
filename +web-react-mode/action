@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name: action
 # contributor: Seong Yong-ju
+# name: action
 # key: action
 # --
 const ${1:$(upcase (s-snake-case yas-text))} = '${1:$(upcase (s-snake-case yas-text))}';

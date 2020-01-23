@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name: Redux container
 # contributor: Seong Yong-ju
+# name: Redux container
 # key: container
 # --
 import { connect } from 'react-redux';

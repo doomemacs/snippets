@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name: mergeProps
 # contributor: Seong Yong-ju
+# name: mergeProps
 # key: mergeProps
 # --
 const mergeProps = (stateProps, dispatchProps, ownProps) => ({

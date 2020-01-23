@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name: reducer
 # contributor: Seong Yong-ju
+# name: reducer
 # key: reducer
 # --
 const initialState = {

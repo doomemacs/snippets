@@ -4,8 +4,8 @@
 # uuid: #
 # --
 # -*- mode: snippet -*-
-# name: $1
-# contributor: ${2:`(user-full-name)`}
+${1:# contributor: `(user-full-name)`
+}# name: $2
 # key: ${3:trigger-key}${4:
 # condition: t}
 # --

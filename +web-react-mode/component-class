@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name: React component class
 # contributor: Seong Yong-ju <sei40kr@gmail.com>
+# name: React component class
 # key: component-class
 # --
 import { Component } from 'react';

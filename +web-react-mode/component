@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name: React component
 # contributor: Seong Yong-ju <sei40kr@gmail.com>
+# name: React component
 # key: component
 # --
 import { Component } from 'react';

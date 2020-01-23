@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name: useState
 # contributor: Seong Yong-ju <sei40kr@gmail.com>
+# name: useState
 # key: useState
 # --
 const [${1:state}, set${1:$(if (>= (length yas-text) 1)

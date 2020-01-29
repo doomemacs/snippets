@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Seong Yong-ju
+# name: while loop
+# key: while
+# --
+while (${1:condition}) {
+    `%`$0
+}

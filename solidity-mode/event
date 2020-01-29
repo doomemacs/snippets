@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: Seong Yong-ju
+# name: event ...(...)
+# key: event
+# --
+event ${1:EventName}(${2:args});

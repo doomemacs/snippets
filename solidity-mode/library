@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Seong Yong-ju
+# name: library ... { ... }
+# key: library
+# --
+library ${1:LibraryName} {
+    $0
+}

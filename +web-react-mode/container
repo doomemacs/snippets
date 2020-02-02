@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# contributor: Seong Yong-ju
+# name: Redux container
+# key: container
+# --
+import { connect } from 'react-redux';
+
+const mapStateToProps = (state, ownProps) => ({
+  $0
+});
+
+const mapDispatchToProps = (dispatch, ownProps) => ({
+
+});
+
+const ${1:`(f-base buffer-file-name)`} = connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(${2:Component});
+
+export default $1;

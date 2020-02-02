@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# contributor: Seong Yong-ju
+# name: reducer
+# key: reducer
+# --
+const initialState = {
+  $1
+};
+
+export default (state = initialState, action) => {
+  switch (action.type) {
+    $0
+
+    default:
+      return state;
+  }
+};

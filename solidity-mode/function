@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Seong Yong-ju
+# name: function ... { ... }
+# key: function
+# --
+function ${1:functionName}(${2:args})${3: internal}${4: returns (${5:return types})} {
+    $0
+}

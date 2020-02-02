@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Seong Yong-ju
+# name: modifier ...(...) { ... }
+# key: modifier
+# --
+modifier ${1:modifierName}(${2:args}) {
+    $0
+    ${3:_;}
+}

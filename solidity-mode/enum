@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Seong Yong-ju
+# name: enum ... { ... }
+# key: enum
+# --
+enum ${1:EnumName} {
+    $0
+}

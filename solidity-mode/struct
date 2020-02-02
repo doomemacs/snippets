@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Seong Yong-ju
+# name: struct ... { ... }
+# key: struct
+# --
+struct ${1:StructName} {
+    $0
+}

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: Seong Yong-ju
+# name: assert(...);
+# key: assert
+# --
+assert($0);

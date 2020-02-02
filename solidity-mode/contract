@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# contributor: Seong Yong-ju
+# name: contract ... { ... }
+# key: contract
+# --
+contract ${1:ContractName} {
+    $2
+
+    constructor(${3:args}) public {
+        $0
+    }
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: Seong Yong-ju <sei40kr@gmail.com>
+# name: useState
+# key: useState
+# --
+const [${1:state}, set${1:$(s-upper-camel-case yas-text)}] = setState(${2:initialState});
+$0

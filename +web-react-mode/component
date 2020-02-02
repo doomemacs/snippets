@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# contributor: Seong Yong-ju <sei40kr@gmail.com>
+# name: React component
+# key: component
+# --
+import { Component } from 'react';
+
+const ${1:`(f-base buffer-file-name)`} = (props) => (
+  $0
+);
+
+export default $1;

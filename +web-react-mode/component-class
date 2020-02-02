@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# contributor: Seong Yong-ju <sei40kr@gmail.com>
+# name: React component class
+# key: component-class
+# --
+import { Component } from 'react';
+
+class ${1:`(f-base buffer-file-name)`} extends Component {
+  render() {
+    return (
+      $0
+    );
+  }
+}
+
+export default $1;

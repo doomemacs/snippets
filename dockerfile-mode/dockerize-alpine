@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# contributor: Seong Yong-ju
+# name: dockerize for Alpine Images
+# key: dockerize-alpine
+# expand-env: ((yas-indent-line 'fixed))
+# --
+RUN apk add --no-cache openssl
+
+ENV DOCKERIZE_VERSION ${1:v0.6.1}
+RUN wget https://github.com/jwilder/dockerize/releases/download/${DOCKERIZE_VERSION}/dockerize-alpine-linux-amd64-${DOCKERIZE_VERSION}.tar.gz \
+    && tar -C /usr/local/bin -xzvf dockerize-alpine-linux-amd64-${DOCKERIZE_VERSION}.tar.gz \
+    && rm dockerize-alpine-linux-amd64-${DOCKERIZE_VERSION}.tar.gz
+$0

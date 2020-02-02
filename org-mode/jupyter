@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Seong Yong-ju
+# name: #+BEGIN_SRC jupyter-...
+# uuid: jupyter
+# key: jupyter
+# --
+#+BEGIN_SRC jupyter-${1:$$(yas-choose-value '("python" "julia" "R"))}${2: :session $3}${4: :async yes}
+`%`$0
+#+END_SRC

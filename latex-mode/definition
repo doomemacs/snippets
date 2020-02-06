@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: definition
+# key: def
+# group: theorems
+# --
+\begin{definition}
+`%`$0
+\end{definition}

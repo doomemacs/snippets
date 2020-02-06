@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: axiom
+# key: axm
+# group: theorems
+# --
+\begin{axiom}
+`%`$0
+\end{axiom}

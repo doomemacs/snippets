@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: Seong Yong-ju
+# name: if ... { ... }
+# --
+if ${1:condition} {
+	`%`$0
+}

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name: func
+# name: func ...(...) ... { ... }
 # --
-func ${1:fun}($2) {
-    $0
+func ${1:name}(${2:args})${3: return type} {
+    `%`$0
 }

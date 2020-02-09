@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: corollary
+# key: clr
+# group: theorems
+# --
+\begin{corollary}
+`%`$0
+\end{corollary}

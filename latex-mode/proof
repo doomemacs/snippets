@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: proof
+# key: prf
+# group: theorems
+# --
+\begin{proof}
+`%`$0
+\end{proof}

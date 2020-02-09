@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: exercise
+# key: exc
+# group: theorems
+# --
+\begin{exercise}
+`%`$0
+\end{exercise}

@@ -2,5 +2,6 @@
 # name: mode
 # key: mode
 # uuid: mode
+# condition: (= (line-number-at-pos) 1)
 # --
 `comment-start`-*- mode: ${1:mode} -*-`comment-end`

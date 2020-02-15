@@ -4,5 +4,5 @@
 # uuid: head
 # --
 #+TITLE:     ${1:Untitled Document}
-#+AUTHOR:    Henrik Lissner
-#+EMAIL:     henrik@lissner.net
+#+AUTHOR:    ${2:`user-full-name`}
+#+EMAIL:     ${3:`user-mail-address`}

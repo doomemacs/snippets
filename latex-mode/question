@@ -3,4 +3,4 @@
 # key: q
 # uuid: q
 # --
-\question{$0}
+\question{${0:`%`}}

@@ -4,5 +4,5 @@
 # uuid: bl
 # --
 \begin{block}{$1}
-        $0
+        ${0:`%`}
 \end{block}

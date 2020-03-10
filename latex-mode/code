@@ -4,5 +4,5 @@
 # uuid: code
 # --
 \begin{lstlisting}
-$0
+${0:`%`}
 \end{lstlisting}

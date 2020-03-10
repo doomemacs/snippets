@@ -3,4 +3,4 @@
 # key: frac
 # uuid: frac
 # --
-\frac{${1:numerator}}{${2:denominator}}$0
+\frac{${1:`(or % "numerator")`}}{${2:denominator}}$0

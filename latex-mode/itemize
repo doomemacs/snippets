@@ -4,5 +4,5 @@
 # uuid: it
 # --
 \begin{itemize}
-$0
+${0:`%`}
 \end{itemize}

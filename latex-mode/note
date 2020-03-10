@@ -3,4 +3,4 @@
 # key: no
 # uuid: no
 # --
-\note{$0}
+\note{${0:`%`}}

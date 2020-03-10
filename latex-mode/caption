@@ -3,4 +3,4 @@
 # key: ca
 # uuid: ca
 # --
-\caption{$0}
+\caption{${0:`%`}}

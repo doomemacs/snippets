@@ -5,5 +5,5 @@
 # --
 \lstset{language=python}
 \begin[language=python]{lstlisting}
-$0
+${0:`%`}
 \end{lstlisting}

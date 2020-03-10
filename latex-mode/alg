@@ -4,5 +4,5 @@
 # uuid: alg
 # --
 \begin{algorithmic}
-$0
+${0:`%`}
 \end{algorithmic}

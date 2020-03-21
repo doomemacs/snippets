@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: initState
+# key: is
+# group: flutter
+# --
+@override
+void initState() {
+  super.initState();
+  $0
+}

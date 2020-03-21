@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: part
+# --
+part of ${1:Part}$0

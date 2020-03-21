@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: dispose
+# group: flutter
+# --
+@override
+void dispose() {
+  super.dispose();
+  $0
+}

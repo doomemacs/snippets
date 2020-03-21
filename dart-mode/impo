@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: import
+# key: imp
+# --
+import '${1:Library}';$0

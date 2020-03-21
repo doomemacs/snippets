@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: if else
+# --
+else if ($1) {
+  $0
+}

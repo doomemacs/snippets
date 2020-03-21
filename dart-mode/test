@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: test
+# --
+test('$1', () {
+  $0
+});

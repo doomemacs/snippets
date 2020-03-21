@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: switch case
+# --
+switch ($1) {
+  case $2:
+    $0
+    break;
+  default:
+}

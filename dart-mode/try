@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: try
+# --
+try {
+  $0
+} catch (${1:e}) {
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: async fun
+# --
+Future<${1:Type}> ${2:Name}($3) async {
+  $0
+}

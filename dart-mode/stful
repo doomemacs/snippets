@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: StatefulWidget
+# group: flutter
+# --
+class $1 extends StatefulWidget {
+  @override
+  _$1State createState() => _$1State();
+}
+
+class _$1State extends State<$1> {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      $2
+    );
+  }
+}

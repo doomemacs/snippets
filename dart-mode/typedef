@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: typedef
+# --
+typedef ${1:Type} ${2:Name}(${3:params});

@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: StatelessWidget
+# group: flutter
+# --
+class $1 extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      $2
+    );
+  }
+}

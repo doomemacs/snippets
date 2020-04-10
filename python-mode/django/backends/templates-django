@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: template.backends.django.DjangoTemplates
+# key: djb
+# uuid: django-backends-templates-django
+# group: django-backends
+# --
+django.template.backends.django.DjangoTemplates

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: tz filter utc (django)
+# key: |
+# uuid: django-templates-tz-filter-utc
+# group: django-templates
+# --
+|utc

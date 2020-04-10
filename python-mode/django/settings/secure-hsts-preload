@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: SECURE_HSTS_PRELOAD
+# key: djs
+# uuid: django-settings-secure-hsts-preload
+# group: django-settings
+# --
+SECURE_HSTS_PRELOAD = False

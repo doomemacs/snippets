@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: base_manager_name - he attribute name of the manager, for example, 'objects', to use for the model’s _base_manager.
+# key: djmeta
+# uuid: django-meta-base-manager-name
+# group: django-meta
+# --
+base_manager_name = '${1:objects}'$0

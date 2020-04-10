@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: humanize filter ordinal (django)
+# key: |
+# uuid: django-templates-filter-humanize-ordinal
+# group: django-templates
+# --
+|ordinal

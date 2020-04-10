@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: USE_X_FORWARDED_PORT
+# key: djs
+# uuid: django-settings-use-x-forwarded-port
+# group: django-settings
+# --
+USE_X_FORWARDED_PORT = False

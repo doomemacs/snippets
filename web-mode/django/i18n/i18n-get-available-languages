@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: i18n get_available_languages (django)
+# key: djt
+# uuid: django-templates-i18n-get-available-languages
+# group: django-templates
+# --
+{% get_available_languages as $0 %}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: SECURE_PROXY_SSL_HEADER - WARNING! Only set this if you fully understand what you're doing.
+# key: settings.
+# uuid: django-settings-secure-proxy-ssl-header-dot
+# group: django-settings-dot
+# --
+settings.SECURE_PROXY_SSL_HEADER

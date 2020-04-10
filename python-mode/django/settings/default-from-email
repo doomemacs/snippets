@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: DEFAULT_FROM_EMAIL - Default email address to use for various automated correspondence from the site managers.
+# key: djs
+# uuid: django-settings-default-from-email
+# group: django-settings
+# --
+# Default email address to use for various automated correspondence from
+# the site managers.
+DEFAULT_FROM_EMAIL = 'webmaster@localhost'

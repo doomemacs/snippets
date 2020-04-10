@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: FORM_RENDERER - Default form rendering class.
+# key: settings.
+# uuid: django-settings-form-renderer-dot
+# group: django-settings-dot
+# --
+settings.FORM_RENDERER

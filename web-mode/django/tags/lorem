@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: lorem (django)
+# key: djt
+# uuid: django-templates-lorem
+# group: django-templates
+# --
+{% lorem ${1:COUNT}${2: METHOD$$(yas-choose-value '(" w" " p" " b"))}${3: random} %}

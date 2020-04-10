@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter force_escape (django)
+# key: |
+# uuid: django-templates-filter-force-escape
+# group: django-templates
+# --
+|force_escape

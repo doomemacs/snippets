@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: tz filter timezone (django)
+# key: |
+# uuid: django-templates-tz-filter-timezone
+# group: django-templates
+# --
+|timezone:"${1:TIME ZONE}"

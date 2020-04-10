@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter center (django)
+# key: |
+# uuid: django-templates-filter-center
+# group: django-templates
+# --
+|center:"$0"

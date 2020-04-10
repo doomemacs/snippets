@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: CSRF_COOKIE_PATH
+# key: djs
+# uuid: django-settings-csrf-cookie-path
+# group: django-settings
+# --
+CSRF_COOKIE_PATH = '/'

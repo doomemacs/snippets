@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: DEBUG - A boolean that turns on/off debug mode.
+# key: djs
+# uuid: django-settings-debug
+# group: django-settings
+# --
+DEBUG = False

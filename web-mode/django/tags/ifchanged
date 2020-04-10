@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: ifchanged (django)
+# key: djt
+# uuid: django-templates-ifchanged
+# group: django-templates
+# --
+{% ifchanged $(1: VARIABLE} ${2: VARIABLE} %}
+    $0
+{% else %}
+
+{% endifchanged %}

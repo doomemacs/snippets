@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LANGUAGE_COOKIE_HTTPONLY
+# key: settings.
+# uuid: django-settings-language-cookie-httponly-dot
+# group: django-settings-dot
+# --
+settings.LANGUAGE_COOKIE_HTTPONLY

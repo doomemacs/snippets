@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: USE_L10N -  If you set this to True, Django will format dates, numbers and calendars according to user current locale.
+# key: settings.
+# uuid: django-settings-use-l10n-dot
+# group: django-settings-dot
+# --
+settings.USE_L10N

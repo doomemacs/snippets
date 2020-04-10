@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: template simple tag
+# key: djtt
+# uuid: django-custom-simple-tag
+# group: django-custom
+# --
+@register.simple_tag
+def ${1:NAME}({2:ARGUMENT}):
+    $0
+    return

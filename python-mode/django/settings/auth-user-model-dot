@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: AUTH_USER_MODEL
+# key: settings.
+# uuid: django-settings-auth-user-model-dot
+# group: django-settings-dot
+# --
+settings.AUTH_USER_MODEL

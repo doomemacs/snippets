@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: db.backends.oracle
+# key: djb
+# uuid: django-backends-db-oracle
+# group: django-backends
+# --
+django.db.backends.oracle

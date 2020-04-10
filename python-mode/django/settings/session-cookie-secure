@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: SESSION_COOKIE_SECURE - Whether the session cookie should be secure (https:// only).
+# key: djs
+# uuid: django-settings-session-cookie-secure
+# group: django-settings
+# --
+# Whether the session cookie should be secure (https:// only).
+SESSION_COOKIE_SECURE = False

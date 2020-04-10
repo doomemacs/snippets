@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter default_if_none (django)
+# key: |
+# uuid: django-templates-filter-default-if-none
+# group: django-templates
+# --
+|default_if_none:"$0"

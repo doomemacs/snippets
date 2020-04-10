@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter dict_sort (django)
+# key: |
+# uuid: django-templates-filter-dictsort
+# group: django-templates
+# --
+|dictsort:"$0"

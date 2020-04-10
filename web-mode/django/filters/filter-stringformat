@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter stringformat (django)
+# key: |
+# uuid: django-templates-filter-stringformat
+# group: django-templates
+# --
+|stringformat:"$0"

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: STATIC_ROOT - Absolute path to the directory static files should be collected to.
+# key: settings.
+# uuid: django-settings-static-root-dot
+# group: django-settings-dot
+# --
+settings.STATIC_ROOT

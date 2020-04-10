@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter pprint (django)
+# key: |
+# uuid: django-templates-filter-pprint
+# group: django-templates
+# --
+|pprint

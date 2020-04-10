@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter truncatewords_html (django)
+# key: |
+# uuid: django-templates-filter-truncatewords-html
+# group: django-templates
+# --
+|truncatewords_html:$0

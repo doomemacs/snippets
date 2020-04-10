@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: i18n blocktrans (django)
+# key: djt
+# uuid: django-templates-i18n-blocktrans
+# group: django-templates
+# --
+{% blocktrans${1: with ${2:KEY}=${3:VALUE}} %}
+    $0
+{% endblocktrans %}

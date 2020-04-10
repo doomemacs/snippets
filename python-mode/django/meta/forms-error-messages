@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# name: forms error_messages
+# key: djmeta
+# uuid: django-meta-forms-error-messages
+# group: django-meta
+# --
+error_messages = {
+    '${1:FIELD NAME}': {
+        '${2:ERROR KEY}': '${3:ERROR MESSAGE}'
+    }$0
+
+    # Examples:
+    # from django.core.exceptions import NON_FIELD_ERRORS
+    # NON_FIELD_ERRORS: {
+    #     'unique_together': "%(model_name)s's %(field_labels)s are not unique.",
+    # },
+    # 'name': {
+    #     'max_length': _("This writer's name is too long."),
+    # },
+
+}

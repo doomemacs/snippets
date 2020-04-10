@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter pluralize (django)
+# key: |
+# uuid: django-templates-filter-pluralize
+# group: django-templates
+# --
+|pluralize:"${1:singual},${2:plural}"

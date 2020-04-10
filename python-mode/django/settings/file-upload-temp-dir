@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: FILE_UPLOAD_TEMP_DIR - Directory in which upload streamed files will be temporarily saved.
+# key: djs
+# uuid: django-settings-file-upload-temp-dir
+# group: django-settings
+# --
+# Directory in which upload streamed files will be temporarily saved. A value of
+# `None` will make Django use the operating system's default temporary directory
+# (i.e. "/tmp" on *nix systems).
+FILE_UPLOAD_TEMP_DIR = None

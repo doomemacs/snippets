@@ -1,0 +1,234 @@
+#+TITLE:   Django (python-mode) Snippets
+#+DATE:    March 29, 2020
+#+SINCE:   {replace with next tagged release version}
+#+STARTUP: inlineimages nofold
+
+* Table of Contents :TOC_3:noexport:
+- [[#description][Description]]
+  - [[#maintainers][Maintainers]]
+- [[#snippets][Snippets]]
+  - [[#imports-trigger-dji][Imports (:trigger dji)]]
+  - [[#views-trigger-djv][Views (:trigger djv)]]
+  - [[#settings-trigger-djs-or-settings][Settings (:trigger djs or settings.)]]
+  - [[#meta-trigger-djmeta][Meta (:trigger djmeta)]]
+  - [[#middleware-trigger-djmid][Middleware (:trigger djmid)]]
+  - [[#backends-trigger-djb][Backends (:trigger djb)]]
+  - [[#model-form-meta-trigger-djmeta][Model Form Meta (:trigger djmeta)]]
+  - [[#models-trigger-djmod][Models (:trigger djmod)]]
+  - [[#common][Common]]
+- [[#faq][FAQ]]
+  - [[#q-holy-settings-snippets-batman][Q: Holy settings snippets batman!?!]]
+- [[#contributing][Contributing]]
+- [[#--todo-89][[ ] TODO]]
+  - [[#x-model-admin-attributes][[X] Model Admin Attributes]]
+  - [[#x-model-admin-methods][[X] Model Admin Methods]]
+  - [[#x-forms-meta-attributes][[X] Forms Meta attributes]]
+  - [[#x-middleware-strings-for-middleware-setting-usage][[X] Middleware strings (for MIDDLEWARE setting usage)]]
+  - [[#x-backends--engines][[X] Backend's / Engines]]
+  - [[#--more-class-based-views][[ ] More class based views]]
+  - [[#x-common-models][[X] Common Models]]
+  - [[#x-generic-model][[X] Generic Model]]
+  - [[#x-basic-management-command][[X] Basic Management Command]]
+
+* Description
+A bunch of Django specific python-mode snippets, including ~settings~, ~imports~
+and ~views~. Here are some of them:
+
++ Complete global Django settings as dot references, i.e. ~settings.<tab>~ and
+  settings usage, i.e. ~djs<tab>~. The latter will insert to setting as it
+  would be in a settings module.
++ Meta class attributes
++ Common imports
++ Common function and class-based views
++ etc
+
+These snippets are meant to act as more of a auto-completion / quick look-up instead of auto
+expanding, therefore snippets are grouped as much as possible.
+
+** Maintainers
++ @jsoa (Author)
+
+* Snippets
+** Imports (:trigger dji)
+Common imports
+
++ ~:group django-imports~
++ ~:trigger dji~
+  + ~mark-safe~
+  + ~models~
+  + ~reverse-url~
+  + ~safe-string~
+  + ~settings~
+  + ~site-settings~
+  + ~timezone~
+  + ~ugettext~
+  + ~url-path~
+  + ~url-repath~
+    
+** Views (:trigger djv)
+Common views
+
++ ~:group django-views~
++ ~:trigger djv~
+  + ~basic-func-get-view~ - Basic function based GET view
+  + ~basic-view~ - Basic function based view
+  + ~redirect-cbv~ - Redirect class based view
+  + ~template-cbv~ - Template class based view
+  + ~basic-cbv~ - Basic class based view
+  + ~detail-view-cbv~ - DetailView (class based view)
+  + ~list-view-cbv~ - ListView (class based view)
+    
+** Settings (:trigger djs or settings.)
+Global settings
+
+These are the Django global settings, which can be expanded via dot reference or
+expanded as if putting into a settings module. There are too many to list out
+here so pressing ~djs<tab>~ or ~settings.<tab>~ will give you the full list.
+
+Note: the names of these snippets include a brief explanation. The ~setting~
+usage, i.e. when using it in a settings module, comments will be included where
+possible.
+
++ ~:group django-settings~
++ ~:trigger djs~
+  + [[file:settings/][list of snippets]]
+
++ ~:group django-settings-dot~
++ ~:trigger settings.~
+  + [[file:settings/][list of snippets]]
+    
+** Meta (:trigger djmeta)
+Django model ~Meta~ attributes
+
++ ~:group django-meta~
++ ~:trigger djmeta~
+  + ~abstract~
+  + ~app-label~
+  + ~base-manager-name~
+  + ~constraints~
+  + ~db-table~
+  + ~db-tablespace~
+  + ~default-manager-name~
+  + ~default-permissions~
+  + ~default-related-name~
+  + ~get-latest-by~
+  + ~indexes~
+  + ~index-together~
+  + ~label~
+  + ~label-lower~
+  + ~managed~
+  + ~ordering~
+  + ~order-with-repect-to~
+  + ~premissions~
+  + ~proxy~
+  + ~required-db-features~
+  + ~required-db-vendor~
+  + ~select-on-save~
+  + ~unique-together~
+  + ~verbose-name~
+  + ~verbose-name-plural~
+
+** Middleware (:trigger djmid)
+All the built-in middleware in the form of the value used in the ~MIDDLEWARE~ setting
+
++ ~:group django-middleware~
++ ~:trigger djmid~
+  + ~authentication~
+  + ~broken-link-email~
+  + ~cache-fetch~
+  + ~cache-update~
+  + ~common~
+  + ~conditional-get~
+  + ~csrf-view~
+  + ~current-site~
+  + ~gzip~
+  + ~locale~
+  + ~message~
+  + ~persistent-remove-user~
+  + ~remote-user~
+  + ~security~
+  + ~session~
+  + ~x-frame-options~
+    
+** Backends (:trigger djb)
+These snippets are possible options for other settings, such as ~ENGINE~ for
+~DATABASES~ setting or ~BACKEND~ for ~CACHES~ setting.
+
++ ~:group django-backends~
++ ~:trigger djb~
+  + ~authentication~
+  + ~cache-database~
+  + ~cache-file~
+  + ~cache-locmem~
+  + ~cache-memcached~
+  + ~cache-pylibmc~
+  + ~db-mysql~
+  + ~db-oracle~
+  + ~db-postgresql~
+  + ~db-sqlite3~
+  + ~email~
+  + ~message-cookie~
+  + ~message-fallback~
+  + ~message-session~
+  + ~session-cache~
+  + ~session-cached-db~
+  + ~session-db~
+  + ~session-file~
+  + ~session-signed-cookie~
+  + ~signing~
+  + ~staticfiles~
+  + ~templates-django~
+  + ~templates_jinja2~
+
+** Model Form Meta (:trigger djmeta)
+Django model form meta attributes, these reside in the same group as
+~django-meta~ and contain a name prefix of ~form~
+
++ ~:group django-meta~
++ ~:trigger djmeta~
+  + ~forms-error-messages~
+  + ~forms-exclude~
+  + ~forms-field-classes~
+  + ~forms-fields~
+  + ~forms-help-texts~
+  + ~forms-labels~
+  + ~forms-localized-fields~
+  + ~forms-model~
+  + ~forms-widgets~
+
+** Models (:trigger djmod)
+Common django models
+
++ ~:group django-models~
++ ~:trigger djmod~
+  + ~common~
+  + ~generic~
+
+** Common
+Other common snippets
+
++ ~:group django-common~
+  + ~ugettextify~ - Wraps selection in the common ugettext
+    function, i.e. ~'test'~ becomes ~_('test')_~. You will need
+    to insert snippet after selecting text (i.e. via doom ~~SPC s i~)
+
+* FAQ
+** Q: Holy settings snippets batman!?!
+yea there is a lot, and since ~django~ collects and caches all these
+settings in a class at run-time, they are not usually available for
+auto-completing
+    
+* Contributing
+There is an included ~snippet-templates~ file the includes the templates used to
+create the various groups of snippets
+
+* [ ] TODO [8/9]
+** [X] Model Admin Attributes
+** [X] Model Admin Methods
+** [X] Forms Meta attributes
+** [X] Middleware strings (for MIDDLEWARE setting usage)
+** [X] Backend's / Engines
+** [ ] More class based views
+** [X] Common Models
+** [X] Generic Model
+** [X] Basic Management Command

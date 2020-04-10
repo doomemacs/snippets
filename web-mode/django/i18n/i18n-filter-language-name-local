@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: i18n filter language_name_local
+# key: |
+# uuid: django-templates-i18n-filter-language-name-local
+# group: django-templates
+# --
+|language_name_local

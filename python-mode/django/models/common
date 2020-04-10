@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: Common Model
+# key: djmod
+# uuid: django-models-common
+# group: django-models
+# --
+class ${1:MODEL NAME}(models.Model):
+    """${2:DOC STRING}"""
+
+    # Fields
+    ${3:FIELD NAME} = models.${4:FIELD}
+    $0
+
+    def __str__(self):
+        return str(self.id)
+
+    def save(self, *args, **kwargs):
+        super().save(*args, **kwargs)

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LANGUAGE_COOKIE_PATH
+# key: settings.
+# uuid: django-settings-language-cookie-path-dot
+# group: django-settings-dot
+# --
+settings.LANGUAGE_COOKIE_PATH

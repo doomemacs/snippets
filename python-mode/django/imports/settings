@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: settings
+# key: dji
+# uuid: django-imports-settings
+# group: django-imports
+# --
+from django.conf import settings

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: humanize filter intword (django)
+# key: |
+# uuid: django-templates-filter-humanize-intword
+# group: django-templates
+# --
+|intword

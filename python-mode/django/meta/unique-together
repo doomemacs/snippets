@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: unique_together - Sets of field names that, taken together, must be unique
+# key: djmeta
+# uuid: django-meta-unique-together
+# group: django-meta
+# --
+unique_together = [$0]

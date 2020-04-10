@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter capfirst (django)
+# key: |
+# uuid: django-templates-filter-capfirst
+# group: django-templates
+# --
+|capfirst

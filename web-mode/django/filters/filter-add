@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter add (django)
+# key: |
+# uuid: django-templates-filter-add
+# group: django-templates
+# --
+|add:"$0"

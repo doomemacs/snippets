@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: DATE_INPUT_FORMATS - Default formats to be used when parsing dates from input boxes, in order.
+# key: settings.
+# uuid: django-settings-date-input-formats-dot
+# group: django-settings-dot
+# --
+settings.DATE_INPUT_FORMATS

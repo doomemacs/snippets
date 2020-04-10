@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: ADMINS - People who get code error notifications.
+# key: settings.
+# uuid: django-settings-admins-dot
+# group: django-settings-dot
+# --
+settings.ADMINS

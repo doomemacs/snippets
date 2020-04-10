@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: common (django)
+# key: djt
+# uuid: django-templates-comment
+# group: django-templates
+# --
+{% comment "${1:NOTE}" %}
+    ${2:COMMENT}$0
+{% endcomment %}

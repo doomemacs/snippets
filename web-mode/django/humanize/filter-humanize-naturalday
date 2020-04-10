@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: humanize filter naturalday (django)
+# key: |
+# uuid: django-templates-filter-humanize-naturalday
+# group: django-templates
+# --
+|naturalday

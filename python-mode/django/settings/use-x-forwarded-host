@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: USE_X_FORWARDED_HOST
+# key: djs
+# uuid: django-settings-use-x-forwarded-host
+# group: django-settings
+# --
+USE_X_FORWARDED_HOST = False

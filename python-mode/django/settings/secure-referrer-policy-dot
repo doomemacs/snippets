@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: SECURE_REFERRER_POLICY
+# key: settings.
+# uuid: django-settings-secure-referrer-policy-dot
+# group: django-settings-dot
+# --
+settings.SECURE_REFERRER_POLICY

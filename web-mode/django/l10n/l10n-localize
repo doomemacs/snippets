@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: l10n localize
+# key: djt
+# uuid: django-templates-l10n-localize
+# group: django-templates
+# --
+{% localize ${1:$$(yas-select-value '("on" "off"))} %}
+    $0
+{% endlocalize %}

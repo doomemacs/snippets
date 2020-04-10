@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: STATICFILES_FINDERS - List of finder classes that know how to find static files in various locations.
+# key: settings.
+# uuid: django-settings-staticfiles-finders-dot
+# group: django-settings-dot
+# --
+settings.STATICFILES_FINDERS

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: EMAIL_USE_SSL - Optional SMTP authentication information for EMAIL_HOST.
+# key: djs
+# uuid: django-settings-email-use-ssl
+# group: django-settings
+# --
+EMAIL_USE_SSL = False

@@ -18,17 +18,8 @@
   - [[#common][Common]]
 - [[#faq][FAQ]]
   - [[#q-holy-settings-snippets-batman][Q: Holy settings snippets batman!?!]]
+  - [[#what-version-of-django-was-these-snippets-created][What version of Django was these snippets created?]]
 - [[#contributing][Contributing]]
-- [[#--todo-89][[ ] TODO]]
-  - [[#x-model-admin-attributes][[X] Model Admin Attributes]]
-  - [[#x-model-admin-methods][[X] Model Admin Methods]]
-  - [[#x-forms-meta-attributes][[X] Forms Meta attributes]]
-  - [[#x-middleware-strings-for-middleware-setting-usage][[X] Middleware strings (for MIDDLEWARE setting usage)]]
-  - [[#x-backends--engines][[X] Backend's / Engines]]
-  - [[#--more-class-based-views][[ ] More class based views]]
-  - [[#x-common-models][[X] Common Models]]
-  - [[#x-generic-model][[X] Generic Model]]
-  - [[#x-basic-management-command][[X] Basic Management Command]]
 
 * Description
 A bunch of Django specific python-mode snippets, including ~settings~, ~imports~
@@ -211,24 +202,17 @@ Other common snippets
   + ~ugettextify~ - Wraps selection in the common ugettext
     function, i.e. ~'test'~ becomes ~_('test')_~. You will need
     to insert snippet after selecting text (i.e. via doom ~~SPC s i~)
+  + ~modeladmin~ - A common model admin class with commented out extra
+    attributes 
 
 * FAQ
 ** Q: Holy settings snippets batman!?!
 yea there is a lot, and since ~django~ collects and caches all these
 settings in a class at run-time, they are not usually available for
 auto-completing
+** What version of Django was these snippets created?
+Version ~3.0~
     
 * Contributing
 There is an included ~snippet-templates~ file the includes the templates used to
 create the various groups of snippets
-
-* [ ] TODO [8/9]
-** [X] Model Admin Attributes
-** [X] Model Admin Methods
-** [X] Forms Meta attributes
-** [X] Middleware strings (for MIDDLEWARE setting usage)
-** [X] Backend's / Engines
-** [ ] More class based views
-** [X] Common Models
-** [X] Generic Model
-** [X] Basic Management Command

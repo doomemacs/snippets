@@ -15,8 +15,8 @@
   - [[#timezone-trigger-djt-or-][Timezone (:trigger djt or |)]]
 - [[#faq][FAQ]]
   - [[#q-when-i-try-to-use-filters-with-the-prefix--it-does-not-expand][Q: When I try to use filters with the prefix | it does not expand]]
+  - [[#what-version-of-django-was-these-snippets-created][What version of Django was these snippets created?]]
 - [[#contributing][Contributing]]
-- [[#--todo-00][[ ] TODO]]
 
 * Description
 A bunch of Django specific web-model snippets
@@ -80,9 +80,10 @@ All Django timezone template tags and filters
 When you have something like ~{{ value| }}~ and try to expand it will cannot find
 a trigger for ~value|~ instead you will need to include a space before the pipe
 in order to get the expansion. i.e. ~{{ value | }}~
+** What version of Django was these snippets created?
+Version ~3.0~
 
 * Contributing
 There is an included ~snippet-templates~ file that includes the templates used to
 create the various tags and filters
 
-* [ ] TODO [0/0]

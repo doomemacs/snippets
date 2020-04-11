@@ -5,5 +5,5 @@
 # group: django-templates
 # --
 {% for ${1:KEY} in ${2:ITERABLE}} %}
-    $0
+    `(yas-selected-text)`$0
 {% endfor %}

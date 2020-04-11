@@ -5,5 +5,5 @@
 # group: django-templates
 # --
 {% comment "${1:NOTE}" %}
-    ${2:COMMENT}$0
+    `(yas-selected-text)`$0
 {% endcomment %}

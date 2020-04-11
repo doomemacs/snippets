@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name:
+# name: filter first (django)
 # key: |
 # uuid: django-templates-filter-first
 # group: django-templates
 # --
+|first

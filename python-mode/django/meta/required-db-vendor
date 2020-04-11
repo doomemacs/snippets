@@ -5,4 +5,4 @@
 # group: django-meta
 # --
 # Built in options 'sqlite', 'postgresql', 'mysql', 'oracle'
-required_db_vendor = '$1'$0
+required_db_vendor = '${1:$$(yas-choose-value '("sqlite" "postgresql" "mysql" "orcale"))}'$0

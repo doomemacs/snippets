@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: Basic Management Command
 # key: djmc
-# uuid: django-managment-
+# uuid: django-managment-basic-management-command
 # group: django-management
 # --
 from django.core.management.base import BaseCommand, CommandError

@@ -15,10 +15,11 @@
   - [[#backends-trigger-djb][Backends (:trigger djb)]]
   - [[#model-form-meta-trigger-djmeta][Model Form Meta (:trigger djmeta)]]
   - [[#models-trigger-djmod][Models (:trigger djmod)]]
+  - [[#django-template-tags][Django Template Tags]]
   - [[#common][Common]]
 - [[#faq][FAQ]]
   - [[#q-holy-settings-snippets-batman][Q: Holy settings snippets batman!?!]]
-  - [[#what-version-of-django-was-these-snippets-created][What version of Django was these snippets created?]]
+  - [[#what-version-of-django-are-these-snippets-for][What version of Django are these snippets for?]]
 - [[#contributing][Contributing]]
 
 * Description
@@ -45,8 +46,10 @@ Common imports
 
 + ~:group django-imports~
 + ~:trigger dji~
+  + ~http-response~
   + ~mark-safe~
   + ~models~
+  + ~receiver~
   + ~reverse-url~
   + ~safe-string~
   + ~settings~
@@ -195,6 +198,18 @@ Common django models
   + ~common~
   + ~generic~
 
+** Django Template Tags
+Common template tag creation
+
++ ~:group django-custom~
++ ~:trigger djtt~
+  + ~filter~ - python code to create a filter
+  + ~filter-with_arg~ - same as above, but with an argument
+  + ~inclusion-tag~ - python code to create an inclusion tag
+  + ~inclusion-tag-with-context~ - same as above, but with context
+  + ~simpletag~ - python code to create a simple template tag
+  + ~simpletag-with-context~ - same as above, but with context
+
 ** Common
 Other common snippets
 
@@ -210,7 +225,7 @@ Other common snippets
 yea there is a lot, and since ~django~ collects and caches all these
 settings in a class at run-time, they are not usually available for
 auto-completing
-** What version of Django was these snippets created?
+** What version of Django are these snippets for?
 Version ~3.0~
     
 * Contributing

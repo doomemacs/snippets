@@ -5,5 +5,5 @@
 # group: django-templates
 # --
 {% block ${1:NAME} %}
-    $0
+    `(yas-selected-text)`$0
 {% endblock %}

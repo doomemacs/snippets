@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: i18n get_current_language_bidi
+# name: i18n get_current_language_bidi (django)
 # key: djt
 # uuid: django-templates-i18n-get-current-language-bidi
 # group: django-templates

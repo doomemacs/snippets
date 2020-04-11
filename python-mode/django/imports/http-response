@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: http response
+# key: dji
+# uuid: django-imports-http-response
+# group: django-imports
+# --
+from django.http import HttpResponse

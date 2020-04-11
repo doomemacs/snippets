@@ -5,5 +5,5 @@
 # group: django-templates
 # --
 {% timezone ${1:TIME ZONE} %}
-    $0
+    `(yas-selected-text)`$0
 {% endtimezone %}

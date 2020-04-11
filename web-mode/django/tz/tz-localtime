@@ -4,6 +4,6 @@
 # uuid: django-templates-tz-localtime
 # group: django-templates
 # --
-{% localtime ${1:$$(yas-select-value '("on" "off"))} %}
-    $0
+{% localtime ${1:$$(yas-choose-value '("on" "off"))} %}
+    `(yas-selected-text)`$0
 {% endlocaltime %}

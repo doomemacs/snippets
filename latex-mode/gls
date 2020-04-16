@@ -2,5 +2,6 @@
 # name: gls
 # key: g
 # uuid: g
+# condition: (not (save-restriction (widen) (texmathp)))
 # --
 \gls{${1:label}}

@@ -2,5 +2,6 @@
 # name: question
 # key: q
 # uuid: q
+# condition: (not (save-restriction (widen) (texmathp)))
 # --
 \question{${0:`%`}}

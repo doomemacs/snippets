@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: binding.pry_remote
+# --
+require 'pry-remote'; binding.remote_pry

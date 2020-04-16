@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: describe Class do ... end
+# --
+describe "${1:modifier}" do
+  $0
+end

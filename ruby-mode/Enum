@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: include Enumerable
+# --
+include Enumerable
+
+def each${1:(&block)}
+  $0
+end

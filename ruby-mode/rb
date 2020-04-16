@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: /usr/bin/ruby -wU
+# --
+#!/usr/bin/ruby -wU

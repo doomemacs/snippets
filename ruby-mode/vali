@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: validates :field, presence: true
+# --
+validates :${field}${, ${presence}: ${true}}

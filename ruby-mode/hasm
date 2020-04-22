@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: has_many :models, class_name: 'class'
+# --
+has_many :${models}${, class_name: '${class}'}

@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: belongs_to :model, optional: true
+# --
+belongs_to :${model}${, optional: ${true}}

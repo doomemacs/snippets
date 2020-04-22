@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: Time.zone.now
+# --
+Time.zone.now

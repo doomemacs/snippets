@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: rescue StandardError => e
+# --
+rescue ${StandardError} => ${e}
+  ${}

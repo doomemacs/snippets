@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: liminf
+# key: liminf
+# --
+\liminf_{${1:n} \to ${2:\infty}} $0

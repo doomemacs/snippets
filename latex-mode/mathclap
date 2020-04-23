@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: mathclap
+# key: mc
+# --
+\mathclap{`%`$0}

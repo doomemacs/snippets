@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Seong Yong-ju
+# name: while
+# key: while
+# --
+while ($true) {
+    $0
+}

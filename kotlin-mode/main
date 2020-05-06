@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Seong Yong-ju
+# name: main
+# key: main
+# --
+fun main(args: Array<String>) {
+    $0
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Seong Yong-ju
+# name: interface
+# key: interface
+# --
+interface ${1:name} {
+    $0
+}

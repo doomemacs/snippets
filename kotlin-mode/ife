@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# contributor: Seong Yong-ju
+# name: ife
+# key: ife
+# --
+if (${1:true}) {
+    `%`$2
+} else {
+    $0
+}

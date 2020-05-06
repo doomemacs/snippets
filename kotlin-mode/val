@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: Seong Yong-ju
+# name: val
+# key: val
+# --
+val ${1:name}: ${2:Int}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Seong Yong-ju
+# name: file_class
+# key: file_class
+# --
+class `(f-base buffer-file-name)`${1:($2)}${3: {
+    $0
+}}

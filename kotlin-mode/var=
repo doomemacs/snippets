@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: Seong Yong-ju
+# name: var=
+# key: var=
+# --
+var ${1:variable}${2:: ${3:Int}} = `%`$0

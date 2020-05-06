@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Seong Yong-ju
+# name: for (key in iterable) { ... }
+# key: forin
+# --
+for (${1:key} in ${2:iterable}) {
+    `%`$0
+}

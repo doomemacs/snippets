@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: Seong Yong-ju
+# name: todo
+# key: todo
+# --
+TODO('Not yet implemented')

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: sqrt
+# key: sq
+# --
+\sqrt{`%`$1}$0

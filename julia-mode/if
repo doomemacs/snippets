@@ -3,5 +3,5 @@
 # key: if
 # --
 if ${1:cond}
-    $0
+    `%`$0
 end

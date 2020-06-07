@@ -4,5 +4,5 @@
 # contributor: hankail05
 # --
 do ${1:x}
-    $0
+    `%`$0
 end

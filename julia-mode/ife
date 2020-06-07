@@ -3,7 +3,7 @@
 # key: ife
 # --
 if ${1:cond}
-    ${2:true}
+    `%`${2:true}
 else
     ${3:false}
 end

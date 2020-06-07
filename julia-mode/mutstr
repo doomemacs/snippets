@@ -3,5 +3,5 @@
 # key: mutstr
 # --
 mutable struct ${1:name}
-    $0
+    `%`$0
 end

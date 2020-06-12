@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: begin ... end
+# key: begin
+# --
+begin
+    `%`$0
+end

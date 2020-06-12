@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: function(...) ... end
+# key: fun
+# --
+function ${1:name}(${2:args})
+    `%`$0
+end

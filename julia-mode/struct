@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: struct ... end
+# key: struct
+# --
+struct ${1:name}
+    `%`$0
+end

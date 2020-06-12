@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: macro(...) ... end
+# key: macro
+# --
+macro ${1:macro}(${2:args})
+    `%`$0
+end

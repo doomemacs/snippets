@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# name: @doc ... function ... end
+# key: dfun
+# uuid: dfun
+# --
+
+@doc raw"""
+    $1(${2:$(yas-julia-doc-args)})
+
+${3:Documentation of function.}
+
+# Examples
+\`\`\`jldoctest
+julia> $1($4)
+insert result of $1($4)
+\`\`\`
+"""
+function ${1:name}(${2:args})
+    `%`$0
+end

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: module ... ... end
+# key: module
+# --
+module ${1:name}
+`%`$0
+end

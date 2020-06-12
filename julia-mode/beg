@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: begin
+# key: beg
+# uuid: beg
+# type: command
+# --
+(doom-snippets-expand :name "begin")

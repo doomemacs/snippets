@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: private
+# expand-env: ((yas-also-auto-indent-first-line t))
 # --
-private:`(progn (indent-according-to-mode) "")`
+private:
     $0

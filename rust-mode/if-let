@@ -3,6 +3,6 @@
 # key: ifl
 # uuid: ifl
 # --
-if let ${1:Some(${2:x})} => ${3:var} {
+if let ${1:Some(${2:x})} = ${3:var} {
    `%`$0
 }

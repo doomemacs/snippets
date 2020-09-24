@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: append
+# --
+${1:type} = append($1, ${2:elems})

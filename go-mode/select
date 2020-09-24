@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: select
+# --
+select {
+      case ${1:cond}:
+      $0
+}

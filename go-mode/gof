@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: go func
+# --
+go func (${1:args}) {
+    $0
+}(${2:values})

@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
-# name: #+ATTR_HTML: :width ...
+# name: #+attr_html: :width ...
 # --
-#+ATTR_HTML: :width ${1:500px}
+#+attr_html: :width ${1:500px}

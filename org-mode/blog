@@ -3,9 +3,9 @@
 # key: blog
 # uuid: blog
 # --
-#+STARTUP: showall indent
-#+STARTUP: hidestars
-#+BEGIN_HTML
+#+startup: showall indent
+#+startup: hidestars
+#+begin_html
 ---
 layout: default
 title: ${1:title}

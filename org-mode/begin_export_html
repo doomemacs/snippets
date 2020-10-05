@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-# name: #+BEGIN_EXPORT html block
+# name: #+begin_export html block
 # key: <h
 # uuid: <h
 # --
-#+BEGIN_EXPORT html
+#+begin_export html
 `%`$0
-#+END_EXPORT
+#+end_export

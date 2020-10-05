@@ -3,9 +3,6 @@
 # key: img
 # uuid: img
 # --
-<img src="$1"
- alt="$2" align="${3:left}"
- title="${4:image title}"
- class="img"
-</img>
-$0
+#+attr_html: :alt $2 :align ${3:left} :class img
+[[${1:src}]${4:[${5:title}]}]
+`%`$0

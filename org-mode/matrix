@@ -7,6 +7,6 @@
 \left \(
 \begin{array}{${1:ccc}}
 ${2:v1 & v2} \\
-$0
+`%`$0
 \end{array}
 \right \)

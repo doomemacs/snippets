@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-# name: #+BEGIN_EXPORT ascii
+# name: #+begin_export ascii
 # key: <a
 # uuid: <a
 # --
-#+BEGIN_EXPORT ascii
+#+begin_export ascii
 `%`$0
-#+END_EXPORT
+#+end_export

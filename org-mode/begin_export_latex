@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-# name: #+BEGIN_EXPORT latex block
+# name: #+begin_export latex block
 # key: <l
 # uuid: <l
 # --
-#+BEGIN_EXPORT latex
+#+begin_export latex
 `%`$0
-#+END_EXPORT
+#+end_export

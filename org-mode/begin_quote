@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-# name: #+BEGIN_QUOTE block
+# name: #+begin_quote block
 # key: <q
 # uuid: <q
 # --
-#+BEGIN_QUOTE
+#+begin_quote
 `%`$0
-#+END_QUOTE
+#+end_quote

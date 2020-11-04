@@ -3,4 +3,4 @@
 # key: yn
 # uuid: yn
 # --
-(`(symbol-function 'yes-or-no-p)` "$1")
+(yes-or-no-p "$1")

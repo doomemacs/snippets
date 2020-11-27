@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: enumerate
+# key: en
+# uuid: en
+# --
+\begin{enumerate}
+${0:`%`}
+\end{enumerate}

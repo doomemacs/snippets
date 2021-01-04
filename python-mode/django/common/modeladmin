@@ -5,7 +5,7 @@
 # --
 @admin.register($1)
 class ${1:MODEL NAME}Admin(admin.ModelAdmin):
-    list_display = ('${2:FIELD}'${3:, '${4:FIELD}'${5:, '${6:FIELD}'}}}')
+    list_display = ('${2:FIELD}'${3:, '${4:FIELD}'${5:, '${6:FIELD}'}})
     list_filter = ('${7:FIELD}', )
     search_fields = ('${8:FIELD}', )
 

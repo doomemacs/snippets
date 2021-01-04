@@ -6,8 +6,8 @@
 # --
 # from django.http import HttpResponse
 # from django.views import View
-class $1(View):
-    """$2"""
+class ${1:Name}(View):
+    """${2:Doc String}"""
     def get(self, request, *args, **kwargs):
         return HttpResponse('Hello, World!')
     $0

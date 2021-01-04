@@ -12,7 +12,7 @@ class ${1:MODEL NAME}(models.Model):
     $0
 
     def __str__(self):
-        return str(self.id)
+        return str(self.content_object)
 
     def save(self, *args, **kwargs):
         super().save(*args, **kwargs)

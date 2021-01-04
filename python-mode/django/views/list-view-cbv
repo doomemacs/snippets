@@ -6,7 +6,7 @@
 # --
 # from django.utils import timezone
 # from django.views.generic.detail import DetailView
-class ${1:VIEW_NAME}DetailView(DetailView):
+class ${1:MODEL_NAME}DetailView(DetailView):
     """$2
 
     Ancestors (MRO)

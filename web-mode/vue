@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: vue
+# uuid: vue
+# key: vue
+# condition: t
+# --
+<template>
+  $1
+</template>
+
+<script>
+  export default {
+    name: "${0:`(f-base buffer-file-name)`}"
+  }
+</script>
+
+<style scoped>
+</style>

@@ -4,15 +4,15 @@
 # key: vue
 # condition: t
 # --
+<script>
+  export default {
+    name: '${0:`(f-base buffer-file-name)`}'
+  }
+</script>
+
 <template>
   $1
 </template>
-
-<script>
-  export default {
-    name: "${0:`(f-base buffer-file-name)`}"
-  }
-</script>
 
 <style scoped>
 </style>

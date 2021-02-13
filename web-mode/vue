@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: Vue Single-File Component
+# uuid: vue
+# condition: (equal web-mode-engine "vue")
+# --
+<script>
+  export default {
+    name: '${0:`(file-name-base buffer-file-name)`}'$3
+  }
+</script>
+
+<template>
+  ${1:`%`}
+</template>
+
+<style scoped>
+  $2
+</style>

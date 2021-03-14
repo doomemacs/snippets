@@ -4,6 +4,6 @@
 # uuid: jupyter
 # key: jupyter
 # --
-#+begin_src jupyter-${1:$$(yas-choose-value '("python" "julia" "r"))}${2: :session $3}${4: :async yes}
+#+begin_src jupyter-${1:$$(yas-choose-value '("python" "julia" "R"))}${2: :session $3}${4: :async yes}
 `%`$0
 #+end_src

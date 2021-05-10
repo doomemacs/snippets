@@ -1,5 +1,3 @@
-;; -*- mode: emacs-lisp-mode; -*-
-
 (defun doom-snippets-c++-using-std-p ()
   "Return non-nil if 'using namespace std' is found at the top of this file."
   (save-excursion

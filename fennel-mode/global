@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: global
+# --
+(global ${1:varname} ${2:value})

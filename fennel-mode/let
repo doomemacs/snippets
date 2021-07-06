@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: let
+# --
+(let [$1] `(doom-snippets-format "%n%s")`)`(doom-snippets-newline-or-eol)`

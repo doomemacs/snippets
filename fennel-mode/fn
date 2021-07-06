@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: fn
+# --
+(fn ${1:name} [$2]`(and % (concat " " (doom-snippets-format "%n%s")))`$0)`(doom-snippets-newline-or-eol)`

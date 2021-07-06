@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: table.concat
+# key: tc
+# --
+(table.concat ${1:table} ${2:sep}${3: ${4:start} ${5:end}})

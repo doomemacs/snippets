@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: each
+# --
+(each [${1:key} ${2:value} ${3:list}]`(if % (concat " " (doom-snippets-format "%n%s")))`$0)

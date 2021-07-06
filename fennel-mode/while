@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: while
+# --
+(while ${1:t}`(if % (concat " " (doom-snippets-format "%n%s")))`$0)

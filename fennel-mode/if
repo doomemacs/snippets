@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: if
+# --
+(if ${1:t}`(if % (concat " " (doom-snippets-format "%n%s")))`$0)

@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: tset
+# --
+(tset ${1:table} ${2:field} ${3:value})

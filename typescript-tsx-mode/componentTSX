@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# contributor: Talha Abid 
+# name: componentTSX
+# key: componentTSX
+# --
+import React from 'react';
+
+interface ${1:`(f-base buffer-file-name)`}PropTypes {
+
+}
+
+const $1 = (props: $1PropTypes) => (
+  $0
+);
+
+export { $1 };

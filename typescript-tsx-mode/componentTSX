@@ -1,11 +1,11 @@
 # -*- mode: snippet -*-
 # contributor: Talha Abid 
-# name: componentTSX
-# key: componentTSX
+# name: functionalComponentTSX
+# key: fct
 # --
 import React from 'react';
 
-interface ${1:`(f-base buffer-file-name)`}PropTypes {
+interface ${1:`(file-name-base buffer-file-name)`}PropTypes {
 
 }
 

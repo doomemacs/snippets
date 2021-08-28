@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: Chinese$
+# uuid: ￥￥
+# key: ￥￥
+# expand-env: ((yas-wrap-around-region (fcitx--deactivate)) (yas-after-exit-snippet-hook (lambda () (fcitx--activate))))
+# condition: t
+# --
+\$$1\$ $0

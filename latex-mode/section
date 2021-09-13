@@ -3,7 +3,7 @@
 # key: sec
 # uuid: sec
 # --
-\section{${1:name}}
+\section{${1:name}}%
 \label{sec:${2:label}}
 
 $0

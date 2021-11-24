@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: public async function
+# key: pafn
+# uuid: pafn
+# condition: (doom-snippets-bolp)
+# --
+pub async fn ${1:function_name}($2) ${3:-> ${4:i32} }{
+   `%`$0
+}

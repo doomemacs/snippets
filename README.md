@@ -17,7 +17,14 @@ project/framework-specific minor modes available to [Doom Emacs] users.
     :load-path "path/to/emacs-snippets"
     :after yasnippet)
   ```
-
+  
+ + [straight.el](https://github.com/raxod502/straight.el) users can use:
+ 
+  ``` emacs-lisp
+  (use-package doom-snippets
+    :after yasnippet
+    :straight (doom-snippets :type git :host github :repo "hlissner/doom-snippets" :files ("*.el" "*")))
+  ``` 
 
 ## Snippets API
 This library exposes a small API to assist you in writing your own snippets.

@@ -2,7 +2,7 @@
 ;;
 ;; Copyright (C) 2017-21 Henrik Lissner
 ;;
-;; Author: Henrik Lissner <henrik@lissner.net>
+;; Author: Henrik Lissner <contact@henrik.io>
 ;; Created: December 5, 2014
 ;; Modified: July 14, 2019
 ;; Version: 1.1.0

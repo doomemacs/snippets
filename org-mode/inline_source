@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Inline Source
+# uuid: srci
+# key: srci
+# condition: t
+# --
+src_$1[$2]{$0}

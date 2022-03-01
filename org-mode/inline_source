@@ -4,4 +4,4 @@
 # key: srci
 # condition: t
 # --
-src_$1[$2]{$0}
+src_${1:language}[${2:header}]{${0:body}}

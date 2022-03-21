@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: begin
+# key: begin
+# uuid: begin
+# --
+#+begin_${1:type} ${2:options}
+`%`$0
+#+end_$1

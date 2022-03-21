@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: inline code
+# key: inl
+# uuid: inl
+# --
+src_${1:language}${2:[${3::exports code}]}{${4:code}}

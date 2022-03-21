@@ -1,8 +1,7 @@
 # -*- mode: snippet -*-
 # name: Chinese$
-# uuid: ￥￥
 # key: ￥￥
-# expand-env: ((yas-wrap-around-region (fcitx--deactivate)) (yas-after-exit-snippet-hook (lambda () (fcitx--activate))))
-# condition: t
+# uuid: chinese_dollar
+# expand-env: ((yas-wrap-around-region (ignore-errors (fcitx--deactivate))) (yas-after-exit-snippet-hook (lambda () (ignore-errors (fcitx--activate)))))
 # --
 \$$1\$ $0

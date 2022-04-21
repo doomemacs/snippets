@@ -1,0 +1,76 @@
+---
+name: 📝 Bug Report
+description: Report a bug, error, or misbehavior
+labels: ["type:bug", "needs-triage"]
+body:
+- type: markdown
+  attributes:
+    value: |
+      > :warning: **Our issue tracker is not for how-to or configuration questions.** Please post these on [the Doom Emacs Discourse](https://discourse.doomemacs.org) or its [Discord](https://doomemacs.org/discord) instead.
+
+      **Before you proceed, please ensure the following:**
+
+      - I've searched [our issue tracker](https://github.com/doomemacs/snippets/issues) for similar or duplicate issues.
+      - I can reproduce the issue on the **latest** commit of doom-snippets.
+      - If my issue contains an error message, I've included [a backtrace](https://discourse.doomemacs.org/t/what-is-a-backtrace-how-to-produce-them/85#how-to-produce-a-backtrace-3).
+- type: textarea
+  attributes:
+    label: What were you expecting?
+    placeholder: X should look like Y
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: What actually happened?
+    description: |
+      - Include screenshots/casts, if possible
+      - List *all* error messages and **[include backtraces for each of them](https://doomemacs.org/d/how2backtrace)
+      - Include any suspicious logs in the **[\*Messages\*](https://doomemacs.org/d/t/55) buffer.
+      - If you include log dumps, please use [pastebin.com](https://pastebin.com)
+      - **Use [code fences](https://docs.github.com/en/github/writing-on-github/creating-and-highlighting-code-blocks) for code, error messages, and backtraces.**
+      - Avoid phrases like "X does not work" or "X stopped working" without explaining what "working" means.
+    placeholder: |
+      X looked like Z instead, then threw an error. Here is the backtrace:
+
+      ```
+      Debugger entered--Lisp error: (error "Beep Boop")
+        error("Beep Boop")
+        pp-eval-expression((error "Beep Boop"))
+        \#<subr funcall-interactively>(pp-eval-expression (error "Beep Boop"))
+        apply(#<subr funcall-interactively> (pp-eval-expression (error "Beep Boop")))
+        funcall-interactively(pp-eval-expression (error "Beep Boop"))
+      ```
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Steps to reproduce
+    description: How do we reproduce your issue? Walk us through a minimal test case.
+    placeholder: |
+      1. Type `trigger`
+      2. Press TAB
+      3. Yasnippet throws an error
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Operating system
+    placeholder: NixOS 21.11
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Emacs version
+    placeholder: Emacs 28.1 w/ native-comp
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Installed commit of doom-snippets
+    placeholder: 2d031f723164
+  validations:
+    required: true
+- type: markdown
+  attributes:
+    value: |
+      **Thank you for taking the time to fill out a bug report!**

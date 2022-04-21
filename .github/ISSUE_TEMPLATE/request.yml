@@ -1,0 +1,30 @@
+---
+name: 📝 Feature request
+description: Request a change or new core feature
+labels: ["type:request", "needs-triage"]
+body:
+- type: textarea
+  attributes:
+    label: Describe your request
+    placeholder: |
+      I'd like snippets to fix my marriage.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Briefly explain its use-case
+    description: |
+      A happy marriage would make me a better programmer.
+    placeholder: |
+      1. Install Linux
+      2. Install Emacs
+      3. Install Doom
+      4. Install Doom Eternal
+      5. Speed run Doom Eternal
+      6. Ponder why your wife left you
+  validations:
+    required: true
+- type: markdown
+  attributes:
+    value: |
+      **Thank you for taking the time to fill out a feature request!**

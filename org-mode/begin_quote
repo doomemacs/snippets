@@ -2,7 +2,6 @@
 # name: #+begin_quote block
 # key: <q
 # uuid: <q
+# type: command
 # --
-#+begin_quote
-`%`$0
-#+end_quote
+(doom-snippets-expand :uuid "quote")

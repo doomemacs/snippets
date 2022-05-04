@@ -1,3 +1,7 @@
+![Release tag](https://img.shields.io/github/tag/doomemacs/snippets.svg?label=release&style=flat-square)
+[![Discord Server](https://img.shields.io/discord/406534637242810369?color=738adb&label=Discord&logo=discord&logoColor=white&style=flat-square)](https://doomemacs.org/discord)
+[![Discourse server](https://img.shields.io/discourse/users?server=https%3A%2F%2Fdiscourse.doomemacs.org&logo=discourse&label=Discourse&style=flat-square&color=9cf)](https://discourse.doomemacs.org)
+
 # Doom Emacs' Snippet Library
 
 This repository contains the [yasnippet] snippets library for [Doom Emacs].

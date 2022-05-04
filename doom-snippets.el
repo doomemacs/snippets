@@ -1,21 +1,20 @@
 ;;; doom-snippets.el --- A collection of yasnippet snippets
 ;;
-;; Copyright (C) 2017-21 Henrik Lissner
+;; Copyright (C) 2017-2022 Henrik Lissner
 ;;
 ;; Author: Henrik Lissner <contact@henrik.io>
 ;; Created: December 5, 2014
-;; Modified: July 14, 2019
+;; Modified: May 04, 2022
 ;; Version: 1.1.0
 ;; Keywords: convenience, snippets
-;; Homepage: https://github.com/hlissner/doom-snippets
+;; Homepage: https://github.com/doomemacs/snippets
 ;; Package-Requires: ((emacs "24.4") (cl-lib "0.5") (yasnippet "0.12.0"))
 ;;
 ;; This file is not part of GNU Emacs.
 ;;
 ;;; Commentary:
 ;;
-;; Official snippet collection for Doom Emacs. See
-;; https://github.com/hlissner/doom-emacs.
+;; Official snippet collection for Doom Emacs. See https://github.com/doomemacs.
 ;;
 ;;; Code:
 

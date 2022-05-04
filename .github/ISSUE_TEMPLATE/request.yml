@@ -1,7 +1,7 @@
 ---
 name: 📝 Feature request
 description: Request a change or new core feature
-labels: ["type:request", "needs-triage"]
+labels: ["is:feature", "needs-triage"]
 body:
 - type: textarea
   attributes:

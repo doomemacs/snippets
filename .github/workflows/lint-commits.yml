@@ -3,4 +3,3 @@ on: [push, pull_request]
 jobs:
   lint-commits:
     uses: doomemacs/ci/.github/workflows/lint-commits.yml@legacy
-    secrets: inherit

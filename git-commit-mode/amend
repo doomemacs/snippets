@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Amend: ...
+# key: am
+# --
+Amend: ${1:URL|12-CHAR HASH|#GITHUBREF}

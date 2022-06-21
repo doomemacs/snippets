@@ -1,6 +1,5 @@
 # -*- mode: snippet -*-
-# name: references
+# name: Ref: ...
 # key: ref
-# uuid: ref
 # --
-references #${1:100}
+Ref: ${1:URL|12-CHAR HASH|#GITHUBREF}

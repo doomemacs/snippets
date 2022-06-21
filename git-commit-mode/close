@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Close: ...
+# key: cl
+# --
+Close: ${1:URL|12-CHAR HASH|#GITHUBREF}

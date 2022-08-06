@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: Laravel Migration method
+# key: mig
+# uuid: mig
+# --
+Schema::table('$1', function (Blueprint $table) {
+    `%`$0
+});

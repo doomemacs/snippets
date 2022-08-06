@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: PHP template
+# --
+<?php
+
+namespace `(+php-laravel-mode--get-namespace)`;
+
+class `(+php-laravel-mode--get-class-name)`
+{
+    $0
+}

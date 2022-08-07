@@ -1,0 +1,21 @@
+;;; .doomrc --- doom runtime config -*- mode: emacs-lisp; lexical-binding: t; -*-
+;;; Commentary:
+;;; Code:
+(require 'doom) ; be silent, byte-compiler
+
+(after! doom-cli-ci
+  ;;; Commit linter types
+  (add-to-list 'doom-ci-commit-types 'snippet)
+
+  ;;; Commit linter scopes
+  (add-to-list 'doom-ci-commit-scopes "cli")
+  (add-to-list 'doom-ci-commit-scopes "docs")
+  (add-to-list 'doom-ci-commit-scopes #'ci-check-snippet-scope))
+
+
+;;; Helpers
+(defun ci-check-snippet-scope (scope &rest _)
+  "Permit mode SCOPE if a directory for it exists."
+  (file-directory-p (file-name-concat (dir!) (format "%s-mode" scope))))
+
+;;; .doomrc ends here

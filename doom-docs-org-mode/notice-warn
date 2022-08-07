@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Notice: warning
+# key: <warn
+# --
+#+begin_quote
+ 🚧 `%`$0
+#+end_quote

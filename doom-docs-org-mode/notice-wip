@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Notice: work-in-progress
+# key: <wip
+# --
+#+begin_quote
+ 🔨 `%`$0
+#+end_quote

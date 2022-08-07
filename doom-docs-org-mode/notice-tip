@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Notice: user tip
+# key: <tip
+# --
+#+begin_quote
+ 📌 `%`$0
+#+end_quote

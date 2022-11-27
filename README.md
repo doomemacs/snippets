@@ -27,7 +27,7 @@ project/framework-specific minor modes available to [Doom Emacs] users.
   ``` emacs-lisp
   (use-package doom-snippets
     :after yasnippet
-    :straight (doom-snippets :type git :host github :repo "hlissner/doom-snippets" :files ("*.el" "*")))
+    :straight (doom-snippets :type git :host github :repo "doomemacs/doom-snippets" :files ("*.el" "*")))
   ``` 
 
 ## Snippets API
@@ -133,4 +133,4 @@ function aliases for your convenience:
 
 
 [yasnippet]: https://github.com/capitaomorte/yasnippet
-[Doom Emacs]: https://github.com/hlissner/doom-emacs
+[Doom Emacs]: https://github.com/doomemacs/doom-emacs

@@ -3,7 +3,7 @@
 # key: pkgg
 # uuid: pkgg
 # --
-{ stdenv, fetchFromGitHub$1 }:
+{ stdenv, lib, fetchFromGitHub$1 }:
 
 stdenv.mkDerivation rec {
   name = "$2-\$\{version\}";
@@ -20,9 +20,9 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "$7";
-    homepage = https://${8:github.com/$4/$2};
+    homepage = "https://${8:github.com/$4/$2}";
 
-    license = stdenv.lib.licenses.${9:$$
+    license = lib.licenses.${9:$$
     (yas-choose-value '(
       "agpl3"
       "asl20"
@@ -33,8 +33,8 @@ stdenv.mkDerivation rec {
       "lgpl3"
       "mit"
     ))};
-    maintainers = [ stdenv.lib.maintainers.$10 ];
-    platforms = stdenv.lib.platforms.${11:$$
+    maintainers = [ lib.maintainers.$10 ];
+    platforms = lib.platforms.${11:$$
     (yas-choose-value '(
       "gnu"
       "linux"

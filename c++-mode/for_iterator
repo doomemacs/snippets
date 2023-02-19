@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-# name: for_iter
-# key: fori
-# uuid: fori
+# name: for iterator loop
+# key: forit
+# uuid: forit
 # --
 for (${1:iter}=${2:var}.begin(); $1!=$2.end(); ++$1) {
-    $0
+    `%`$0
 }

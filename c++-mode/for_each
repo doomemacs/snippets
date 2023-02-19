@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: for_each
-# key: fre
+# name: for each loop
+# key: fore
+# uuid: fore
 # --
 std::for_each(std::begin(${1:container}), std::end($1), []($2) {
   `%`$3

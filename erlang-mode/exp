@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: -export([]).
+# --
+-export([${1:start/0}]).
+$0

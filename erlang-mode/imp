@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: -import([]).
+# --
+-import(${1:lists}, [${2:map/2, sum/1}]).
+$0

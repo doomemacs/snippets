@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: -module().
+# --
+-module(${1:`(file-name-nondirectory
+              (file-name-sans-extension (or (buffer-file-name) (buffer-name))))`}).
+$0

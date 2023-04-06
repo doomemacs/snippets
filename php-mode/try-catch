@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: try-catch
+# key: try
+# uuid: try
+# --
+try {
+    ${1:statement}
+} catch (${2:Exception} \$${3:variable}) {
+    $0
+}

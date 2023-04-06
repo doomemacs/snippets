@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: docblock tag
+# key: dot
+# uuid: dot
+# --
+/**
+ * @${1:tag} ${2:type} ${0:optional} 
+ */

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: $object->prop
+# key: op
+# uuid: op
+# --
+\$${1:object}->${2:property};

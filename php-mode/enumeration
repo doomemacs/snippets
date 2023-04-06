@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: enumeration
+# key: enu
+# uuid: enu
+# --
+enum ${1:Name}
+{
+    case ${2:name};$0
+}

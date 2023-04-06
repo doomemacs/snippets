@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: class construct
+# key: ct
+# uuid: ct
+# --
+${1:public} function __construct(\$${1:property})
+{
+    `%`$0
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: PHP class
+# key: clf
+# uuid: clf
+# --
+final class ${1:Name}${2: extends ${3:Parent}}
+{
+    `%`$0
+}

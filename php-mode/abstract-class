@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: abstract class
-# key: acl
-# uuid: acl
+# key: ab
+# uuid: ab
 # --
 abstract class ${1:Name}${2: extends ${3:Parent}}
 {

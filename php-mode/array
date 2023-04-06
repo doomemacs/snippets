@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: array(...)
-# key: arr
-# uuid: arr
+# key: ar
+# uuid: ar
 # --
 array(`%`$0)

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: echo ...;
-# key: e
-# uuid: e
+# key: ec
+# uuid: ec
 # --
 echo `%`$0;

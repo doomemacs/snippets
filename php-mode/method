@@ -3,7 +3,7 @@
 # key: met
 # uuid: met
 # --
-${1:public} function ${2:name}($3)
+${1:public} function ${2:name}($3)${4::} ${5:type}
 {
     `%`$0
 }

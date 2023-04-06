@@ -3,4 +3,4 @@
 # key: thi
 # uuid: thi
 # --
-\$this->$0
+\$this->$0;

@@ -2,6 +2,7 @@
 name: 📝 Feature request
 description: Request a change or new core feature
 labels: ["is:feature", "needs-triage"]
+projects: ["doomemacs/2"]
 body:
 - type: textarea
   attributes:

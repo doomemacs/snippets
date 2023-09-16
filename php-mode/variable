@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: variable
+# key: va
+# uuid: va
+# --
+\$${1:name} = ${value};

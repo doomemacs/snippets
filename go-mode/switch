@@ -3,7 +3,7 @@
 # key: switch
 # uuid: switch
 # --
-switch {
-    case ${1:cond}:
+switch ${1:express}{
+    case ${2:cond}:
          $0
 }

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: type ... ... { ... }
+# --
+type ${1:name} ${2:struct | interface} {
+    `%`$0
+}

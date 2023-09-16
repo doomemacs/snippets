@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Notice: opinion/tangent
+# key: <tangent
+# --
+#+begin_quote
+ 󰟶 `%`$0
+#+end_quote

@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: Notice: opinion/tangent
+# name: Notice: quote
 # key: <quote
 # --
 #+begin_quote
- 💬 `%`$0
+ 󰝗 `%`$0
 #+end_quote

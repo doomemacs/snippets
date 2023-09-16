@@ -1,5 +1,7 @@
 # -*- mode: snippet -*-
 # name: while loop
+# key: whi
+# uuid: whi
 # --
 while (${1:condition}) {
     `%`$0

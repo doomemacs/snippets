@@ -3,4 +3,4 @@
 # key: php
 # uuid: php
 # --
-<?php $0 ?>
+<?php ${1:declare(strict_types=1);} ${0:?>}

@@ -1,6 +1,12 @@
 # -*- mode: snippet -*-
 # name: switch (...) {...}
+# key: switch
+# uuid: switch
 # --
-switch (${on}) {
-    $0
+switch (\$${1:expression}) {
+    case ${2:condition}:
+        ${3:statement}
+        break;
+    default:
+        $0
 }

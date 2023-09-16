@@ -1,9 +1,9 @@
 # -*- mode: snippet -*-
-# name: #!/usr/bin/env php
+# name: php shebang
 # key: #!
 # uuid: #!
 # --
 #!/usr/bin/env php
-<?php
+<?php ${1:declare(strict_types=1);}
 
 $0

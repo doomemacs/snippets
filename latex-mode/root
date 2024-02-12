@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: sqrt[]{}
 # key: root
+# condition: (texmathp)
 # --
 \sqrt[$1]{`%`$2}

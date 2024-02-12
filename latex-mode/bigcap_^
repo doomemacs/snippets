@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: bigcap_^
 # key: cap
+# condition: (texmathp)
 # --
 \bigcap${1:$(when (> (length yas-text) 0) "_")
 }${1:$(when (> (length yas-text) 1) "{")

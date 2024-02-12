@@ -1,5 +1,6 @@
 # key: sum
 # name: sum_^
+# condition: (texmathp)
 # --
 \sum${1:$(when (> (length yas-text) 0) "_")
 }${1:$(when (> (length yas-text) 1) "{")

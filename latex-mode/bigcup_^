@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: bigcup_^
 # key: cup
+# condition: (texmathp)
 # --
 \bigcup${1:$(when (> (length yas-text) 0) "_")
 }${1:$(when (> (length yas-text) 1) "{")

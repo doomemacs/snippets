@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: liminf
 # key: liminf
+# condition: (texmathp)
 # --
 \liminf_{${1:n} \to ${2:\infty}} $0

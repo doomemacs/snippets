@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: limsup
 # key: limsup
+# condition: (texmathp)
 # --
 \limsup_{${1:n} \to ${2:\infty}} $0

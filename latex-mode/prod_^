@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # key: prod
 # name: prod_^
 # condition: (texmathp)

@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # key: sum
 # name: sum_^
 # condition: (texmathp)

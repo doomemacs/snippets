@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 # key: int
 # name: int_^
 # condition: (texmathp)

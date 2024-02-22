@@ -1,7 +1,7 @@
 (defun doom-snippets-c++-using-std-p ()
   "Return non-nil if 'using namespace std' is found at the top of this file."
   (save-excursion
-    (goto-char (point-max))
+    (goto-char (point-min))
     (or (search-forward "using namespace std;" 512 t)
         (search-forward "std::" 1024 t))))
 

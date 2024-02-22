@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: DATA_UPLOAD_MAX_MEMORY_SIZE - Maximum size in bytes of request data (excluding file uploads)
+# key: settings.
+# uuid: django-settings-data-upload-max-memory-size-dot
+# group: django-settings-dot
+# --
+settings.DATA_UPLOAD_MAX_MEMORY_SIZE

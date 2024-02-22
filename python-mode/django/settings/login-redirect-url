@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LOGIN_REDIRECT_URL
+# key: djs
+# uuid: django-settings-login-redirect-url
+# group: django-settings
+# --
+LOGIN_REDIRECT_URL = '/accounts/profile/'

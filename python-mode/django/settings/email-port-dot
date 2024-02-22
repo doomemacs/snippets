@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: EMAIL_PORT - Port for sending email.
+# key: settings.
+# uuid: django-settings-email-port-dot
+# group: django-settings-dot
+# --
+settings.EMAIL_PORT

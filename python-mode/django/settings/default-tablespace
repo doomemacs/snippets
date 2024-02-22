@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: DEFAULT_TABLESPACE - The tablespaces to use for each model when not specified otherwise.
+# key: djs
+# uuid: django-settings-default-tablespace
+# group: django-settings
+# --
+# The tablespaces to use for each model when not specified otherwise.
+DEFAULT_TABLESPACE = ''

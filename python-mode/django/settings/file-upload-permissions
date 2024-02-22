@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: FILE_UPLOAD_PERMISSIONS - The numeric mode to set newly-uploaded files to.
+# key: djs
+# uuid: django-settings-file-upload-permissions
+# group: django-settings
+# --
+# The numeric mode to set newly-uploaded files to. The value should be a mode
+# you'd pass directly to os.chmod; see https://docs.python.org/library/os.html#files-and-directories.
+FILE_UPLOAD_PERMISSIONS = 0o644

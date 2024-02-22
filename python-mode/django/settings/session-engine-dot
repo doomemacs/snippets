@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: SESSION_ENGINE - The module to store session data
+# key: settings.
+# uuid: django-settings-session-engine-dot
+# group: django-settings-dot
+# --
+settings.SESSION_ENGINE

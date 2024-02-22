@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LOCALE_PATHS
+# key: djs
+# uuid: django-settings-locale-paths
+# group: django-settings
+# --
+LOCALE_PATHS = []

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: TIME_FORMAT - Default formatting for time objects.
+# key: djs
+# uuid: django-settings-time-format
+# group: django-settings
+# --
+# Default formatting for time objects. See all available format strings here:
+# https://docs.djangoproject.com/en/dev/ref/templates/builtins/#date
+TIME_FORMAT = 'P'

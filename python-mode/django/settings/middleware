@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: MIDDLEWARE - List of middleware to use.
+# key: djs
+# uuid: django-settings-middleware
+# group: django-settings
+# --
+# List of middleware to use. Order is important; in the request phase, these
+# middleware will be applied in the order given, and in the response
+# phase the middleware will be applied in reverse order.
+MIDDLEWARE = []

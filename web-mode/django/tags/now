@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: now (django)
+# key: djt
+# uuid: django-templates-now
+# group: django-templates
+# --
+{% now "${1:FORMAT}"${2: as ${3:VARIABLE}} %}

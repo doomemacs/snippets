@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: static (django)
+# key: djt
+# uuid: django-templates-static
+# group: django-templates
+# --
+{% static "${1:FILE}" %}

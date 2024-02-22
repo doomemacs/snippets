@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: forms labels
+# key: djmeta
+# uuid: django-meta-forms-labels
+# group: django-meta
+# --
+labels = {
+    '${1:FIELD NAME}': '${2:FIELD LABEL}'$0
+
+    # Example
+    # 'name': _('Writer'),
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: cache.backends.MemcachedCache
+# key: djb
+# uuid: django-backends-cache-memcached
+# group: django-backends
+# --
+django.core.cache.backends.memcached.MemcachedCache

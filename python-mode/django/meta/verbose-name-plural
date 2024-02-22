@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: verbose_name_plural - The plural name for the object
+# key: djmeta
+# uuid: django-meta-verbose-name-plural
+# group: django-meta
+# --
+verbose_name_plural = '$0'

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: CSRF_COOKIE_AGE
+# key: settings.
+# uuid: django-settings-csrf-cookie-age-dot
+# group: django-settings-dot
+# --
+settings.CSRF_COOKIE_AGE

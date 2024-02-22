@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: CACHES - The cache backends to use.
+# key: settings.
+# uuid: django-settings-caches-dot
+# group: django-settings-dot
+# --
+settings.CACHES

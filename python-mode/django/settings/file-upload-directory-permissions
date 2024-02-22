@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: FILE_UPLOAD_DIRECTORY_PERMISSIONS - The numeric mode to assign to newly-created directories, when uploading files.
+# key: djs
+# uuid: django-settings-file-upload-directory-permissions
+# group: django-settings
+# --
+# The numeric mode to assign to newly-created directories, when uploading files.
+# The value should be a mode as you'd pass to os.chmod;
+# see https://docs.python.org/library/os.html#files-and-directories.
+FILE_UPLOAD_DIRECTORY_PERMISSIONS = None

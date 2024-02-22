@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MEDIA_URL - URL that handles the media served from MEDIA_ROOT.
+# key: settings.
+# uuid: django-settings-media-url-dot
+# group: django-settings-dot
+# --
+settings.MEDIA_URL

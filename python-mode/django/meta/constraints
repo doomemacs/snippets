@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: constraints - A list of constraints that you want to define on the model
+# key: djmeta
+# uuid: django-meta-constraints
+# group: django-meta
+# --
+constrains = [
+    models.CheckConstraint(check=$1, name='$2'),
+    $0
+]

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MessageMiddlware
+# key: djmid
+# uuid: django-middleware-message
+# group: django-middleware
+# --
+django.contrib.messages.middleware.MessageMiddleware

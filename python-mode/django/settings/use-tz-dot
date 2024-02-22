@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: USE_TZ - If you set this to True, Django will use timezone-aware datetimes.
+# key: settings.
+# uuid: django-settings-use-tz-dot
+# group: django-settings-dot
+# --
+settings.USE_TZ

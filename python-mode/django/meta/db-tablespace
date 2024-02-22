@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: db_tablespace - The name of the database tablespace to use for this model. The default is the project’s DEFAULT_TABLESPACE setting.
+# key: djmeta
+# uuid: django-meta-db-tablespace
+# group: django-meta
+# --
+db_tablespace = '$0'

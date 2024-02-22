@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: humanize filter naturaltime (django)
+# key: |
+# uuid: django-templates-filter-humanize-naturaltime
+# group: django-templates
+# --
+|naturaltime

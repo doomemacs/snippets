@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: DISALLOWED_USER_AGENTS - List of compiled regular expression objects representing User-Agent strings.
+# key: djs
+# uuid: django-settings-disallowed-user-agents
+# group: django-settings                      
+# --
+# List of compiled regular expression objects representing User-Agent strings
+# that are not allowed to visit any page, systemwide. Use this for bad
+# robots/crawlers. Here are a few examples:
+#     import re
+#     DISALLOWED_USER_AGENTS = [
+#         re.compile(r'^NaverBot.*'),
+#         re.compile(r'^EmailSiphon.*'),
+#         re.compile(r'^SiteSucker.*'),
+#         re.compile(r'^sohu-search'),
+#     ]
+DISALLOWED_USER_AGENTS = [
+    $0
+]

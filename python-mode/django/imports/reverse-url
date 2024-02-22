@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: reverse
+# key: dji
+# uuid: django-imports-reverse-url
+# group: django-imports
+# --
+from django.urls import reverse

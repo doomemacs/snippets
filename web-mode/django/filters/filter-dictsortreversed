@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter dictsortreversed (django)
+# key: |
+# uuid: django-templates-filter-dictsortreversed
+# group: django-templates
+# --
+|dictsortreversed:"$0"

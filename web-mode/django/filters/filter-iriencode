@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter iriencode (django)
+# key: |
+# uuid: django-templates-filter-iriencode
+# group: django-templates
+# --
+|iriencode

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: USE_X_FORWARDED_HOST
+# key: settings.
+# uuid: django-settings-use-x-forwarded-host-dot
+# group: django-settings-dot
+# --
+settings.USE_X_FORWARDED_HOST

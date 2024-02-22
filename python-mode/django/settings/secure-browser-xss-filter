@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: SECURE_BROWSER_XSS_FILTER
+# key: djs
+# uuid: django-settings-secure-browser-xss-filter
+# group: django-settings
+# --
+SECURE_BROWSER_XSS_FILTER = False

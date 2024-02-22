@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: LOGGING - Custom logging configuration.
+# key: djs
+# uuid: django-settings-logging
+# group: django-settings
+# --
+# Custom logging configuration.
+LOGGING = {}

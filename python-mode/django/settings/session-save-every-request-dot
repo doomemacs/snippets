@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: SESSION_SAVE_EVERY_REQUEST - Whether to save the session data on every request.
+# key: settings.
+# uuid: django-settings-session-save-every-request-dot
+# group: django-settings-dot
+# --
+settings.SESSION_SAVE_EVERY_REQUEST

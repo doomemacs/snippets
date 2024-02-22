@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter cut (django)
+# key: |
+# uuid: django-templates-filter-cut
+# group: django-templates
+# --
+|cut:"$0"

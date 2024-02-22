@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: STATICFILES_DIRS - A list of locations of additional static files
+# key: djs
+# uuid: django-settings-staticfiles-dirs
+# group: django-settings
+# --
+# A list of locations of additional static files
+STATICFILES_DIRS = []

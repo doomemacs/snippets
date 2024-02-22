@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: TEST_RUNNER - The name of the class to use to run the test suite
+# key: settings.
+# uuid: django-settings-test-runner-dot
+# group: django-settings-dot
+# --
+settings.TEST_RUNNER

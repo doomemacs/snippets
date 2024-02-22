@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Maximum number of GET/POST parameters that will be read before a SuspiciousOperation (TooManyFieldsSent) is raised.
+# key: settings.
+# uuid: django-settings-data-upload-max-number-fields-dot
+# group: django-settings-dot
+# --
+settings.DATA_UPLOAD_MAX_NUMBER_FIELDS

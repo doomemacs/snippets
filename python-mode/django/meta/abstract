@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: abstract - If abstract = True, this model will be an abstract base class.
+# key: djmeta
+# uuid: django-meta-abstract
+# group: django-meta
+# --
+abstract = True

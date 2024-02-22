@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: APPEND_SLASH - Whether to append trailing slashes to URLs.
+# key: settings
+# uuid: django-settings-append-slash
+# group: django-settings
+# --
+settings.APPEND_SLASH

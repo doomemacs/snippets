@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: get_static_prefix (django)
+# key: djt
+# uuid: django-templates-get-static-prefix
+# group: django-templates
+# --
+{% get_static_prefix${1: as ${2:STATIC PREFIX} %}

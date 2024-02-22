@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: USE_THOUSAND_SEPARATOR - Boolean that sets whether to add thousand separator when formatting numbers
+# key: djs
+# uuid: django-settings-use-thousand-separator
+# group: django-settings
+# --
+# Boolean that sets whether to add thousand separator when formatting numbers
+USE_THOUSAND_SEPARATOR = False

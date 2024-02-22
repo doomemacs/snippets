@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: EMAIL_USE_LOCALTIME - Whether to send SMTP 'Date' header in the local time zone or in UTC.
+# key: djs
+# uuid: django-settings-email-use-localtime
+# group: django-settings
+# --
+# Whether to send SMTP 'Date' header in the local time zone or in UTC.
+EMAIL_USE_LOCALTIME = False

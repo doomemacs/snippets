@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: TIME_FORMAT - Default formatting for time objects.
+# key: settings.
+# uuid: django-settings-time-format-dot
+# group: django-settings-dot
+# --
+settings.TIME_FORMAT

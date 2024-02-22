@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: DEFAULT_EXCEPTION_REPORTER - Default exception reporter class used
+# key: settings.
+# uuid: django-settings-default-exception-reporter-dot
+# group: django-settings-dot
+# --
+settings.DEFAULT_EXCEPTION_REPORTER

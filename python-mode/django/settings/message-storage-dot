@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MESSAGE_STORAGE - Class to use as messages backend
+# key: settings.
+# uuid: django-settings-message-storage-dot
+# group: django-settings-dot
+# --
+settings.MESSAGE_STORAGE

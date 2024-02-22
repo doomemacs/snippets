@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: cache.backends.DummyCache
+# key: djb
+# uuid: django-backends-cache-dummy
+# group: django-backends
+# --
+django.core.cache.backends.dummy.DummyCache

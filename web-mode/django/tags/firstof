@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: firstof (django)
+# key: djt
+# uuid: django-templates-firstof
+# group: django-templates
+# --
+{% firstof ${1:VALUE 1} ${2: VALUE 2} $0 %}

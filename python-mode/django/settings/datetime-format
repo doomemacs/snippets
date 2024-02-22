@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: DATETIME_FORMAT - Default formatting for datetime objects.
+# key: djs
+# uuid: django-settings-datetime-format
+# group: django-settings
+# --
+# Default formatting for datetime objects. See all available format strings here:
+# https://docs.djangoproject.com/en/dev/ref/templates/builtins/#date
+DATETIME_FORMAT = 'N j, Y, P'

@@ -1,6 +1,6 @@
 ;;; doom-snippets.el --- A collection of yasnippet snippets
 ;;
-;; Copyright (C) 2017-2022 Henrik Lissner
+;; Copyright (C) 2017-2024 Henrik Lissner
 ;;
 ;; Author: Henrik Lissner <contact@henrik.io>
 ;; Created: December 5, 2014

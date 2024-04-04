@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: y-or-n-p
+# name: yes-or-no-p
 # key: yesno
 # --
 (yes-or-no-p "$1")

@@ -3,6 +3,6 @@
 # key: fori
 # uuid: fori
 # --
-for (${1:int} ${2:i} = 0; $2 < ${3:length}; $2++}) {
+for (${1:int} ${2:i} = 0; $2 < ${3:length}; $2++) {
     `%`$0
 }

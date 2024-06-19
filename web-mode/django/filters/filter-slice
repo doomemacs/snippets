@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter slice (django)
+# key: |
+# uuid: django-templates-filter-slice
+# group: django-templates
+# --
+|slice:"$0"

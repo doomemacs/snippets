@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: DISALLOWED_USER_AGENTS - List of compiled regular expression objects representing User-Agent strings.
+# key: settings.
+# uuid: django-settings-disallowed-user-agents-dot
+# group: django-settings-dot
+# --
+settings.DISALLOWED_USER_AGENTS

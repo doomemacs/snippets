@@ -1,0 +1,26 @@
+# -*- mode: snippet -*-
+# name: List Class Based View
+# key: djv
+# uuid: django-views-list-view-cbv
+# group: django-views
+# --
+# from django.utils import timezone
+# from django.views.generic.detail import DetailView
+class ${1:MODEL_NAME}DetailView(DetailView):
+    """$2
+
+    Ancestors (MRO)
+
+    This view inherits methods and attributes from the following views:
+    - django.views.generic.list.MultipleObjectTemplateResponseMixin
+    - django.views.generic.base.TemplateResponseMixin
+    - django.views.generic.list.BaseListView
+    - django.views.generic.list.MultipleObjectMixin
+    - django.views.generic.base.View
+    """
+    model = $1
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['now'] = timezone.now()
+        return context

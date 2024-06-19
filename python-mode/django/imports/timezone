@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: timezone
+# key: dji
+# uuid: django-imports-timezone
+# group: django-imports
+# --
+from django.utils import timezone

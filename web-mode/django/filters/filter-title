@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter title (django)
+# key: |
+# uuid: django-templates-filter-title
+# group: django-templates
+# --
+|title

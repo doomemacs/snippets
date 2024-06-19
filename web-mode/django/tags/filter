@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: filter (django)
+# key: djt
+# uuid: django-templates-filter
+# group: django-templates
+# --
+{% filter ${1:FILTER 1}|${2:FILTER 2} %}
+    `(yas-selected-text)`$0
+{% endfilter %}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: i18n get_language_info (django)
+# key: djt
+# uuid: django-templates-i18n-get-language-info
+# group: django-templates
+# --
+{% get_language_info for ${1:LANGUAGE CODE} as ${2:VARIABLE} %}

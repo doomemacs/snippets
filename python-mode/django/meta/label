@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: label - Representation of the object, returns app_label.object_name, e.g. 'polls.Question'.
+# key: djmeta
+# uuid: django-meta-label
+# group: django-meta
+# --
+label = '$0'

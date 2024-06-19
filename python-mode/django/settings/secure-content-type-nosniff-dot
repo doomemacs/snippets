@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: SECURE_CONTENT_TYPE_NOSNIFF
+# key: settings.
+# uuid: django-settings-secure-content-type-nosniff-dot
+# group: django-settings-dot
+# --
+settings.SECURE_CONTENT_TYPE_NOSNIFF

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: FORMAT_MODULE_PATH - Python module path where user will place custom format definition.
+# key: djs
+# uuid: django-settings-format-module-path
+# group: django-settings
+# --
+# Python module path where user will place custom format definition.
+# The directory where this setting is pointing should contain subdirectories
+# named as the locales, containing a formats.py file
+# (i.e. "myproject.locale" for myproject/locale/en/formats.py etc. use)
+FORMAT_MODULE_PATH = None

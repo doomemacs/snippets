@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: STATIC_URL - URL that handles the static files served from STATIC_ROOT.
+# key: djs
+# uuid: django-settings-static-url
+# group: django-settings
+# --
+# URL that handles the static files served from STATIC_ROOT.
+# Example: "http://example.com/static/", "http://static.example.com/"
+STATIC_URL = None

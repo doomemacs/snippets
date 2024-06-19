@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter join (django)
+# key: |
+# uuid: django-templates-filter-join
+# group: django-templates
+# --
+|join"$0"

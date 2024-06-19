@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: TEMPLATES
+# key: settings.
+# uuid: django-settings-templates-dot
+# group: django-settings-dot
+# --
+settings.TEMPLATES

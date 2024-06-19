@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: STATICFILES_STORAGE - The default file storage backend used during the build process
+# key: djs
+# uuid: django-settings-staticfiles-storage
+# group: django-settings
+# --
+# The default file storage backend used during the build process
+STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'

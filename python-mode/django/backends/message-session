@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: messages.storage.SessionStorage
+# key: djb
+# uuid: django-backends-message-session
+# group: django-backends
+# --
+django.contrib.messages.storage.session.SessionStorage

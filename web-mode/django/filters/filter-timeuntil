@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter timeuntil (django)
+# key: |
+# uuid: django-templates-filter-timeuntil
+# group: django-templates
+# --
+|timeuntil:$0

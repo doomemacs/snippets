@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter phone2numeric (django)
+# key: |
+# uuid: django-templates-filter-phone2numeric
+# group: django-templates
+# --
+|phone2numeric

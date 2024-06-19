@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: tz get_current_timezone (django)
+# key: djt
+# uuid: django-templates-tz-get-current-timezone
+# group: django-templates
+# --
+{% get_current_timezone as $0 %}

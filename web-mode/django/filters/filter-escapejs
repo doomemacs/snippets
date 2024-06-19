@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter escapejs (django)
+# key: |
+# uuid: django-templates-filter-escapejs
+# group: django-templates
+# --
+|escapejs

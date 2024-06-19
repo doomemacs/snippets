@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: PREPEND_WWW - Whether to append trailing slashes to URLs.
+# key: djs
+# uuid: django-settings-prepend-www
+# group: django-settings
+# --
+# Whether to append trailing slashes to URLs.
+APPEND_SLASH = True

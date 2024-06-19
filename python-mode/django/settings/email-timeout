@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: EMAIL_TIMEOUT - Optional SMTP authentication information for EMAIL_HOST.
+# key: djs
+# uuid: django-settings-email-timeout
+# group: django-settings
+# --
+EMAIL_TIMEOUT = None

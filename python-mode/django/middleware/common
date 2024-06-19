@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: CommonMiddleware
+# key: djmid
+# uuid: django-middleware-common
+# group: django-middleware
+# --
+django.middleware.common.CommonMiddleware

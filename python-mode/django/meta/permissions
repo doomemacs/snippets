@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: permissions - Extra permissions to enter into the permissions table when creating this object.
+# key: djmeta
+# uuid: django-meta-permissions
+# group: django-meta
+# --
+permissions = [('$1', '$2')]$0

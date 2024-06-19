@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: SESSION_COOKIE_PATH - The path of the session cookie.
+# key: settings.
+# uuid: django-settings-session-cookie-path-dot
+# group: django-settings-dot
+# --
+settings.SESSION_COOKIE_PATH

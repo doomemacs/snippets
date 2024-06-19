@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LOGIN_URL
+# key: settings.
+# uuid: django-settings-login-url-dot
+# group: django-settings-dot
+# --
+settings.LOGIN_URL

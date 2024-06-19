@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: with (django)
+# key: djt
+# uuid: django-templates-with
+# group: django-templates
+# --
+{% with ${1:KEY}=${2:VALUE} %}

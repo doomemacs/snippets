@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: SESSION_ENGINE - The module to store session data
+# key: djs
+# uuid: django-settings-session-engine
+# group: django-settings
+# --
+# The module to store session data
+SESSION_ENGINE = 'django.contrib.sessions.backends.db'

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: CSRF_COOKIE_AGE
+# key: djs
+# uuid: django-settings-csrf-cookie-age
+# group: django-settings
+# --
+CSRF_COOKIE_AGE = 60 * 60 * 24 * 7 * 52

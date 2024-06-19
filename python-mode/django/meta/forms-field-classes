@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: form field_classes
+# key: djmeta
+# uuid: django-meta-forms-field-classes
+# group: django-meta
+# --
+field_classes = {
+    '${1:FIELD NAME}': ${2:FORM FIELD}$0
+
+    # Example:
+    # 'slug': MySlugFormField,
+}

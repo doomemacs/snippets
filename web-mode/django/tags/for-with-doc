@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: for with doc (django)
+# key: djt
+# uuid: django-templates-for-with-doc
+# group: django-templates
+# --
+{% comment "For Loop Variables" %}
+    forloop.counter         The current iteration of the loop (1-indexed)
+    forloop.counter0        The current iteration of the loop (0-indexed)
+    forloop.revcounter      The number of iterations from the end of the loop (1-indexed)
+    forloop.revcounter0     The number of iterations from the end of the loop (0-indexed)
+    forloop.first           True if this is the first time through the loop
+    forloop.last            True if this is the last time through the loop
+    forloop.parentloop      For nested loops, this is the loop surrounding the current one
+{% endcomment %}
+
+{% for ${1:KEY} in ${2:ITERABLE}} %}
+    $0
+{% endfor %}

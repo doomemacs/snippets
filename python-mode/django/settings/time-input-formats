@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: TIME_INPUT_FORMATS - Default formats to be used when parsing times from input boxes, in order
+# key: djs
+# uuid: django-settings-datetime-input-formats
+# group: django-settings
+# --
+# Default formats to be used when parsing times from input boxes, in order
+# See all available format string here:
+# https://docs.python.org/library/datetime.html#strftime-behavior
+# * Note that these format strings are different from the ones to display dates
+TIME_INPUT_FORMATS = [
+    '%H:%M:%S',     # '14:30:59'
+    '%H:%M:%S.%f',  # '14:30:59.000200'
+    '%H:%M',        # '14:30'
+]

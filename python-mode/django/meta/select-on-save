@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: select_on_save - Determines if Django will use the pre-1.6 django.db.models.Model.save() algorithm.
+# key: djmeta
+# uuid: django-meta-select-on-save
+# group: django-meta
+# --
+select_on_save = False

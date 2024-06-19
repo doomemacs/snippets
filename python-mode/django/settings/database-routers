@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: DATABASE_ROUTERS - Classes used to implement DB routing behavior.
+# key: djs
+# uuid: django-settings-database-routers
+# group: django-settings                                                 
+# --
+# Classes used to implement DB routing behavior.
+DATABASE_ROUTERS = []

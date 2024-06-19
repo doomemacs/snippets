@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter urlize (django)
+# key: |
+# uuid: django-templates-filter-urlize
+# group: django-templates
+# --
+|urlize

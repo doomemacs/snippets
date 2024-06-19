@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: db.backends.postgresql
+# key: djb
+# uuid: django-backends-db-postgresql
+# group: django-backends
+# --
+django.db.backends.postgresql

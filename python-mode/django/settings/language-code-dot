@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LANGUAGE_CODE - Language code for this installation.
+# key: settings.
+# uuid: django-settings-language-code-dot
+# group: django-settings-dot
+# --
+settings.LANGUAGE_CODE

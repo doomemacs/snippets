@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter slugify (django)
+# key: |
+# uuid: django-templates-filter-slugify
+# group: django-templates
+# --
+|slugify

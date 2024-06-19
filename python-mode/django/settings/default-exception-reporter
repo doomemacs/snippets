@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: DEFAULT_EXCEPTION_REPORTER - Default exception reporter class used
+# key: djs
+# uuid: django-settings-default-exception-reporter
+# group: django-settings                          
+# --
+# Default exception reporter class used in case none has been
+# specifically assigned to the HttpRequest instance.
+DEFAULT_EXCEPTION_REPORTER = 'django.views.debug.ExceptionReporter'

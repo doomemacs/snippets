@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter safeseq (django)
+# key: |
+# uuid: django-templates-filter-safeseq
+# group: django-templates
+# --
+|safeseq

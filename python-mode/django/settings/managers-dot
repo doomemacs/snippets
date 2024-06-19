@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MANAGERS - Not-necessarily-technical managers of the site.
+# key: settings.
+# uuid: django-settings-managers-dot
+# group: django-settings-dot
+# --
+settings.MANAGERS

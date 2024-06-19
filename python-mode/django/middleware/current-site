@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: CurrentSiteMiddleware
+# key: djmid
+# uuid: django-middleware-current-site
+# group: django-middleware
+# --
+django.contrib.sites.middleware.CurrentSiteMiddleware

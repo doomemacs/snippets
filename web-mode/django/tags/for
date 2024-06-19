@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: for (django)
+# key: djt
+# uuid: django-templates-for
+# group: django-templates
+# --
+{% for ${1:KEY} in ${2:ITERABLE}} %}
+    `(yas-selected-text)`$0
+{% endfor %}

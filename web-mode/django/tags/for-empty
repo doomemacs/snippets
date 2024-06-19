@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: for ... empty (django)
+# key: djt
+# uuid: django-templates-for-empty
+# group: django-templates
+# --
+{% for ${1:KEY} in ${2:ITERABLE} %}
+    $0
+{% empty %}
+
+{% endfor %}

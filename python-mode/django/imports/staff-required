@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: staff_member_required
+# key: dji
+# uuid: django-imports-staff-required
+# group: django-imports
+# --
+from django.contrib.admin.views.decorators import staff_member_required

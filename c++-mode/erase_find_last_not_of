@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: generate_n
+# name: erase_find_last_not_of
 # key: erf
 # --
 ${1:container}.erase($1.find_last_not_of(" \t\n\r") + 1);

@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# name: d_operator<<
-# key: <<
-# uuid: <<
-# --
-friend std::ostream& operator<<(std::ostream&, const ${1:Class}&);

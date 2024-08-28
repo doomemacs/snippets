@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: ugettextify selected text
+# uuid: django-common-ugettextify
+# group: django.common
+# --
+_(`(yas-selected-text)`)

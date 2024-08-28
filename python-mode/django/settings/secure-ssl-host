@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: SECURE_SSL_HOST
+# key: djs
+# uuid: django-settings-secure-ssl-host
+# group: django-settings
+# --
+SECURE_SSL_HOST = None

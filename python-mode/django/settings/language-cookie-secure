@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LANGUAGE_COOKIE_SECURE
+# key: djs
+# uuid: django-settings-language-cookie-secure
+# group: django-settings
+# --
+LANGUAGE_COOKIE_SECURE = False

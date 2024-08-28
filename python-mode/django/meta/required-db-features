@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: required_db_features - List of database features that the current connection should have.
+# key: djmeta
+# uuid: django-meta-required-db-features
+# group: django-meta
+# --
+required_db_features = ['$1']$0

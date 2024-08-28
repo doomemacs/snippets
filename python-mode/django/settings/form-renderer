@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: FORM_RENDERER - Default form rendering class.
+# key: djs
+# uuid: django-settings-form-renderer
+# group: django-settings             
+# --
+# Default form rendering class.
+FORM_RENDERER = 'django.forms.renderers.DjangoTemplates'

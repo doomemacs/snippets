@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter rjust (django)
+# key: |
+# uuid: django-templates-filter-rjust
+# group: django-templates
+# --
+|rjust:"$0"

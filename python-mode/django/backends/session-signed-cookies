@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: contrib.sessions.backends.signed_cookies
+# key: djb
+# uuid: django-backends-session-signed_cookies
+# group: django-backends
+# --
+django.contrib.sessions.backends.signed_cookies

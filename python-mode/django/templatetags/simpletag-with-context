@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: template simple tag with context
+# key: djtt
+# uuid: django-custom-simple-tag
+# group: django-custom
+# --
+@register.simple_tag(takes_context=True)
+def ${1:NAME}(context):
+    $0

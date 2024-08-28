@@ -1,0 +1,89 @@
+#+TITLE:   Django (web-mode) Snippets
+#+DATE:    April 1, 2020
+#+SINCE:   {replace with next tagged release version}
+#+STARTUP: inlineimages nofold
+
+* Table of Contents :TOC_3:noexport:
+- [[#description][Description]]
+  - [[#maintainers][Maintainers]]
+- [[#snippets][Snippets]]
+  - [[#template-tags-trigger-djt][Template Tags (:trigger djt)]]
+  - [[#template-filters-trigger--][Template Filters (:trigger | )]]
+  - [[#i18n-trigger-djt-or-][i18n (:trigger djt or |)]]
+  - [[#l10n-trigger-djt-or-][l10n (:trigger djt or |)]]
+  - [[#humanize-trigger-][humanize (:trigger |)]]
+  - [[#timezone-trigger-djt-or-][Timezone (:trigger djt or |)]]
+- [[#faq][FAQ]]
+  - [[#q-when-i-try-to-use-filters-with-the-prefix--it-does-not-expand][Q: When I try to use filters with the prefix | it does not expand]]
+  - [[#what-version-of-django-are-these-snippets-for][What version of Django are these snippets for?]]
+- [[#contributing][Contributing]]
+
+* Description
+A bunch of Django specific web-model snippets
+
++ Complete template tags
++ Complete template filters
+  + This includes contrib apps, such as humanize
+  + [[*Q: When I try to use filters with the prefix | it does not expand][See note about using the ~|~ trigger]]
+
+These snippets are meant to act more of a auto-completion / quick look up
+instead of expanding, therefore snippets are grouped as much as possible.
+
+** Maintainers
++ @jsoa (Author)
+
+* Snippets
+** Template Tags (:trigger djt)
+All Django template tags.
+
++ ~:group django-templates~
++ ~:trigger djt~
+  + [[file:tags/][list of snippets]]
+
+** Template Filters (:trigger | )
+All Django template filters.
+
++ ~:group django-templates~
++ ~:trigger |~
+  + [[file:filters/][list of snippets]]
+
+** i18n (:trigger djt or |)
+All Django i18n template tags and filters.
+
++ ~:group django-templates~
++ ~:trigger djt or |~
+  + [[file:i18n/][list of snippets]]
+
+** l10n (:trigger djt or |)
+All Django l10n template tags and filters.
+
++ ~:group django-templates~
++ ~:trigger djt or |~
+  + [[file:l10n/][list of snippets]]
+
+** humanize (:trigger |)
+All Django humanize filters.
+
++ ~:group django-templates~
++ ~:trigger |~
+  + [[file:humanize/][list of snippets]]
+
+** Timezone (:trigger djt or |)
+All Django timezone template tags and filters
+
++ ~:group django-templates~
++ ~:trigger djt or |~
+  + [[file:tz/][list of snippets]]
+
+* FAQ
+** Q: When I try to use filters with the prefix | it does not expand
+When you have something like ~{{ value| }}~ and try to expand it will cannot find
+a trigger for ~value|~ instead you will need to include a space before the pipe
+in order to get the expansion. i.e. ~{{ value | }}~
+** What version of Django are these snippets for?
+Version ~3.0~
+
+* Contributing
+There is an included ~snippet-templates~ file that includes the templates used to
+create the various tags and filters
+

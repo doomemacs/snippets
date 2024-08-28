@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: if (django)
+# key: djt
+# uuid: django-templates-if
+# group: django-templates
+# --
+{% if ${1:CONDITION} ${2:and ${3:CONDIITION}} %}
+    $0
+${4:{% elif ${5:CONDITION} %}}
+${6:{% else %}}
+{% endif %}

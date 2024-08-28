@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: MIGRATION_MODULES - Migration module overrides for apps, by app label.
+# key: djs
+# uuid: django-settings-migration-modules
+# group: django-settings
+# --
+# Migration module overrides for apps, by app label.
+MIGRATION_MODULES = {}

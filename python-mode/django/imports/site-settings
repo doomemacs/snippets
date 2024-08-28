@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: site-settings (same as settings but import "as site_settings")
+# key: dji
+# uuid: django-imports-site-settings
+# group: django-imports
+# --
+from django.conf import settings as site_settings

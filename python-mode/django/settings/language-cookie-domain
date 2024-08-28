@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LANGUAGE_COOKIE_DOMAIN
+# key: djs
+# uuid: django-settings-language-cookie-domain
+# group: django-settings
+# --
+LANGUAGE_COOKIE_DOMAIN = None

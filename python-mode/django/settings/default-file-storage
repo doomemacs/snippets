@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: DEFAULT_FILE_STORAGE - Default file storage mechanism that holds media.
+# key: djs
+# uuid: django-settings-default-file-storage
+# group: django-settings                    
+# --
+# Default file storage mechanism that holds media.
+DEFAULT_FILE_STORAGE = 'django.core.files.storage.FileSystemStorage'

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: CsrfViewMiddleware
+# key: djmid
+# uuid: django-middleware-csrf-view
+# group: django-middleware
+# --
+django.middleware.csrf.CsrfViewMiddleware

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: SECURE_HSTS_SECONDS
+# key: djs
+# uuid: django-settings-secure-hsts-seconds
+# group: django-settings
+# --
+SECURE_HSTS_SECONDS = 0

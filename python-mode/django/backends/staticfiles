@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: contrib.staticfiles.StaticFilesStorage
+# key: djb
+# uuid: django-backends-staticfiles
+# group: django-backends
+# --
+django.contrib.staticfiles.storage.StaticFilesStorage

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: BrokenLinkEmailsMiddleware
+# key: djmid
+# uuid: django-middleware-broken-link-email
+# group: django-middleware
+# --
+django.middleware.common.BrokenLinkEmailsMiddleware

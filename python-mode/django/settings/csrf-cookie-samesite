@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: CSRF_COOKIE_SAMESITE
+# key: djs
+# uuid: django-settings-csrf-cookie-samesite
+# group: django-settings
+# --
+CSRF_COOKIE_SAMESITE = 'Lax'

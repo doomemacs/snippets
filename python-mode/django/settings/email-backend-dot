@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: EMAIL_BACKEND - The email backend to use.
+# key: settings.
+# uuid: django-settings-email-backend-dot
+# group: django-settings-dot
+# --
+settings.EMAIL_BACKEND

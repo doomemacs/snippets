@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: order_with_respect_to - Makes this object orderable with respect to the given field
+# key: djmeta
+# uuid: django-meta-order-with-respect-to
+# group: django-meta
+# --
+order_with_repect_to = '$1'
+$0

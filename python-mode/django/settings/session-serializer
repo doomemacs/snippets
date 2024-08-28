@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: SESSION_SERIALIZER - class to serialize session data
+# key: djs
+# uuid: django-settings-session-serializer
+# group: django-settings                  
+# --
+# class to serialize session data
+SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'

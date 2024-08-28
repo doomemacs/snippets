@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: cycle (django)
+# key: djt
+# uuid: django-templates-cycle
+# group: django-templates
+# --
+{% cycle "${1:CYCLE 1}" "${2:CYCLE 2}" %}$0

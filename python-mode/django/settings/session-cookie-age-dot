@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: SESSION_COOKIE_AGE - Age of cookie, in seconds (default: 2 weeks).
+# key: settings.
+# uuid: django-settings-session-cookie-age-dot
+# group: django-settings-dot
+# --
+settings.SESSION_COOKIE_AGE

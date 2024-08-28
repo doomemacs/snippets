@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: DEFAULT_CHARSET - Default charset to use for all HttpResponse objects
+# key: djs
+# uuid: django-settings-default-charset
+# --
+# Default charset to use for all HttpResponse objects, if a MIME type isn't
+# manually specified. It's used to construct the Content-Type header.
+DEFAULT_CHARSET = 'utf-8'

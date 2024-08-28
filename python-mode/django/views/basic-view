@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: Basic View
+# key: djv
+# uuid: django-views-basic-view
+# group: django-views                            
+# --
+def ${1:VIEWNAME}(request, template_name='$1.html'):
+    """${2:DOCSTRING}"""
+    context = {}$0
+    return render(request, template_name, context)

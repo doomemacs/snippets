@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter random (django)
+# key: |
+# uuid: django-templates-filter-random
+# group: django-templates
+# --
+|random

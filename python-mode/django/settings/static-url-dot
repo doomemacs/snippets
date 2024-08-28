@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: STATIC_URL - URL that handles the static files served from STATIC_ROOT.
+# key: settings.
+# uuid: django-settings-static-url-dot
+# group: django-settings-dot
+# --
+settings.STATIC_URL

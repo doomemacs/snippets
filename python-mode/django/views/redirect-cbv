@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: Redirect Class Based View
+# key: djv
+# uuid: django-views-redirect-cbv
+# group: django-views
+# --
+# from django.shortcuts import get_object_or_404
+# from django.views.generic.base import RedirectView
+class ${1:VIEW_PREFIX}RedirectView(RedirectView):
+    """$2"""
+    permanent = ${3:$$(yas-choose-value '("True" "False"))}
+    query_string = ${4:$$(yas-choose-value '("True" "False"))}
+    pattern_name = '$5'
+
+    def get_redirect_url(self, *args, **kwargs):
+        return super().get_redirect_url(*args, **kwargs)
+    $0

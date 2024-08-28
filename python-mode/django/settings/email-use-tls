@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: EMAIL_USE_TLS - Optional SMTP authentication information for EMAIL_HOST.
+# key: djs
+# uuid: django-settings-email-use-tls
+# group: django-settings
+# --
+EMAIL_USE_TLS = False

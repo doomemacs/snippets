@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: inclusion tag with context
+# key: djtt
+# uuid: django-custom-inclusion-tag-with-context
+# group: django-custom
+# --
+@register.inclusion_tag('$1.html', takes_context=True)
+def ${1:NAME}(context):
+    """${3:DOC STRING}"""
+    $0

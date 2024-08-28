@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# name: Generic Model
+# key: djmod
+# uuid: django-models-generic
+# group: django-models
+# --
+# from django.contrib.contenttypes.fields import GenericForeignKey
+# from django.contrib.contenttypes.models import ContentType
+
+class ${1:MODEL NAME}(models.Model):
+    """${2:DOC STRING}"""
+    ${3:FIELD NAME} = models.${4:FIELD}
+    $0
+
+    content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE)
+    object_id = models.PositiveIntegerField()
+    content_object = GenericForeignKey('content_type', 'object_id')
+
+    def __str__(self):
+        return str(self.id)

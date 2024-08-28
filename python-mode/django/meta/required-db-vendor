@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: required_db_vendor - Name of a supported database vendor that this model is specific to.
+# key: djmeta
+# uuid: django-meta-required-db-vendor
+# group: django-meta
+# --
+# Built in options 'sqlite', 'postgresql', 'mysql', 'oracle'
+required_db_vendor = '${1:$$(yas-choose-value '("sqlite" "postgresql" "mysql" "orcale"))}'$0

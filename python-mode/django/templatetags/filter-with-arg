@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: template filter with arg
+# key: djtt
+# uuid: django-custom-filter-with-arg
+# group: django-custom
+# --
+@register.filter(name='$1')
+def ${1:NAME}(${2:VALUE NAME}, ${3:ARGUMENT}):
+    $0
+    return $2

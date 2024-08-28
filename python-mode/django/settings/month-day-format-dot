@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MONTH_DAY_FORMAT - Default formatting for date objects when only the month and day are relevant.
+# key: settings.
+# uuid: django-settings-month-day-format-dot
+# group: django-settings-dot
+# --
+settings.MONTH_DAY_FORMAT

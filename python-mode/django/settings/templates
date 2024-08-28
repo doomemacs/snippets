@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: TEMPLATES
+# key: djs
+# uuid: django-settings-templates
+# group: django-settings
+# --
+TEMPLATES = [
+    $0
+]

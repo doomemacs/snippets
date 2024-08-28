@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: EMAIL_HOST - Host for sending email.
+# key: settings.
+# uuid: django-settings-email-host-dot
+# group: django-settings-dot
+# --
+settings.EMAIL_HOST

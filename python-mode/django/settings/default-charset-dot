@@ -1,0 +1,7 @@
+# -*- mode: snippet -*- 
+# name: DEFAULT_CHARSET - Default charset to use for all HttpResponse objects
+# key: settings.
+# uuid: django-settings-default-charset-dot
+# uuid: django-settings-dot
+# ---
+settings.DEFAULT_CHARSET

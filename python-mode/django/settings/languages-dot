@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LANGUAGES - Languages we provide translations for, out of the box.
+# key: settings.
+# uuid: django-settings-languages-dot
+# group: django-settings-dot
+# --
+settings.LANGUAGES

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: FILE_UPLOAD_MAX_MEMORY_SIZE - file system instead of into memory.
+# key: djs
+# uuid: django-settings-file-upload-max-memory-size
+# group: django-settings
+# --
+# file system instead of into memory.
+FILE_UPLOAD_MAX_MEMORY_SIZE = 2621440  # i.e. 2.5 MB

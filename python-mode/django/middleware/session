@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: SessionMiddleware
+# key: djmid
+# uuid: django-middleware-session
+# group: django-middleware
+# --
+django.contrib.sessions.middleware.SessionMiddleware

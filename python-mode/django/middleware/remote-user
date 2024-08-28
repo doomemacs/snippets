@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: RemoteUserMiddleware
+# key: djmid
+# uuid: django-middleware-remote-user
+# group: django-middleware
+# --
+django.contrib.auth.middleware.RemoteUserMiddleware

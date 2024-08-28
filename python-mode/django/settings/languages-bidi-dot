@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LANGUAGES_BIDI - Languages using BiDi (right-to-left) layout
+# key: settings.
+# uuid: django-settings-langages-bidi-dot
+# group: django-settings-dot
+# --
+settings.LANGUAGES_BIDI

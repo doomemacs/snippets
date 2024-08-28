@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: load (django)
+# key: djt
+# uuid: django-templates-load
+# group: django-templates
+# --
+{% load ${1:MODULE} ${2:from ${3:MODULE}} %}

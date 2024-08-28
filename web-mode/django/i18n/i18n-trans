@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: i18n trans (django)
+# key: djt
+# uuid: django-templates-i18n-trans
+# group: django-templates
+# --
+{% trans ${1:VALUE or STRING}${2: noop}${3: as ${4:VARIABLE}} %}

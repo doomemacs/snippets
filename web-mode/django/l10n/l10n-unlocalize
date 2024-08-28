@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: l10n filter unlocalize (django)
+# key: |
+# uuid: django-templates-l10n-unlocalize
+# group: django-templates
+# --
+|unlocalize

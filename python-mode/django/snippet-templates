@@ -1,0 +1,82 @@
+# -*- mode: fundamental -*-
+
+### Model Meta
+
+# -*- mode: snippet -*-
+# name:
+# key: djmeta
+# uuid: django-meta-
+# group: django-meta
+# --
+
+### Settings
+
+# -*- mode: snippet -*-
+# name:
+# key: djs
+# uuid: django-settings-
+# group: django-settings
+# --
+
+### Settings Dot
+
+# -*- mode: snippet -*-
+# name:
+# key: settings.
+# uuid: django-settings-...-dot
+# group: django-settings-dot
+# --
+
+### Imports
+
+# -*- mode: snippet -*-
+# name:
+# key: dji
+# uuid: django-imports-
+# group: django-imports
+# --
+
+### Views
+
+# -*- mode: snippet -*-
+# name:
+# key: djv
+# uuid: django-views-
+# group: django-views
+# --
+
+### Middleware
+
+# -*- mode: snippet -*-
+# name:
+# key: djmid
+# uuid: django-middleware-
+# group: django-middleware
+# --
+
+### Backends
+
+# -*- mode: snippet -*-
+# name:
+# key: djb
+# uuid: django-backends-
+# group: django-backends
+# --
+
+### Management Commands
+
+# -*- mode: snippet -*-
+# name:
+# key: djmc
+# uuid: django-managment-
+# group: django-management
+# --
+
+### Django Custom template tags / filters
+
+# -*- mode: snippet -*-
+# name:
+# key: djtt
+# uuid: django-custom-
+# group: django-custom
+# --

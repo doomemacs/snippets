@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: regroup (django)
+# key: djt
+# uuid: django-templates-regroup
+# group: django-templates
+# --
+{% regroup ${1:DICT} by ${2:FIELD} as ${3:VARIABLE} %}

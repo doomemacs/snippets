@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: SESSION_COOKIE_DOMAIN - A string like "example.com", or None for standard domain cookie.
+# key: djs
+# uuid: django-settings-session-cookie-domain
+# group: django-settings    
+# --
+# A string like "example.com", or None for standard domain cookie.
+SESSION_COOKIE_DOMAIN = None

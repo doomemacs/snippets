@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter timesince (django)
+# key: |
+# uuid: django-templates-filter-timesince
+# group: django-templates
+# --
+|timesince:$0

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: db.backends.sqlite3
+# key: djb
+# uuid: django-backends-db-sqlite3
+# group: django-backends
+# --
+django.db.backends.sqlite3

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter wordwrap (django)
+# key: |
+# uuid: django-templates-filter-wordwrap
+# group: django-templates
+# --
+|wordwrap:$0

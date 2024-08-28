@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter date (django)
+# key: |
+# uuid: django-templates-filter-date
+# group: django-templates
+# --
+|date:"${1:FORMAT}"

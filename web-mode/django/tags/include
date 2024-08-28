@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: include (django)
+# key: djt
+# uuid: django-templates-include
+# group: django-templates
+# --
+{% include "${1: TEMPLATE NAME}"${2: with ${3:key}=${4:value}} ${5:only} %}

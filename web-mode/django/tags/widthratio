@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: widthratio (django)
+# key: djt
+# uuid: django-templates-widthratio
+# group: django-templates
+# --
+{% widthratio ${1:VALUE} ${2:MAX VALUE} ${3:MAX WIDTH} %}

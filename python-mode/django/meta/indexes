@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: indexes - A list of indexes that you want to define on the model:
+# key: djmeta
+# uuid: django-meta-indexes
+# group: django-meta
+# --
+indexes = [
+    models.Index(fields=['$1'], name='$2'),
+    $0
+]

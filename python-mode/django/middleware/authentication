@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: AuthenticationMiddleware
+# key: djmid
+# uuid: django-middleware-authentication
+# group: django-middleware
+# --
+django.contrib.auth.middleware.AuthenticationMiddleware

@@ -6,11 +6,10 @@
 import React from 'react';
 
 interface ${1:`(file-name-base buffer-file-name)`}PropTypes {
-
 }
 
-const $1 = (props: $1PropTypes) => (
+const $1 = ({}: $1PropTypes) => (
   $0
 );
 
-export { $1 };
+export default { $1 };

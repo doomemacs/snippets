@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LANGUAGE_COOKIE_AGE
+# key: settings.
+# uuid: django-settings-language-cookie-age-dot
+# group: django-settings-dot
+# --
+settings.LANGUAGE_COOKIE_AGE

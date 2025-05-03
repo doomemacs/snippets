@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: url-repath
+# key: dji
+# uuid: django-imports-url-repath
+# group: django-imports
+# --
+from django.urls import re_path

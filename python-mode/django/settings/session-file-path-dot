@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: SESSION_FILE_PATH - Directory to store session files if using the file session module.
+# key: settings.
+# uuid: django-settings-session-file-path-dot
+# group: django-settings-dot
+# --
+settings.SESSION_FILE_PATH

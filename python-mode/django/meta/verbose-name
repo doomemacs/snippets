@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: verbose_name - A human-readable name for the object, singular
+# key: djmeta
+# uuid: django-meta-verbose-name
+# group: django-meta
+# --
+verbose_name = '$0'

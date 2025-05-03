@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: LOGGING_CONFIG - The callable to use to configure logging
+# key: djs
+# uuid: django-settings-logging-config
+# group: django-settings
+# --
+# The callable to use to configure logging
+LOGGING_CONFIG = 'logging.config.dictConfig'

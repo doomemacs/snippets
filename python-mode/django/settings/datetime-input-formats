@@ -1,0 +1,22 @@
+# -*- mode: snippet -*-
+# name: DATETIME_INPUT_FORMATS - Default formats to be used when parsing dates and times from input boxes,
+# key: djs
+# uuid: django-settings-datetime-input-formats
+# group: django-settings
+# --
+# Default formats to be used when parsing dates and times from input boxes,
+# in order
+# See all available format string here:
+# https://docs.python.org/library/datetime.html#strftime-behavior
+# * Note that these format strings are different from the ones to display dates
+DATETIME_INPUT_FORMATS = [
+    '%Y-%m-%d %H:%M:%S',     # '2006-10-25 14:30:59'
+    '%Y-%m-%d %H:%M:%S.%f',  # '2006-10-25 14:30:59.000200'
+    '%Y-%m-%d %H:%M',        # '2006-10-25 14:30'
+    '%m/%d/%Y %H:%M:%S',     # '10/25/2006 14:30:59'
+    '%m/%d/%Y %H:%M:%S.%f',  # '10/25/2006 14:30:59.000200'
+    '%m/%d/%Y %H:%M',        # '10/25/2006 14:30'
+    '%m/%d/%y %H:%M:%S',     # '10/25/06 14:30:59'
+    '%m/%d/%y %H:%M:%S.%f',  # '10/25/06 14:30:59.000200'
+    '%m/%d/%y %H:%M',        # '10/25/06 14:30'
+]

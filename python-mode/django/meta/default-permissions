@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: default_permissions
+# key: djmeta
+# uuid: django-meta-default-permissions
+# group: django-meta
+# --
+default_permissions = ('add', 'change', 'delete', 'view')

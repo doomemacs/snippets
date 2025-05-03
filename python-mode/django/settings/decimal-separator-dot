@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: DECIMAL_SEPARATOR - Decimal separator symbol.
+# key: settings.
+# uuid: django-settings-decimal-separator-dot
+# group: django-settings-dot
+# --
+settings.DECIMAL_SEPARATOR

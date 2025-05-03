@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: extends (django)
+# key: djt
+# uuid: django-templates-extends
+# group: django-templates
+# --
+{% extends "${1:TEMPLATE}" %}$0

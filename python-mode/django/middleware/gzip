@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: GZipMiddleware
+# key: djmid
+# uuid: django-middleware-gzip
+# group: django-middleware
+# --
+django.middleware.gzip.GZipMiddleware

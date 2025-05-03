@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter linebreaks (django)
+# key: |
+# uuid: django-templates-filter-linebreaks
+# group: django-templates
+# --
+|linebreaks

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: FILE_UPLOAD_PERMISSIONS - The numeric mode to set newly-uploaded files to.
+# key: settings.
+# uuid: django-settings-file-upload-permissions-dot
+# group: django-settings-dot
+# --
+settings.FILE_UPLOAD_PERMISSIONS

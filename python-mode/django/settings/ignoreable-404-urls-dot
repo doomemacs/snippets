@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: IGNORABLE_404_URLS - List of compiled regular expression objects representing URLs that need not be reported by BrokenLinkEmailsMiddleware.
+# key: settings.
+# uuid: django-settings-ignorable-404-urls-dot
+# group: django-settings-dot
+# --
+settings.IGNORABLE_404_URLS

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: ABSOLUTE_URL_OVERRIDES
+# key: djs
+# uuid: django-settings-absolute-url-overrides
+# group: django-settings
+# --
+ABSOLUTE_URL_OVERRIDES = [
+    $0
+]

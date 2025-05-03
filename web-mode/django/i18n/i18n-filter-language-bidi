@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: i18n filter language_bidi
+# key: |
+# uuid: django-templates-i18n-filter-language-bidi
+# group: django-templates
+# --
+|language_bidi

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: CSRF_USE_SESSIONS
+# key: djs
+# uuid: django-settings-csrf-use-sessions
+# group: django-settings
+# --
+CSRF_USE_SESSIONS = False

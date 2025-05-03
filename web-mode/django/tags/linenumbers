@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter linenumbers (django)
+# key: djt
+# uuid: django-templates-filter-linenumbers
+# group: django-templates
+# --
+|linenumbers

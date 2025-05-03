@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter json_script (django)
+# key: |
+# uuid: django-templates-filter-json-script
+# group: django-templates
+# --
+|json_script:"$0"

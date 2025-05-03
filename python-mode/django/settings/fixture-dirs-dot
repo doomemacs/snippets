@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: FIXTURE_DIRS - The list of directories to search for fixtures
+# key: settings.
+# uuid: django-settings-fixture-dirs-dot
+# group: django-settings-dot
+# --
+settings.FIXTURE_DIRS

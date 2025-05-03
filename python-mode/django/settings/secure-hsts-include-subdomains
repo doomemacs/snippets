@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: SECURE_HSTS_INCLUDE_SUBDOMAINS
+# key: djs
+# uuid: django-settings-secure-hsts-include-subdomains
+# group: django-settings
+# --
+SECURE_HSTS_INCLUDE_SUBDOMAINS = False

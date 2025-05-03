@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: CSRF_TRUSTED_ORIGINS
+# key: djs
+# uuid: django-settings-csrf-trusted-origins
+# group: django-settings
+# --
+CSRF_TRUSTED_ORIGINS = [
+    $0
+]

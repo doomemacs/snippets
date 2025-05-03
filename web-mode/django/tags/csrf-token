@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: csrf-token (django)
+# key: djt
+# uuid: django-templates-csrf-token
+# group: django-templates
+# --
+{% csrf_token %}

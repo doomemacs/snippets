@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: FORMAT_MODULE_PATH - Python module path where user will place custom format definition.
+# key: settings.
+# uuid: django-settings-format-module-path-dot
+# group: django-settings-dot
+# --
+settings.FORMAT_MODULE_PATH

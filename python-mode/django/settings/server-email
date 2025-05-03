@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: SERVER_EMAIL - Email address that error messages come from.
+# key: djs
+# uuid: django-settings-
+# group: django-settings
+# --
+# Email address that error messages come from.
+SERVER_EMAIL = 'root@localhost'

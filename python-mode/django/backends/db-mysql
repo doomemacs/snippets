@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: db.backends.mysql
+# key: djb
+# uuid: django-backends-db-mysql
+# group: django-backends
+# --
+django.db.backends.mysql

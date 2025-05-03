@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: autoescape (django)
+# key: djt
+# uuid: django-templates-autoescape
+# group: django-templates
+# --
+{% autoescape ${1:$$(yas-choose-value '("on" "off"))} %}
+    `(yas-selected-text)`$0
+{% endautoescape %}

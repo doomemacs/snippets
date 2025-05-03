@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter addslashes (django)
+# key: |
+# uuid: django-templates-filter-addslashes
+# group: django-templates
+# --
+|addslashes

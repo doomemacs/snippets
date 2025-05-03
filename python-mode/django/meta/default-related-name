@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: default_related_name - The name that will be used by default for the relation from a related object back to this one. The default is <model_name>_set.
+# key: djmeta
+# uuid: django-meta-default-related-name
+# group: django-meta      
+# --
+default_related_name = '$0'

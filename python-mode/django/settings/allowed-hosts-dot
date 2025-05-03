@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: ALLOWED_HOSTS - "*" matches anything, ".example.com" matches example.com and all subdomains
+# key: settings.
+# uuid: django-settings-allowed-hosts-dot
+# group: django-settings-dot
+# --
+settings.ALLOWED_HOSTS

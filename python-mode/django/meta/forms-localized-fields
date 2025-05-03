@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: forms localized_fields
+# key: djmeta
+# uuid: django-meta-forms-localized-fields
+# group: django-meta
+# --
+localized_fields = ('${1:FIELD NAME}',$0)

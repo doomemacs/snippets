@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: messages.storage.CookieStorage
+# key: djb
+# uuid: django-backends-message-cookie
+# group: django-backends
+# --
+django.contrib.messages.storage.cookie.CookieStorage

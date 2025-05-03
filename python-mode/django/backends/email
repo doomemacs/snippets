@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: core.mail.backends.smtp.EmailBackend
+# key: djb
+# uuid: django-backends-email
+# group: django-backends
+# --
+django.core.mail.backends.smtp.EmailBackend

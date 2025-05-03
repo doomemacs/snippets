@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter striptags (django)
+# key: |
+# uuid: django-templates-filter-striptags
+# group: django-templates
+# --
+|striptags

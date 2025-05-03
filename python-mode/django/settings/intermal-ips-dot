@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: INTERNAL_IPS - List of IP addresses, as strings
+# key: settings.
+# uuid: django-settings-internal-ips-dot
+# group: django-settings-dot
+# --
+settings.INTERNAL_IPS

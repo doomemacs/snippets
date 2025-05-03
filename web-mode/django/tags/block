@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: block (django)
+# key: djt
+# uuid: django-templates-block
+# group: django-templates
+# --
+{% block ${1:NAME} %}
+    `(yas-selected-text)`$0
+{% endblock %}

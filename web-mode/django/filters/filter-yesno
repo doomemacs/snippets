@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter yesno (django)
+# key: |
+# uuid: django-templates-filter-yesno
+# group: django-templates
+# --
+|yesno:"${1:YES},${2:NO},${3:MAYBE}"

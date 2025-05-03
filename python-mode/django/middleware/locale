@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LocaleMiddleware
+# key: djmid
+# uuid: django-middleware-locale
+# group: django-middleware
+# --
+django.middleware.locale.LocaleMiddleware

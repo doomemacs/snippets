@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: CACHES - The cache backends to use.
+# key: djs
+# uuid: django-settings-caches
+# group: django-settings
+# --
+# The cache backends to use.
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+    }
+}

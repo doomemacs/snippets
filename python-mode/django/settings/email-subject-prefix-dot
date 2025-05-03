@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: EMAIL_SUBJECT_PREFIX - Subject-line prefix for email messages.
+# key: settings.
+# uuid: django-settings-email-subject-prefix-dot
+# group: django-settings-dot
+# --
+settings.EMAIL_SUBJECT_PREFIX

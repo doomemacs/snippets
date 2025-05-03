@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: EMAIL_HOST - Host for sending email.
+# key: djs
+# uuid: django-settings-email-host
+# group: django-settings
+# --
+# Host for sending email.
+EMAIL_HOST = 'localhost'

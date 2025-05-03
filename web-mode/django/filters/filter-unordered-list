@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter unordered_list (django)
+# key: |
+# uuid: django-templates-filter-unordered-list
+# group: django-templates
+# --
+|unordered_list

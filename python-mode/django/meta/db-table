@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: db_table - The name of the database table to use for the model:
+# key: djmeta
+# uuid: django-meta-db-table
+# group: django-meta
+# --
+db_table = '$0'

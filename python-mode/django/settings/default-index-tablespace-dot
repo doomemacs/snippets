@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: DEFAULT_INDEX_TABLESPACE
+# key: settings.
+# uuid: django-settings-default-index-tablespace-dot
+# group: django-settings-dot
+# --
+settings.DEFAULT_INDEX_TABLESPACE

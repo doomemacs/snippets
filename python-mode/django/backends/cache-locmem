@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: cache.backends.LocMemCache
+# key: djb
+# uuid: django-backends-cache-locmem
+# group: django-backends
+# --
+django.core.cache.backends.locmem.LocMemCache

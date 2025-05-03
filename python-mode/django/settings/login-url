@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LOGIN_URL
+# key: djs
+# uuid: django-settings-login-url
+# group: django-settings
+# --
+LOGIN_URL = '/accounts/login/'

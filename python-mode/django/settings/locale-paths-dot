@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LOCALE_PATHS
+# key: settings.
+# uuid: django-settings-locale-paths-dot
+# group: django-settings-dot
+# --
+settings.LOCALE_PATHS

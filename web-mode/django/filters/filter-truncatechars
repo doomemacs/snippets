@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter truncatechars (django)
+# key: |
+# uuid: django-templates-filter-truncatechars
+# group: django-templates
+# --
+|truncatechars:$0

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name:  DEBUG_PROPAGATE_EXCEPTIONS - Whether the framework should propagate raw exceptions rather than catching them.
+# key: settings.
+# uuid: django-setting-debug-prop-exc-dot
+# group: django-settings-dot
+# --
+settings.DEBUG_PROPAGATE_EXCEPTIONS

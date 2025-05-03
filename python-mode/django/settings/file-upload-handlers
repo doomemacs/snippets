@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: FILE_UPLOAD_HANDLERS - List of upload handler classes to be applied in order.
+# key: djs
+# uuid: django-settings-file-upload-handlers
+# group: django-settings
+# --
+# List of upload handler classes to be applied in order.
+FILE_UPLOAD_HANDLERS = [
+    'django.core.files.uploadhandler.MemoryFileUploadHandler',
+    'django.core.files.uploadhandler.TemporaryFileUploadHandler',
+]

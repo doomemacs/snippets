@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: FetchFromCacheMiddleware'
+# key: djmid
+# uuid: django-middleware-cache-fetch
+# group: django-middleware                        
+# --
+django.middleware.cache.FetchFromCacheMiddleware

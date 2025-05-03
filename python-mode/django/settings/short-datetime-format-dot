@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: SHORT_DATETIME_FORMAT - Default short formatting for datetime objects.
+# key: settings.
+# uuid: django-settings-short-datetime-format-dot
+# group: django-settings-dot
+# --
+settings.SHORT_DATETIME_FORMAT

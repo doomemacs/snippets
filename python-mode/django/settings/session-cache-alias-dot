@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name:  SESSION_CACHE_ALIAS - Cache to store session data if using the cache session backend.
+# key: settings.
+# uuid: django-settings-session-cache-alias-dot
+# group: django-settings-dot
+# --
+settings.SESSION_CACHE_ALIAS

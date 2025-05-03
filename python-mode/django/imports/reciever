@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: signal receiver
+# key: dji
+# uuid: django-imports-signal-receiver
+# group: django-imports
+# --
+from django.dispatch import receiver

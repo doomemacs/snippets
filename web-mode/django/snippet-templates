@@ -1,0 +1,20 @@
+# -*- mode: fundamental -*-
+
+### Template tags
+
+# -*- mode: snippet -*-
+# name:
+# key: |
+# uuid: django-templates-
+# group: django-templates
+
+# --
+
+### Template filters
+
+# -*- mode: snippet -*-
+# name:
+# key: |
+# uuid: django-templates-
+# group: django-templates
+# --

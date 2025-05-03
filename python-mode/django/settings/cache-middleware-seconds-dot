@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: CACHE_MIDDLEWARE_SECONDS
+# key: settings.
+# uuid: django-settings-cache-middleware-seconds-dot
+# group: django-settings-dot
+# --
+settings.CACHE_MIDDLEWARE_SECONDS

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: USE_I18N - If you set this to False, Django will make some optimizations so as not to load the internationalization machinery.
+# key: djs
+# uuid: django-settings-use-i18n
+# group: djangosettings
+# --
+# If you set this to False, Django will make some optimizations so as not
+# to load the internationalization machinery.
+USE_I18N = True

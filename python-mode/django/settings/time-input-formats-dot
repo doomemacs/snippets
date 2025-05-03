@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: TIME_INPUT_FORMATS - Default formats to be used when parsing times from input boxes, in order
+# key: settings.
+# uuid: django-settings-datetime-input-formats-dot
+# group: django-settings-dot
+# --
+settings.TIME_INPUT_FORMATS

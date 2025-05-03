@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LANGUAGE_COOKIE_SAMESITE
+# key: settings.
+# uuid: django-settings-language-cookie-samesite-dot
+# group: django-settings-dot
+# --
+settings.LANGUAGE_COOKIE_SAMESITE

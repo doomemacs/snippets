@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: Basic Function Based View
+# key: djv
+# uuid: django-views-basiv-function-get-view
+# group: django-views
+# --
+# from django.views.decorators.http import require_http_methods
+@require_http_methods(['GET'])
+def ${1:VIEWNAME}(request, template_name='$1.html'):
+    """${2:DOCSTRING}"""
+    context = {}$0
+    return render(request, template_name, context)

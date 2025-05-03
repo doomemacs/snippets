@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: inclusion tag
+# key: djtt
+# uuid: django-custom-inclusion-tag
+# group: django-custom
+# --
+@register.inclusion_tag('$1.html')
+def ${1:NAME}(${2:ARGUMENT}):
+    """${3:DOC STRING}"""
+    $0

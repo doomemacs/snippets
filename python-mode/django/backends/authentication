@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: auth.backends.ModelBackend
+# key: djb
+# uuid: django-backends-authentication
+# group: django-backends
+# --
+django.contrib.auth.backends.ModelBackend

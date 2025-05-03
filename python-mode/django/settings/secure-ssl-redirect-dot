@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: SECURE_SSL_REDIRECT
+# key: settings.
+# uuid: django-settings-secure-ssl-redirect-dot
+# group: django-settings-dot
+# --
+settings.SECURE_SSL_REDIRECT

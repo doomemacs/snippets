@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: forms widgets
+# key: djmeta
+# uuid: django-meta-forms-widgets
+# group: django-meta
+# --
+widgets = {
+    '${1:FIELD NAME}': ${2:FIELD}$0
+
+    # Example
+    # from django.forms import Textarea
+    # 'name': Textarea(attrs={'cols': 80, 'rows': 20}),
+}

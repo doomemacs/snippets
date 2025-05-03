@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: humanize apnumber (django)
+# key: |
+# uuid: django-templates-filter-humanize-apnumber
+# group: django-templates
+# --
+|apnumber

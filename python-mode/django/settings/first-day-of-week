@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: FIRST_DAY_OF_WEEK - First day of week, to be used on calendars.
+# key: djs
+# uuid: django-settings-first-day-of-week
+# group: django-settings
+# --
+# First day of week, to be used on calendars
+# 0 means Sunday, 1 means Monday...
+FIRST_DAY_OF_WEEK = 0

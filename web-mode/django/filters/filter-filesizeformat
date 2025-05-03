@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter filesizeformat (django)
+# key: |
+# uuid: django-templates-filter-filesizeformat
+# group: django-templates
+# --
+|filesizeformat

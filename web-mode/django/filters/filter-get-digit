@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter get_digit (django)
+# key: |
+# uuid: django-templates-filter-get-digit
+# group: django-templates
+# --
+|get_digit:"$0"

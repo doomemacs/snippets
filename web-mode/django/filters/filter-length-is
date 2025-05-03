@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter length_is (django)
+# key: |
+# uuid: django-templates-filter-length-is
+# group: django-templates
+# --
+|length_is:"$0"

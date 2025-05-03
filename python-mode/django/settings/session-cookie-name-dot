@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: SESSION_COOKIE_NAME - Cookie name. This can be whatever you want.
+# key: settings.
+# uuid: django-settings-session-cookie-name-dot
+# group: django-settings-dot
+# --
+settings.SESSION_COOKIE_NAME

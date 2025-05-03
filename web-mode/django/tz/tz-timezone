@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: tz timezone (django)
+# key: djt
+# uuid: django-templates-tz-timezone
+# group: django-templates
+# --
+{% timezone ${1:TIME ZONE} %}
+    `(yas-selected-text)`$0
+{% endtimezone %}

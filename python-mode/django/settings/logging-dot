@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LOGGING - Custom logging configuration.
+# key: settings.
+# uuid: django-settings-logging-dot
+# group: django-settings-dot
+# --
+settings.LOGGING

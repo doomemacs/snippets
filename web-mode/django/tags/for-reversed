@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: for reversed (django)
+# key: djt
+# uuid: django-templates-for-reversed
+# group: django-templates
+# --
+{% for ${1:KEY} in ${2:ITERABLE}} reversed %}
+    $0
+{% endfor %}

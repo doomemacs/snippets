@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: url-path
+# key: dji
+# uuid: django-imports-url-path
+# group: django-imports
+# --
+from django.urls import path

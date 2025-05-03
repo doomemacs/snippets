@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: DATABASES - Database connection info. If left empty, will default to the dummy backend.
+# key: settings.
+# uuid: django-settings-databases-dot
+# group: django-settings-dot
+# --
+settings.DATABASES

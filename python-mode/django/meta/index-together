@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: index_together - Sets of field names that, taken together, are indexed
+# key: djmeta
+# uuid: django-meta-index-together
+# group: django-meta
+# --
+index_together = [$0]

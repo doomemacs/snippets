@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: CSRF_COOKIE_SECURE
+# key: djs
+# uuid: django-settings-csrf-cookie-secure
+# group: django-settings
+# --
+CSRF_COOKIE_SECURE = False

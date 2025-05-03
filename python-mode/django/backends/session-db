@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: contrib.sessions.backends.db
+# key: djb
+# uuid: django-backends-session-db
+# group: django-backends
+# --
+django.contrib.sessions.backends.db

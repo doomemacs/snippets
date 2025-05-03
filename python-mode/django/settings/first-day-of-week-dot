@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: FIRST_DAY_OF_WEEK - First day of week, to be used on calendars.
+# key: settings.
+# uuid: django-settings-first-day-of-week-dot
+# group: django-settings-dot
+# --
+settings.FIRST_DAY_OF_WEEK

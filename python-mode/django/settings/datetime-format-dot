@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: DATETIME_FORMAT - Default formatting for datetime objects.
+# key: settings.
+# uuid: django-settings-datetime-format-dot
+# group: django-settings-dot
+# --
+settings.DATETIME_FORMAT

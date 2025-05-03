@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: core.signing.TimestampSigner
+# key: djb
+# uuid: django-backends-signing
+# group: django-backends
+# --
+django.core.signing.TimestampSigner

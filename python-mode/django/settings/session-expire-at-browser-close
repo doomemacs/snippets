@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: SESSION_EXPIRE_AT_BROWSER_CLOSE - Whether a user's session cookie expires when the Web browser is closed.
+# key: djs
+# uuid: django-settings-session-expire-at-browser-close
+# group: django-settings                               
+# --
+# Whether a user's session cookie expires when the Web browser is closed.
+SESSION_EXPIRE_AT_BROWSER_CLOSE = False

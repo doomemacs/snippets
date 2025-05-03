@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter wordcount (django)
+# key: |
+# uuid: django-templates-filter-wordcount
+# group: django-templates
+# --
+|wordcount

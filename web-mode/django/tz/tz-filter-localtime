@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: tz filter localtime (django)
+# key: |
+# uuid: django-templates-tz-filter-localtime
+# group: django-templates
+# --
+|localtime

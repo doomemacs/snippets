@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: plt
+# key: plt
+# uuid: plt
+# group: general
+# --
+import matplotlib.pyplot as plt
+$0

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Notice: excerpt
+# key: <excerpt
+# --
+#+begin_quote excerpt
+`yas-selected-text`$0
+#+end_quote

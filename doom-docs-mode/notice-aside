@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Notice: aside
+# key: <aside
+# --
+#+begin_quote aside
+`yas-selected-text`$0
+#+end_quote

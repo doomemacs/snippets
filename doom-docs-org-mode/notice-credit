@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: Notice: credit
-# key: <credit
+# name: Notice: kudos
+# key: <kudos
 # --
-#+begin_quote
- 󰔓 `%`$0
+#+begin_quote kudos
+`%`$0
 #+end_quote

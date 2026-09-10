@@ -2,6 +2,6 @@
 # name: Notice: work-in-progress
 # key: <wip
 # --
-#+begin_quote
- 󱌣 `%`$0
+#+begin_quote wip
+`%`$0
 #+end_quote

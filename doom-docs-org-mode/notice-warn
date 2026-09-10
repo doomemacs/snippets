@@ -2,6 +2,6 @@
 # name: Notice: warning
 # key: <warn
 # --
-#+begin_quote
-  `%`$0
+#+begin_quote warning
+`%`$0
 #+end_quote

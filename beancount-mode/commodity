@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: Commidity directive
 # key: com
-# condition: (bolp)
+# condition: (doom-snippets-bolp)
 # --
 `(format-time-string "%Y-%m-%d")` commodity ${1:USD}
   name: "${2:American dollar}"

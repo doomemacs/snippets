@@ -2,7 +2,7 @@
 # name: bang
 # key: #!
 # uuid: #!
-# condition: (bolp)
+# condition: (doom-snippets-bolp)
 # insert a choice if you have more than one possibility
 # --
 #!/usr/bin/env ${1:bash}

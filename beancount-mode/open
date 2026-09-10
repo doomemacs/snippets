@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: Open account
 # key: op
-# condition: (bolp)
+# condition: (doom-snippets-bolp)
 # --
 `(format-time-string "%Y-%m-%d")` open $0

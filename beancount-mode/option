@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: Option directive
 # key: opt
-# condition: (bolp)
+# condition: (doom-snippets-bolp)
 # --
 `(format-time-string "%Y-%m-%d")` option "$1" "$2"

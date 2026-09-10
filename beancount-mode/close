@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: Close account
 # key: cl
-# condition: (bolp)
+# condition: (doom-snippets-bolp)
 # --
 `(format-time-string "%Y-%m-%d")` close $0

@@ -2,5 +2,5 @@
 # name: for each loop
 # --
 for i, ${1:x} in pairs(${2:table}) do
-    `%`$0
+    `yas-selected-text`$0
 end

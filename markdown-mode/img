@@ -1,4 +1,4 @@
 # -*- mode: snippet; require-final-newline: nil -*-
 # name: Image
 # --
-![${1:Alt Text}](${2:`%`URL})$0
+![${1:Alt Text}](${2:`yas-selected-text`URL})$0

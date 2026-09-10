@@ -3,4 +3,4 @@
 # key: println
 # uuid: println
 # --
-System.out.println("`%`$0");
+System.out.println("`yas-selected-text`$0");

@@ -3,4 +3,4 @@
 # key: so
 # uuid: so
 # --
-Some(${1:`%`})
+Some(${1:`yas-selected-text`})

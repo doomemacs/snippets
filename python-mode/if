@@ -5,4 +5,4 @@
 # group: control structure
 # --
 if ${1:cond}:
-    ${2:`(or % "pass")`}
+    ${2:`(or yas-selected-text "pass")`}

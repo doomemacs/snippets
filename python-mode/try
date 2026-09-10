@@ -3,6 +3,6 @@
 # key: try
 # --
 try:
-    ${1:`(or % "pass")`}
+    ${1:`(or yas-selected-text "pass")`}
 except ${2:Exception}:
     $0

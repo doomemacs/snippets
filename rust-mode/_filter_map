@@ -4,4 +4,4 @@
 # uuid: fm
 # condition: (doom-snippets-without-trigger (eq (char-before) ?.))
 # --
-filter_map(${1:`%`})
+filter_map(${1:`yas-selected-text`})

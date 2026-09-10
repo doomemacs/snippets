@@ -2,5 +2,5 @@
 # name: while
 # --
 while ($1) {
-  `%`$0
+  `yas-selected-text`$0
 }

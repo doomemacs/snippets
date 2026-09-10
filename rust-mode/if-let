@@ -4,5 +4,5 @@
 # uuid: ifl
 # --
 if let ${1:Some(${2:x})} = ${3:var} {
-   `%`$0
+   `yas-selected-text`$0
 }

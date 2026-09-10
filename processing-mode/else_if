@@ -3,5 +3,5 @@
 # key: elseif
 # --
 else if ($1) {
-  `%`$0
+  `yas-selected-text`$0
 }

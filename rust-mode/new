@@ -3,4 +3,4 @@
 # key: new
 # uuid: new
 # --
-${1:Vec}::new(${2:`%`})`(if (eolp) ";" "")`
+${1:Vec}::new(${2:`yas-selected-text`})`(if (eolp) ";" "")`

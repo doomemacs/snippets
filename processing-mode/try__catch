@@ -3,7 +3,7 @@
 # key: tryc
 # --
 try {
-  `%`$1
+  `yas-selected-text`$1
 } catch (${2:Exception} e) {
   $3
 }

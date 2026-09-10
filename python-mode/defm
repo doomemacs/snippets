@@ -5,4 +5,4 @@
 # group: object oriented
 # --
 def ${1:method_name}(self${2:, $3}):
-    ${4:`(or % "pass")`}
+    ${4:`(or yas-selected-text "pass")`}

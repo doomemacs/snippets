@@ -4,5 +4,5 @@
 # uuid: forit
 # --
 for (${1:iter}=${2:var}.begin(); $1!=$2.end(); ++$1) {
-    `%`$0
+    `yas-selected-text`$0
 }

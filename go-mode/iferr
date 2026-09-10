@@ -2,5 +2,5 @@
 # name: if err != nil { ... }
 # --
 if err != nil {
-    `%`$0
+    `yas-selected-text`$0
 }

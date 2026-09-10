@@ -3,4 +3,4 @@
 # name: var=
 # key: var=
 # --
-var ${1:variable}${2:: ${3:Int}} = `%`$0
+var ${1:variable}${2:: ${3:Int}} = `yas-selected-text`$0

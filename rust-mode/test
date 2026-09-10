@@ -6,5 +6,5 @@
 # --
 #[test]
 fn ${1:test_name}() {
-   `%`$0
+   `yas-selected-text`$0
 }

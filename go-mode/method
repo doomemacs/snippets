@@ -3,5 +3,5 @@
 # uuid: method
 # --
 func (${1:target}) ${2:name}(${3:args}) ${4:return type}{
-    `%`$0
+    `yas-selected-text`$0
 }

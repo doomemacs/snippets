@@ -5,4 +5,4 @@
 # --
 #+attr_html: :alt $2 :align ${3:left} :class img
 [[${1:src}]${4:[${5:title}]}]
-`%`$0
+`yas-selected-text`$0

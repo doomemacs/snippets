@@ -4,5 +4,5 @@
 # key: forin
 # --
 for (${1:key} in ${2:iterable}) {
-    `%`$0
+    `yas-selected-text`$0
 }

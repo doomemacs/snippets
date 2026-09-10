@@ -3,4 +3,4 @@
 # name: val=
 # key: val=
 # --
-val ${1:name}${2:: ${3:Int}} = `%`$0
+val ${1:name}${2:: ${3:Int}} = `yas-selected-text`$0

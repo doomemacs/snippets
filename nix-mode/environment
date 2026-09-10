@@ -4,5 +4,5 @@
 # uuid: env
 # --
 environment = {
-  ${0:`%`}
+  ${0:`yas-selected-text`}
 };

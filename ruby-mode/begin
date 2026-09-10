@@ -4,7 +4,7 @@
 # uuid: begin
 # --
 begin
-    `%`$0
+    `yas-selected-text`$0
 rescue ${1:Error}
        # handle error
 end

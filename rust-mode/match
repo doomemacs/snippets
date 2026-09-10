@@ -4,5 +4,5 @@
 # key: match
 # --
 match ${1:x} {
-    `%`$0
+    `yas-selected-text`$0
 }

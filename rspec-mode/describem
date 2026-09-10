@@ -2,5 +2,5 @@
 # name: describe Class, 'modifier' do ... end
 # --
 describe ${1:`(rspec-class-from-file-name)`}, \'${2:modifier}\' do
-  `%`$0
+  `yas-selected-text`$0
 end

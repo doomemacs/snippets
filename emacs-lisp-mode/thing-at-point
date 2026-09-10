@@ -2,4 +2,4 @@
 # name: thing-at-point
 # key: tap
 # --
-(thing-at-point `%`$0)
+(thing-at-point `yas-selected-text`$0)

@@ -3,5 +3,5 @@
 # key: gnn
 # --
 std::generate_n(std::begin(${1:container}), $2, []($3) {
-  `%`$4
+  `yas-selected-text`$4
 });

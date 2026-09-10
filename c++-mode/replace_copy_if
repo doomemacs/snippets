@@ -6,7 +6,7 @@ std::replace_copy_if(
   std::begin(${1:container}),
   std::end($1),
   std::begin($1), []($2) {
-    `%`$3
+    `yas-selected-text`$3
   },
   $4
 );

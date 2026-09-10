@@ -3,4 +3,4 @@
 # key: urld
 # uuid: urld
 # --
-urldecode(${1:`%`})$0
+urldecode(${1:`yas-selected-text`})$0

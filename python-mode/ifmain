@@ -2,4 +2,4 @@
 # name: ifmain
 # --
 if __name__ == '__main__':
-    ${1:`(or % "pass")`}
+    ${1:`(or yas-selected-text "pass")`}

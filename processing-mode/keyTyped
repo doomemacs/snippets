@@ -3,5 +3,5 @@
 # key: keyt
 # --
 void keyTyped(){
-  `%`$0
+  `yas-selected-text`$0
 }

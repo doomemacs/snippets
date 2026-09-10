@@ -2,4 +2,4 @@
 # name: lambda
 # key: lam
 # --
-(lambda [$1]`(and % (concat " " (doom-snippets-format "%n%s")))`$0)`(doom-snippets-newline-or-eol)`
+(lambda [$1]`(and yas-selected-text (concat " " (doom-snippets-format "%n%s")))`$0)`(doom-snippets-newline-or-eol)`

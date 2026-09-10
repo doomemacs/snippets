@@ -4,5 +4,5 @@
 # --
 auto pos = std::is_heap_until(std::begin(${1:container}), std::end($1));
 if (pos != std::end($1)) {
-  `%`$2
+  `yas-selected-text`$2
 }

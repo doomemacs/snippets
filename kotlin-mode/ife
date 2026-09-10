@@ -4,7 +4,7 @@
 # key: ife
 # --
 if (${1:true}) {
-    `%`$2
+    `yas-selected-text`$2
 } else {
     $0
 }

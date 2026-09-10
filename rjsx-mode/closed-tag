@@ -3,4 +3,4 @@
 # key: </
 # uuid: </
 # --
-<${1:div} `%`$0/>
+<${1:div} `yas-selected-text`$0/>

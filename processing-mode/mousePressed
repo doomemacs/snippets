@@ -3,5 +3,5 @@
 # key: mousep
 # --
 void mousePressed() {
-  `%`$0
+  `yas-selected-text`$0
 }

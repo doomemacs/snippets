@@ -4,6 +4,6 @@
 # uuid: adv
 # --
 (defun ${3:adviser-name} (orig-fn &rest args)
-  ${4:`%`}
+  ${4:`yas-selected-text`}
   (apply orig-fn args))
 (advice-add #'${1:function-name} ${2::around} #'${3:adviser-name})

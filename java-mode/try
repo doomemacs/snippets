@@ -5,7 +5,7 @@
 # condition: (not (sp-point-in-string-or-comment))
 # --
 try {
-    `%`$0
+    `yas-selected-text`$0
 } catch (${1:Throwable} e) {
       ${2:System.out.println("Error " + e.getMessage());
       e.printStackTrace();}

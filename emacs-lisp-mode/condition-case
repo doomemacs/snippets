@@ -4,5 +4,5 @@
 # uuid: cc
 # --
 (condition-case ex
-    $>${0:`%`}
+    $>${0:`yas-selected-text`}
   (error $0))

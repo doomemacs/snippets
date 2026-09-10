@@ -2,4 +2,4 @@
 # name: $var = value;
 # key: var
 # --
-\$${1:var} = `%`$0;
+\$${1:var} = `yas-selected-text`$0;

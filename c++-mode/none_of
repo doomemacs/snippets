@@ -3,7 +3,7 @@
 # key: nno
 # --
 if (std::none_of(std::begin(${1:container}), std::end($1), []($2) {
-  `%`$3
+  `yas-selected-text`$3
 })) {
   $4
 }

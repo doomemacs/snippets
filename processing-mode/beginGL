@@ -3,5 +3,5 @@
 # key: begingl
 # --
 pgl.beginGL();
-`%`$0
+`yas-selected-text`$0
 pgl.endGL();

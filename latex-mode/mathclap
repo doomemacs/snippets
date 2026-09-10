@@ -2,4 +2,4 @@
 # name: mathclap
 # key: mc
 # --
-\mathclap{`%`$0}
+\mathclap{`yas-selected-text`$0}

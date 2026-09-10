@@ -2,4 +2,4 @@
 # name: require("...")
 # uuid: require
 # --
-require(`%`$0)`(if (eolp) ";")`
+require(`yas-selected-text`$0)`(if (eolp) ";")`

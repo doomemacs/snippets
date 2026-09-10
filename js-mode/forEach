@@ -3,4 +3,4 @@
 # key: fore
 # uuid: fore
 # --
-`(unless (eq (char-before) ?.) ".")`forEach(`%`$0)`(if (eolp) ";")`
+`(unless (eq (char-before) ?.) ".")`forEach(`yas-selected-text`$0)`(if (eolp) ";")`

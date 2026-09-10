@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
 # name: cons
 # --
-(cons ${1:`%`} $0)
+(cons ${1:`yas-selected-text`} $0)

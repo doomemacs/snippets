@@ -2,5 +2,5 @@
 # name: Code block
 # --
 \`\`\`${1:lang}
-`%`$0
+`yas-selected-text`$0
 \`\`\`

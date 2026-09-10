@@ -5,4 +5,4 @@
 # --
 (def-package! ${1:package}
   :${2:config}
-  `%`$0)
+  `yas-selected-text`$0)

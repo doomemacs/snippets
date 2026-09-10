@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
 # name: car
 # --
-(car ${0:`%`})
+(car ${0:`yas-selected-text`})

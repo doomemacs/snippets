@@ -4,5 +4,5 @@
 # uuid: for
 # --
 for ${1:x} in ${2:items} {
-    `%`$0
+    `yas-selected-text`$0
 }

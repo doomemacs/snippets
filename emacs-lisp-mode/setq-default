@@ -3,4 +3,4 @@
 # key: setqd
 # uuid: setqd
 # --
-(setq-default ${1:`%`} ${0:value})
+(setq-default ${1:`yas-selected-text`} ${0:value})

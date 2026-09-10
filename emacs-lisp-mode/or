@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
 # name: or
 # --
-(or `%`$0)
+(or `yas-selected-text`$0)

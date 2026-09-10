@@ -3,5 +3,5 @@
 # key: default
 # --
 default:
-  `%`$0
+  `yas-selected-text`$0
 break;

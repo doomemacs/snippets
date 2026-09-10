@@ -3,4 +3,4 @@
 # key: p
 # uuid: p
 # --
-print(`%`$1)
+print(`yas-selected-text`$1)

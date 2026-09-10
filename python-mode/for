@@ -5,4 +5,4 @@
 # group: control structure
 # --
 for ${1:var} in ${2:collection}:
-    ${3:`(or % "pass")`}
+    ${3:`(or yas-selected-text "pass")`}

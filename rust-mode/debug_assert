@@ -3,4 +3,4 @@
 # key: dass
 # uuid: dass
 # --
-debug_assert!(`%`$0);
+debug_assert!(`yas-selected-text`$0);

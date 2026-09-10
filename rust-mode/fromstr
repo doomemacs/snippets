@@ -6,7 +6,7 @@ impl FromStr for ${1:Type} {
     type Err = ${2:Error};
 
     fn from_str(s: &str) -> Result<Self, Self::Err> {
-        `%`
+        `yas-selected-text`
         Ok(Self{})
     }
 }

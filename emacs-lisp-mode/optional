@@ -2,4 +2,4 @@
 # name: &optional ...
 # uuid: optional
 # --
-&optional `%`$0
+&optional `yas-selected-text`$0

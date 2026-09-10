@@ -3,5 +3,5 @@
 # key: lxc
 # --
 if (std::lexigraphical_compare(std::begin(${1:container}), std::end($1), std::begin($2), std::end($3))) {
-  `%`$4
+  `yas-selected-text`$4
 }

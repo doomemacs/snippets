@@ -3,4 +3,4 @@
 # key: al
 # uuid: al
 # --
-alert(${0:`%`});
+alert(${0:`yas-selected-text`});

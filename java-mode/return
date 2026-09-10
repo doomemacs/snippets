@@ -4,4 +4,4 @@
 # uuid: ret
 # condition: (not (sp-point-in-string-or-comment))
 # --
-return `%`$0;
+return `yas-selected-text`$0;

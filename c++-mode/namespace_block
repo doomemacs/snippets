@@ -3,5 +3,5 @@
 # key: nss
 # --
 namespace ${1:name} {
-  `%`$0
+  `yas-selected-text`$0
 }

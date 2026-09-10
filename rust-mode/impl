@@ -2,5 +2,5 @@
 # name: impl
 # --
 impl ${1:name}${2: for ${3:Type}} {
-   `%`$0
+   `yas-selected-text`$0
 }

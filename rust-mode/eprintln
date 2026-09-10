@@ -3,4 +3,4 @@
 # key: ep
 # uuid: ep
 # --
-eprintln!("$1", ${2:`%`});$0
+eprintln!("$1", ${2:`yas-selected-text`});$0

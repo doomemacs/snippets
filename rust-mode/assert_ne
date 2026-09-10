@@ -3,4 +3,4 @@
 # key: assn
 # uuid: assn
 # --
-assert_ne!(${1:`%`}, $2);
+assert_ne!(${1:`yas-selected-text`}, $2);

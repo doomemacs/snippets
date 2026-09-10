@@ -2,5 +2,5 @@
 # name: <style type="text/css" media="...">...</style>
 # --
 <style type="text/css" media="${1:screen}">
-  `%`$0
+  `yas-selected-text`$0
 </style>

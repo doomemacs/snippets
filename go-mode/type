@@ -2,5 +2,5 @@
 # name: type ... ... { ... }
 # --
 type ${1:name} ${2:struct | interface} {
-    `%`$0
+    `yas-selected-text`$0
 }

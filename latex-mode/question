@@ -4,4 +4,4 @@
 # uuid: q
 # condition: (not (save-restriction (widen) (texmathp)))
 # --
-\question{${0:`%`}}
+\question{${0:`yas-selected-text`}}

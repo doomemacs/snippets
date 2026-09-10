@@ -4,4 +4,4 @@
 # uuid: -
 # condition: (not (save-restriction (widen) (texmathp)))
 # --
-\item ${0:`%`}
+\item ${0:`yas-selected-text`}

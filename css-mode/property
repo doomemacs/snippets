@@ -3,4 +3,4 @@
 # key: :
 # uuid: :
 # --
-${1:prop}: ${2:`%`};
+${1:prop}: ${2:`yas-selected-text`};

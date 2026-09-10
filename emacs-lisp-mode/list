@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
 # name: list
 # --
-(list `%`$0)
+(list `yas-selected-text`$0)

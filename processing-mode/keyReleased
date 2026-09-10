@@ -3,5 +3,5 @@
 # key: keyr
 # --
 void keyReleased(){
-  `%`$0
+  `yas-selected-text`$0
 }

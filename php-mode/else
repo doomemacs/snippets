@@ -4,5 +4,5 @@
 # uuid: el
 # --
 else {
-    `%`$0
+    `yas-selected-text`$0
 }

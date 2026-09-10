@@ -3,4 +3,4 @@
 # key: dump
 # uuid: dump
 # --
-var_dump(`%`$1);
+var_dump(`yas-selected-text`$1);

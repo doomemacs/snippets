@@ -3,4 +3,4 @@
 # key: =>
 # uuid: =>
 # --
-$1 => `(if (> (doom-snippets-count-lines %) 1) (concat "{ " (doom-snippets-format "%n%s%n") " }") %)`$0
+$1 => `(if (> (doom-snippets-count-lines yas-selected-text) 1) (concat "{ " (doom-snippets-format "%n%s%n") " }") yas-selected-text)`$0

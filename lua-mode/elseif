@@ -2,4 +2,4 @@
 # name: elseif ... then ...
 # --
 elseif ${1:true} then
-   `%`$0
+   `yas-selected-text`$0

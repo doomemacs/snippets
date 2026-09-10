@@ -3,4 +3,4 @@
 # key: sq
 # condition: (texmathp)
 # --
-\sqrt{`%`$1}$0
+\sqrt{`yas-selected-text`$1}$0

@@ -3,5 +3,5 @@
 # key: moused
 # --
 void mouseDragged() {
-  `%`$0
+  `yas-selected-text`$0
 }

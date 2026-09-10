@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
 # name: length
 # --
-(length `%`$0)
+(length `yas-selected-text`$0)

@@ -3,4 +3,4 @@
 # key: var
 # uuid: var
 # --
-var ${1:name} = ${0:`%`};
+var ${1:name} = ${0:`yas-selected-text`};

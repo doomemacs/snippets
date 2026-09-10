@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
 # name: cdr
 # --
-(cdr ${0:`%`})
+(cdr ${0:`yas-selected-text`})

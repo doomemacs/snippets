@@ -3,4 +3,4 @@
 # key: ec
 # uuid: ec
 # --
-echo `%`$0;
+echo `yas-selected-text`$0;

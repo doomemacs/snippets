@@ -4,4 +4,4 @@
 # uuid: out
 # --
 `(setq --cpp-ns (if (doom-snippets-c++-using-std-p) "" "std::"))
---cpp-ns`cout << `%`$1 << `--cpp-ns`endl;`(progn (makunbound '--cpp-ns) "")`
+--cpp-ns`cout << `yas-selected-text`$1 << `--cpp-ns`endl;`(progn (makunbound '--cpp-ns) "")`

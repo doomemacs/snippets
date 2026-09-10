@@ -3,4 +3,4 @@
 # key: du
 # uuid: du
 # --
-decodeURI(${1:`%`})`(if (eolp) ";")`
+decodeURI(${1:`yas-selected-text`})`(if (eolp) ";")`

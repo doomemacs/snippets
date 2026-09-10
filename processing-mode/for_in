@@ -3,5 +3,5 @@
 # key: fori
 # --
 for (${1:Object} ${2:o} : ${3:array}){
-  `%`$0
+  `yas-selected-text`$0
 }

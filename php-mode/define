@@ -3,4 +3,4 @@
 # key: de
 # uuid: de
 # --
-define("${1:CONSTANT}", ${2:`%`value});
+define("${1:CONSTANT}", ${2:`yas-selected-text`value});

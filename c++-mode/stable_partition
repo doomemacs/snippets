@@ -3,7 +3,7 @@
 # key: spt
 # --
 auto pos = std::stable_partition(std::begin(${1:container}), std::end($1), []($2) {
-  `%`$3
+  `yas-selected-text`$3
 });
 if (pos != std::end($1)) {
   $4

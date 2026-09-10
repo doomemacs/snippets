@@ -3,4 +3,4 @@
 # key: p=
 # uuid: p=
 # --
-<?=`%`$0 ?>
+<?=`yas-selected-text`$0 ?>

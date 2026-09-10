@@ -2,4 +2,4 @@
 # name: #include <lib>
 # key: inc
 # --
-#include <`%`${1:lib}>
+#include <`yas-selected-text`${1:lib}>

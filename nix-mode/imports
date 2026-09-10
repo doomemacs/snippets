@@ -5,5 +5,5 @@
 # condition: (doom-snippets-bolp)
 # --
 imports = [
-  ${0:`%`}
+  ${0:`yas-selected-text`}
 ];

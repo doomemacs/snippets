@@ -5,6 +5,6 @@ class ${1:Name} {
     $2
 
     constructor($3) {
-        `%`$0
+        `yas-selected-text`$0
     }
 }

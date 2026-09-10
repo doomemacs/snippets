@@ -4,4 +4,4 @@
 # uuid: elif
 # --
 elif ${1:condition}; then
-    `%`$0
+    `yas-selected-text`$0

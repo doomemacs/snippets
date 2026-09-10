@@ -3,4 +3,4 @@
 # key: ?
 # uuid: ?
 # --
-if ${1:true} then `%`$0 end
+if ${1:true} then `yas-selected-text`$0 end

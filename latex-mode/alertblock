@@ -4,5 +4,5 @@
 # uuid: al
 # --
 \begin{alertblock}{$2}
-        ${0:`%`}
+        ${0:`yas-selected-text`}
 \end{alertblock}

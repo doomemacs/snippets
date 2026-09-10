@@ -4,5 +4,5 @@
 # uuid: /**
 # --
 /**
- * ${0:`(if % (s-replace "\n" "\n * " %))`}
+ * ${0:`(if yas-selected-text (s-replace "\n" "\n * " yas-selected-text))`}
  */

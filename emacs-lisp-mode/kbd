@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
 # name: kbd
 # --
-(kbd "${0:`%`}")
+(kbd "${0:`yas-selected-text`}")

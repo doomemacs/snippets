@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
 # name: if
 # --
-(if ${1:true}`(if % (concat " " (doom-snippets-format "%n%s")))`$0)
+(if ${1:true}`(if yas-selected-text (concat " " (doom-snippets-format "%n%s")))`$0)

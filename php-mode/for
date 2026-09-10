@@ -4,5 +4,5 @@
 # uuid: for
 # --
 for ($1;$2;$3) {
-    `%`$0
+    `yas-selected-text`$0
 }

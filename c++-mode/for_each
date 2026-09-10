@@ -4,5 +4,5 @@
 # uuid: fore
 # --
 std::for_each(std::begin(${1:container}), std::end($1), []($2) {
-  `%`$3
+  `yas-selected-text`$3
 });

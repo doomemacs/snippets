@@ -3,4 +3,4 @@
 # key: con
 # uuid: con
 # --
-const ${1:name} = ${0:`%`};
+const ${1:name} = ${0:`yas-selected-text`};

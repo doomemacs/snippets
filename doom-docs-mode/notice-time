@@ -3,5 +3,5 @@
 # key: <notice
 # --
 #+begin_quote notice
-${1:`(or % (format-time-string "%B %d, %Y"))`}
+${1:`(or yas-selected-text (format-time-string "%B %d, %Y"))`}
 #+end_quote

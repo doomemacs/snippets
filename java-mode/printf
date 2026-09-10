@@ -3,4 +3,4 @@
 # key: printf
 # uuid: printf
 # --
-System.out.printf("`%`$0%n");
+System.out.printf("`yas-selected-text`$0%n");

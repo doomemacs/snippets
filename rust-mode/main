@@ -4,5 +4,5 @@
 # uuid: main
 # --
 fn main() {
-   `%`$0
+   `yas-selected-text`$0
 }

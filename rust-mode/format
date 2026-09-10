@@ -3,4 +3,4 @@
 # key: f
 # uuid: f
 # --
-format!("$1", ${2:`%`})
+format!("$1", ${2:`yas-selected-text`})

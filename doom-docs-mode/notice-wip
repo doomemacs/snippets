@@ -3,5 +3,5 @@
 # key: <wip
 # --
 #+begin_quote wip
-`%`$0
+`yas-selected-text`$0
 #+end_quote

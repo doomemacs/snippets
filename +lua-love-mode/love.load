@@ -3,5 +3,5 @@
 # condition: love-mode
 # --
 function love.load()
-    `%`${0:-- load code}
+    `yas-selected-text`${0:-- load code}
 end

@@ -4,5 +4,5 @@
 # uuid: fori
 # --
 for (\$i = ${1:0}; \$i < ${2:10}; ++\$i) {
-    `%`$0
+    `yas-selected-text`$0
 }

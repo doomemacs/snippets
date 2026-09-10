@@ -2,5 +2,5 @@
 # name: Route::<req>(<url>, [..., <route>])
 # --
 Route::${1:get}('${2:/}', ['as' => '${3:name}', function () {
-    `%`$0
+    `yas-selected-text`$0
 });

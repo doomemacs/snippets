@@ -3,4 +3,4 @@
 # key: v
 # uuid: v
 # --
-vec![${1:`%`}]
+vec![${1:`yas-selected-text`}]

@@ -4,5 +4,5 @@
 # uuid: begin
 # --
 #+begin_${1:type} ${2:options}
-`%`$0
+`yas-selected-text`$0
 #+end_$1

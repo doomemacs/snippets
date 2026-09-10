@@ -4,5 +4,5 @@
 # uuid: eva
 # --
 `(%nix-mode-if-parent "environment")`variables = {
-  ${0:`%`}
+  ${0:`yas-selected-text`}
 };

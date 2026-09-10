@@ -3,5 +3,5 @@
 # condition: love-mode
 # --
 function love.update(dt)
-    `%`${0:-- update code}
+    `yas-selected-text`${0:-- update code}
 end

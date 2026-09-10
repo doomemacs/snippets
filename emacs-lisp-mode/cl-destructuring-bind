@@ -5,4 +5,4 @@
 # --
 (cl-destructuring-bind (${1:args})
     ${2:expr}
-  `%`$0)
+  `yas-selected-text`$0)

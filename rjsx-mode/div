@@ -3,4 +3,4 @@
 # key: div
 # uuid: div
 # --
-<div>${0:`%`}</div>
+<div>${0:`yas-selected-text`}</div>

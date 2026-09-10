@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
 # name: autoload
 # --
-(autoload '${1:fn} "${2:file}"${3:"`%`${4:doc}" ${5:t} ${6:type}})
+(autoload '${1:fn} "${2:file}"${3:"`yas-selected-text`${4:doc}" ${5:t} ${6:type}})

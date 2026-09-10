@@ -5,6 +5,6 @@
 # group: control structure
 # --
 if $1:
-    ${2:`(or % "pass")`}
+    ${2:`(or yas-selected-text "pass")`}
 else:
     $0

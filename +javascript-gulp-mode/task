@@ -2,5 +2,5 @@
 # name: Gulp task
 # --
 gulp.task('${1:task-name}', ($2) => {
-    `%`$0
+    `yas-selected-text`$0
 });

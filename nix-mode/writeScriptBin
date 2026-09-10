@@ -5,5 +5,5 @@
 # --
 pkgs.writeScriptBin "${1:name}" ''
   #!${pkgs.stdenv.shell}
-  ${0:`%`}
+  ${0:`yas-selected-text`}
 ''

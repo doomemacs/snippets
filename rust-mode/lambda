@@ -4,4 +4,4 @@
 # uuid: lambda
 # condition: (not (doom-snippets-bolp))
 # --
-|${1:x}|${2: -> i32} `(if (> (doom-snippets-count-lines %) 1) "{ " "")``(doom-snippets-format "%n%s%n")`$0`(if (> (doom-snippets-count-lines %) 1) " }" "")`
+|${1:x}|${2: -> i32} `(if (> (doom-snippets-count-lines yas-selected-text) 1) "{ " "")``(doom-snippets-format "%n%s%n")`$0`(if (> (doom-snippets-count-lines yas-selected-text) 1) " }" "")`

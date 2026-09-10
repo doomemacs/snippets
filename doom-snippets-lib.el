@@ -5,8 +5,6 @@
 (eval-and-compile
   (require 'yasnippet))
 
-;; Simpler `yas-selected-text' alias for templates
-(defvaralias '% 'yas-selected-text)
 (when doom-snippets-enable-short-helpers
   (defalias '!%! 'doom-snippets-newline-selected-newline)
   (defalias '!% 'doom-snippets-newline-selected)

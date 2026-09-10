@@ -3,4 +3,4 @@
 # key: fo
 # uuid: fo
 # --
-File::open(${1:`%`})`(if (eolp) ";" "")`
+File::open(${1:`yas-selected-text`})`(if (eolp) ";" "")`

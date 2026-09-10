@@ -5,5 +5,5 @@
 # --
 abstract class ${1:Name}${2: extends ${3:Parent}}
 {
-    `%`$0
+    `yas-selected-text`$0
 }

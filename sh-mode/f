@@ -4,5 +4,5 @@
 # uuid: f
 # --
 ${1:name}() {
-    `%`$0
+    `yas-selected-text`$0
 }

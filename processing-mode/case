@@ -3,5 +3,5 @@
 # key: case
 # --
 case ${1:expression}:
-  `%`$0
+  `yas-selected-text`$0
 break;

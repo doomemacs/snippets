@@ -4,4 +4,4 @@
 # uuid: e
 # condition: (not (save-restriction (widen) (texmathp)))
 # --
-\emph{${1:`%`}}$0
+\emph{${1:`yas-selected-text`}}$0

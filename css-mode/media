@@ -4,5 +4,5 @@
 # uuid: med
 # --
 @media ${1:screen} {
-    `%`$0
+    `yas-selected-text`$0
 }

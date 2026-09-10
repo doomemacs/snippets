@@ -3,6 +3,6 @@
 # condition: (doom-snippets-bolp)
 # --
 int main(${1:int argc, char *argv[]}) {
-    `%`$0
+    `yas-selected-text`$0
     return 0;
 }

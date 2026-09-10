@@ -3,5 +3,5 @@
 # condition: love-mode
 # --
 function love.draw(dt)
-    `%`${0:-- draw code}
+    `yas-selected-text`${0:-- draw code}
 end

@@ -3,4 +3,4 @@
 # key: ass
 # uuid: ass
 # --
-assert!(`%`$0);
+assert!(`yas-selected-text`$0);

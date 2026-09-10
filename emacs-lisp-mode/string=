@@ -3,4 +3,4 @@
 # key: string=
 # uuid: string=
 # --
-(string= ${1:`%`} ${2:str})
+(string= ${1:`yas-selected-text`} ${2:str})

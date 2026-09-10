@@ -4,4 +4,4 @@
 # uuid: b
 # condition: (not (save-restriction (widen) (texmathp)))
 # --
-\textbf{`%`$1}$0
+\textbf{`yas-selected-text`$1}$0

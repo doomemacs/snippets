@@ -4,5 +4,5 @@
 # uuid: ael
 # --
 `(unless (eq (char-before) ?.) ".")`addEventListener('${1:DOMContentLoaded}', () => {
-  `%`$0
+  `yas-selected-text`$0
 })`(if (eolp) ";")`

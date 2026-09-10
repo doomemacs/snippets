@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
 # name: const
 # --
-const ${1:name} = ${0:`%`};
+const ${1:name} = ${0:`yas-selected-text`};

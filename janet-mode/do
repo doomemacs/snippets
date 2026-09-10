@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
 # name: do
 # --
-(do `(if % (concat " " (doom-snippets-format "%n%s")))`$0)
+(do `(if yas-selected-text (concat " " (doom-snippets-format "%n%s")))`$0)

@@ -4,5 +4,5 @@
 # uuid: esv
 # --
 `(%nix-mode-if-parent "environment")`sessionVariables = {
-  ${0:`%`}
+  ${0:`yas-selected-text`}
 };

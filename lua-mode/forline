@@ -7,5 +7,5 @@ while true do
     line = f:read()
     if line == nil then break end
 
-    `%`${0:-- code}
+    `yas-selected-text`${0:-- code}
 end

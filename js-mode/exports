@@ -3,4 +3,4 @@
 # uuid: exports
 # key: exp
 # --
-module.exports = `%`$0`(if (eolp) ";")`
+module.exports = `yas-selected-text`$0`(if (eolp) ";")`

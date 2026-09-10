@@ -3,4 +3,4 @@
 # key: p
 # uuid: p
 # --
-println!("$1", ${2:`%`});$0
+println!("$1", ${2:`yas-selected-text`});$0

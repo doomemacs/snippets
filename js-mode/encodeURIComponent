@@ -3,4 +3,4 @@
 # key: euc
 # uuid: euc
 # --
-encodeURIComponent(${1:`%`})`(if (eolp) ";")`
+encodeURIComponent(${1:`yas-selected-text`})`(if (eolp) ";")`

@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
 # name: defvar
 # --
-(defvar ${1:var} ${2:`(or % "value")`}
+(defvar ${1:var} ${2:`(or yas-selected-text "value")`}
   $>"${3:TODO}")

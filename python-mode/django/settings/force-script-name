@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: FORCE_SCRIPT_NAME - Whether to prepend the "www." subdomain to URLs that don't have it.
+# key: djs
+# uuid: django-settings-force-script-name
+# group: django-settings
+# --
+# Override the server-derived value of SCRIPT_NAME
+FORCE_SCRIPT_NAME = None

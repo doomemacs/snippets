@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter divibleby (filter)
+# key: |
+# uuid: django-templates-filter-divisbleby
+# group: django-templates
+# --
+|divisibleby:"$0"

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: XFrameOptionsMiddleware
+# key: djmid
+# uuid: django-middleware-x-frame-options
+# group: django-middleware
+# --
+django.middleware.clickjacking.XFrameOptionsMiddleware

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: resetcycle (django)
+# key: djt
+# uuid: django-templates-resetcycle
+# group: django-templates
+# --
+{% resetcycle %}

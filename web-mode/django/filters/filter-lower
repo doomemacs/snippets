@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter lower (django)
+# key: |
+# uuid: django-templates-filter-lower
+# group: django-templates
+# --
+|lower

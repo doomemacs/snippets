@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: YEAR_MONTH_FORMAT - Default formatting for date objects when only the year and month are relevant.
+# key: settings.
+# uuid: django-settings-year-month-format-dot
+# group: django-settings-dot
+# --
+settings.YEAR_MONTH_FORMAT

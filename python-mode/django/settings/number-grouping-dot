@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: NUMBER_GROUPING - Number of digits that will be together
+# key: settings.
+# uuid: django-settings-number-grouping-dot
+# group: django-settings-dot
+# --
+settings.NUMBER_GROUPING

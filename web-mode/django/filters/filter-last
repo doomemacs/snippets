@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter last (django)
+# key: |
+# uuid: django-templates-filter-last
+# group: django-templates
+# --
+|last

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MIDDLEWARE - List of middleware to use.
+# key: settings.
+# uuid: django-settings-middleware-dot
+# group: django-settings-dot
+# --
+settings.MIDDLEWARE

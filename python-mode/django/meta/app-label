@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: app_label - If a model is defined outside of an application in INSTALLED_APPS, it must declare which app it belongs to
+# key: djmeta
+# uuid: django-meta-app-label
+# group: django-meta
+# --
+app_label = '$0'

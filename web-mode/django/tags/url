@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: url (django)
+# key: djt
+# uuid: django-templates-url
+# group: django-templates
+# --
+{% url '${1:URL NAME}' ${2:ARG1}${3: as ${4:VARIABLE}} %}

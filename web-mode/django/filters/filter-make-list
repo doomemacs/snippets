@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter make_list (django)
+# key: |
+# uuid: django-templates-filter-make-list
+# group: django-templates
+# --
+|make_list

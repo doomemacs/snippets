@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: templatetag (django)
+# key: djt
+# uuid: django-templates-templatetag
+# group: django-templates
+# --
+{% templatetag ${1:$$(yas-choose-value '("openblock" "closeblock" "openvariable" "closevariable" "openbrace" "closebrace" "opencomment" "closecomment"))} %}

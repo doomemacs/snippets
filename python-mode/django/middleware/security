@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: SecurityMiddlware
+# key: djmid
+# uuid: django-middleware-security
+# group: django-middleware
+# --
+django.middleware.security.SecurityMiddleware

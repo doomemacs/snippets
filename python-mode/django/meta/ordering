@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: ordering - The default ordering for the object, for use when obtaining lists of objects
+# key: djmeta
+# uuid: django-meta-ordering
+# group: django-meta
+# --
+ordering = ['$1']$0

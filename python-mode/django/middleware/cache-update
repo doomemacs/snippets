@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: UpdateCacheMiddleware
+# key: djmid
+# uuid: django-middleware-cache-update
+# group: django-middleware
+# --
+django.middleware.cache.UpdateCacheMiddleware

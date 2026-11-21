@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: i18n get_current_language (django)
+# key: djt
+# uuid: django-templates-i18n-get-current-language
+# group: django-templates
+# --
+{% get_current_language as $0 %}

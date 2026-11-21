@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: form fields
+# key: djmeta
+# uuid: django-meta-forms-fields
+# group: django-meta
+# --
+fields = ['${1:FIELD NAME}'$0]

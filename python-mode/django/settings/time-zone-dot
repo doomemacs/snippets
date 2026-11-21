@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: TIME_ZONE - Local time zone for this installation.
+# key: settings.
+# uuid: django-settings-time-zone-dot
+# group: django-settings-dot
+# --
+settings.TIME_ZONE

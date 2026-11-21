@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter time (django)
+# key: |
+# uuid: django-templates-filter-time
+# group: django-templates
+# --
+|time:"$0"

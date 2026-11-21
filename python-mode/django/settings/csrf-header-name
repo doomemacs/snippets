@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: CSRF_HEADER_NAME
+# key: djs
+# uuid: django-settings-csrf-header-name
+# group: django-settings
+# --
+CSRF_HEADER_NAME = 'HTTP_X_CSRFTOKEN'

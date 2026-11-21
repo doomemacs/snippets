@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: CSRF_COOKIE_HTTPONLY
+# key: settings.
+# uuid: django-settings-csrf-cookie-httponly-dot
+# group: django-settings-dot
+# --
+settings.CSRF_COOKIE_HTTPONLY

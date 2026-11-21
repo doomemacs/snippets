@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: label_lower - Representation of the model, returns app_label.model_name, e.g. 'polls.question'.
+# key: djmeta
+# uuid: django-meta-label-lower
+# group: django-meta
+# --
+label_lower = '$0'

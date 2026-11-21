@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: LANGUAGES_BIDI - Languages using BiDi (right-to-left) layout
+# key: djs
+# uuid: django-settings-langages-bidi
+# group: django-settings                     
+# --
+# Languages using BiDi (right-to-left) layout
+LANGUAGES_BIDI = ["he", "ar", "ar-dz", "fa", "ur"]

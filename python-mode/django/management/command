@@ -1,0 +1,27 @@
+# -*- mode: snippet -*-
+# name: Basic Management Command
+# key: djmc
+# uuid: django-managment-basic-management-command
+# group: django-management
+# --
+from django.core.management.base import BaseCommand, CommandError
+
+
+class Command(BaseCommand):
+    help = ''
+
+    def add_arguments(self, parser):
+        # Required arguments
+        parser.add_argument('<key>', nargs='+', type=int)
+
+        # Optional arguments
+        parse.add_argument('--delete', action='store_true')
+
+    def handle(self, *args, **options):
+        key = options.get('<key>', None)
+        delete = options.get('delete', None)
+
+        if key == 'some bad value':
+            raise CommandError('Error')
+
+        self.stdout.write(self.style.SUCCESS('Good'))

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: messages.storage.FallbackStorage
+# key: djb
+# uuid: django-backends-message-fallback
+# group: django-backends
+# --
+django.contrib.messages.storage.fallback.FallbackStorage

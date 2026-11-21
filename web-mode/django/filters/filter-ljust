@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter ljust (django)
+# key: |
+# uuid: django-templates-filter-ljust
+# group: django-templates
+# --
+|ljust:"$0"

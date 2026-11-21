@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter urlizetrunc (django)
+# key: |
+# uuid: django-templates-filter-urlizetrunc
+# group: django-templates
+# --
+|urlizetrunc:$0

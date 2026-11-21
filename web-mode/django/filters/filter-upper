@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter upper (django)
+# key: |
+# uuid: django-templates-filter-upper
+# group: django-templates
+# --
+|upper

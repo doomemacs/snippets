@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: ConditionalGetMiddleware
+# key: djmid
+# uuid: django-middleware-conditional-get
+# group: django-middleware
+# --
+django.middleware.http.ConditionalGetMiddleware

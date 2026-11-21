@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: MESSAGE_STORAGE - Class to use as messages backend
+# key: djs
+# uuid: django-settings-message-storage
+# group: django-settings
+# --
+# Class to use as messages backend
+MESSAGE_STORAGE = 'django.contrib.messages.storage.fallback.FallbackStorage'

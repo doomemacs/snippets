@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: humanize filter intcomma (django)
+# key: |
+# uuid: django-templates-filter-humanize-intcomma
+# group: django-templates
+# --
+|intcomma

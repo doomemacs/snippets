@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: template.backends.jinja2.Jinja2
+# key: djb
+# uuid: django-backends-templates-jinja2
+# group: django-backends
+# --
+django.template.backends.jinja2.Jinja2

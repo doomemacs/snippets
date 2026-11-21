@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: default_manager_name - The name of the manager to use for the model’s _default_manager.
+# key: djmeta
+# uuid: django-meta-default-manager.name
+# group: django-meta      
+# --
+default_manager_name = '$0'

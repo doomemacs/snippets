@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: managed - Defaults to True, meaning Django will create the appropriate database tables.
+# key: djmeta
+# uuid: django-meta-managed
+# group: django-meta
+# --
+managed = True

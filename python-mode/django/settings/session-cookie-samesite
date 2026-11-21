@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: SESSION_COOKIE_SAMESITE - Whether to set the flag restricting cookie leaks on cross-site requests.
+# key: djs
+# uuid: django-settings-session-cookie-samesite
+# group: django-settings
+# --
+# Whether to set the flag restricting cookie leaks on cross-site requests.
+# This can be 'Lax', 'Strict', or None to disable the flag.
+SESSION_COOKIE_SAMESITE = 'Lax'

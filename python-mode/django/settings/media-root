@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: MEDIA_ROOT - Absolute filesystem path to the directory that will hold user-uploaded files.
+# key: djs
+# uuid: django-settings-media-root
+# group: django-settings
+# --
+# Absolute filesystem path to the directory that will hold user-uploaded files.
+# Example: "/var/www/example.com/media/"
+MEDIA_ROOT = '$0'

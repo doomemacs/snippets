@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: MANAGERS - Not-necessarily-technical managers of the site.
+# key: djs
+# uuid: django-settings-managers
+# group: django-settings
+# --
+# Not-necessarily-technical managers of the site. They get broken link
+# notifications and other various emails.
+MANAGERS = ADMINS

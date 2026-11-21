@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: INTERNAL_IPS - List of IP addresses, as strings
+# key: djs
+# uuid: django-settings-internal-ips
+# group: django-settings
+# --
+# List of IP addresses, as strings, that:
+#   * See debug comments, when DEBUG is true
+#   * Receive x-headers
+INTERNAL_IPS = [$0]

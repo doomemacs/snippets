@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: EMAIL_SSL_CERTFILE - Optional SMTP authentication information for EMAIL_HOST.
+# key: settings.
+# uuid: django-settings-email-ssl-certfile-dot
+# group: django-settings-dot
+# --
+settings.EMAIL_SSL_CERTFILE

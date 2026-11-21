@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: FORCE_SCRIPT_NAME - Whether to prepend the "www." subdomain to URLs that don't have it.
+# key: settings.
+# uuid: django-settings-force-script-name-dot
+# group: django-settings-dot
+# --
+settings.FORCE_SCRIPT_NAME

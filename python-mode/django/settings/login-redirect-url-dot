@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LOGIN_REDIRECT_URL
+# key: settings.
+# uuid: django-settings-login-redirect-url-dot
+# group: django-settings-dot
+# --
+settings.LOGIN_REDIRECT_URL

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: WSGI_APPLICATION - The Python dotted path to the WSGI application that Django's internal server (runserver) will use.
+# key: settings.
+# uuid: django-settings-wsgi-application-dot
+# group: django-settings-dot
+# --
+settings.WSGI_APPLICATION

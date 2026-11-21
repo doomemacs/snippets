@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter safe (django)
+# key: |
+# uuid: django-templates-filter-safe
+# group: django-templates
+# --
+|safe

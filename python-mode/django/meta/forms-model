@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: forms model
+# key: djmeta
+# uuid: django-meta-forms-model
+# group: django-meta
+# --
+model = $0

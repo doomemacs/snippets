@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: INSTALLED_APPS - List of strings representing installed apps.
+# key: djs
+# uuid: django-settings-installed-apps
+# group: django-settings
+# --
+# List of strings representing installed apps.
+INSTALLED_APPS = [
+    $0
+]

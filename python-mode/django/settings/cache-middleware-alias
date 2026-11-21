@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: CACHE_MIDDLEWARE_ALIAS
+# key: djs
+# uuid: django-settings-cache-middleware-alias
+# group: django-settings
+# --
+CACHE_MIDDLEWARE_ALIAS = 'default'

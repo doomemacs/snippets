@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: FILE_UPLOAD_MAX_MEMORY_SIZE - file system instead of into memory.
+# key: settings.
+# uuid: django-settings-file-upload-max-memory-size-dot
+# group: django-settings-dot
+# --
+settings.FILE_UPLOAD_MAX_MEMORY_SIZE

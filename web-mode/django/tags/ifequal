@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: ifequal (django)
+# key: djt
+# uuid: django-templates-ifequal
+# group: django-templates
+# --
+{% ifequal ${1:VALUE 1} ${2:VALUE 2} %}
+    $0
+{% endifequal %}

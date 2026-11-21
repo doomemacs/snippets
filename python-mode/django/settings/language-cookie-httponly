@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LANGUAGE_COOKIE_HTTPONLY
+# key: djs
+# uuid: django-settings-language-cookie-httponly
+# group: django-settings
+# --
+LANGUAGE_COOKIE_HTTPONLY = False

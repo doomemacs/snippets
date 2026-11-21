@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: SIGNING_BACKEND
+# key: settings.
+# uuid: django-settings-signing-backend-dot
+# group: django-settings-dot
+# --
+settings.SIGNING_BACKEND

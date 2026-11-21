@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: NUMBER_GROUPING - Number of digits that will be together
+# key: djs
+# uuid: django-settings-number-grouping
+# group: django-settings
+# --
+# Number of digits that will be together, when splitting them by
+# THOUSAND_SEPARATOR. 0 means no grouping, 3 means splitting by thousands...
+NUMBER_GROUPING = 0

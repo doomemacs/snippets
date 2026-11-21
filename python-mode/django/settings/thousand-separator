@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: THOUSAND_SEPARATOR - Thousand separator symbol
+# key: djs
+# uuid: django-settings-thousand-separator
+# group: django-settings
+# --
+# Thousand separator symbol
+THOUSAND_SEPARATOR = ','

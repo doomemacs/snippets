@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: SHORT_DATE_FORMAT - DDefault short formatting for date objects.
+# key: djs
+# uuid: django-settings-short-date-format
+# group: django-settings                 
+# --
+# Default short formatting for date objects. See all available format strings here:
+# https://docs.djangoproject.com/en/dev/ref/templates/builtins/#date
+SHORT_DATE_FORMAT = 'm/d/Y'

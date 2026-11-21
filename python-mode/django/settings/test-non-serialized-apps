@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: TEST_NON_SERIALIZED_APPS - Apps that don't need to be serialized at test database creation time
+# key: djs
+# uuid: django-settings-test-non-serialized-apps
+# group: django-settings
+# --
+# Apps that don't need to be serialized at test database creation time
+# (only apps with migrations are to start with)
+TEST_NON_SERIALIZED_APPS = []

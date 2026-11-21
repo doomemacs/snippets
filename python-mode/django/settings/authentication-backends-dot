@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: AUTHENTICATION_BACKENDS
+# key: settings.
+# uuid: django-settings-authentication-backends-dot
+# group: django-settings-dot
+# --
+settings.AUTHENTICATION_BACKENDS

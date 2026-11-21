@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter urlencode (django)
+# key: |
+# uuid: django-templates-filter-urlencode
+# group: django-templates
+# --
+|urlencode

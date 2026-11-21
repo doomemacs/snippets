@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: CACHE_MIDDLEWARE_KEY_PREFIX
+# key: djs
+# uuid: django-settings-cache-middleware-key-prefix
+# group: django-settings
+# --
+CACHE_MIDDLEWARE_KEY_PREFIX = ''

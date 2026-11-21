@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: forms help_texts
+# key: djmeta
+# uuid: django-meta-forms-help-texts
+# group: django-meta
+# --
+help_texts = {
+    '${1:FIELD NAME}': '${2:HELP TEXT}'$0
+}

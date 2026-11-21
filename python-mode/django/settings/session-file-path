@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: SESSION_FILE_PATH - Directory to store session files if using the file session module.
+# key: djs
+# uuid: django-settings-session-file-path
+# group: django-settings
+# --
+# Directory to store session files if using the file session module. If None,
+# the backend will use a sensible default.
+SESSION_FILE_PATH = None

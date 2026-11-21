@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: SECURE_REFERRER_POLICY
+# key: djs
+# uuid: django-settings-secure-referrer-policy
+# group: django-settings
+# --
+SECURE_REFERRER_POLICY = 'same-origin'

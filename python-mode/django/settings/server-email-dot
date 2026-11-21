@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: SERVER_EMAIL - Email address that error messages come from.
+# key: settings.
+# uuid: django-settings--dot
+# group: django-settings-dot
+# --
+settings.SERVER_EMAIL

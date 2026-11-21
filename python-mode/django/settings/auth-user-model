@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: AUTH_USER_MODEL
+# key: djs
+# uuid: django-settings-auth-user-model
+# group: django-settings
+# --
+AUTH_USER_MODEL = 'auth.User'

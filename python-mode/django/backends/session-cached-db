@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: contrib.sessions.backends.cache_db
+# key: djb
+# uuid: django-backends-session-cache-db
+# group: django-backends
+# --
+django.contrib.sessions.backends.cache_db

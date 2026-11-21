@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: models
+# key: dji
+# uuid: django-imports-models
+# group: django-imports
+# --
+from django.db import models

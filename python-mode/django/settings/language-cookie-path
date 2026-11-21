@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: LANGUAGE_COOKIE_PATH
+# key: djs
+# uuid: django-settings-language-cookie-path
+# group: django-settings
+# --
+LANGUAGE_COOKIE_PATH = '/'

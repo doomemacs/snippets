@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: get_latest_by - This specifies the default field(s) to use in your model Manager’s latest() and earliest() methods.
+# key: djmeta
+# uuid: django-meta-get-latest-by
+# group: django-meta
+# --
+latest_by = ['${1:order}']$0

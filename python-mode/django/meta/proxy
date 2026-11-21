@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: proxy - If proxy = True, a model which subclasses another model will be treated as a proxy model.
+# key: djmeta
+# uuid: django-meta-proxy
+# group: django-meta
+# --
+proxy = True

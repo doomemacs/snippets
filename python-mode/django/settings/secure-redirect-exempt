@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: SECURE_REDIRECT_EXEMPT
+# key: djs
+# uuid: django-settings-secure-redirect-exempt
+# group: django-settings
+# --
+SECURE_REDIRECT_EXEMPT = []

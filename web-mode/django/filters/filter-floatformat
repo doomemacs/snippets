@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: filter floatformat (django)
+# key: |
+# uuid: django-templates-filter-floatformat
+# group: django-templates
+# --
+|floatformat:$0
